@@ -19,6 +19,16 @@ div.tooltip {
         stroke:black
     }
 
+    .nodes circle{
+        fill:#d6d5d5;
+    }
+    .nodes text{
+        stroke:none;
+        fill:black;
+        text-anchor:middle;
+        font-size:10px;
+    }
+
     .link.mention{
         stroke:#f47101;
     }
