@@ -19,16 +19,6 @@ var T = new Twit({
   strictSSL: true // optional - requires SSL certificates to be valid.
 });
 
-//
-//  tweet 'hello world!'
-//
-//   T.post('statuses/update', { status: 'hello world!' }, function(err, data, response) {
-//     console.log(data)
-//   })
-
-//
-//  search twitter for all tweets containing the word 'banana' since July 11, 2011
-//
 
 const http = require("http");
 var url = require("url");
@@ -49,7 +39,7 @@ const server = http.createServer(async (req, res) => {
 
   let graph = { nodes: [], links: [] };
 
-  let numTweets = 5;
+  let numTweets = 30;
 
   function addNode(user) {
     //check if source node exists
@@ -57,6 +47,9 @@ const server = http.createServer(async (req, res) => {
     if (!node) {
       graph.nodes.push({
         name: user.screen_name,
+        id: user.id_str,
+        tweets:user.statuses_count,
+        profileColor:user.profile_background_color,
         group: Math.random() > 0.5 ? 4 : 1,
         friends: user.friends_count  || 0,
         followers: user.followers_count || 0,
@@ -67,7 +60,7 @@ const server = http.createServer(async (req, res) => {
     return;
   }
 
-  function addEdge(source, target, type) {
+  function addEdgeByName(source, target, type) {
     let sourceNode = graph.nodes.find(n => n.name == source);
     let targetNode = graph.nodes.find(n => n.name == target);
 
@@ -91,21 +84,39 @@ const server = http.createServer(async (req, res) => {
     }
   }
 
+
+  function addEdgeById(sourceID, targetID, type) {
+    let sourceNode = graph.nodes.find(n => n.id == sourceID);
+    let targetNode = graph.nodes.find(n => n.id == targetID);
+
+    let sourceIndex = graph.nodes.indexOf(sourceNode);
+    let targetIndex = graph.nodes.indexOf(targetNode);
+  
+    // console.log(sourceIndex,targetIndex)
+    if (sourceIndex>-1 && targetIndex>-1) {
+      graph.links.push({
+        source: sourceIndex,
+        target: targetIndex,
+        weight: 1,
+        type
+      });
+    }
+  }
+
+
   function parse_tweets(tweets) {
     if (tweets.length == 0) {
       console.log("no tweets found");
       return;
     }
-    //only adds user node if it don't already exist
+    //only adds user node if it doesn't already exist
     addNode(tweets[0].user);
-
-    console.log(tweets[0].user.friends_count,tweets[0].user.followers_count)
 
     tweets.map(tweet => {
       //check if it's  a retweet:
       if (tweet.retweeted_status) {
         addNode(tweet.retweeted_status.user);
-        addEdge(
+        addEdgeByName(
           tweet.user.screen_name,
           tweet.retweeted_status.user.screen_name,
           "retweet"
@@ -114,7 +125,7 @@ const server = http.createServer(async (req, res) => {
         //check for quoted:
         if (tweet.quoted_status) {
           addNode(tweet.quoted_status.user);
-          addEdge(
+          addEdgeByName(
             tweet.user.screen_name,
             tweet.quoted_status.user.screen_name,
             "quote"
@@ -124,7 +135,7 @@ const server = http.createServer(async (req, res) => {
         if (tweet.entities.user_mentions) {
           tweet.entities.user_mentions.map(m => {
             addNode(m);
-            addEdge(tweet.user.screen_name, m.screen_name, "mention");
+            addEdgeByName(tweet.user.screen_name, m.screen_name, "mention");
           });
         }
       }
@@ -136,7 +147,13 @@ const server = http.createServer(async (req, res) => {
   let tweets = await T.get("statuses/user_timeline", {
     screen_name: handle,
     count: numTweets
-  });
+  }).catch(function (err) {
+    console.log('caught error', err.stack)
+  })
+
+  
+
+//   console.log('folowers are ', followers)
 
   console.log("getting tweets for ", handle);
 
@@ -152,7 +169,10 @@ const server = http.createServer(async (req, res) => {
     let tweets = await T.get("statuses/user_timeline", {
       screen_name: graph.nodes[edge.target].name,
       count: numTweets
-    });
+    })
+    .catch(function (err) {
+        console.log('caught error', err.stack)
+      })
 
     console.log("getting tweets for ", graph.nodes[edge.target].name);
     
@@ -160,16 +180,63 @@ const server = http.createServer(async (req, res) => {
     parse_tweets(tweets.data);
   });
 
+  //create any following edges between existing nodes
+
+//   graph.nodes.map(async n=>{
+
+//     //   let followers = await T.get('followers/ids', { screen_name: handle });
+//   let followers = await T.get('friends/ids', { screen_name: n.name });
+
+
+// //   fs.writeFileSync(
+// //   "friends_" + handle + ".json",
+// //   JSON.stringify(followers, null, 4)
+// // );
+
+// followers.data.ids.map(followerId=>{
+//   let seedNode = graph.nodes.find(n=>n.name == n.name);
+//   addEdgeById(seedNode.id,followerId,'follower')
+// })
+
+//   })
+
   Promise.all(edgeMap).then(d => {
     console.log("done with promises");
+
+    //sort nodes by degree;
+graph.nodes.map((n,i)=>{
+    let nodeEdges = graph.links.filter(l=> l.source == i || l.target == i);
+     n.degree = nodeEdges.length;
+    // n.keep =  nodeEdges.length>3;
+})
+
+graph.nodes.sort((a,b)=>{
+    a.name == handle.slice() ? 1 : 
+    a.degree>b.degree ? 1: -1
+
+})
+graph.nodes.map((n,i)=>i<10 ? n.keep = true : n.keep = false)
+
+//only keep top 10 nodes;
+let filteredNodes = graph.nodes.slice(0,10);
+
+graph.links = graph.links.filter(l=>graph.nodes[l.source].keep && graph.nodes[l.target].keep);
+// let filteredNodes = graph.nodes.filter(n=>n.keep)
+
+console.log('original nodes',graph.nodes.length, 'filtered nodes', filteredNodes.length)
+
+graph.links.map(l=>{
+    l.source = filteredNodes.indexOf(graph.nodes[l.source])
+    l.target = filteredNodes.indexOf(graph.nodes[l.target])
+})
+graph.nodes = filteredNodes;
+
+// console.log(graph.nodes)
     //   console.log(graph)
     res.end(JSON.stringify(graph));
   });
 
-//   fs.writeFileSync(
-//     "tweets_" + handle + ".json",
-//     JSON.stringify(tweets, null, 4)
-//   );
+
 
 });
 
@@ -177,4 +244,3 @@ server.listen(port, hostname, () => {
   console.log(`Server running at http://${hostname}:${port}/`);
 });
 
-// var twitter = new Twitter();

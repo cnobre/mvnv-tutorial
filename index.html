@@ -38,85 +38,85 @@
             </div>
         </section>
 
-            <div class="container">
+        <div class="container">
 
-                <div class='response'>
+            <div class='response'>
 
-                    <div class="columns" style="visibility:hidden">
-                        <div class="nodeCol column">
+                <div class="columns" style="visibility:hidden">
+                    <div class="nodeCol column">
 
-                                <h1 class="subtitle">Nodes</h1>
+                        <h1 class="subtitle">Nodes</h1>
 
-                            <table class="nodeTable table">
-                                <thead>
-                                    <tr>
-                                        <th><abbr title="Screen Name">Name</abbr></th>
-                                        <th><abbr title="# of Followers">Followers</abbr></th>
-                                        <th><abbr title="# of Friends">Friends</abbr></th>
-                                        <th>Location</th>
-                                    </tr>
-                                </thead>
-                                <tfoot>
-                                    <tr>
-                                        <th><abbr title="Screen Name">Name</abbr></th>
-                                        <th><abbr title="# of Followers">Followers</abbr></th>
-                                        <th><abbr title="# of Friends">Friends</abbr></th>
-                                        <th>Location</th>
-                                    </tr>
-                                </tfoot>
-                                <tbody>
-
-
-                                </tbody>
-                            </table>
-                        </div>
-                        <div class="edgeCol column">
-                                <h1 class="subtitle">Edges</h1>
-
-                            <table class="edgeTable table">
-                                <thead>
-                                    <tr>
-                                        <th>Source</th>
-                                        <th>Target</th>
-                                        <th>Type</th>
-                                        <th>Count</th>
-                                    </tr>
-                                </thead>
-                                <tfoot>
-                                    <tr>
-                                        <th>Source</th>
-                                        <th>Target</th>
-                                        <th>Type</th>
-                                        <th>Count</th>
-                                    </tr>
-                                </tfoot>
-                                <tbody>
+                        <table class="nodeTable table">
+                            <thead>
+                                <tr>
+                                    <th><abbr title="Screen Name">Name</abbr></th>
+                                    <th><abbr title="# of Followers">Followers</abbr></th>
+                                    <th><abbr title="# of Friends">Friends</abbr></th>
+                                    <th>Location</th>
+                                </tr>
+                            </thead>
+                            <tfoot>
+                                <tr>
+                                    <th><abbr title="Screen Name">Name</abbr></th>
+                                    <th><abbr title="# of Followers">Followers</abbr></th>
+                                    <th><abbr title="# of Friends">Friends</abbr></th>
+                                    <th>Location</th>
+                                </tr>
+                            </tfoot>
+                            <tbody>
 
 
-                                </tbody>
-                            </table>
-                        </div>
-                        <div class="graphCol column">
-                                <h1 class="subtitle">Graph</h1>
-
-                        </div>
+                            </tbody>
+                        </table>
                     </div>
+                    <div class="edgeCol column">
+                        <h1 class="subtitle">Edges</h1>
 
+                        <table class="edgeTable table">
+                            <thead>
+                                <tr>
+                                    <th>Source</th>
+                                    <th>Target</th>
+                                    <th>Type</th>
+                                    <th>Count</th>
+                                </tr>
+                            </thead>
+                            <tfoot>
+                                <tr>
+                                    <th>Source</th>
+                                    <th>Target</th>
+                                    <th>Type</th>
+                                    <th>Count</th>
+                                </tr>
+                            </tfoot>
+                            <tbody>
+
+
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="graphCol column">
+                        <h1 class="subtitle">Graph</h1>
+
+                    </div>
                 </div>
 
-
-
-    
-
+            </div>
 
 
 
 
 
 
-    </div>
 
-    <div class='tooltip'></div>
+
+
+
+
+        </div>
+
+        <div class='tooltip'></div>
 
 
 </body>
@@ -143,10 +143,12 @@
     d3.select('.input').on('change', function (value) {
 
 
-        response = d3.json('http://13.58.168.88:5000/?handle=' + this.value).then((data) => {
+        response = d3.json('http://0.0.0.0:5000/?handle=' + this.value).then((data) => {
             console.log(data)
 
-            d3.select('.columns').style('visibility','visible')
+
+
+            d3.select('.columns').style('visibility', 'visible')
 
             let rows = d3.select('.nodeTable').select('tbody').selectAll('tr').data(data.nodes);
 
@@ -195,8 +197,12 @@
 
             const simulation = d3.forceSimulation(nodes)
                 .force("link", d3.forceLink(links)) //.id(d => d.id))
-                .force("charge", d3.forceManyBody())
+                .force("charge", d3.forceManyBody().strength(function(node) {
+                return -300;
+                }))
                 .force("center", d3.forceCenter(width / 2, height / 2));
+
+        
 
             let drag = simulation => {
 
@@ -226,9 +232,12 @@
 
             let sizeScale = d3.scaleLinear()
                 .domain(d3.extent(data.nodes.map(n => n.followers)))
-                .range([3, 14])
+                .range([7,25])
+            
+                let edgeWidthScale = d3.scaleLinear()
+                .domain(d3.extent(data.links.map(n => n.weight)))
+                .range([3,12])
 
-            console.log(sizeScale.domain())
             color = (d) => {
 
                 // console.log(d.group,scale(d.group))
@@ -236,7 +245,6 @@
                 return scale(d.group);
             }
 
-            console.log(nodes)
 
             d3.select('.graphCol').select('svg').remove();
 
@@ -245,12 +253,13 @@
             //     .attr("viewBox", [0, 0, width, height]);
 
             const link = svg.append("g")
-                .attr("stroke", "#999")
+                // .attr("stroke", "#999")
                 .attr("stroke-opacity", 0.6)
-                .selectAll("line")
+                .selectAll(".link")
                 .data(links)
-                .join("line")
-                .attr("stroke-width", d => d.weight)
+                .join("path")
+                .attr('class','link')
+                .attr("stroke-width", d => edgeWidthScale(d.weight))
                 .on("mouseover", function (d) {
                     let tooltipData = d.type;
                     showTooltip(tooltipData)
@@ -276,21 +285,94 @@
                 })
                 .call(drag(simulation));
 
+                link.attr('class', d=>d.type + ' link')
+
             node.append("title")
                 .text(d => d.id);
 
 
             simulation.on("tick", () => {
-                link
-                    .attr("x1", d => d.source.x)
-                    .attr("y1", d => d.source.y)
-                    .attr("x2", d => d.target.x)
-                    .attr("y2", d => d.target.y);
+
+                link.attr('d',d=>{
+                    return arcPath(d,d.type == "mention")});
+                    // .attr("x1", d => d.source.x)
+                    // .attr("y1", d => d.source.y)
+                    // .attr("x2", d => d.target.x)
+                    // .attr("y2", d => d.target.y);
 
                 node
                     .attr("cx", d => d.x)
                     .attr("cy", d => d.y);
             });
+
+            function arcPath(d,leftHand) {
+        let source = d.source;
+        let target = d.target;
+
+        // console.log(d.source,source)
+
+        var x1 = leftHand ? source.x : target.x,
+            y1 = leftHand ? source.y : target.y,
+            x2 = leftHand ? target.x : source.x,
+            y2 = leftHand ? target.y : source.y;
+        (dx = x2 - x1),
+        (dy = y2 - y1),
+        (dr = Math.sqrt(dx * dx + dy * dy)),
+        (drx = dr),
+        (dry = dr),
+        (sweep = leftHand ? 0 : 1);
+        // siblingCount = countSiblingLinks(graph, d.source, d.target);
+        (xRotation = 10), (largeArc = 0);
+
+        // if (siblingCount > 1) {
+        //   var siblings = getSiblingLinks(graph, d.source, d.target);
+        //   var arcScale = d3
+        //     .scaleOrdinal()
+        //     .domain(siblings)
+        //     .range([1, siblingCount]);
+
+        //   drx = drx / (1 + (1 / siblingCount) * (arcScale(d.type) - 1));
+        //   dry = dry / (1 + (1 / siblingCount) * (arcScale(d.type) - 1));
+        // }
+
+
+
+        if (d.type !== "quote") {
+            return (
+                "M" +
+                x1 +
+                "," +
+                y1 +
+                "A" +
+                drx +
+                ", " +
+                dry +
+                " " +
+                xRotation +
+                ", " +
+                largeArc +
+                ", " +
+                sweep +
+                " " +
+                x2 +
+                "," +
+                y2
+            );
+
+
+        } else {
+            return (
+                'M ' + source.x + ' ' + source.y + ' L ' + target.x + ' ' + target.y);
+        }
+
+
+
+        // return ("M" + x1 + "," + y1
+        //    + "S" + x2 + "," + y2
+        //    + " " + x2 + "," + y2)
+    }
+
+
 
 
             // invalidation.then(() => simulation.stop());
@@ -302,4 +384,7 @@
 
         // console.log(response)
     })
+
+ 
+
 </script>
