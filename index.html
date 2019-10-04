@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+
+<meta charset="utf-8">
+<title>Generate Twitter Network </title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<!-- <link rel="shortcut icon" href="favicon.ico" /> -->
+<link rel="shortcut icon" href="#" />
+
+<link rel="stylesheet" href="css/bulma.css">
+<link rel="stylesheet" href="css/twitter.css">
+
+<script src="https://d3js.org/d3.v5.min.js"></script>
+
+<!-- <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script> -->
+
+
+<body>
+
+
+    <div id='landingPage' class="card">
+
+        <section class="section">
+            <div class="container">
+                <h1 class="title">Generate your personal twitter graph!</h1>
+                <h2 class="subtitle">
+                    A companion website for the Multivariate Network Visualization Tutorial at IEEE VIS 2019.
+                </h2>
+                <br />
+                <br />
+
+                <br />
+
+
+                <h2 class="subtitle">Enter your twitter handle below to generate your graph!</h2>
+                <input class="input" type="text" placeholder="Text input">
+
+            </div>
+        </section>
+
+            <div class="container">
+
+                <div class='response'>
+
+                    <div class="columns" style="visibility:hidden">
+                        <div class="nodeCol column">
+
+                                <h1 class="subtitle">Nodes</h1>
+
+                            <table class="nodeTable table">
+                                <thead>
+                                    <tr>
+                                        <th><abbr title="Screen Name">Name</abbr></th>
+                                        <th><abbr title="# of Followers">Followers</abbr></th>
+                                        <th><abbr title="# of Friends">Friends</abbr></th>
+                                        <th>Location</th>
+                                    </tr>
+                                </thead>
+                                <tfoot>
+                                    <tr>
+                                        <th><abbr title="Screen Name">Name</abbr></th>
+                                        <th><abbr title="# of Followers">Followers</abbr></th>
+                                        <th><abbr title="# of Friends">Friends</abbr></th>
+                                        <th>Location</th>
+                                    </tr>
+                                </tfoot>
+                                <tbody>
+
+
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="edgeCol column">
+                                <h1 class="subtitle">Edges</h1>
+
+                            <table class="edgeTable table">
+                                <thead>
+                                    <tr>
+                                        <th>Source</th>
+                                        <th>Target</th>
+                                        <th>Type</th>
+                                        <th>Count</th>
+                                    </tr>
+                                </thead>
+                                <tfoot>
+                                    <tr>
+                                        <th>Source</th>
+                                        <th>Target</th>
+                                        <th>Type</th>
+                                        <th>Count</th>
+                                    </tr>
+                                </tfoot>
+                                <tbody>
+
+
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="graphCol column">
+                                <h1 class="subtitle">Graph</h1>
+
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+    
+
+
+
+
+
+
+
+    </div>
+
+    <div class='tooltip'></div>
+
+
+</body>
+
+
+<script>
+    function showTooltip(data, delay = 200) {
+
+        let tooltip = d3.select('.tooltip');
+
+        tooltip.html(data)
+            .style("left", (window.event.clientX + 10) + "px")
+            .style("top", (window.event.clientY - 20) + "px");
+
+        tooltip.transition().duration(delay).style("opacity", .9);
+
+    }
+
+    function hideTooltip() {
+        d3.select('.tooltip').transition().duration(100).style("opacity", 0);
+    }
+
+
+    d3.select('.input').on('change', function (value) {
+
+
+        response = d3.json('http://0.0.0.0:3000/?handle=' + this.value).then((data) => {
+            console.log(data)
+
+            d3.select('.columns').style('visibility','visible')
+
+            let rows = d3.select('.nodeTable').select('tbody').selectAll('tr').data(data.nodes);
+
+            let rowsEnter = rows.enter().append('tr');
+
+            rowsEnter.append('th').attr('class', 'name')
+            rowsEnter.append('td').attr('class', 'friends')
+            rowsEnter.append('td').attr('class', 'followers')
+            rowsEnter.append('td').attr('class', 'location')
+
+            rows.exit().remove();
+
+            rows = rowsEnter.merge(rows);
+
+            rows.select('.name').html(d => d.name);
+            rows.select('.friends').html(d => d.friends);
+            rows.select('.followers').html(d => d.followers);
+            rows.select('.location').html(d => d.location);
+
+
+            rows = d3.select('.edgeTable').select('tbody').selectAll('tr').data(data.links);
+
+            rowsEnter = rows.enter().append('tr');
+
+            rowsEnter.append('td').attr('class', 'source')
+            rowsEnter.append('td').attr('class', 'target')
+            rowsEnter.append('td').attr('class', 'type')
+            rowsEnter.append('td').attr('class', 'count')
+
+            rows.exit().remove();
+
+            rows = rowsEnter.merge(rows);
+
+            rows.select('.source').html(d => data.nodes[d.source].name);
+            rows.select('.target').html(d => data.nodes[d.target].name);
+            rows.select('.type').html(d => d.type);
+            rows.select('.count').html(d => d.weight);
+
+            var width = 560,
+                height = 800
+
+
+
+            const links = data.links; //.map(d => Object.create(d));
+            const nodes = data.nodes; //.map(d => Object.create(d));
+
+            const simulation = d3.forceSimulation(nodes)
+                .force("link", d3.forceLink(links)) //.id(d => d.id))
+                .force("charge", d3.forceManyBody())
+                .force("center", d3.forceCenter(width / 2, height / 2));
+
+            let drag = simulation => {
+
+                function dragstarted(d) {
+                    if (!d3.event.active) simulation.alphaTarget(0.3).restart();
+                    d.fx = d.x;
+                    d.fy = d.y;
+                }
+
+                function dragged(d) {
+                    d.fx = d3.event.x;
+                    d.fy = d3.event.y;
+                }
+
+                function dragended(d) {
+                    if (!d3.event.active) simulation.alphaTarget(0);
+                    d.fx = null;
+                    d.fy = null;
+                }
+
+                return d3.drag()
+                    .on("start", dragstarted)
+                    .on("drag", dragged)
+                    .on("end", dragended);
+            }
+            let scale = d3.scaleOrdinal(d3.schemeCategory10);
+
+            let sizeScale = d3.scaleLinear()
+                .domain(d3.extent(data.nodes.map(n => n.followers)))
+                .range([3, 14])
+
+            console.log(sizeScale.domain())
+            color = (d) => {
+
+                // console.log(d.group,scale(d.group))
+
+                return scale(d.group);
+            }
+
+            console.log(nodes)
+
+            d3.select('.graphCol').select('svg').remove();
+
+            const svg = d3.select('.graphCol').append('svg').attr('width', width).attr('height', height)
+            // create("svg")
+            //     .attr("viewBox", [0, 0, width, height]);
+
+            const link = svg.append("g")
+                .attr("stroke", "#999")
+                .attr("stroke-opacity", 0.6)
+                .selectAll("line")
+                .data(links)
+                .join("line")
+                .attr("stroke-width", d => d.weight)
+                .on("mouseover", function (d) {
+                    let tooltipData = d.type;
+                    showTooltip(tooltipData)
+                })
+                .on("mouseout", function () {
+                    hideTooltip()
+                })
+
+            const node = svg.append("g")
+                .attr("stroke", "#fff")
+                .attr("stroke-width", 1.5)
+                .selectAll("circle")
+                .data(nodes)
+                .join("circle")
+                .attr("r", d => sizeScale(d.followers))
+                .attr("fill", color)
+                .on("mouseover", function (d) {
+                    let tooltipData = d.name;
+                    showTooltip(tooltipData)
+                })
+                .on("mouseout", function () {
+                    hideTooltip()
+                })
+                .call(drag(simulation));
+
+            node.append("title")
+                .text(d => d.id);
+
+
+            simulation.on("tick", () => {
+                link
+                    .attr("x1", d => d.source.x)
+                    .attr("y1", d => d.source.y)
+                    .attr("x2", d => d.target.x)
+                    .attr("y2", d => d.target.y);
+
+                node
+                    .attr("cx", d => d.x)
+                    .attr("cy", d => d.y);
+            });
+
+
+            // invalidation.then(() => simulation.stop());
+
+
+        });
+
+
+
+        // console.log(response)
+    })
+</script>

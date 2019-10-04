@@ -1,0 +1,1004 @@
+[
+    {
+        "created_at": "Tue Oct 01 22:49:15 +0000 2019",
+        "id": 1179166415133102000,
+        "id_str": "1179166415133102080",
+        "text": "@cagatay_turkay @giCentre @city_cs @CIMethods @warwickuni Congrats Cagatay! Sounds amazing!",
+        "truncated": false,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [
+                {
+                    "screen_name": "cagatay_turkay",
+                    "name": "Cagatay Turkay",
+                    "id": 1667081238,
+                    "id_str": "1667081238",
+                    "indices": [
+                        0,
+                        15
+                    ]
+                },
+                {
+                    "screen_name": "giCentre",
+                    "name": "giCentre",
+                    "id": 19283433,
+                    "id_str": "19283433",
+                    "indices": [
+                        16,
+                        25
+                    ]
+                },
+                {
+                    "screen_name": "city_cs",
+                    "name": "CityComputerScience",
+                    "id": 771178142,
+                    "id_str": "771178142",
+                    "indices": [
+                        26,
+                        34
+                    ]
+                },
+                {
+                    "screen_name": "CIMethods",
+                    "name": "CIM Warwick",
+                    "id": 978299275,
+                    "id_str": "978299275",
+                    "indices": [
+                        35,
+                        45
+                    ]
+                },
+                {
+                    "screen_name": "warwickuni",
+                    "name": "University of Warwick",
+                    "id": 15916215,
+                    "id_str": "15916215",
+                    "indices": [
+                        46,
+                        57
+                    ]
+                }
+            ],
+            "urls": []
+        },
+        "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+        "in_reply_to_status_id": 1179038704553250800,
+        "in_reply_to_status_id_str": "1179038704553250818",
+        "in_reply_to_user_id": 1667081238,
+        "in_reply_to_user_id_str": "1667081238",
+        "in_reply_to_screen_name": "cagatay_turkay",
+        "user": {
+            "id": 81658145,
+            "id_str": "81658145",
+            "name": "Alexander Lex",
+            "screen_name": "alexander_lex",
+            "location": "Salt Lake City, UT",
+            "description": "Data visualization researcher. Assistant Prof at the University of Utah. Lab website: https://t.co/rWgKKVdkP4",
+            "url": "http://t.co/UxRuPXFxTW",
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "http://t.co/UxRuPXFxTW",
+                            "expanded_url": "http://www.alexander-lex.net",
+                            "display_url": "alexander-lex.net",
+                            "indices": [
+                                0,
+                                22
+                            ]
+                        }
+                    ]
+                },
+                "description": {
+                    "urls": [
+                        {
+                            "url": "https://t.co/rWgKKVdkP4",
+                            "expanded_url": "http://vdl.sci.utah.edu",
+                            "display_url": "vdl.sci.utah.edu",
+                            "indices": [
+                                86,
+                                109
+                            ]
+                        }
+                    ]
+                }
+            },
+            "protected": false,
+            "followers_count": 1102,
+            "friends_count": 771,
+            "listed_count": 80,
+            "created_at": "Sun Oct 11 18:47:54 +0000 2009",
+            "favourites_count": 762,
+            "utc_offset": null,
+            "time_zone": null,
+            "geo_enabled": true,
+            "verified": false,
+            "statuses_count": 1453,
+            "lang": null,
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "000000",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/626343671152136192/lJFEe0cX_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/626343671152136192/lJFEe0cX_normal.jpg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/81658145/1493828010",
+            "profile_link_color": "1B95E0",
+            "profile_sidebar_border_color": "000000",
+            "profile_sidebar_fill_color": "000000",
+            "profile_text_color": "000000",
+            "profile_use_background_image": false,
+            "has_extended_profile": false,
+            "default_profile": false,
+            "default_profile_image": false,
+            "following": true,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 0,
+        "favorite_count": 1,
+        "favorited": false,
+        "retweeted": false,
+        "lang": "en"
+    },
+    {
+        "created_at": "Fri Sep 27 19:21:29 +0000 2019",
+        "id": 1177664577368014800,
+        "id_str": "1177664577368014848",
+        "text": "You could be my boss as well! https://t.co/SRDZipQ7MJ",
+        "truncated": false,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [
+                {
+                    "url": "https://t.co/SRDZipQ7MJ",
+                    "expanded_url": "https://twitter.com/geomblog/status/1177417953723244545",
+                    "display_url": "twitter.com/geomblog/statu…",
+                    "indices": [
+                        30,
+                        53
+                    ]
+                }
+            ]
+        },
+        "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 81658145,
+            "id_str": "81658145",
+            "name": "Alexander Lex",
+            "screen_name": "alexander_lex",
+            "location": "Salt Lake City, UT",
+            "description": "Data visualization researcher. Assistant Prof at the University of Utah. Lab website: https://t.co/rWgKKVdkP4",
+            "url": "http://t.co/UxRuPXFxTW",
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "http://t.co/UxRuPXFxTW",
+                            "expanded_url": "http://www.alexander-lex.net",
+                            "display_url": "alexander-lex.net",
+                            "indices": [
+                                0,
+                                22
+                            ]
+                        }
+                    ]
+                },
+                "description": {
+                    "urls": [
+                        {
+                            "url": "https://t.co/rWgKKVdkP4",
+                            "expanded_url": "http://vdl.sci.utah.edu",
+                            "display_url": "vdl.sci.utah.edu",
+                            "indices": [
+                                86,
+                                109
+                            ]
+                        }
+                    ]
+                }
+            },
+            "protected": false,
+            "followers_count": 1102,
+            "friends_count": 771,
+            "listed_count": 80,
+            "created_at": "Sun Oct 11 18:47:54 +0000 2009",
+            "favourites_count": 762,
+            "utc_offset": null,
+            "time_zone": null,
+            "geo_enabled": true,
+            "verified": false,
+            "statuses_count": 1453,
+            "lang": null,
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "000000",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/626343671152136192/lJFEe0cX_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/626343671152136192/lJFEe0cX_normal.jpg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/81658145/1493828010",
+            "profile_link_color": "1B95E0",
+            "profile_sidebar_border_color": "000000",
+            "profile_sidebar_fill_color": "000000",
+            "profile_text_color": "000000",
+            "profile_use_background_image": false,
+            "has_extended_profile": false,
+            "default_profile": false,
+            "default_profile_image": false,
+            "following": true,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": true,
+        "quoted_status_id": 1177417953723244500,
+        "quoted_status_id_str": "1177417953723244545",
+        "quoted_status": {
+            "created_at": "Fri Sep 27 03:01:30 +0000 2019",
+            "id": 1177417953723244500,
+            "id_str": "1177417953723244545",
+            "text": "Who wants to be my boss :)\n\nhttps://t.co/Se0RknjW0x\n\nIn retrospect maybe that isn't the best pitch",
+            "truncated": false,
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "user_mentions": [],
+                "urls": [
+                    {
+                        "url": "https://t.co/Se0RknjW0x",
+                        "expanded_url": "https://utah.peopleadmin.com/postings/98262",
+                        "display_url": "utah.peopleadmin.com/postings/98262",
+                        "indices": [
+                            28,
+                            51
+                        ]
+                    }
+                ]
+            },
+            "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+            "in_reply_to_status_id": null,
+            "in_reply_to_status_id_str": null,
+            "in_reply_to_user_id": null,
+            "in_reply_to_user_id_str": null,
+            "in_reply_to_screen_name": null,
+            "user": {
+                "id": 1368571,
+                "id_str": "1368571",
+                "name": "Suresh Venkatasubramanian",
+                "screen_name": "geomblog",
+                "location": "Salt Lake City, UT",
+                "description": "Bias detective/CS prof, U. of Utah: interested in algorithmic fairness. Board, ACLU Utah. Member of the CCC Council. He/him/his. Tweets my own.",
+                "url": "https://t.co/31jQhqCueW",
+                "entities": {
+                    "url": {
+                        "urls": [
+                            {
+                                "url": "https://t.co/31jQhqCueW",
+                                "expanded_url": "http://algorithmicfairness.wordpress.com",
+                                "display_url": "algorithmicfairness.wordpress.com",
+                                "indices": [
+                                    0,
+                                    23
+                                ]
+                            }
+                        ]
+                    },
+                    "description": {
+                        "urls": []
+                    }
+                },
+                "protected": false,
+                "followers_count": 7145,
+                "friends_count": 602,
+                "listed_count": 313,
+                "created_at": "Sat Mar 17 19:20:36 +0000 2007",
+                "favourites_count": 9167,
+                "utc_offset": null,
+                "time_zone": null,
+                "geo_enabled": true,
+                "verified": false,
+                "statuses_count": 18350,
+                "lang": null,
+                "contributors_enabled": false,
+                "is_translator": false,
+                "is_translation_enabled": false,
+                "profile_background_color": "352726",
+                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme5/bg.gif",
+                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme5/bg.gif",
+                "profile_background_tile": false,
+                "profile_image_url": "http://pbs.twimg.com/profile_images/867463880582340608/b2CozYM-_normal.jpg",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/867463880582340608/b2CozYM-_normal.jpg",
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/1368571/1398315301",
+                "profile_link_color": "D02B55",
+                "profile_sidebar_border_color": "829D5E",
+                "profile_sidebar_fill_color": "99CC33",
+                "profile_text_color": "3E4415",
+                "profile_use_background_image": true,
+                "has_extended_profile": true,
+                "default_profile": false,
+                "default_profile_image": false,
+                "following": true,
+                "follow_request_sent": false,
+                "notifications": false,
+                "translator_type": "none"
+            },
+            "geo": null,
+            "coordinates": null,
+            "place": null,
+            "contributors": null,
+            "is_quote_status": false,
+            "retweet_count": 1,
+            "favorite_count": 28,
+            "favorited": false,
+            "retweeted": false,
+            "possibly_sensitive": false,
+            "lang": "en"
+        },
+        "retweet_count": 0,
+        "favorite_count": 4,
+        "favorited": true,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "en"
+    },
+    {
+        "created_at": "Tue Sep 24 03:53:43 +0000 2019",
+        "id": 1176343930968793000,
+        "id_str": "1176343930968793088",
+        "text": "Congratulations!! https://t.co/JTz3xNhgvg",
+        "truncated": false,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [
+                {
+                    "url": "https://t.co/JTz3xNhgvg",
+                    "expanded_url": "https://twitter.com/mattbrehmer/status/1176341129119158272",
+                    "display_url": "twitter.com/mattbrehmer/st…",
+                    "indices": [
+                        18,
+                        41
+                    ]
+                }
+            ]
+        },
+        "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 81658145,
+            "id_str": "81658145",
+            "name": "Alexander Lex",
+            "screen_name": "alexander_lex",
+            "location": "Salt Lake City, UT",
+            "description": "Data visualization researcher. Assistant Prof at the University of Utah. Lab website: https://t.co/rWgKKVdkP4",
+            "url": "http://t.co/UxRuPXFxTW",
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "http://t.co/UxRuPXFxTW",
+                            "expanded_url": "http://www.alexander-lex.net",
+                            "display_url": "alexander-lex.net",
+                            "indices": [
+                                0,
+                                22
+                            ]
+                        }
+                    ]
+                },
+                "description": {
+                    "urls": [
+                        {
+                            "url": "https://t.co/rWgKKVdkP4",
+                            "expanded_url": "http://vdl.sci.utah.edu",
+                            "display_url": "vdl.sci.utah.edu",
+                            "indices": [
+                                86,
+                                109
+                            ]
+                        }
+                    ]
+                }
+            },
+            "protected": false,
+            "followers_count": 1102,
+            "friends_count": 771,
+            "listed_count": 80,
+            "created_at": "Sun Oct 11 18:47:54 +0000 2009",
+            "favourites_count": 762,
+            "utc_offset": null,
+            "time_zone": null,
+            "geo_enabled": true,
+            "verified": false,
+            "statuses_count": 1453,
+            "lang": null,
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "000000",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/626343671152136192/lJFEe0cX_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/626343671152136192/lJFEe0cX_normal.jpg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/81658145/1493828010",
+            "profile_link_color": "1B95E0",
+            "profile_sidebar_border_color": "000000",
+            "profile_sidebar_fill_color": "000000",
+            "profile_text_color": "000000",
+            "profile_use_background_image": false,
+            "has_extended_profile": false,
+            "default_profile": false,
+            "default_profile_image": false,
+            "following": true,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": true,
+        "quoted_status_id": 1176341129119158300,
+        "quoted_status_id_str": "1176341129119158272",
+        "quoted_status": {
+            "created_at": "Tue Sep 24 03:42:35 +0000 2019",
+            "id": 1176341129119158300,
+            "id_str": "1176341129119158272",
+            "text": "I started a new job today! https://t.co/9YozHOR47C",
+            "truncated": false,
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "user_mentions": [],
+                "urls": [],
+                "media": [
+                    {
+                        "id": 1176340643150348300,
+                        "id_str": "1176340643150348288",
+                        "indices": [
+                            27,
+                            50
+                        ],
+                        "media_url": "http://pbs.twimg.com/media/EFMzlRnUwAAnPtp.jpg",
+                        "media_url_https": "https://pbs.twimg.com/media/EFMzlRnUwAAnPtp.jpg",
+                        "url": "https://t.co/9YozHOR47C",
+                        "display_url": "pic.twitter.com/9YozHOR47C",
+                        "expanded_url": "https://twitter.com/mattbrehmer/status/1176341129119158272/photo/1",
+                        "type": "photo",
+                        "sizes": {
+                            "thumb": {
+                                "w": 150,
+                                "h": 150,
+                                "resize": "crop"
+                            },
+                            "large": {
+                                "w": 960,
+                                "h": 976,
+                                "resize": "fit"
+                            },
+                            "medium": {
+                                "w": 960,
+                                "h": 976,
+                                "resize": "fit"
+                            },
+                            "small": {
+                                "w": 669,
+                                "h": 680,
+                                "resize": "fit"
+                            }
+                        }
+                    }
+                ]
+            },
+            "extended_entities": {
+                "media": [
+                    {
+                        "id": 1176340643150348300,
+                        "id_str": "1176340643150348288",
+                        "indices": [
+                            27,
+                            50
+                        ],
+                        "media_url": "http://pbs.twimg.com/media/EFMzlRnUwAAnPtp.jpg",
+                        "media_url_https": "https://pbs.twimg.com/media/EFMzlRnUwAAnPtp.jpg",
+                        "url": "https://t.co/9YozHOR47C",
+                        "display_url": "pic.twitter.com/9YozHOR47C",
+                        "expanded_url": "https://twitter.com/mattbrehmer/status/1176341129119158272/photo/1",
+                        "type": "photo",
+                        "sizes": {
+                            "thumb": {
+                                "w": 150,
+                                "h": 150,
+                                "resize": "crop"
+                            },
+                            "large": {
+                                "w": 960,
+                                "h": 976,
+                                "resize": "fit"
+                            },
+                            "medium": {
+                                "w": 960,
+                                "h": 976,
+                                "resize": "fit"
+                            },
+                            "small": {
+                                "w": 669,
+                                "h": 680,
+                                "resize": "fit"
+                            }
+                        }
+                    }
+                ]
+            },
+            "source": "<a href=\"https://about.twitter.com/products/tweetdeck\" rel=\"nofollow\">TweetDeck</a>",
+            "in_reply_to_status_id": null,
+            "in_reply_to_status_id_str": null,
+            "in_reply_to_user_id": null,
+            "in_reply_to_user_id_str": null,
+            "in_reply_to_screen_name": null,
+            "user": {
+                "id": 10471882,
+                "id_str": "10471882",
+                "name": "matt brehmer",
+                "screen_name": "mattbrehmer",
+                "location": "seattle",
+                "description": "research scientist with @Tableau specializing in data visualization\n\nco-organizer, @VisInPractice at #ieeevis 2019",
+                "url": "https://t.co/yBV5AlFq0i",
+                "entities": {
+                    "url": {
+                        "urls": [
+                            {
+                                "url": "https://t.co/yBV5AlFq0i",
+                                "expanded_url": "https://mattbrehmer.ca",
+                                "display_url": "mattbrehmer.ca",
+                                "indices": [
+                                    0,
+                                    23
+                                ]
+                            }
+                        ]
+                    },
+                    "description": {
+                        "urls": []
+                    }
+                },
+                "protected": false,
+                "followers_count": 2091,
+                "friends_count": 714,
+                "listed_count": 121,
+                "created_at": "Thu Nov 22 17:37:27 +0000 2007",
+                "favourites_count": 2690,
+                "utc_offset": null,
+                "time_zone": null,
+                "geo_enabled": false,
+                "verified": false,
+                "statuses_count": 1131,
+                "lang": null,
+                "contributors_enabled": false,
+                "is_translator": false,
+                "is_translation_enabled": false,
+                "profile_background_color": "FFFFFF",
+                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme9/bg.gif",
+                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme9/bg.gif",
+                "profile_background_tile": true,
+                "profile_image_url": "http://pbs.twimg.com/profile_images/903650834986057728/VoCDy8H3_normal.jpg",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/903650834986057728/VoCDy8H3_normal.jpg",
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/10471882/1399683074",
+                "profile_link_color": "000000",
+                "profile_sidebar_border_color": "666666",
+                "profile_sidebar_fill_color": "FFFFFF",
+                "profile_text_color": "000000",
+                "profile_use_background_image": true,
+                "has_extended_profile": false,
+                "default_profile": false,
+                "default_profile_image": false,
+                "following": true,
+                "follow_request_sent": false,
+                "notifications": false,
+                "translator_type": "none"
+            },
+            "geo": null,
+            "coordinates": null,
+            "place": null,
+            "contributors": null,
+            "is_quote_status": false,
+            "retweet_count": 3,
+            "favorite_count": 484,
+            "favorited": false,
+            "retweeted": false,
+            "possibly_sensitive": false,
+            "lang": "en"
+        },
+        "retweet_count": 0,
+        "favorite_count": 5,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "en"
+    },
+    {
+        "created_at": "Mon Sep 23 15:51:12 +0000 2019",
+        "id": 1176162106057511000,
+        "id_str": "1176162106057510912",
+        "text": "@jschwabish @chadskelton @eagereyes Depends on the semantics and what the range would be before the time you're showing.",
+        "truncated": false,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [
+                {
+                    "screen_name": "jschwabish",
+                    "name": "Jon Schwabish",
+                    "id": 483273973,
+                    "id_str": "483273973",
+                    "indices": [
+                        0,
+                        11
+                    ]
+                },
+                {
+                    "screen_name": "chadskelton",
+                    "name": "Chad Skelton",
+                    "id": 17533332,
+                    "id_str": "17533332",
+                    "indices": [
+                        12,
+                        24
+                    ]
+                },
+                {
+                    "screen_name": "eagereyes",
+                    "name": "Robert Kosara 👁📺",
+                    "id": 16112517,
+                    "id_str": "16112517",
+                    "indices": [
+                        25,
+                        35
+                    ]
+                }
+            ],
+            "urls": []
+        },
+        "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+        "in_reply_to_status_id": 1176161573959819300,
+        "in_reply_to_status_id_str": "1176161573959819264",
+        "in_reply_to_user_id": 483273973,
+        "in_reply_to_user_id_str": "483273973",
+        "in_reply_to_screen_name": "jschwabish",
+        "user": {
+            "id": 81658145,
+            "id_str": "81658145",
+            "name": "Alexander Lex",
+            "screen_name": "alexander_lex",
+            "location": "Salt Lake City, UT",
+            "description": "Data visualization researcher. Assistant Prof at the University of Utah. Lab website: https://t.co/rWgKKVdkP4",
+            "url": "http://t.co/UxRuPXFxTW",
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "http://t.co/UxRuPXFxTW",
+                            "expanded_url": "http://www.alexander-lex.net",
+                            "display_url": "alexander-lex.net",
+                            "indices": [
+                                0,
+                                22
+                            ]
+                        }
+                    ]
+                },
+                "description": {
+                    "urls": [
+                        {
+                            "url": "https://t.co/rWgKKVdkP4",
+                            "expanded_url": "http://vdl.sci.utah.edu",
+                            "display_url": "vdl.sci.utah.edu",
+                            "indices": [
+                                86,
+                                109
+                            ]
+                        }
+                    ]
+                }
+            },
+            "protected": false,
+            "followers_count": 1102,
+            "friends_count": 771,
+            "listed_count": 80,
+            "created_at": "Sun Oct 11 18:47:54 +0000 2009",
+            "favourites_count": 762,
+            "utc_offset": null,
+            "time_zone": null,
+            "geo_enabled": true,
+            "verified": false,
+            "statuses_count": 1453,
+            "lang": null,
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "000000",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/626343671152136192/lJFEe0cX_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/626343671152136192/lJFEe0cX_normal.jpg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/81658145/1493828010",
+            "profile_link_color": "1B95E0",
+            "profile_sidebar_border_color": "000000",
+            "profile_sidebar_fill_color": "000000",
+            "profile_text_color": "000000",
+            "profile_use_background_image": false,
+            "has_extended_profile": false,
+            "default_profile": false,
+            "default_profile_image": false,
+            "following": true,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "favorited": false,
+        "retweeted": false,
+        "lang": "en"
+    },
+    {
+        "created_at": "Sun Sep 22 14:54:23 +0000 2019",
+        "id": 1175785418672889900,
+        "id_str": "1175785418672889856",
+        "text": "Congratulations Holger! Well deserved. https://t.co/nKDFAPslwx",
+        "truncated": false,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [
+                {
+                    "url": "https://t.co/nKDFAPslwx",
+                    "expanded_url": "https://twitter.com/holgerstitz/status/1175777878711132162",
+                    "display_url": "twitter.com/holgerstitz/st…",
+                    "indices": [
+                        39,
+                        62
+                    ]
+                }
+            ]
+        },
+        "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 81658145,
+            "id_str": "81658145",
+            "name": "Alexander Lex",
+            "screen_name": "alexander_lex",
+            "location": "Salt Lake City, UT",
+            "description": "Data visualization researcher. Assistant Prof at the University of Utah. Lab website: https://t.co/rWgKKVdkP4",
+            "url": "http://t.co/UxRuPXFxTW",
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "http://t.co/UxRuPXFxTW",
+                            "expanded_url": "http://www.alexander-lex.net",
+                            "display_url": "alexander-lex.net",
+                            "indices": [
+                                0,
+                                22
+                            ]
+                        }
+                    ]
+                },
+                "description": {
+                    "urls": [
+                        {
+                            "url": "https://t.co/rWgKKVdkP4",
+                            "expanded_url": "http://vdl.sci.utah.edu",
+                            "display_url": "vdl.sci.utah.edu",
+                            "indices": [
+                                86,
+                                109
+                            ]
+                        }
+                    ]
+                }
+            },
+            "protected": false,
+            "followers_count": 1102,
+            "friends_count": 771,
+            "listed_count": 80,
+            "created_at": "Sun Oct 11 18:47:54 +0000 2009",
+            "favourites_count": 762,
+            "utc_offset": null,
+            "time_zone": null,
+            "geo_enabled": true,
+            "verified": false,
+            "statuses_count": 1453,
+            "lang": null,
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "000000",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/626343671152136192/lJFEe0cX_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/626343671152136192/lJFEe0cX_normal.jpg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/81658145/1493828010",
+            "profile_link_color": "1B95E0",
+            "profile_sidebar_border_color": "000000",
+            "profile_sidebar_fill_color": "000000",
+            "profile_text_color": "000000",
+            "profile_use_background_image": false,
+            "has_extended_profile": false,
+            "default_profile": false,
+            "default_profile_image": false,
+            "following": true,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": true,
+        "quoted_status_id": 1175777878711132200,
+        "quoted_status_id_str": "1175777878711132162",
+        "quoted_status": {
+            "created_at": "Sun Sep 22 14:24:25 +0000 2019",
+            "id": 1175777878711132200,
+            "id_str": "1175777878711132162",
+            "text": "I'm honored to receive the Early Research Achievement Award from @jkulinz for outstanding academic achievements. I'… https://t.co/cwfam8Vxi9",
+            "truncated": true,
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "user_mentions": [
+                    {
+                        "screen_name": "jkulinz",
+                        "name": "JKU Linz",
+                        "id": 52663743,
+                        "id_str": "52663743",
+                        "indices": [
+                            65,
+                            73
+                        ]
+                    }
+                ],
+                "urls": [
+                    {
+                        "url": "https://t.co/cwfam8Vxi9",
+                        "expanded_url": "https://twitter.com/i/web/status/1175777878711132162",
+                        "display_url": "twitter.com/i/web/status/1…",
+                        "indices": [
+                            117,
+                            140
+                        ]
+                    }
+                ]
+            },
+            "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+            "in_reply_to_status_id": null,
+            "in_reply_to_status_id_str": null,
+            "in_reply_to_user_id": null,
+            "in_reply_to_user_id_str": null,
+            "in_reply_to_screen_name": null,
+            "user": {
+                "id": 85844572,
+                "id_str": "85844572",
+                "name": "Holger Stitz",
+                "screen_name": "holgerstitz",
+                "location": "Linz, Austria",
+                "description": "Research Associate in Information Visualization.",
+                "url": "http://t.co/orJA961Esk",
+                "entities": {
+                    "url": {
+                        "urls": [
+                            {
+                                "url": "http://t.co/orJA961Esk",
+                                "expanded_url": "http://holgerstitz.de/",
+                                "display_url": "holgerstitz.de",
+                                "indices": [
+                                    0,
+                                    22
+                                ]
+                            }
+                        ]
+                    },
+                    "description": {
+                        "urls": []
+                    }
+                },
+                "protected": false,
+                "followers_count": 135,
+                "friends_count": 326,
+                "listed_count": 3,
+                "created_at": "Wed Oct 28 15:44:39 +0000 2009",
+                "favourites_count": 281,
+                "utc_offset": null,
+                "time_zone": null,
+                "geo_enabled": false,
+                "verified": false,
+                "statuses_count": 316,
+                "lang": null,
+                "contributors_enabled": false,
+                "is_translator": false,
+                "is_translation_enabled": false,
+                "profile_background_color": "098C00",
+                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme13/bg.gif",
+                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme13/bg.gif",
+                "profile_background_tile": false,
+                "profile_image_url": "http://pbs.twimg.com/profile_images/3110359287/8dd41b3d98e9c492a0841af48fd56865_normal.jpeg",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/3110359287/8dd41b3d98e9c492a0841af48fd56865_normal.jpeg",
+                "profile_link_color": "098C00",
+                "profile_sidebar_border_color": "098C00",
+                "profile_sidebar_fill_color": "FFFFFF",
+                "profile_text_color": "222222",
+                "profile_use_background_image": false,
+                "has_extended_profile": false,
+                "default_profile": false,
+                "default_profile_image": false,
+                "following": false,
+                "follow_request_sent": false,
+                "notifications": false,
+                "translator_type": "none"
+            },
+            "geo": null,
+            "coordinates": null,
+            "place": null,
+            "contributors": null,
+            "is_quote_status": false,
+            "retweet_count": 0,
+            "favorite_count": 13,
+            "favorited": false,
+            "retweeted": false,
+            "possibly_sensitive": false,
+            "lang": "en"
+        },
+        "retweet_count": 0,
+        "favorite_count": 5,
+        "favorited": true,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "en"
+    }
+]
