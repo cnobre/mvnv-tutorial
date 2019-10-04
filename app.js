@@ -166,71 +166,11 @@ const server = http.createServer(async (req, res) => {
     res.end(JSON.stringify(graph));
   });
 
-  fs.writeFileSync(
-    "tweets_" + handle + ".json",
-    JSON.stringify(tweets, null, 4)
-  );
+//   fs.writeFileSync(
+//     "tweets_" + handle + ".json",
+//     JSON.stringify(tweets, null, 4)
+//   );
 
-  //   fs.readFile("data/twitter_config", "utf8", function(err, contents) {
-  //     twitter = new Twitter(JSON.parse(contents));
-
-  //     //Example calls
-  //     twitter.getUserTimeline(
-  //       { screen_name: handle, count: "5" },
-  //       (error = () => res.end(JSON.stringify({ data: "problem" }))),
-  //       (success = data => {
-  //         //Iterate through all the mentions;
-
-  //         let tweets = JSON.parse(data);
-  //         let edges = parse_tweets(tweets);
-
-  //         edges.filter(e=>e.type === "mention").map(mention => {
-  //           twitter.getUserTimeline(
-  //             { screen_name: mention.target, count: "1" },
-  //             (error = () => res.end(JSON.stringify({ data: "problem" }))),
-  //             (success = data => {
-  //               let edges = parse_tweets(JSON.parse(data));
-  //               console.log("parsed tweets for", mention.target, edges);
-  //             })
-  //           );
-  //         });
-
-  //         // for each mention get their latest 5 tweets and who they mention/etc...
-
-  //         // fs.writeFileSync(
-  //         //   "tweets.json",
-  //         //   JSON.stringify(JSON.parse(data), null, 4)
-  //         // );
-
-  //         res.end(JSON.stringify({ edges }));
-  //       })
-  //     );
-
-  //     // res.end(JSON.stringify({data:answer}))
-
-  //     // twitter.getMentionsTimeline({ count: '10'}, error, success);
-
-  //     // twitter.getHomeTimeline({ count: '10'}, error, success);
-
-  //     // twitter.getReTweetsOfMe({ count: '10'}, error, success);
-
-  //     // twitter.getTweet({ id: '1111111111'}, error, success);
-
-  //     //
-  //     // Get 10 tweets containing the hashtag haiku
-  //     //
-
-  //     // twitter.getSearch({'q':'#haiku','count': 10}, error, success);
-
-  //     //
-  //     // Get 10 popular tweets with a positive attitude about a movie that is not scary
-  //     //
-
-  //     // twitter.getSearch({'q':' movie -scary :) since:2013-12-27', 'count': 10, 'result\_type':'popular'}, error, success)
-  //   });
-
-  //  console.log(txt)
-  //   res.end(txt);
 });
 
 server.listen(port, hostname, () => {
