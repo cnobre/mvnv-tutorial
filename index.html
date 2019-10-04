@@ -143,7 +143,7 @@
     d3.select('.input').on('change', function (value) {
 
 
-        response = d3.json('http://0.0.0.0:3000/?handle=' + this.value).then((data) => {
+        response = d3.json('http://0.0.0.0:5000/?handle=' + this.value).then((data) => {
             console.log(data)
 
             d3.select('.columns').style('visibility','visible')
