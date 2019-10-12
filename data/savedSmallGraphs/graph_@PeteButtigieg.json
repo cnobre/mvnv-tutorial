@@ -1,0 +1,302 @@
+{
+    "nodes": [
+        {
+            "name": "PeteButtigieg",
+            "id": "226222147",
+            "tweets": 9751,
+            "profileColor": "C0DEED",
+            "group": 4,
+            "friends": 2602,
+            "followers": 1460016,
+            "location": "South Bend, Indiana",
+            "degree": 29,
+            "keep": true
+        },
+        {
+            "name": "DMRegister",
+            "id": "13657922",
+            "tweets": 103004,
+            "profileColor": "FFFFFF",
+            "group": 1,
+            "friends": 4983,
+            "followers": 153494,
+            "location": "Des Moines, Iowa, USA",
+            "degree": 7,
+            "keep": true
+        },
+        {
+            "name": "SEIU1984",
+            "id": "792325693",
+            "group": 1,
+            "friends": 0,
+            "followers": 0,
+            "location": "NA",
+            "degree": 39,
+            "keep": true
+        },
+        {
+            "name": "BarackObama",
+            "id": "813286",
+            "group": 4,
+            "friends": 0,
+            "followers": 0,
+            "location": "NA",
+            "degree": 10,
+            "keep": true
+        },
+        {
+            "name": "PeteForAmerica",
+            "id": "1143571304404148224",
+            "tweets": 989,
+            "profileColor": "F5F8FA",
+            "group": 1,
+            "friends": 495,
+            "followers": 41023,
+            "location": "South Bend, IN",
+            "degree": 16,
+            "keep": true
+        },
+        {
+            "name": "nytimes",
+            "id": "807095",
+            "tweets": 373362,
+            "profileColor": "131516",
+            "group": 4,
+            "friends": 900,
+            "followers": 44218834,
+            "location": "New York City",
+            "degree": 8,
+            "keep": true
+        },
+        {
+            "name": "gracieminabox",
+            "id": "26635244",
+            "group": 1,
+            "friends": 0,
+            "followers": 0,
+            "location": "NA",
+            "degree": 17,
+            "keep": true
+        },
+        {
+            "name": "Chas10Buttigieg",
+            "id": "3671138595",
+            "group": 4,
+            "friends": 0,
+            "followers": 0,
+            "location": "NA",
+            "degree": 34,
+            "keep": true
+        },
+        {
+            "name": "GabbyGiffords",
+            "id": "44177383",
+            "tweets": 4164,
+            "profileColor": "9AE4E8",
+            "group": 1,
+            "friends": 6222,
+            "followers": 278653,
+            "location": "Tucson, Arizona",
+            "degree": 37,
+            "keep": true
+        },
+        {
+            "name": "NRA",
+            "id": "21829541",
+            "group": 1,
+            "friends": 0,
+            "followers": 0,
+            "location": "NA",
+            "degree": 13,
+            "keep": true
+        }
+    ],
+    "links": [
+        {
+            "source": 0,
+            "target": 1,
+            "weight": 2,
+            "type": "quote"
+        },
+        {
+            "source": 0,
+            "target": 2,
+            "weight": 4,
+            "type": "mention"
+        },
+        {
+            "source": 0,
+            "target": 3,
+            "weight": 2,
+            "type": "mention"
+        },
+        {
+            "source": 0,
+            "target": 4,
+            "weight": 6,
+            "type": "retweet"
+        },
+        {
+            "source": 0,
+            "target": 5,
+            "weight": 6,
+            "type": "quote"
+        },
+        {
+            "source": 0,
+            "target": 6,
+            "weight": 2,
+            "type": "mention"
+        },
+        {
+            "source": 0,
+            "target": 7,
+            "weight": 2,
+            "type": "mention"
+        },
+        {
+            "source": 0,
+            "target": 8,
+            "weight": 2,
+            "type": "retweet"
+        },
+        {
+            "source": 0,
+            "target": 9,
+            "weight": 2,
+            "type": "mention"
+        },
+        {
+            "source": 0,
+            "target": 4,
+            "weight": 2,
+            "type": "mention"
+        },
+        {
+            "source": 0,
+            "target": 4,
+            "weight": 4,
+            "type": "quote"
+        },
+        {
+            "source": 0,
+            "target": 0,
+            "weight": 2,
+            "type": "quote"
+        },
+        {
+            "source": 7,
+            "target": 4,
+            "weight": 2,
+            "type": "mention"
+        },
+        {
+            "source": 7,
+            "target": 0,
+            "weight": 3,
+            "type": "mention"
+        },
+        {
+            "source": 7,
+            "target": 3,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 7,
+            "target": 8,
+            "weight": 1,
+            "type": "retweet"
+        },
+        {
+            "source": 7,
+            "target": 0,
+            "weight": 1,
+            "type": "retweet"
+        },
+        {
+            "source": 4,
+            "target": 0,
+            "weight": 6,
+            "type": "retweet"
+        },
+        {
+            "source": 4,
+            "target": 7,
+            "weight": 6,
+            "type": "retweet"
+        },
+        {
+            "source": 4,
+            "target": 0,
+            "weight": 9,
+            "type": "mention"
+        },
+        {
+            "source": 4,
+            "target": 7,
+            "weight": 3,
+            "type": "mention"
+        },
+        {
+            "source": 9,
+            "target": 9,
+            "weight": 6,
+            "type": "retweet"
+        },
+        {
+            "source": 9,
+            "target": 9,
+            "weight": 6,
+            "type": "mention"
+        },
+        {
+            "source": 9,
+            "target": 5,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 8,
+            "target": 8,
+            "weight": 1,
+            "type": "retweet"
+        },
+        {
+            "source": 8,
+            "target": 0,
+            "weight": 1,
+            "type": "quote"
+        },
+        {
+            "source": 8,
+            "target": 0,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 2,
+            "target": 0,
+            "weight": 1,
+            "type": "retweet"
+        },
+        {
+            "source": 2,
+            "target": 2,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 2,
+            "target": 0,
+            "weight": 1,
+            "type": "quote"
+        },
+        {
+            "source": 2,
+            "target": 0,
+            "weight": 1,
+            "type": "mention"
+        }
+    ]
+}

@@ -1,0 +1,262 @@
+{
+    "nodes": [
+        {
+            "name": "KamalaHarris",
+            "id": "30354991",
+            "tweets": 12201,
+            "profileColor": "FFFFFF",
+            "group": 1,
+            "friends": 725,
+            "followers": 3162089,
+            "location": "California",
+            "degree": 26,
+            "keep": true
+        },
+        {
+            "name": "AlexPadilla4CA",
+            "id": "82489457",
+            "group": 4,
+            "friends": 0,
+            "followers": 0,
+            "location": "NA",
+            "degree": 25,
+            "keep": true
+        },
+        {
+            "name": "SEIU",
+            "id": "14695985",
+            "group": 1,
+            "friends": 0,
+            "followers": 0,
+            "location": "NA",
+            "degree": 19,
+            "keep": true
+        },
+        {
+            "name": "tony_alvarez93",
+            "id": "3856457721",
+            "tweets": 619,
+            "profileColor": "000000",
+            "group": 4,
+            "friends": 441,
+            "followers": 319,
+            "location": "Portsmouth, NH",
+            "degree": 28,
+            "keep": true
+        },
+        {
+            "name": "MayaRudolph",
+            "id": "1391259187",
+            "group": 1,
+            "friends": 0,
+            "followers": 0,
+            "location": "NA",
+            "degree": 25,
+            "keep": true
+        },
+        {
+            "name": "UAW",
+            "id": "15854702",
+            "group": 1,
+            "friends": 0,
+            "followers": 0,
+            "location": "NA",
+            "degree": 16,
+            "keep": true
+        },
+        {
+            "name": "jimsciutto",
+            "id": "22129280",
+            "tweets": 28711,
+            "profileColor": "9AE4E8",
+            "group": 1,
+            "friends": 797,
+            "followers": 319302,
+            "location": "Washington, DC & New York, NY",
+            "degree": 23,
+            "keep": true
+        },
+        {
+            "name": "kaitlancollins",
+            "id": "180107694",
+            "tweets": 9423,
+            "profileColor": "F4E9E9",
+            "group": 1,
+            "friends": 533,
+            "followers": 226435,
+            "location": "Washington, D.C.",
+            "degree": 11,
+            "keep": true
+        },
+        {
+            "name": "Everytown",
+            "id": "250386727",
+            "tweets": 20669,
+            "profileColor": "252525",
+            "group": 1,
+            "friends": 8489,
+            "followers": 246470,
+            "location": "NA",
+            "degree": 15,
+            "keep": true
+        },
+        {
+            "name": "douglasemhoff",
+            "id": "260759782",
+            "tweets": 958,
+            "profileColor": "C0DEED",
+            "group": 4,
+            "friends": 538,
+            "followers": 72730,
+            "location": "NA",
+            "degree": 38,
+            "keep": true
+        }
+    ],
+    "links": [
+        {
+            "source": 0,
+            "target": 1,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 0,
+            "target": 2,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 0,
+            "target": 3,
+            "weight": 1,
+            "type": "quote"
+        },
+        {
+            "source": 0,
+            "target": 4,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 0,
+            "target": 5,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 0,
+            "target": 6,
+            "weight": 1,
+            "type": "quote"
+        },
+        {
+            "source": 0,
+            "target": 7,
+            "weight": 1,
+            "type": "quote"
+        },
+        {
+            "source": 0,
+            "target": 8,
+            "weight": 1,
+            "type": "retweet"
+        },
+        {
+            "source": 0,
+            "target": 9,
+            "weight": 1,
+            "type": "retweet"
+        },
+        {
+            "source": 8,
+            "target": 0,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 5,
+            "target": 0,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 4,
+            "target": 0,
+            "weight": 1,
+            "type": "quote"
+        },
+        {
+            "source": 4,
+            "target": 0,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 7,
+            "target": 7,
+            "weight": 1,
+            "type": "quote"
+        },
+        {
+            "source": 6,
+            "target": 6,
+            "weight": 1,
+            "type": "quote"
+        },
+        {
+            "source": 6,
+            "target": 7,
+            "weight": 1,
+            "type": "quote"
+        },
+        {
+            "source": 3,
+            "target": 0,
+            "weight": 2,
+            "type": "quote"
+        },
+        {
+            "source": 3,
+            "target": 0,
+            "weight": 5,
+            "type": "mention"
+        },
+        {
+            "source": 3,
+            "target": 0,
+            "weight": 4,
+            "type": "retweet"
+        },
+        {
+            "source": 9,
+            "target": 0,
+            "weight": 2,
+            "type": "retweet"
+        },
+        {
+            "source": 9,
+            "target": 0,
+            "weight": 8,
+            "type": "mention"
+        },
+        {
+            "source": 9,
+            "target": 0,
+            "weight": 1,
+            "type": "quote"
+        },
+        {
+            "source": 1,
+            "target": 0,
+            "weight": 1,
+            "type": "quote"
+        },
+        {
+            "source": 1,
+            "target": 7,
+            "weight": 1,
+            "type": "retweet"
+        }
+    ]
+}

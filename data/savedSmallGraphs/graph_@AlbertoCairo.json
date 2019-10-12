@@ -1,0 +1,272 @@
+{
+    "nodes": [
+        {
+            "name": "AlbertoCairo",
+            "id": "34255829",
+            "tweets": 92334,
+            "profileColor": "FFFFFF",
+            "group": 1,
+            "friends": 3965,
+            "followers": 48323,
+            "location": "USA, Brazil, Spain",
+            "degree": 51,
+            "keep": true
+        },
+        {
+            "name": "artologica",
+            "id": "121869155",
+            "tweets": 107422,
+            "profileColor": "C0DEED",
+            "group": 1,
+            "friends": 1507,
+            "followers": 9976,
+            "location": "Washington, DC",
+            "degree": 22,
+            "keep": true
+        },
+        {
+            "name": "JohnJHarwood",
+            "id": "259395895",
+            "tweets": 118639,
+            "profileColor": "000000",
+            "group": 1,
+            "friends": 1632,
+            "followers": 300886,
+            "location": "Washington, DC",
+            "degree": 27,
+            "keep": true
+        },
+        {
+            "name": "MikeDelMoro",
+            "id": "31059230",
+            "tweets": 33127,
+            "profileColor": "131516",
+            "group": 4,
+            "friends": 994,
+            "followers": 32719,
+            "location": "New York, NY",
+            "degree": 23,
+            "keep": true
+        },
+        {
+            "name": "analyticsonfire",
+            "id": "21772588",
+            "tweets": 28592,
+            "profileColor": "E8E8E8",
+            "group": 1,
+            "friends": 1969,
+            "followers": 5508,
+            "location": "Global",
+            "degree": 46,
+            "keep": true
+        },
+        {
+            "name": "pachamaltese",
+            "id": "2300614526",
+            "tweets": 13643,
+            "profileColor": "000000",
+            "group": 1,
+            "friends": 461,
+            "followers": 1293,
+            "location": "NA",
+            "degree": 31,
+            "keep": true
+        },
+        {
+            "name": "rachaelmbade",
+            "id": "167024520",
+            "tweets": 11711,
+            "profileColor": "000000",
+            "group": 1,
+            "friends": 2010,
+            "followers": 77680,
+            "location": "Capitol Hill, Washington, D.C.",
+            "degree": 24,
+            "keep": true
+        },
+        {
+            "name": "MattCData",
+            "id": "20241927",
+            "tweets": 32816,
+            "profileColor": "C6E2EE",
+            "group": 1,
+            "friends": 2181,
+            "followers": 6618,
+            "location": "Boston, Massachusetts",
+            "degree": 13,
+            "keep": true
+        },
+        {
+            "name": "sharoz",
+            "id": "14249829",
+            "group": 4,
+            "friends": 0,
+            "followers": 0,
+            "location": "NA",
+            "degree": 32,
+            "keep": true
+        },
+        {
+            "name": "rtkrum",
+            "id": "4759341",
+            "group": 4,
+            "friends": 0,
+            "followers": 0,
+            "location": "NA",
+            "degree": 6,
+            "keep": true
+        }
+    ],
+    "links": [
+        {
+            "source": 0,
+            "target": 0,
+            "weight": 3,
+            "type": "quote"
+        },
+        {
+            "source": 0,
+            "target": 1,
+            "weight": 3,
+            "type": "retweet"
+        },
+        {
+            "source": 0,
+            "target": 2,
+            "weight": 3,
+            "type": "retweet"
+        },
+        {
+            "source": 0,
+            "target": 3,
+            "weight": 3,
+            "type": "retweet"
+        },
+        {
+            "source": 0,
+            "target": 4,
+            "weight": 3,
+            "type": "retweet"
+        },
+        {
+            "source": 0,
+            "target": 0,
+            "weight": 6,
+            "type": "retweet"
+        },
+        {
+            "source": 0,
+            "target": 5,
+            "weight": 3,
+            "type": "retweet"
+        },
+        {
+            "source": 0,
+            "target": 5,
+            "weight": 3,
+            "type": "mention"
+        },
+        {
+            "source": 0,
+            "target": 6,
+            "weight": 3,
+            "type": "retweet"
+        },
+        {
+            "source": 0,
+            "target": 7,
+            "weight": 3,
+            "type": "retweet"
+        },
+        {
+            "source": 0,
+            "target": 8,
+            "weight": 3,
+            "type": "mention"
+        },
+        {
+            "source": 0,
+            "target": 9,
+            "weight": 3,
+            "type": "mention"
+        },
+        {
+            "source": 9,
+            "target": 0,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 7,
+            "target": 7,
+            "weight": 1,
+            "type": "retweet"
+        },
+        {
+            "source": 7,
+            "target": 0,
+            "weight": 6,
+            "type": "mention"
+        },
+        {
+            "source": 7,
+            "target": 0,
+            "weight": 1,
+            "type": "quote"
+        },
+        {
+            "source": 7,
+            "target": 0,
+            "weight": 1,
+            "type": "retweet"
+        },
+        {
+            "source": 5,
+            "target": 0,
+            "weight": 2,
+            "type": "quote"
+        },
+        {
+            "source": 5,
+            "target": 0,
+            "weight": 2,
+            "type": "mention"
+        },
+        {
+            "source": 1,
+            "target": 1,
+            "weight": 4,
+            "type": "retweet"
+        },
+        {
+            "source": 1,
+            "target": 1,
+            "weight": 1,
+            "type": "quote"
+        },
+        {
+            "source": 4,
+            "target": 0,
+            "weight": 2,
+            "type": "mention"
+        },
+        {
+            "source": 6,
+            "target": 6,
+            "weight": 2,
+            "type": "quote"
+        },
+        {
+            "source": 3,
+            "target": 3,
+            "weight": 1,
+            "type": "quote"
+        },
+        {
+            "source": 2,
+            "target": 2,
+            "weight": 1,
+            "type": "quote"
+        }
+    ]
+}

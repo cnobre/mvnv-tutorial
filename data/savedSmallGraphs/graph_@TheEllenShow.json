@@ -1,0 +1,252 @@
+{
+    "nodes": [
+        {
+            "name": "TheEllenShow",
+            "id": "15846407",
+            "tweets": 20256,
+            "profileColor": "3ABEE3",
+            "group": 1,
+            "friends": 27811,
+            "followers": 78686012,
+            "location": "California",
+            "degree": 46,
+            "keep": true
+        },
+        {
+            "name": "SeanHayes",
+            "id": "163755960",
+            "group": 1,
+            "friends": 0,
+            "followers": 0,
+            "location": "NA",
+            "degree": 22,
+            "keep": true
+        },
+        {
+            "name": "cher",
+            "id": "124003770",
+            "group": 1,
+            "friends": 0,
+            "followers": 0,
+            "location": "NA",
+            "degree": 15,
+            "keep": true
+        },
+        {
+            "name": "iamcardib",
+            "id": "866953267",
+            "group": 4,
+            "friends": 0,
+            "followers": 0,
+            "location": "NA",
+            "degree": 23,
+            "keep": true
+        },
+        {
+            "name": "chancetherapper",
+            "id": "181572333",
+            "group": 1,
+            "friends": 0,
+            "followers": 0,
+            "location": "NA",
+            "degree": 33,
+            "keep": true
+        },
+        {
+            "name": "Tip",
+            "id": "117778179",
+            "group": 4,
+            "friends": 0,
+            "followers": 0,
+            "location": "NA",
+            "degree": 27,
+            "keep": true
+        },
+        {
+            "name": "brandicarlile",
+            "id": "522538187",
+            "group": 1,
+            "friends": 0,
+            "followers": 0,
+            "location": "NA",
+            "degree": 37,
+            "keep": true
+        },
+        {
+            "name": "TheHighwomen",
+            "id": "1063957532098449408",
+            "group": 1,
+            "friends": 0,
+            "followers": 0,
+            "location": "NA",
+            "degree": 29,
+            "keep": true
+        },
+        {
+            "name": "nachofigueras",
+            "id": "92106357",
+            "group": 4,
+            "friends": 0,
+            "followers": 0,
+            "location": "NA",
+            "degree": 9,
+            "keep": true
+        },
+        {
+            "name": "MarenMorris",
+            "id": "21011215",
+            "group": 1,
+            "friends": 0,
+            "followers": 0,
+            "location": "NA",
+            "degree": 23,
+            "keep": true
+        }
+    ],
+    "links": [
+        {
+            "source": 0,
+            "target": 1,
+            "weight": 3,
+            "type": "mention"
+        },
+        {
+            "source": 0,
+            "target": 2,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 0,
+            "target": 3,
+            "weight": 5,
+            "type": "mention"
+        },
+        {
+            "source": 0,
+            "target": 4,
+            "weight": 5,
+            "type": "mention"
+        },
+        {
+            "source": 0,
+            "target": 5,
+            "weight": 4,
+            "type": "mention"
+        },
+        {
+            "source": 0,
+            "target": 6,
+            "weight": 2,
+            "type": "mention"
+        },
+        {
+            "source": 0,
+            "target": 7,
+            "weight": 2,
+            "type": "mention"
+        },
+        {
+            "source": 0,
+            "target": 8,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 0,
+            "target": 9,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 8,
+            "target": 0,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 8,
+            "target": 0,
+            "weight": 2,
+            "type": "retweet"
+        },
+        {
+            "source": 6,
+            "target": 7,
+            "weight": 4,
+            "type": "mention"
+        },
+        {
+            "source": 6,
+            "target": 7,
+            "weight": 1,
+            "type": "quote"
+        },
+        {
+            "source": 9,
+            "target": 0,
+            "weight": 1,
+            "type": "retweet"
+        },
+        {
+            "source": 9,
+            "target": 7,
+            "weight": 1,
+            "type": "quote"
+        },
+        {
+            "source": 9,
+            "target": 6,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 9,
+            "target": 7,
+            "weight": 2,
+            "type": "mention"
+        },
+        {
+            "source": 7,
+            "target": 0,
+            "weight": 1,
+            "type": "retweet"
+        },
+        {
+            "source": 7,
+            "target": 0,
+            "weight": 2,
+            "type": "mention"
+        },
+        {
+            "source": 7,
+            "target": 6,
+            "weight": 1,
+            "type": "retweet"
+        },
+        {
+            "source": 7,
+            "target": 9,
+            "weight": 2,
+            "type": "retweet"
+        },
+        {
+            "source": 5,
+            "target": 0,
+            "weight": 1,
+            "type": "retweet"
+        },
+        {
+            "source": 1,
+            "target": 0,
+            "weight": 2,
+            "type": "mention"
+        },
+        {
+            "source": 1,
+            "target": 0,
+            "weight": 1,
+            "type": "quote"
+        }
+    ]
+}

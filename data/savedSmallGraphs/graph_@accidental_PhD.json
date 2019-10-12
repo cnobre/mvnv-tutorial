@@ -1,0 +1,192 @@
+{
+    "nodes": [
+        {
+            "name": "accidental_PhD",
+            "id": "531855716",
+            "tweets": 125,
+            "profileColor": "FFFFFF",
+            "group": 1,
+            "friends": 380,
+            "followers": 155,
+            "location": "Tucson, AZ",
+            "degree": 20,
+            "keep": true
+        },
+        {
+            "name": "LacePadilla",
+            "id": "824684769543741440",
+            "group": 4,
+            "friends": 0,
+            "followers": 0,
+            "location": "NA",
+            "degree": 27,
+            "keep": true
+        },
+        {
+            "name": "MonaChalabi",
+            "id": "491631309",
+            "group": 4,
+            "friends": 0,
+            "followers": 0,
+            "location": "NA",
+            "degree": 27,
+            "keep": true
+        },
+        {
+            "name": "ngehlenborg",
+            "id": "16557883",
+            "tweets": 4093,
+            "profileColor": "DBE9ED",
+            "group": 4,
+            "friends": 885,
+            "followers": 2891,
+            "location": "Boston, MA, USA",
+            "degree": 28,
+            "keep": true
+        },
+        {
+            "name": "antarcticdesign",
+            "id": "191257554",
+            "group": 1,
+            "friends": 0,
+            "followers": 0,
+            "location": "NA",
+            "degree": 30,
+            "keep": true
+        },
+        {
+            "name": "loweringthebar",
+            "id": "27808538",
+            "tweets": 22775,
+            "profileColor": "022330",
+            "group": 4,
+            "friends": 989,
+            "followers": 9458,
+            "location": "California",
+            "degree": 28,
+            "keep": true
+        },
+        {
+            "name": "laneharrison",
+            "id": "10414152",
+            "tweets": 4352,
+            "profileColor": "1A1B1F",
+            "group": 1,
+            "friends": 771,
+            "followers": 1538,
+            "location": "Worcester, MA",
+            "degree": 40,
+            "keep": true
+        },
+        {
+            "name": "IlhanMN",
+            "id": "783792992",
+            "group": 1,
+            "friends": 0,
+            "followers": 0,
+            "location": "NA",
+            "degree": 29,
+            "keep": true
+        },
+        {
+            "name": "sharoz",
+            "id": "14249829",
+            "group": 1,
+            "friends": 0,
+            "followers": 0,
+            "location": "NA",
+            "degree": 35,
+            "keep": true
+        },
+        {
+            "name": "jon_bois",
+            "id": "70739029",
+            "group": 4,
+            "friends": 0,
+            "followers": 0,
+            "location": "NA",
+            "degree": 14,
+            "keep": true
+        }
+    ],
+    "links": [
+        {
+            "source": 0,
+            "target": 1,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 0,
+            "target": 2,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 0,
+            "target": 3,
+            "weight": 3,
+            "type": "retweet"
+        },
+        {
+            "source": 0,
+            "target": 4,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 0,
+            "target": 5,
+            "weight": 1,
+            "type": "retweet"
+        },
+        {
+            "source": 0,
+            "target": 6,
+            "weight": 1,
+            "type": "retweet"
+        },
+        {
+            "source": 0,
+            "target": 7,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 0,
+            "target": 8,
+            "weight": 6,
+            "type": "mention"
+        },
+        {
+            "source": 0,
+            "target": 9,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 0,
+            "target": 1,
+            "weight": 1,
+            "type": "retweet"
+        },
+        {
+            "source": 6,
+            "target": 8,
+            "weight": 2,
+            "type": "mention"
+        },
+        {
+            "source": 3,
+            "target": 3,
+            "weight": 3,
+            "type": "quote"
+        },
+        {
+            "source": 1,
+            "target": 8,
+            "weight": 2,
+            "type": "mention"
+        }
+    ]
+}

@@ -1,0 +1,288 @@
+{
+    "nodes": [
+        {
+            "name": "realDonaldTrump",
+            "id": "25073877",
+            "tweets": 44826,
+            "profileColor": "6D5C18",
+            "group": 4,
+            "friends": 47,
+            "followers": 65225254,
+            "location": "Washington, DC",
+            "degree": 32,
+            "keep": true
+        },
+        {
+            "name": "trish_regan",
+            "id": "138182116",
+            "group": 4,
+            "friends": 0,
+            "followers": 0,
+            "location": "NA",
+            "degree": 28,
+            "keep": true
+        },
+        {
+            "name": "FoxBusiness",
+            "id": "56413858",
+            "group": 4,
+            "friends": 0,
+            "followers": 0,
+            "location": "NA",
+            "degree": 12,
+            "keep": true
+        },
+        {
+            "name": "LouDobbs",
+            "id": "26487169",
+            "group": 4,
+            "friends": 0,
+            "followers": 0,
+            "location": "NA",
+            "degree": 24,
+            "keep": true
+        },
+        {
+            "name": "FoxNews",
+            "id": "1367531",
+            "group": 1,
+            "friends": 0,
+            "followers": 0,
+            "location": "NA",
+            "degree": 5,
+            "keep": true
+        },
+        {
+            "name": "SenThomTillis",
+            "id": "2964174789",
+            "group": 1,
+            "friends": 0,
+            "followers": 0,
+            "location": "NA",
+            "degree": 16,
+            "keep": true
+        },
+        {
+            "name": "SecAzar",
+            "id": "956283913835614208",
+            "tweets": 2345,
+            "profileColor": "F5F8FA",
+            "group": 4,
+            "friends": 158,
+            "followers": 34862,
+            "location": "Washington, DC",
+            "degree": 16,
+            "keep": true
+        },
+        {
+            "name": "WhiteHouse",
+            "id": "822215673812119553",
+            "tweets": 12073,
+            "profileColor": "F5F8FA",
+            "group": 4,
+            "friends": 15,
+            "followers": 19152942,
+            "location": "Washington, D.C.",
+            "degree": 11,
+            "keep": true
+        },
+        {
+            "name": "RepRatcliffe",
+            "id": "2847221717",
+            "tweets": 2611,
+            "profileColor": "000000",
+            "group": 1,
+            "friends": 757,
+            "followers": 97321,
+            "location": "Heath, TX",
+            "degree": 19,
+            "keep": true
+        },
+        {
+            "name": "RepMarkMeadows",
+            "id": "963480595",
+            "group": 1,
+            "friends": 0,
+            "followers": 0,
+            "location": "NA",
+            "degree": 21,
+            "keep": true
+        }
+    ],
+    "links": [
+        {
+            "source": 0,
+            "target": 1,
+            "weight": 3,
+            "type": "mention"
+        },
+        {
+            "source": 0,
+            "target": 2,
+            "weight": 3,
+            "type": "mention"
+        },
+        {
+            "source": 0,
+            "target": 3,
+            "weight": 3,
+            "type": "mention"
+        },
+        {
+            "source": 0,
+            "target": 4,
+            "weight": 9,
+            "type": "mention"
+        },
+        {
+            "source": 0,
+            "target": 5,
+            "weight": 3,
+            "type": "mention"
+        },
+        {
+            "source": 0,
+            "target": 6,
+            "weight": 3,
+            "type": "retweet"
+        },
+        {
+            "source": 0,
+            "target": 7,
+            "weight": 3,
+            "type": "retweet"
+        },
+        {
+            "source": 0,
+            "target": 8,
+            "weight": 3,
+            "type": "quote"
+        },
+        {
+            "source": 0,
+            "target": 9,
+            "weight": 3,
+            "type": "mention"
+        },
+        {
+            "source": 0,
+            "target": 0,
+            "weight": 3,
+            "type": "retweet"
+        },
+        {
+            "source": 0,
+            "target": 0,
+            "weight": 3,
+            "type": "quote"
+        },
+        {
+            "source": 1,
+            "target": 0,
+            "weight": 1,
+            "type": "retweet"
+        },
+        {
+            "source": 1,
+            "target": 2,
+            "weight": 2,
+            "type": "mention"
+        },
+        {
+            "source": 1,
+            "target": 0,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 1,
+            "target": 1,
+            "weight": 1,
+            "type": "retweet"
+        },
+        {
+            "source": 5,
+            "target": 0,
+            "weight": 2,
+            "type": "quote"
+        },
+        {
+            "source": 5,
+            "target": 0,
+            "weight": 6,
+            "type": "mention"
+        },
+        {
+            "source": 7,
+            "target": 0,
+            "weight": 15,
+            "type": "retweet"
+        },
+        {
+            "source": 7,
+            "target": 0,
+            "weight": 4,
+            "type": "mention"
+        },
+        {
+            "source": 8,
+            "target": 0,
+            "weight": 2,
+            "type": "retweet"
+        },
+        {
+            "source": 8,
+            "target": 2,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 8,
+            "target": 4,
+            "weight": 3,
+            "type": "mention"
+        },
+        {
+            "source": 3,
+            "target": 0,
+            "weight": 3,
+            "type": "mention"
+        },
+        {
+            "source": 3,
+            "target": 0,
+            "weight": 1,
+            "type": "retweet"
+        },
+        {
+            "source": 6,
+            "target": 7,
+            "weight": 4,
+            "type": "retweet"
+        },
+        {
+            "source": 6,
+            "target": 0,
+            "weight": 1,
+            "type": "retweet"
+        },
+        {
+            "source": 6,
+            "target": 6,
+            "weight": 1,
+            "type": "quote"
+        },
+        {
+            "source": 9,
+            "target": 0,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 9,
+            "target": 0,
+            "weight": 1,
+            "type": "retweet"
+        }
+    ]
+}

@@ -1,0 +1,218 @@
+{
+    "nodes": [
+        {
+            "name": "FisherDanyel",
+            "id": "359650922",
+            "tweets": 2188,
+            "profileColor": "C0DEED",
+            "group": 4,
+            "friends": 731,
+            "followers": 1504,
+            "location": "Seattle",
+            "degree": 43,
+            "keep": true
+        },
+        {
+            "name": "tagjim",
+            "id": "47500268",
+            "group": 1,
+            "friends": 0,
+            "followers": 0,
+            "location": "NA",
+            "degree": 24,
+            "keep": true
+        },
+        {
+            "name": "openargs",
+            "id": "756526987192176641",
+            "group": 1,
+            "friends": 0,
+            "followers": 0,
+            "location": "NA",
+            "degree": 41,
+            "keep": true
+        },
+        {
+            "name": "Spotify",
+            "id": "17230018",
+            "group": 4,
+            "friends": 0,
+            "followers": 0,
+            "location": "NA",
+            "degree": 34,
+            "keep": true
+        },
+        {
+            "name": "pocketcasts",
+            "id": "243848770",
+            "group": 4,
+            "friends": 0,
+            "followers": 0,
+            "location": "NA",
+            "degree": 26,
+            "keep": true
+        },
+        {
+            "name": "lizthegrey",
+            "id": "14534896",
+            "group": 4,
+            "friends": 0,
+            "followers": 0,
+            "location": "NA",
+            "degree": 26,
+            "keep": true
+        },
+        {
+            "name": "ManlnTheHoody",
+            "id": "1028417600001196033",
+            "tweets": 13324,
+            "profileColor": "F5F8FA",
+            "group": 1,
+            "friends": 581,
+            "followers": 32782,
+            "location": "in my sweats",
+            "degree": 17,
+            "keep": true
+        },
+        {
+            "name": "DFS4114",
+            "id": "1720070826",
+            "group": 1,
+            "friends": 0,
+            "followers": 0,
+            "location": "NA",
+            "degree": 35,
+            "keep": true
+        },
+        {
+            "name": "gedaliap",
+            "id": "18766394",
+            "group": 4,
+            "friends": 0,
+            "followers": 0,
+            "location": "NA",
+            "degree": 38,
+            "keep": true
+        },
+        {
+            "name": "jimsciutto",
+            "id": "22129280",
+            "group": 1,
+            "friends": 0,
+            "followers": 0,
+            "location": "NA",
+            "degree": 23,
+            "keep": true
+        }
+    ],
+    "links": [
+        {
+            "source": 0,
+            "target": 1,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 0,
+            "target": 2,
+            "weight": 6,
+            "type": "mention"
+        },
+        {
+            "source": 0,
+            "target": 3,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 0,
+            "target": 4,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 0,
+            "target": 5,
+            "weight": 4,
+            "type": "mention"
+        },
+        {
+            "source": 0,
+            "target": 6,
+            "weight": 1,
+            "type": "quote"
+        },
+        {
+            "source": 0,
+            "target": 7,
+            "weight": 2,
+            "type": "mention"
+        },
+        {
+            "source": 0,
+            "target": 8,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 0,
+            "target": 9,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 1,
+            "target": 2,
+            "weight": 4,
+            "type": "mention"
+        },
+        {
+            "source": 2,
+            "target": 7,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 2,
+            "target": 1,
+            "weight": 1,
+            "type": "quote"
+        },
+        {
+            "source": 2,
+            "target": 2,
+            "weight": 1,
+            "type": "quote"
+        },
+        {
+            "source": 5,
+            "target": 0,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 5,
+            "target": 5,
+            "weight": 1,
+            "type": "retweet"
+        },
+        {
+            "source": 9,
+            "target": 9,
+            "weight": 1,
+            "type": "quote"
+        },
+        {
+            "source": 7,
+            "target": 2,
+            "weight": 14,
+            "type": "mention"
+        },
+        {
+            "source": 7,
+            "target": 0,
+            "weight": 1,
+            "type": "mention"
+        }
+    ]
+}

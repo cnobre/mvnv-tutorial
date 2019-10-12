@@ -1,0 +1,224 @@
+{
+    "nodes": [
+        {
+            "name": "scheidegger",
+            "id": "44195788",
+            "tweets": 12329,
+            "profileColor": "1A1B1F",
+            "group": 1,
+            "friends": 477,
+            "followers": 2168,
+            "location": "Tucson, AZ",
+            "degree": 21,
+            "keep": true
+        },
+        {
+            "name": "emanueles",
+            "id": "5700552",
+            "tweets": 1558,
+            "profileColor": "000000",
+            "group": 4,
+            "friends": 539,
+            "followers": 346,
+            "location": "Fortaleza, Brazil",
+            "degree": 33,
+            "keep": true
+        },
+        {
+            "name": "AlbertoCairo",
+            "id": "34255829",
+            "group": 4,
+            "friends": 0,
+            "followers": 0,
+            "location": "NA",
+            "degree": 36,
+            "keep": true
+        },
+        {
+            "name": "FILWD",
+            "id": "190564700",
+            "group": 1,
+            "friends": 0,
+            "followers": 0,
+            "location": "NA",
+            "degree": 1,
+            "keep": true
+        },
+        {
+            "name": "FisherDanyel",
+            "id": "359650922",
+            "group": 4,
+            "friends": 0,
+            "followers": 0,
+            "location": "NA",
+            "degree": 41,
+            "keep": true
+        },
+        {
+            "name": "alandipert",
+            "id": "40270600",
+            "group": 1,
+            "friends": 0,
+            "followers": 0,
+            "location": "NA",
+            "degree": 17,
+            "keep": true
+        },
+        {
+            "name": "_mcnutt_",
+            "id": "802233409338675200",
+            "group": 4,
+            "friends": 0,
+            "followers": 0,
+            "location": "NA",
+            "degree": 15,
+            "keep": true
+        },
+        {
+            "name": "tamaramunzner",
+            "id": "1652270612",
+            "group": 4,
+            "friends": 0,
+            "followers": 0,
+            "location": "NA",
+            "degree": 29,
+            "keep": true
+        },
+        {
+            "name": "ShriramKMurthi",
+            "id": "951637830",
+            "group": 4,
+            "friends": 0,
+            "followers": 0,
+            "location": "NA",
+            "degree": 35,
+            "keep": true
+        },
+        {
+            "name": "merelyMark",
+            "id": "2255530657",
+            "group": 1,
+            "friends": 0,
+            "followers": 0,
+            "location": "NA",
+            "degree": 33,
+            "keep": true
+        }
+    ],
+    "links": [
+        {
+            "source": 0,
+            "target": 1,
+            "weight": 1,
+            "type": "retweet"
+        },
+        {
+            "source": 0,
+            "target": 1,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 0,
+            "target": 2,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 0,
+            "target": 3,
+            "weight": 4,
+            "type": "mention"
+        },
+        {
+            "source": 0,
+            "target": 4,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 0,
+            "target": 5,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 0,
+            "target": 6,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 0,
+            "target": 7,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 0,
+            "target": 8,
+            "weight": 4,
+            "type": "mention"
+        },
+        {
+            "source": 0,
+            "target": 9,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 4,
+            "target": 0,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 5,
+            "target": 0,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 2,
+            "target": 2,
+            "weight": 1,
+            "type": "quote"
+        },
+        {
+            "source": 2,
+            "target": 2,
+            "weight": 2,
+            "type": "retweet"
+        },
+        {
+            "source": 1,
+            "target": 0,
+            "weight": 2,
+            "type": "mention"
+        },
+        {
+            "source": 1,
+            "target": 2,
+            "weight": 2,
+            "type": "mention"
+        },
+        {
+            "source": 1,
+            "target": 2,
+            "weight": 2,
+            "type": "retweet"
+        },
+        {
+            "source": 9,
+            "target": 0,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 6,
+            "target": 7,
+            "weight": 1,
+            "type": "mention"
+        }
+    ]
+}

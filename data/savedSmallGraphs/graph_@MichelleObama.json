@@ -1,0 +1,284 @@
+{
+    "nodes": [
+        {
+            "name": "Michelle Obama",
+            "screenName": "MichelleObama",
+            "id": "409486555",
+            "tweets": 1173,
+            "profileColor": "C0DEED",
+            "friends": 18,
+            "followers": 13563372,
+            "location": "Washington, DC",
+            "degree": 37,
+            "keep": true
+        },
+        {
+            "name": "Tyler Perry",
+            "screenName": "tylerperry",
+            "id": "58598187",
+            "tweets": 56,
+            "friends": 85,
+            "followers": 53,
+            "location": "NA",
+            "random_tweets": true,
+            "random_friends": true,
+            "random_followers": true,
+            "degree": 7,
+            "keep": true
+        },
+        {
+            "name": "AGE Africa",
+            "screenName": "AGEAfrica",
+            "id": "286162392",
+            "tweets": 39,
+            "friends": 44,
+            "followers": 99,
+            "location": "NA",
+            "random_tweets": true,
+            "random_friends": true,
+            "random_followers": true,
+            "degree": 11,
+            "keep": true
+        },
+        {
+            "name": "Crown Publishing",
+            "screenName": "CrownPublishing",
+            "id": "26554371",
+            "tweets": 22187,
+            "profileColor": "D66953",
+            "friends": 2010,
+            "followers": 97868,
+            "location": "New York, NY",
+            "degree": 26,
+            "keep": true
+        },
+        {
+            "name": "Tina Tchen",
+            "screenName": "TinaTchen",
+            "id": "913018932",
+            "tweets": 424,
+            "profileColor": "C0DEED",
+            "friends": 173,
+            "followers": 14124,
+            "location": "Washington, DC",
+            "degree": 42,
+            "keep": true
+        },
+        {
+            "name": "TIME'S UP",
+            "screenName": "TIMESUPNOW",
+            "id": "941782988819521536",
+            "tweets": 15,
+            "friends": 48,
+            "followers": 70,
+            "location": "NA",
+            "random_tweets": true,
+            "random_friends": true,
+            "random_followers": true,
+            "degree": 37,
+            "keep": true
+        },
+        {
+            "name": "Team USA",
+            "screenName": "TeamUSA",
+            "id": "21870081",
+            "tweets": 47043,
+            "profileColor": "152C53",
+            "friends": 2424,
+            "followers": 2020735,
+            "location": "NA",
+            "degree": 27,
+            "keep": true
+        },
+        {
+            "name": "Allyson Felix",
+            "screenName": "allysonfelix",
+            "id": "24485503",
+            "tweets": 49,
+            "friends": 83,
+            "followers": 30,
+            "location": "NA",
+            "random_tweets": true,
+            "random_friends": true,
+            "random_followers": true,
+            "degree": 26,
+            "keep": true
+        },
+        {
+            "name": "Pranav Nanda",
+            "screenName": "PranavNandaDC",
+            "id": "2337449737",
+            "tweets": 2347,
+            "profileColor": "C0DEED",
+            "friends": 605,
+            "followers": 241,
+            "location": "Washington DC",
+            "degree": 25,
+            "keep": true
+        },
+        {
+            "name": "Tracee Ellis Ross",
+            "screenName": "TraceeEllisRoss",
+            "id": "104299103",
+            "tweets": 11818,
+            "profileColor": "131516",
+            "friends": 276,
+            "followers": 1163348,
+            "location": "NA",
+            "degree": 26,
+            "keep": true
+        }
+    ],
+    "links": [
+        {
+            "source": 0,
+            "target": 1,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 0,
+            "target": 2,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 0,
+            "target": 3,
+            "weight": 1,
+            "type": "retweet"
+        },
+        {
+            "source": 0,
+            "target": 4,
+            "weight": 1,
+            "type": "quote"
+        },
+        {
+            "source": 0,
+            "target": 5,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 0,
+            "target": 4,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 0,
+            "target": 6,
+            "weight": 2,
+            "type": "quote"
+        },
+        {
+            "source": 0,
+            "target": 7,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 0,
+            "target": 8,
+            "weight": 1,
+            "type": "retweet"
+        },
+        {
+            "source": 0,
+            "target": 9,
+            "weight": 1,
+            "type": "retweet"
+        },
+        {
+            "source": 6,
+            "target": 6,
+            "weight": 1,
+            "type": "retweet"
+        },
+        {
+            "source": 2,
+            "target": 0,
+            "weight": 6,
+            "type": "mention"
+        },
+        {
+            "source": 2,
+            "target": 0,
+            "weight": 1,
+            "type": "quote"
+        },
+        {
+            "source": 5,
+            "target": 4,
+            "weight": 1,
+            "type": "retweet"
+        },
+        {
+            "source": 5,
+            "target": 0,
+            "weight": 1,
+            "type": "retweet"
+        },
+        {
+            "source": 5,
+            "target": 4,
+            "weight": 1,
+            "type": "quote"
+        },
+        {
+            "source": 5,
+            "target": 4,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 7,
+            "target": 6,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 7,
+            "target": 0,
+            "weight": 1,
+            "type": "quote"
+        },
+        {
+            "source": 7,
+            "target": 6,
+            "weight": 1,
+            "type": "quote"
+        },
+        {
+            "source": 4,
+            "target": 0,
+            "weight": 2,
+            "type": "retweet"
+        },
+        {
+            "source": 4,
+            "target": 5,
+            "weight": 4,
+            "type": "mention"
+        },
+        {
+            "source": 4,
+            "target": 0,
+            "weight": 4,
+            "type": "quote"
+        },
+        {
+            "source": 4,
+            "target": 5,
+            "weight": 6,
+            "type": "quote"
+        },
+        {
+            "source": 4,
+            "target": 0,
+            "weight": 2,
+            "type": "mention"
+        }
+    ]
+}

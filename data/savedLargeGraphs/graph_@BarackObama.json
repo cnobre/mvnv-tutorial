@@ -1,0 +1,486 @@
+{
+    "nodes": [
+        {
+            "name": "BarackObama",
+            "id": "813286",
+            "tweets": 15682,
+            "profileColor": "77B0DC",
+            "group": 4,
+            "friends": 611678,
+            "followers": 109028113,
+            "location": "Washington, DC",
+            "degree": 11,
+            "keep": true
+        },
+        {
+            "name": "GretaThunberg",
+            "id": "1006419421244678144",
+            "group": 4,
+            "friends": 0,
+            "followers": 0,
+            "location": "NA",
+            "degree": 25,
+            "keep": true
+        },
+        {
+            "name": "DemRedistrict",
+            "id": "794651044450041856",
+            "tweets": 1936,
+            "profileColor": "F5F8FA",
+            "group": 1,
+            "friends": 96,
+            "followers": 35183,
+            "location": "NA",
+            "degree": 16,
+            "keep": true
+        },
+        {
+            "name": "FisherHouseFdtn",
+            "id": "80579719",
+            "tweets": 8817,
+            "profileColor": "4D6E95",
+            "group": 1,
+            "friends": 8320,
+            "followers": 30994,
+            "location": "NA",
+            "degree": 34,
+            "keep": true
+        },
+        {
+            "name": "ObamaFoundation",
+            "id": "2293315159",
+            "tweets": 1517,
+            "profileColor": "EEEEEE",
+            "group": 4,
+            "friends": 89,
+            "followers": 851729,
+            "location": "NA",
+            "degree": 9,
+            "keep": true
+        },
+        {
+            "name": "MichelleObama",
+            "id": "409486555",
+            "tweets": 1169,
+            "profileColor": "C0DEED",
+            "group": 1,
+            "friends": 18,
+            "followers": 13519389,
+            "location": "Washington, DC",
+            "degree": 25,
+            "keep": true
+        },
+        {
+            "name": "UrbanAlliance",
+            "id": "49499121",
+            "group": 4,
+            "friends": 0,
+            "followers": 0,
+            "location": "NA",
+            "degree": 18,
+            "keep": true
+        },
+        {
+            "name": "USWNT",
+            "id": "133448051",
+            "group": 4,
+            "friends": 0,
+            "followers": 0,
+            "location": "NA",
+            "degree": 20,
+            "keep": true
+        },
+        {
+            "name": "BudParade",
+            "id": "2476030171",
+            "group": 4,
+            "friends": 0,
+            "followers": 0,
+            "location": "NA",
+            "degree": 1,
+            "keep": true
+        },
+        {
+            "name": "sabaeayman",
+            "id": "19796132",
+            "group": 4,
+            "friends": 0,
+            "followers": 0,
+            "location": "NA",
+            "degree": 1,
+            "keep": true
+        },
+        {
+            "name": "Columbia",
+            "id": "248795646",
+            "tweets": 24734,
+            "profileColor": "C0DEED",
+            "group": 1,
+            "friends": 598,
+            "followers": 332474,
+            "location": "New York, New York",
+            "degree": 1,
+            "keep": true
+        },
+        {
+            "name": "TinaSicily",
+            "id": "28233660",
+            "group": 4,
+            "friends": 0,
+            "followers": 0,
+            "location": "NA",
+            "degree": 1,
+            "keep": true
+        },
+        {
+            "name": "WOWK13News",
+            "id": "25903919",
+            "group": 1,
+            "friends": 0,
+            "followers": 0,
+            "location": "NA",
+            "degree": 1,
+            "keep": true
+        },
+        {
+            "name": "DwaneClifford",
+            "id": "1026776869",
+            "group": 4,
+            "friends": 0,
+            "followers": 0,
+            "location": "NA",
+            "degree": 1,
+            "keep": true
+        },
+        {
+            "name": "mimileontyne",
+            "id": "388961097",
+            "group": 1,
+            "friends": 0,
+            "followers": 0,
+            "location": "NA",
+            "degree": 1,
+            "keep": true
+        },
+        {
+            "name": "Samuel_Waltzer",
+            "id": "750791597743222784",
+            "group": 1,
+            "friends": 0,
+            "followers": 0,
+            "location": "NA",
+            "degree": 1,
+            "keep": true
+        },
+        {
+            "name": "ComcastMilitary",
+            "id": "4845767743",
+            "group": 4,
+            "friends": 0,
+            "followers": 0,
+            "location": "NA",
+            "degree": 2,
+            "keep": true
+        },
+        {
+            "name": "ComcastVetNet",
+            "id": "2464995528",
+            "group": 4,
+            "friends": 0,
+            "followers": 0,
+            "location": "NA",
+            "degree": 1,
+            "keep": true
+        },
+        {
+            "name": "comcast",
+            "id": "89587925",
+            "group": 4,
+            "friends": 0,
+            "followers": 0,
+            "location": "NA",
+            "degree": 1,
+            "keep": true
+        },
+        {
+            "name": "NBCUniversal",
+            "id": "93673287",
+            "group": 1,
+            "friends": 0,
+            "followers": 0,
+            "location": "NA",
+            "degree": 1,
+            "keep": true
+        },
+        {
+            "name": "UnidosComcast",
+            "id": "3315066840",
+            "group": 4,
+            "friends": 0,
+            "followers": 0,
+            "location": "NA",
+            "degree": 1,
+            "keep": true
+        },
+        {
+            "name": "BEN_Comcast",
+            "id": "3201294845",
+            "group": 1,
+            "friends": 0,
+            "followers": 0,
+            "location": "NA",
+            "degree": 1,
+            "keep": true
+        },
+        {
+            "name": "ComcastHouston",
+            "id": "26084811",
+            "group": 1,
+            "friends": 0,
+            "followers": 0,
+            "location": "NA",
+            "degree": 1,
+            "keep": true
+        },
+        {
+            "name": "BrockPest",
+            "id": "318443078",
+            "group": 1,
+            "friends": 0,
+            "followers": 0,
+            "location": "NA",
+            "degree": 1,
+            "keep": true
+        },
+        {
+            "name": "WMZQ",
+            "id": "21408731",
+            "tweets": 84210,
+            "profileColor": "9AE4E8",
+            "group": 4,
+            "friends": 6302,
+            "followers": 16897,
+            "location": "Rockville, MD ",
+            "degree": 1,
+            "keep": true
+        }
+    ],
+    "links": [
+        {
+            "source": 0,
+            "target": 1,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 0,
+            "target": 2,
+            "weight": 1,
+            "type": "quote"
+        },
+        {
+            "source": 0,
+            "target": 3,
+            "weight": 1,
+            "type": "quote"
+        },
+        {
+            "source": 0,
+            "target": 4,
+            "weight": 1,
+            "type": "retweet"
+        },
+        {
+            "source": 0,
+            "target": 5,
+            "weight": 1,
+            "type": "retweet"
+        },
+        {
+            "source": 0,
+            "target": 6,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 0,
+            "target": 4,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 0,
+            "target": 7,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 4,
+            "target": 0,
+            "weight": 12,
+            "type": "mention"
+        },
+        {
+            "source": 4,
+            "target": 5,
+            "weight": 2,
+            "type": "mention"
+        },
+        {
+            "source": 4,
+            "target": 8,
+            "weight": 2,
+            "type": "mention"
+        },
+        {
+            "source": 4,
+            "target": 9,
+            "weight": 2,
+            "type": "mention"
+        },
+        {
+            "source": 4,
+            "target": 1,
+            "weight": 2,
+            "type": "mention"
+        },
+        {
+            "source": 4,
+            "target": 10,
+            "weight": 2,
+            "type": "retweet"
+        },
+        {
+            "source": 4,
+            "target": 5,
+            "weight": 2,
+            "type": "retweet"
+        },
+        {
+            "source": 3,
+            "target": 11,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 3,
+            "target": 12,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 3,
+            "target": 13,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 3,
+            "target": 14,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 3,
+            "target": 15,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 3,
+            "target": 16,
+            "weight": 2,
+            "type": "mention"
+        },
+        {
+            "source": 3,
+            "target": 17,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 3,
+            "target": 18,
+            "weight": 2,
+            "type": "mention"
+        },
+        {
+            "source": 3,
+            "target": 19,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 3,
+            "target": 20,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 3,
+            "target": 21,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 3,
+            "target": 22,
+            "weight": 3,
+            "type": "mention"
+        },
+        {
+            "source": 3,
+            "target": 23,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 3,
+            "target": 24,
+            "weight": 1,
+            "type": "retweet"
+        },
+        {
+            "source": 3,
+            "target": 16,
+            "weight": 1,
+            "type": "quote"
+        },
+        {
+            "source": 3,
+            "target": 3,
+            "weight": 2,
+            "type": "mention"
+        },
+        {
+            "source": 2,
+            "target": 2,
+            "weight": 1,
+            "type": "retweet"
+        },
+        {
+            "source": 6,
+            "target": 6,
+            "weight": 1,
+            "type": "quote"
+        },
+        {
+            "source": 5,
+            "target": 0,
+            "weight": 4,
+            "type": "retweet"
+        },
+        {
+            "source": 5,
+            "target": 0,
+            "weight": 1,
+            "type": "quote"
+        },
+        {
+            "source": 1,
+            "target": 1,
+            "weight": 1,
+            "type": "retweet"
+        }
+    ]
+}

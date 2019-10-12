@@ -1,0 +1,242 @@
+{
+    "nodes": [
+        {
+            "name": "ngehlenborg",
+            "id": "16557883",
+            "tweets": 4093,
+            "profileColor": "DBE9ED",
+            "group": 4,
+            "friends": 885,
+            "followers": 2891,
+            "location": "Boston, MA, USA",
+            "degree": 30,
+            "keep": true
+        },
+        {
+            "name": "zakkohane",
+            "id": "34615585",
+            "tweets": 5762,
+            "profileColor": "C0DEED",
+            "group": 4,
+            "friends": 383,
+            "followers": 5582,
+            "location": "Boston, MA",
+            "degree": 40,
+            "keep": true
+        },
+        {
+            "name": "_hubmap",
+            "id": "1102969378109304832",
+            "tweets": 125,
+            "profileColor": "000000",
+            "group": 4,
+            "friends": 85,
+            "followers": 143,
+            "location": "NA",
+            "degree": 24,
+            "keep": true
+        },
+        {
+            "name": "SinemKSaka1",
+            "id": "1034874667813756928",
+            "tweets": 63,
+            "profileColor": "F5F8FA",
+            "group": 4,
+            "friends": 161,
+            "followers": 161,
+            "location": "Boston, MA",
+            "degree": 37,
+            "keep": true
+        },
+        {
+            "name": "HarvardDBMI",
+            "id": "2578833583",
+            "group": 1,
+            "friends": 0,
+            "followers": 0,
+            "location": "NA",
+            "degree": 15,
+            "keep": true
+        },
+        {
+            "name": "NIH_CommonFund",
+            "id": "402157926",
+            "group": 1,
+            "friends": 0,
+            "followers": 0,
+            "location": "NA",
+            "degree": 30,
+            "keep": true
+        },
+        {
+            "name": "ewanbirney",
+            "id": "183548902",
+            "tweets": 40751,
+            "profileColor": "C0DEED",
+            "group": 4,
+            "friends": 1468,
+            "followers": 27688,
+            "location": "EMBL-EBI, Hinxton, Cambridge",
+            "degree": 30,
+            "keep": true
+        },
+        {
+            "name": "embl",
+            "id": "1513221576",
+            "tweets": 5402,
+            "profileColor": "FFFFFF",
+            "group": 4,
+            "friends": 1229,
+            "followers": 29761,
+            "location": "NA",
+            "degree": 20,
+            "keep": true
+        },
+        {
+            "name": "DanaGoldstein",
+            "id": "15335662",
+            "tweets": 8183,
+            "profileColor": "1A1B1F",
+            "group": 1,
+            "friends": 3403,
+            "followers": 26970,
+            "location": "Brooklyn, NY",
+            "degree": 24,
+            "keep": true
+        },
+        {
+            "name": "BioMickWatson",
+            "id": "228586748",
+            "tweets": 97047,
+            "profileColor": "352726",
+            "group": 4,
+            "friends": 2393,
+            "followers": 20196,
+            "location": "Edinburgh",
+            "degree": 27,
+            "keep": true
+        }
+    ],
+    "links": [
+        {
+            "source": 0,
+            "target": 1,
+            "weight": 6,
+            "type": "retweet"
+        },
+        {
+            "source": 0,
+            "target": 2,
+            "weight": 2,
+            "type": "retweet"
+        },
+        {
+            "source": 0,
+            "target": 3,
+            "weight": 2,
+            "type": "retweet"
+        },
+        {
+            "source": 0,
+            "target": 4,
+            "weight": 4,
+            "type": "mention"
+        },
+        {
+            "source": 0,
+            "target": 5,
+            "weight": 2,
+            "type": "mention"
+        },
+        {
+            "source": 0,
+            "target": 2,
+            "weight": 2,
+            "type": "mention"
+        },
+        {
+            "source": 0,
+            "target": 6,
+            "weight": 2,
+            "type": "retweet"
+        },
+        {
+            "source": 0,
+            "target": 7,
+            "weight": 2,
+            "type": "retweet"
+        },
+        {
+            "source": 0,
+            "target": 8,
+            "weight": 2,
+            "type": "retweet"
+        },
+        {
+            "source": 0,
+            "target": 9,
+            "weight": 2,
+            "type": "retweet"
+        },
+        {
+            "source": 0,
+            "target": 0,
+            "weight": 6,
+            "type": "quote"
+        },
+        {
+            "source": 0,
+            "target": 1,
+            "weight": 2,
+            "type": "mention"
+        },
+        {
+            "source": 2,
+            "target": 2,
+            "weight": 12,
+            "type": "retweet"
+        },
+        {
+            "source": 2,
+            "target": 0,
+            "weight": 2,
+            "type": "mention"
+        },
+        {
+            "source": 4,
+            "target": 2,
+            "weight": 1,
+            "type": "retweet"
+        },
+        {
+            "source": 4,
+            "target": 0,
+            "weight": 1,
+            "type": "retweet"
+        },
+        {
+            "source": 4,
+            "target": 1,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 4,
+            "target": 1,
+            "weight": 16,
+            "type": "retweet"
+        },
+        {
+            "source": 7,
+            "target": 7,
+            "weight": 2,
+            "type": "retweet"
+        },
+        {
+            "source": 7,
+            "target": 7,
+            "weight": 1,
+            "type": "quote"
+        }
+    ]
+}

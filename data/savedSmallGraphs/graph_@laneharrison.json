@@ -1,0 +1,210 @@
+{
+    "nodes": [
+        {
+            "name": "laneharrison",
+            "id": "10414152",
+            "tweets": 4352,
+            "profileColor": "1A1B1F",
+            "group": 1,
+            "friends": 771,
+            "followers": 1538,
+            "location": "Worcester, MA",
+            "degree": 43,
+            "keep": true
+        },
+        {
+            "name": "scheidegger",
+            "id": "44195788",
+            "group": 4,
+            "friends": 0,
+            "followers": 0,
+            "location": "NA",
+            "degree": 22,
+            "keep": true
+        },
+        {
+            "name": "OhHyunKwon",
+            "id": "110347384",
+            "group": 1,
+            "friends": 0,
+            "followers": 0,
+            "location": "NA",
+            "degree": 23,
+            "keep": true
+        },
+        {
+            "name": "BowTiePolitics",
+            "id": "206445421",
+            "group": 1,
+            "friends": 0,
+            "followers": 0,
+            "location": "NA",
+            "degree": 27,
+            "keep": true
+        },
+        {
+            "name": "gmarkholmes",
+            "id": "24077212",
+            "group": 4,
+            "friends": 0,
+            "followers": 0,
+            "location": "NA",
+            "degree": 26,
+            "keep": true
+        },
+        {
+            "name": "sharoz",
+            "id": "14249829",
+            "group": 4,
+            "friends": 0,
+            "followers": 0,
+            "location": "NA",
+            "degree": 37,
+            "keep": true
+        },
+        {
+            "name": "FisherDanyel",
+            "id": "359650922",
+            "group": 4,
+            "friends": 0,
+            "followers": 0,
+            "location": "NA",
+            "degree": 42,
+            "keep": true
+        },
+        {
+            "name": "FILWD",
+            "id": "190564700",
+            "group": 1,
+            "friends": 0,
+            "followers": 0,
+            "location": "NA",
+            "degree": 34,
+            "keep": true
+        },
+        {
+            "name": "ccgramazio",
+            "id": "44101368",
+            "group": 4,
+            "friends": 0,
+            "followers": 0,
+            "location": "NA",
+            "degree": 29,
+            "keep": true
+        },
+        {
+            "name": "gillianmsmith",
+            "id": "52343800",
+            "group": 4,
+            "friends": 0,
+            "followers": 0,
+            "location": "NA",
+            "degree": 29,
+            "keep": true
+        }
+    ],
+    "links": [
+        {
+            "source": 0,
+            "target": 1,
+            "weight": 2,
+            "type": "mention"
+        },
+        {
+            "source": 0,
+            "target": 2,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 0,
+            "target": 3,
+            "weight": 2,
+            "type": "mention"
+        },
+        {
+            "source": 0,
+            "target": 4,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 0,
+            "target": 5,
+            "weight": 2,
+            "type": "mention"
+        },
+        {
+            "source": 0,
+            "target": 6,
+            "weight": 2,
+            "type": "mention"
+        },
+        {
+            "source": 0,
+            "target": 7,
+            "weight": 2,
+            "type": "mention"
+        },
+        {
+            "source": 0,
+            "target": 8,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 0,
+            "target": 9,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 0,
+            "target": 1,
+            "weight": 1,
+            "type": "quote"
+        },
+        {
+            "source": 2,
+            "target": 0,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 1,
+            "target": 7,
+            "weight": 8,
+            "type": "mention"
+        },
+        {
+            "source": 1,
+            "target": 6,
+            "weight": 2,
+            "type": "mention"
+        },
+        {
+            "source": 6,
+            "target": 1,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 8,
+            "target": 0,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 8,
+            "target": 5,
+            "weight": 2,
+            "type": "mention"
+        },
+        {
+            "source": 7,
+            "target": 1,
+            "weight": 3,
+            "type": "mention"
+        }
+    ]
+}

@@ -1,0 +1,746 @@
+{
+    "nodes": [
+        {
+            "name": "miriah_meyer",
+            "id": "883747950085656577",
+            "tweets": 116,
+            "profileColor": "000000",
+            "group": 4,
+            "friends": 201,
+            "followers": 1041,
+            "location": "Salt Lake City, UT",
+            "degree": 31,
+            "keep": true
+        },
+        {
+            "name": "visdesignlab",
+            "id": "1004751018528141313",
+            "tweets": 41,
+            "profileColor": "000000",
+            "group": 4,
+            "friends": 152,
+            "followers": 605,
+            "location": "Salt Lake City, UT",
+            "degree": 32,
+            "keep": true
+        },
+        {
+            "name": "univienna_vda",
+            "id": "2791401022",
+            "group": 1,
+            "friends": 0,
+            "followers": 0,
+            "location": "NA",
+            "degree": 13,
+            "keep": true
+        },
+        {
+            "name": "UtahSoC",
+            "id": "177275647",
+            "group": 4,
+            "friends": 0,
+            "followers": 0,
+            "location": "NA",
+            "degree": 4,
+            "keep": true
+        },
+        {
+            "name": "ieeevis",
+            "id": "179797676",
+            "group": 4,
+            "friends": 0,
+            "followers": 0,
+            "location": "NA",
+            "degree": 14,
+            "keep": true
+        },
+        {
+            "name": "accidental_PhD",
+            "id": "531855716",
+            "group": 1,
+            "friends": 0,
+            "followers": 0,
+            "location": "NA",
+            "degree": 21,
+            "keep": true
+        },
+        {
+            "name": "ACDH_OeAW",
+            "id": "750286186392977409",
+            "tweets": 4545,
+            "profileColor": "F5F8FA",
+            "group": 4,
+            "friends": 1788,
+            "followers": 2085,
+            "location": "Wien, Österreich",
+            "degree": 21,
+            "keep": true
+        },
+        {
+            "name": "NSF",
+            "id": "16245822",
+            "tweets": 20865,
+            "profileColor": "9AE4E8",
+            "group": 1,
+            "friends": 118,
+            "followers": 1157703,
+            "location": "Alexandria, VA",
+            "degree": 26,
+            "keep": true
+        },
+        {
+            "name": "jsndyks",
+            "id": "19299318",
+            "group": 1,
+            "friends": 0,
+            "followers": 0,
+            "location": "NA",
+            "degree": 30,
+            "keep": true
+        },
+        {
+            "name": "JessicaHullman",
+            "id": "1556132462",
+            "tweets": 934,
+            "profileColor": "C0DEED",
+            "group": 4,
+            "friends": 412,
+            "followers": 2725,
+            "location": "Chicago, IL",
+            "degree": 40,
+            "keep": true
+        },
+        {
+            "name": "nina_mccurdy",
+            "id": "3150206804",
+            "group": 4,
+            "friends": 0,
+            "followers": 0,
+            "location": "NA",
+            "degree": 4,
+            "keep": true
+        },
+        {
+            "name": "sgeoviz",
+            "id": "242904917",
+            "tweets": 754,
+            "profileColor": "C0DEED",
+            "group": 4,
+            "friends": 1311,
+            "followers": 720,
+            "location": "Melbourne, Victoria",
+            "degree": 33,
+            "keep": true
+        },
+        {
+            "name": "nrchtct",
+            "id": "52341962",
+            "tweets": 4433,
+            "profileColor": "6C7A6F",
+            "group": 1,
+            "friends": 530,
+            "followers": 3319,
+            "location": "Berlin, Germany",
+            "degree": 24,
+            "keep": true
+        },
+        {
+            "name": "veloclubdeVIS",
+            "id": "2814482749",
+            "tweets": 149,
+            "profileColor": "FFFFFF",
+            "group": 4,
+            "friends": 0,
+            "followers": 95,
+            "location": "London, England",
+            "degree": 21,
+            "keep": true
+        },
+        {
+            "name": "eagereyes",
+            "id": "16112517",
+            "tweets": 23209,
+            "profileColor": "C5D0D4",
+            "group": 1,
+            "friends": 882,
+            "followers": 21818,
+            "location": "Seattle, WA",
+            "degree": 31,
+            "keep": true
+        },
+        {
+            "name": "alexander_lex",
+            "id": "81658145",
+            "tweets": 1453,
+            "profileColor": "000000",
+            "group": 4,
+            "friends": 771,
+            "followers": 1102,
+            "location": "Salt Lake City, UT",
+            "degree": 45,
+            "keep": true
+        },
+        {
+            "name": "manunna_91",
+            "id": "743468486756868096",
+            "tweets": 142,
+            "profileColor": "000000",
+            "group": 1,
+            "friends": 1132,
+            "followers": 284,
+            "location": "NA",
+            "degree": 23,
+            "keep": true
+        },
+        {
+            "name": "VRVis",
+            "id": "2292695454",
+            "tweets": 1065,
+            "profileColor": "C0DEED",
+            "group": 1,
+            "friends": 902,
+            "followers": 1017,
+            "location": "Vienna, Austria",
+            "degree": 17,
+            "keep": true
+        },
+        {
+            "name": "belivworkshop",
+            "id": "943493477387644930",
+            "tweets": 7,
+            "profileColor": "000000",
+            "group": 1,
+            "friends": 58,
+            "followers": 120,
+            "location": "NA",
+            "degree": 6,
+            "keep": true
+        },
+        {
+            "name": "moritz_stefaner",
+            "id": "1366811",
+            "tweets": 16623,
+            "profileColor": "3C474D",
+            "group": 4,
+            "friends": 1419,
+            "followers": 17339,
+            "location": "Lilienthal",
+            "degree": 31,
+            "keep": true
+        },
+        {
+            "name": "chris_bail",
+            "id": "964635660",
+            "group": 4,
+            "friends": 0,
+            "followers": 0,
+            "location": "NA",
+            "degree": 25,
+            "keep": true
+        },
+        {
+            "name": "infowetrust",
+            "id": "1912054296",
+            "group": 4,
+            "friends": 0,
+            "followers": 0,
+            "location": "NA",
+            "degree": 3,
+            "keep": true
+        },
+        {
+            "name": "ideaOwl",
+            "id": "52963827",
+            "group": 4,
+            "friends": 0,
+            "followers": 0,
+            "location": "NA",
+            "degree": 1,
+            "keep": true
+        },
+        {
+            "name": "cherdarchuk",
+            "id": "747883226",
+            "group": 1,
+            "friends": 0,
+            "followers": 0,
+            "location": "NA",
+            "degree": 1,
+            "keep": true
+        },
+        {
+            "name": "VIS4DH",
+            "id": "1108452154464002049",
+            "group": 4,
+            "friends": 0,
+            "followers": 0,
+            "location": "NA",
+            "degree": 2,
+            "keep": true
+        }
+    ],
+    "links": [
+        {
+            "source": 0,
+            "target": 1,
+            "weight": 5,
+            "type": "retweet"
+        },
+        {
+            "source": 0,
+            "target": 2,
+            "weight": 2,
+            "type": "mention"
+        },
+        {
+            "source": 0,
+            "target": 3,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 0,
+            "target": 4,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 0,
+            "target": 1,
+            "weight": 2,
+            "type": "quote"
+        },
+        {
+            "source": 0,
+            "target": 5,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 0,
+            "target": 6,
+            "weight": 2,
+            "type": "retweet"
+        },
+        {
+            "source": 0,
+            "target": 7,
+            "weight": 1,
+            "type": "retweet"
+        },
+        {
+            "source": 0,
+            "target": 4,
+            "weight": 3,
+            "type": "retweet"
+        },
+        {
+            "source": 0,
+            "target": 8,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 0,
+            "target": 9,
+            "weight": 1,
+            "type": "quote"
+        },
+        {
+            "source": 0,
+            "target": 1,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 0,
+            "target": 10,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 0,
+            "target": 6,
+            "weight": 1,
+            "type": "quote"
+        },
+        {
+            "source": 0,
+            "target": 11,
+            "weight": 1,
+            "type": "retweet"
+        },
+        {
+            "source": 0,
+            "target": 12,
+            "weight": 1,
+            "type": "retweet"
+        },
+        {
+            "source": 0,
+            "target": 13,
+            "weight": 1,
+            "type": "retweet"
+        },
+        {
+            "source": 0,
+            "target": 14,
+            "weight": 1,
+            "type": "retweet"
+        },
+        {
+            "source": 0,
+            "target": 15,
+            "weight": 1,
+            "type": "retweet"
+        },
+        {
+            "source": 0,
+            "target": 16,
+            "weight": 1,
+            "type": "retweet"
+        },
+        {
+            "source": 0,
+            "target": 17,
+            "weight": 2,
+            "type": "quote"
+        },
+        {
+            "source": 0,
+            "target": 17,
+            "weight": 2,
+            "type": "mention"
+        },
+        {
+            "source": 0,
+            "target": 18,
+            "weight": 1,
+            "type": "retweet"
+        },
+        {
+            "source": 0,
+            "target": 19,
+            "weight": 1,
+            "type": "retweet"
+        },
+        {
+            "source": 0,
+            "target": 20,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 4,
+            "target": 21,
+            "weight": 2,
+            "type": "mention"
+        },
+        {
+            "source": 4,
+            "target": 22,
+            "weight": 2,
+            "type": "mention"
+        },
+        {
+            "source": 4,
+            "target": 23,
+            "weight": 2,
+            "type": "mention"
+        },
+        {
+            "source": 4,
+            "target": 13,
+            "weight": 2,
+            "type": "mention"
+        },
+        {
+            "source": 4,
+            "target": 4,
+            "weight": 2,
+            "type": "mention"
+        },
+        {
+            "source": 4,
+            "target": 24,
+            "weight": 2,
+            "type": "mention"
+        },
+        {
+            "source": 18,
+            "target": 18,
+            "weight": 3,
+            "type": "mention"
+        },
+        {
+            "source": 18,
+            "target": 4,
+            "weight": 2,
+            "type": "mention"
+        },
+        {
+            "source": 1,
+            "target": 10,
+            "weight": 6,
+            "type": "mention"
+        },
+        {
+            "source": 1,
+            "target": 0,
+            "weight": 15,
+            "type": "mention"
+        },
+        {
+            "source": 1,
+            "target": 0,
+            "weight": 3,
+            "type": "quote"
+        },
+        {
+            "source": 1,
+            "target": 15,
+            "weight": 3,
+            "type": "quote"
+        },
+        {
+            "source": 1,
+            "target": 5,
+            "weight": 3,
+            "type": "mention"
+        },
+        {
+            "source": 1,
+            "target": 6,
+            "weight": 3,
+            "type": "retweet"
+        },
+        {
+            "source": 1,
+            "target": 15,
+            "weight": 6,
+            "type": "mention"
+        },
+        {
+            "source": 1,
+            "target": 0,
+            "weight": 6,
+            "type": "retweet"
+        },
+        {
+            "source": 1,
+            "target": 9,
+            "weight": 3,
+            "type": "retweet"
+        },
+        {
+            "source": 1,
+            "target": 4,
+            "weight": 3,
+            "type": "mention"
+        },
+        {
+            "source": 1,
+            "target": 4,
+            "weight": 3,
+            "type": "retweet"
+        },
+        {
+            "source": 1,
+            "target": 15,
+            "weight": 3,
+            "type": "retweet"
+        },
+        {
+            "source": 14,
+            "target": 21,
+            "weight": 3,
+            "type": "mention"
+        },
+        {
+            "source": 2,
+            "target": 6,
+            "weight": 1,
+            "type": "retweet"
+        },
+        {
+            "source": 2,
+            "target": 0,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 2,
+            "target": 3,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 8,
+            "target": 13,
+            "weight": 3,
+            "type": "quote"
+        },
+        {
+            "source": 8,
+            "target": 14,
+            "weight": 2,
+            "type": "mention"
+        },
+        {
+            "source": 8,
+            "target": 13,
+            "weight": 2,
+            "type": "mention"
+        },
+        {
+            "source": 8,
+            "target": 15,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 7,
+            "target": 7,
+            "weight": 1,
+            "type": "retweet"
+        },
+        {
+            "source": 7,
+            "target": 7,
+            "weight": 2,
+            "type": "mention"
+        },
+        {
+            "source": 13,
+            "target": 15,
+            "weight": 2,
+            "type": "mention"
+        },
+        {
+            "source": 13,
+            "target": 12,
+            "weight": 5,
+            "type": "mention"
+        },
+        {
+            "source": 13,
+            "target": 13,
+            "weight": 2,
+            "type": "mention"
+        },
+        {
+            "source": 13,
+            "target": 8,
+            "weight": 2,
+            "type": "retweet"
+        },
+        {
+            "source": 13,
+            "target": 8,
+            "weight": 2,
+            "type": "quote"
+        },
+        {
+            "source": 17,
+            "target": 4,
+            "weight": 2,
+            "type": "mention"
+        },
+        {
+            "source": 9,
+            "target": 21,
+            "weight": 1,
+            "type": "retweet"
+        },
+        {
+            "source": 9,
+            "target": 14,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 5,
+            "target": 4,
+            "weight": 1,
+            "type": "retweet"
+        },
+        {
+            "source": 5,
+            "target": 1,
+            "weight": 5,
+            "type": "retweet"
+        },
+        {
+            "source": 5,
+            "target": 15,
+            "weight": 1,
+            "type": "retweet"
+        },
+        {
+            "source": 15,
+            "target": 14,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 15,
+            "target": 1,
+            "weight": 1,
+            "type": "quote"
+        },
+        {
+            "source": 15,
+            "target": 10,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 15,
+            "target": 1,
+            "weight": 2,
+            "type": "retweet"
+        },
+        {
+            "source": 15,
+            "target": 13,
+            "weight": 2,
+            "type": "mention"
+        },
+        {
+            "source": 15,
+            "target": 0,
+            "weight": 1,
+            "type": "retweet"
+        },
+        {
+            "source": 11,
+            "target": 1,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 11,
+            "target": 10,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 11,
+            "target": 0,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 11,
+            "target": 4,
+            "weight": 2,
+            "type": "mention"
+        },
+        {
+            "source": 16,
+            "target": 24,
+            "weight": 5,
+            "type": "retweet"
+        }
+    ]
+}

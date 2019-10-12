@@ -1012,27 +1012,27 @@
             "content-encoding": "gzip",
             "content-length": "3498",
             "content-type": "application/json;charset=utf-8",
-            "date": "Fri, 04 Oct 2019 02:02:12 GMT",
+            "date": "Fri, 04 Oct 2019 02:47:29 GMT",
             "expires": "Tue, 31 Mar 1981 05:00:00 GMT",
-            "last-modified": "Fri, 04 Oct 2019 02:02:12 GMT",
+            "last-modified": "Fri, 04 Oct 2019 02:47:29 GMT",
             "pragma": "no-cache",
             "server": "tsa_a",
             "set-cookie": [
-                "personalization_id=\"v1_6t5mJc3V1tAYIu3+aulI0g==\"; Max-Age=63072000; Expires=Sun, 3 Oct 2021 02:02:12 GMT; Path=/; Domain=.twitter.com",
+                "personalization_id=\"v1_oIcV66P/psNDLkcHKc6tnQ==\"; Max-Age=63072000; Expires=Sun, 3 Oct 2021 02:47:29 GMT; Path=/; Domain=.twitter.com",
                 "lang=en; Path=/",
-                "guest_id=v1%3A157015453201944594; Max-Age=63072000; Expires=Sun, 3 Oct 2021 02:02:12 GMT; Path=/; Domain=.twitter.com"
+                "guest_id=v1%3A157015724953085707; Max-Age=63072000; Expires=Sun, 3 Oct 2021 02:47:29 GMT; Path=/; Domain=.twitter.com"
             ],
             "status": "200 OK",
             "strict-transport-security": "max-age=631138519",
             "x-access-level": "read-write",
-            "x-connection-hash": "53e9205c4364b9bed7f049a811a1ba01",
+            "x-connection-hash": "a022d9bb2cfba348f52df16513860dcb",
             "x-content-type-options": "nosniff",
             "x-frame-options": "SAMEORIGIN",
             "x-rate-limit-limit": "900",
-            "x-rate-limit-remaining": "899",
-            "x-rate-limit-reset": "1570155432",
-            "x-response-time": "56",
-            "x-transaction": "00713fbc0012c10e",
+            "x-rate-limit-remaining": "869",
+            "x-rate-limit-reset": "1570157664",
+            "x-response-time": "55",
+            "x-transaction": "00d6a65700e5a128",
             "x-twitter-response-tags": "BouncerCompliant",
             "x-xss-protection": "0"
         },
@@ -1057,7 +1057,7 @@
                 "User-Agent": "twit-client",
                 "Content-type": "application/json",
                 "accept-encoding": "gzip, deflate",
-                "Authorization": "OAuth oauth_consumer_key=\"BH4FzEHkxbKTlbRLeB8zw91Me\",oauth_nonce=\"93b1852f2cd541ca84bf7712f716f3ab\",oauth_signature_method=\"HMAC-SHA1\",oauth_timestamp=\"1570154530\",oauth_token=\"739637463900114944-JdoEZqLQuh4CcqECRqpZ5D7xOdkgRTt\",oauth_version=\"1.0\",oauth_signature=\"bDo9l3ECZgy7qx9q2V6z6xykxho%3D\""
+                "Authorization": "OAuth oauth_consumer_key=\"BH4FzEHkxbKTlbRLeB8zw91Me\",oauth_nonce=\"e2c45d5868e7472ab39c978916b526a4\",oauth_signature_method=\"HMAC-SHA1\",oauth_timestamp=\"1570157248\",oauth_token=\"739637463900114944-JdoEZqLQuh4CcqECRqpZ5D7xOdkgRTt\",oauth_version=\"1.0\",oauth_signature=\"y9djmgV2MmvRh8%2FwPaYgm5RFeqk%3D\""
             }
         }
     }

@@ -1,0 +1,228 @@
+{
+    "nodes": [
+        {
+            "name": "fast_fourier",
+            "id": "148036857",
+            "tweets": 302,
+            "profileColor": "C0DEED",
+            "group": 1,
+            "friends": 25,
+            "followers": 1,
+            "location": "NA",
+            "degree": 7,
+            "keep": true
+        },
+        {
+            "name": "UNITED_CINEMAS",
+            "id": "198949082",
+            "tweets": 197331,
+            "profileColor": "ABB8C2",
+            "group": 4,
+            "friends": 21523,
+            "followers": 625989,
+            "location": "ユナイテッド・シネマ グループの映画館",
+            "degree": 3,
+            "keep": true
+        },
+        {
+            "name": "109_shobu",
+            "id": "2718968911",
+            "tweets": 2073,
+            "profileColor": "C0DEED",
+            "group": 4,
+            "friends": 154,
+            "followers": 3517,
+            "location": "埼玉県久喜市菖蒲町菖蒲6005番地1",
+            "degree": 15,
+            "keep": true
+        },
+        {
+            "name": "akiko_lawson",
+            "id": "115639376",
+            "tweets": 50437258,
+            "profileColor": "C0DEED",
+            "group": 4,
+            "friends": 191589,
+            "followers": 4445860,
+            "location": "NA",
+            "degree": 7,
+            "keep": true
+        },
+        {
+            "name": "dc_jp",
+            "id": "892532460675661824",
+            "tweets": 2741,
+            "profileColor": "F5F8FA",
+            "group": 4,
+            "friends": 119,
+            "followers": 73659,
+            "location": "NA",
+            "degree": 4,
+            "keep": true
+        },
+        {
+            "name": "DC_popupstore",
+            "id": "1155715568235773952",
+            "tweets": 33,
+            "profileColor": "F5F8FA",
+            "group": 1,
+            "friends": 3,
+            "followers": 5755,
+            "location": "日本",
+            "degree": 5,
+            "keep": true
+        },
+        {
+            "name": "Rocketman_JP",
+            "id": "1101330648382369794",
+            "tweets": 817,
+            "profileColor": "000000",
+            "group": 1,
+            "friends": 13,
+            "followers": 21157,
+            "location": "NA",
+            "degree": 20,
+            "keep": true
+        },
+        {
+            "name": "WrepRadio",
+            "id": "824808250826649600",
+            "tweets": 55319,
+            "profileColor": "000000",
+            "group": 4,
+            "friends": 90,
+            "followers": 17262,
+            "location": "東京 渋谷区",
+            "degree": 9,
+            "keep": true
+        },
+        {
+            "name": "mamegyorai_jp",
+            "id": "321093045",
+            "tweets": 15800,
+            "profileColor": "C0DEED",
+            "group": 4,
+            "friends": 23334,
+            "followers": 30274,
+            "location": "高円寺",
+            "degree": 1,
+            "keep": true
+        },
+        {
+            "name": "MAGNET109",
+            "id": "955969046880575488",
+            "tweets": 804,
+            "profileColor": "F5F8FA",
+            "group": 4,
+            "friends": 1539,
+            "followers": 5361,
+            "location": "渋谷区神南1-23-10",
+            "degree": 1,
+            "keep": true
+        }
+    ],
+    "links": [
+        {
+            "source": 0,
+            "target": 1,
+            "weight": 8,
+            "type": "retweet"
+        },
+        {
+            "source": 0,
+            "target": 2,
+            "weight": 1,
+            "type": "retweet"
+        },
+        {
+            "source": 0,
+            "target": 3,
+            "weight": 13,
+            "type": "retweet"
+        },
+        {
+            "source": 0,
+            "target": 4,
+            "weight": 2,
+            "type": "retweet"
+        },
+        {
+            "source": 0,
+            "target": 5,
+            "weight": 1,
+            "type": "retweet"
+        },
+        {
+            "source": 0,
+            "target": 6,
+            "weight": 1,
+            "type": "retweet"
+        },
+        {
+            "source": 0,
+            "target": 7,
+            "weight": 1,
+            "type": "retweet"
+        },
+        {
+            "source": 5,
+            "target": 8,
+            "weight": 1,
+            "type": "retweet"
+        },
+        {
+            "source": 5,
+            "target": 5,
+            "weight": 1,
+            "type": "quote"
+        },
+        {
+            "source": 5,
+            "target": 4,
+            "weight": 2,
+            "type": "retweet"
+        },
+        {
+            "source": 5,
+            "target": 9,
+            "weight": 2,
+            "type": "retweet"
+        },
+        {
+            "source": 7,
+            "target": 7,
+            "weight": 1,
+            "type": "retweet"
+        },
+        {
+            "source": 1,
+            "target": 1,
+            "weight": 4,
+            "type": "quote"
+        },
+        {
+            "source": 1,
+            "target": 1,
+            "weight": 3,
+            "type": "mention"
+        },
+        {
+            "source": 6,
+            "target": 6,
+            "weight": 1,
+            "type": "retweet"
+        },
+        {
+            "source": 6,
+            "target": 6,
+            "weight": 1,
+            "type": "quote"
+        },
+        {
+            "source": 2,
+            "target": 2,
+            "weight": 1,
+            "type": "quote"
+        }
+    ]
+}

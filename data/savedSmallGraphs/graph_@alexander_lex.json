@@ -1,0 +1,290 @@
+{
+    "nodes": [
+        {
+            "name": "Alexander Lex",
+            "screenName": "alexander_lex",
+            "id": "81658145",
+            "tweets": 1453,
+            "profileColor": "000000",
+            "friends": 771,
+            "followers": 1104,
+            "location": "Salt Lake City, UT",
+            "degree": 43,
+            "keep": true
+        },
+        {
+            "name": "Cagatay Turkay",
+            "screenName": "cagatay_turkay",
+            "id": "1667081238",
+            "tweets": 63,
+            "friends": 25,
+            "followers": 38,
+            "location": "NA",
+            "random_tweets": true,
+            "random_friends": true,
+            "random_followers": true,
+            "degree": 44,
+            "keep": true
+        },
+        {
+            "name": "giCentre",
+            "screenName": "giCentre",
+            "id": "19283433",
+            "tweets": 23,
+            "friends": 76,
+            "followers": 70,
+            "location": "NA",
+            "random_tweets": true,
+            "random_friends": true,
+            "random_followers": true,
+            "degree": 29,
+            "keep": true
+        },
+        {
+            "name": "CityComputerScience",
+            "screenName": "city_cs",
+            "id": "771178142",
+            "tweets": 87,
+            "friends": 67,
+            "followers": 21,
+            "location": "NA",
+            "random_tweets": true,
+            "random_friends": true,
+            "random_followers": true,
+            "degree": 26,
+            "keep": true
+        },
+        {
+            "name": "CIM Warwick",
+            "screenName": "CIMethods",
+            "id": "978299275",
+            "tweets": 30,
+            "friends": 57,
+            "followers": 97,
+            "location": "NA",
+            "random_tweets": true,
+            "random_friends": true,
+            "random_followers": true,
+            "degree": 29,
+            "keep": true
+        },
+        {
+            "name": "University of Warwick",
+            "screenName": "warwickuni",
+            "id": "15916215",
+            "tweets": 33,
+            "friends": 31,
+            "followers": 47,
+            "location": "NA",
+            "random_tweets": true,
+            "random_friends": true,
+            "random_followers": true,
+            "degree": 14,
+            "keep": true
+        },
+        {
+            "name": "Suresh-does quantum mech-Venka",
+            "screenName": "geomblog",
+            "id": "1368571",
+            "tweets": 18382,
+            "profileColor": "352726",
+            "friends": 605,
+            "followers": 7160,
+            "location": "Salt Lake City, UT",
+            "degree": 31,
+            "keep": true
+        },
+        {
+            "name": "matt brehmer",
+            "screenName": "mattbrehmer",
+            "id": "10471882",
+            "tweets": 1131,
+            "profileColor": "FFFFFF",
+            "friends": 714,
+            "followers": 2095,
+            "location": "seattle",
+            "degree": 49,
+            "keep": true
+        },
+        {
+            "name": "Jon Schwabish",
+            "screenName": "jschwabish",
+            "id": "483273973",
+            "tweets": 61,
+            "friends": 42,
+            "followers": 49,
+            "location": "NA",
+            "random_tweets": true,
+            "random_friends": true,
+            "random_followers": true,
+            "degree": 38,
+            "keep": true
+        },
+        {
+            "name": "Chad Skelton",
+            "screenName": "chadskelton",
+            "id": "17533332",
+            "tweets": 49,
+            "friends": 22,
+            "followers": 26,
+            "location": "NA",
+            "random_tweets": true,
+            "random_friends": true,
+            "random_followers": true,
+            "degree": 40,
+            "keep": true
+        }
+    ],
+    "links": [
+        {
+            "source": 0,
+            "target": 1,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 0,
+            "target": 2,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 0,
+            "target": 3,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 0,
+            "target": 4,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 0,
+            "target": 5,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 0,
+            "target": 6,
+            "weight": 1,
+            "type": "quote"
+        },
+        {
+            "source": 0,
+            "target": 7,
+            "weight": 1,
+            "type": "quote"
+        },
+        {
+            "source": 0,
+            "target": 8,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 0,
+            "target": 9,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 1,
+            "target": 2,
+            "weight": 9,
+            "type": "mention"
+        },
+        {
+            "source": 1,
+            "target": 3,
+            "weight": 5,
+            "type": "mention"
+        },
+        {
+            "source": 1,
+            "target": 4,
+            "weight": 5,
+            "type": "mention"
+        },
+        {
+            "source": 1,
+            "target": 5,
+            "weight": 5,
+            "type": "mention"
+        },
+        {
+            "source": 1,
+            "target": 7,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 1,
+            "target": 4,
+            "weight": 1,
+            "type": "retweet"
+        },
+        {
+            "source": 1,
+            "target": 2,
+            "weight": 2,
+            "type": "retweet"
+        },
+        {
+            "source": 2,
+            "target": 2,
+            "weight": 8,
+            "type": "mention"
+        },
+        {
+            "source": 2,
+            "target": 1,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 7,
+            "target": 9,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 3,
+            "target": 2,
+            "weight": 2,
+            "type": "retweet"
+        },
+        {
+            "source": 3,
+            "target": 3,
+            "weight": 1,
+            "type": "retweet"
+        },
+        {
+            "source": 4,
+            "target": 1,
+            "weight": 1,
+            "type": "retweet"
+        },
+        {
+            "source": 4,
+            "target": 4,
+            "weight": 2,
+            "type": "mention"
+        },
+        {
+            "source": 4,
+            "target": 4,
+            "weight": 1,
+            "type": "retweet"
+        },
+        {
+            "source": 4,
+            "target": 5,
+            "weight": 1,
+            "type": "retweet"
+        }
+    ]
+}

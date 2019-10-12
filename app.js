@@ -16,7 +16,7 @@ var T = new Twit({
   access_token: "739637463900114944-JdoEZqLQuh4CcqECRqpZ5D7xOdkgRTt",
   access_token_secret: "gMCGW9KMmXu70WXNMyVzQQiI5Aut3eDKS1zI82aPMK9zS",
   timeout_ms: 60 * 1000, // optional HTTP request timeout to apply to all requests.
-  strictSSL: true // optional - requires SSL certificates to be valid.
+  strictSSL: false // optional - requires SSL certificates to be valid.
 });
 
 
@@ -43,26 +43,41 @@ const server = http.createServer(async (req, res) => {
 
   function addNode(user) {
     //check if source node exists
-    let node = graph.nodes.find(n => n.name == user.screen_name);
+    let node = graph.nodes.find(n => n.screenName == user.screen_name);
     if (!node) {
-      graph.nodes.push({
-        name: user.screen_name,
+        let newNode = 
+      {
+        name:user.name.slice(0,30),
+        screenName: user.screen_name,
         id: user.id_str,
-        tweets:user.statuses_count,
+        tweets:user.statuses_count || Math.round(Math.random()*100),
         profileColor:user.profile_background_color,
-        group: Math.random() > 0.5 ? 4 : 1,
-        friends: user.friends_count  || 0,
-        followers: user.followers_count || 0,
+        friends: user.friends_count  || Math.round(Math.random()*100),
+        followers: user.followers_count || Math.round(Math.random()*100),
         location:user.location || 'NA'
-      });
+      };
+
+      //add flags for randomly generated values: 
+      if (!user.statuses_count){
+        newNode.random_tweets = true;
+      }
+      if (!user.friends_count){
+        newNode.random_friends=true;
+      }
+      if (!user.followers_count){
+        newNode.random_followers = true;
+      }
+
+
+      graph.nodes.push(newNode);
     //   console.log(user.screen_name,user.friends_count,user.followers.count)
     }
     return;
   }
 
   function addEdgeByName(source, target, type) {
-    let sourceNode = graph.nodes.find(n => n.name == source);
-    let targetNode = graph.nodes.find(n => n.name == target);
+    let sourceNode = graph.nodes.find(n => n.screenName == source);
+    let targetNode = graph.nodes.find(n => n.screenName == target);
 
     let sourceIndex = graph.nodes.indexOf(sourceNode);
     let targetIndex = graph.nodes.indexOf(targetNode);
@@ -166,18 +181,29 @@ const server = http.createServer(async (req, res) => {
   //for each user neighbor, get their neighbors;
   let edgeMap = seed_edges.map(async edge => {
     //   console.log('target is ', edge.target)
-    let tweets = await T.get("statuses/user_timeline", {
-      screen_name: graph.nodes[edge.target].name,
+    await T.get("statuses/user_timeline", {
+      screen_name: graph.nodes[edge.target].screenName,
       count: numTweets
     })
     .catch(function (err) {
-        console.log('caught error', err.stack)
+        console.log('caught error', err)
+      })
+      .then(function (tweets) {
+        // `result` is an Object with keys "data" and "resp".
+        // `data` and `resp` are the same objects as the ones passed
+        // to the callback.
+        // See https://github.com/ttezel/twit#tgetpath-params-callback
+        // for details.
+    
+        if (tweets){
+            // console.log("getting tweets for ", graph.nodes[edge.target].name);
+            parse_tweets(tweets.data);
+        }
+       
+
       })
 
-    console.log("getting tweets for ", graph.nodes[edge.target].name);
-    
-
-    parse_tweets(tweets.data);
+   
   });
 
   //create any following edges between existing nodes
@@ -211,14 +237,17 @@ graph.nodes.map((n,i)=>{
 })
 
 graph.nodes.sort((a,b)=>{
-    a.name == handle.slice() ? 1 : 
+    a.screenName == handle.slice() ? 1 : 
     a.degree>b.degree ? 1: -1
 
 })
-graph.nodes.map((n,i)=>i<10 ? n.keep = true : n.keep = false)
 
-//only keep top 10 nodes;
-let filteredNodes = graph.nodes.slice(0,10);
+//only keep top X nodes;
+let nodeCap = 10;
+graph.nodes.map((n,i)=>i<nodeCap ? n.keep = true : n.keep = false)
+
+
+let filteredNodes = graph.nodes.slice(0,nodeCap);
 
 graph.links = graph.links.filter(l=>graph.nodes[l.source].keep && graph.nodes[l.target].keep);
 // let filteredNodes = graph.nodes.filter(n=>n.keep)
@@ -233,6 +262,12 @@ graph.nodes = filteredNodes;
 
 // console.log(graph.nodes)
     //   console.log(graph)
+
+
+        fs.writeFileSync(
+        "data/savedSmallGraphs/graph_" + handle + ".json",
+        JSON.stringify(graph, null, 4)
+        );
     res.end(JSON.stringify(graph));
   });
 

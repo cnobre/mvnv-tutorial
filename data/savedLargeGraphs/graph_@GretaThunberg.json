@@ -1,0 +1,438 @@
+{
+    "nodes": [
+        {
+            "name": "GretaThunberg",
+            "id": "1006419421244678144",
+            "tweets": 5858,
+            "profileColor": "F5F8FA",
+            "group": 1,
+            "friends": 1758,
+            "followers": 2718854,
+            "location": "Sverige",
+            "degree": 40,
+            "keep": true
+        },
+        {
+            "name": "HollyWildChild",
+            "id": "1041404215489323008",
+            "tweets": 2166,
+            "profileColor": "000000",
+            "group": 1,
+            "friends": 590,
+            "followers": 12681,
+            "location": "The Sixth Mass Extinction",
+            "degree": 28,
+            "keep": true
+        },
+        {
+            "name": "Friday4futureIN",
+            "id": "1133651971276062720",
+            "tweets": 55,
+            "profileColor": "F5F8FA",
+            "group": 4,
+            "friends": 85,
+            "followers": 110,
+            "location": "New Delhi, India",
+            "degree": 20,
+            "keep": true
+        },
+        {
+            "name": "MakichyanA",
+            "id": "955721595854774272",
+            "tweets": 523,
+            "profileColor": "F5F8FA",
+            "group": 1,
+            "friends": 562,
+            "followers": 4587,
+            "location": "Москва, Россия",
+            "degree": 18,
+            "keep": true
+        },
+        {
+            "name": "KlimatsamlGbg",
+            "id": "3342928228",
+            "tweets": 1151,
+            "profileColor": "000000",
+            "group": 4,
+            "friends": 602,
+            "followers": 410,
+            "location": "Göteborg, Sverige",
+            "degree": 19,
+            "keep": true
+        },
+        {
+            "name": "Fridaysforfut20",
+            "id": "1122221563829526529",
+            "tweets": 259,
+            "profileColor": "F5F8FA",
+            "group": 4,
+            "friends": 82,
+            "followers": 1688,
+            "location": "NA",
+            "degree": 5,
+            "keep": true
+        },
+        {
+            "name": "AdamPeters",
+            "id": "16875220",
+            "tweets": 31931,
+            "profileColor": "352726",
+            "group": 1,
+            "friends": 490,
+            "followers": 3753,
+            "location": "Iowa City, IA",
+            "degree": 26,
+            "keep": true
+        },
+        {
+            "name": "FFF_Berlin",
+            "id": "1089947946613919752",
+            "tweets": 1071,
+            "profileColor": "F5F8FA",
+            "group": 1,
+            "friends": 300,
+            "followers": 13752,
+            "location": "Berlin, Germany",
+            "degree": 17,
+            "keep": true
+        },
+        {
+            "name": "maurer_nadine",
+            "id": "1437955562",
+            "tweets": 447,
+            "profileColor": "C0DEED",
+            "group": 4,
+            "friends": 498,
+            "followers": 151,
+            "location": "Mannheim, Baden-Württemberg",
+            "degree": 24,
+            "keep": true
+        },
+        {
+            "name": "kenji_hayakawa",
+            "id": "774713969193943041",
+            "tweets": 1242,
+            "profileColor": "000000",
+            "group": 4,
+            "friends": 36,
+            "followers": 141,
+            "location": "Dublin City, Ireland",
+            "degree": 22,
+            "keep": true
+        },
+        {
+            "name": "SirjaBlixt",
+            "id": "1067864641",
+            "tweets": 798,
+            "profileColor": "C0DEED",
+            "group": 1,
+            "friends": 681,
+            "followers": 286,
+            "location": "Espoo",
+            "degree": 24,
+            "keep": false
+        },
+        {
+            "name": "davorkalo",
+            "id": "2572569901",
+            "tweets": 1061,
+            "profileColor": "000000",
+            "group": 4,
+            "friends": 213,
+            "followers": 109,
+            "location": "Deutschland",
+            "degree": 25,
+            "keep": false
+        },
+        {
+            "name": "Norsunenergy",
+            "id": "240052569",
+            "tweets": 80847,
+            "profileColor": "C0DEED",
+            "group": 1,
+            "friends": 1471,
+            "followers": 2026,
+            "location": "Ottawa & Points Unknown",
+            "degree": 16,
+            "keep": false
+        },
+        {
+            "name": "oriolandres",
+            "id": "255454378",
+            "tweets": 4873,
+            "profileColor": "FFFFFF",
+            "group": 4,
+            "friends": 2458,
+            "followers": 2295,
+            "location": "Beirut, Líbano",
+            "degree": 19,
+            "keep": false
+        },
+        {
+            "name": "ForTolz",
+            "id": "1106594255651459075",
+            "tweets": 704,
+            "profileColor": "F5F8FA",
+            "group": 1,
+            "friends": 548,
+            "followers": 372,
+            "location": "Bad Tölz",
+            "degree": 21,
+            "keep": false
+        },
+        {
+            "name": "m_manish_k",
+            "id": "982105430020112384",
+            "tweets": 123,
+            "profileColor": "F5F8FA",
+            "group": 1,
+            "friends": 58,
+            "followers": 186,
+            "location": "New Delhi, India",
+            "degree": 18,
+            "keep": false
+        },
+        {
+            "name": "FFFSevilla",
+            "id": "1098537584832204801",
+            "tweets": 963,
+            "profileColor": "F5F8FA",
+            "group": 4,
+            "friends": 465,
+            "followers": 1724,
+            "location": "Sevilla, España",
+            "degree": 17,
+            "keep": false
+        },
+        {
+            "name": "lilliasworld",
+            "id": "1127145668752101376",
+            "tweets": 1482,
+            "profileColor": "F5F8FA",
+            "group": 4,
+            "friends": 281,
+            "followers": 778,
+            "location": "Oldham, England",
+            "degree": 39,
+            "keep": false
+        },
+        {
+            "name": "CevikusHB",
+            "id": "1106233568131461121",
+            "tweets": 521,
+            "profileColor": "F5F8FA",
+            "group": 4,
+            "friends": 288,
+            "followers": 2098,
+            "location": "Istanbul, Turkey",
+            "degree": 27,
+            "keep": false
+        },
+        {
+            "name": "saoi4climate",
+            "id": "857609227782717440",
+            "tweets": 2251,
+            "profileColor": "F5F8FA",
+            "group": 1,
+            "friends": 1832,
+            "followers": 3224,
+            "location": "Corcaigh / Cork, Ireland",
+            "degree": 31,
+            "keep": false
+        },
+        {
+            "name": "lillyspickup",
+            "id": "924745232532590592",
+            "tweets": 8607,
+            "profileColor": "F5F8FA",
+            "group": 1,
+            "friends": 3212,
+            "followers": 10786,
+            "location": "Utrecht, The Netherlands",
+            "degree": 41,
+            "keep": false
+        },
+        {
+            "name": "DavidFopp",
+            "id": "1052200456255143936",
+            "tweets": 509,
+            "profileColor": "F5F8FA",
+            "group": 1,
+            "friends": 820,
+            "followers": 580,
+            "location": "Stockholm, Sweden",
+            "degree": 26,
+            "keep": false
+        },
+        {
+            "name": "EstherThePig",
+            "id": "2252642910",
+            "group": 1,
+            "friends": 0,
+            "followers": 0,
+            "location": "NA",
+            "degree": 23,
+            "keep": false
+        },
+        {
+            "name": "akellerherzog",
+            "id": "3214527358",
+            "group": 1,
+            "friends": 0,
+            "followers": 0,
+            "location": "NA",
+            "degree": 1,
+            "keep": false
+        },
+        {
+            "name": "PeebsY0",
+            "id": "209609597",
+            "group": 1,
+            "friends": 0,
+            "followers": 0,
+            "location": "NA",
+            "degree": 1,
+            "keep": false
+        }
+    ],
+    "links": [
+        {
+            "source": 0,
+            "target": 1,
+            "weight": 2,
+            "type": "retweet"
+        },
+        {
+            "source": 0,
+            "target": 2,
+            "weight": 4,
+            "type": "retweet"
+        },
+        {
+            "source": 0,
+            "target": 3,
+            "weight": 2,
+            "type": "retweet"
+        },
+        {
+            "source": 0,
+            "target": 4,
+            "weight": 2,
+            "type": "retweet"
+        },
+        {
+            "source": 0,
+            "target": 5,
+            "weight": 2,
+            "type": "retweet"
+        },
+        {
+            "source": 0,
+            "target": 6,
+            "weight": 2,
+            "type": "retweet"
+        },
+        {
+            "source": 0,
+            "target": 7,
+            "weight": 2,
+            "type": "retweet"
+        },
+        {
+            "source": 0,
+            "target": 8,
+            "weight": 2,
+            "type": "retweet"
+        },
+        {
+            "source": 0,
+            "target": 9,
+            "weight": 2,
+            "type": "retweet"
+        },
+        {
+            "source": 0,
+            "target": 0,
+            "weight": 2,
+            "type": "retweet"
+        },
+        {
+            "source": 4,
+            "target": 0,
+            "weight": 3,
+            "type": "mention"
+        },
+        {
+            "source": 4,
+            "target": 0,
+            "weight": 4,
+            "type": "retweet"
+        },
+        {
+            "source": 3,
+            "target": 5,
+            "weight": 2,
+            "type": "retweet"
+        },
+        {
+            "source": 6,
+            "target": 0,
+            "weight": 3,
+            "type": "mention"
+        },
+        {
+            "source": 5,
+            "target": 3,
+            "weight": 1,
+            "type": "quote"
+        },
+        {
+            "source": 1,
+            "target": 1,
+            "weight": 2,
+            "type": "retweet"
+        },
+        {
+            "source": 1,
+            "target": 0,
+            "weight": 1,
+            "type": "retweet"
+        },
+        {
+            "source": 7,
+            "target": 0,
+            "weight": 1,
+            "type": "retweet"
+        },
+        {
+            "source": 7,
+            "target": 0,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 2,
+            "target": 0,
+            "weight": 7,
+            "type": "retweet"
+        },
+        {
+            "source": 2,
+            "target": 2,
+            "weight": 1,
+            "type": "retweet"
+        },
+        {
+            "source": 2,
+            "target": 2,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 9,
+            "target": 0,
+            "weight": 1,
+            "type": "retweet"
+        }
+    ]
+}

@@ -1,0 +1,61 @@
+{
+    "data": [],
+    "resp": {
+        "statusCode": 200,
+        "headers": {
+            "cache-control": "no-cache, no-store, must-revalidate, pre-check=0, post-check=0",
+            "connection": "close",
+            "content-disposition": "attachment; filename=json.json",
+            "content-encoding": "gzip",
+            "content-length": "28",
+            "content-type": "application/json;charset=utf-8",
+            "date": "Fri, 04 Oct 2019 02:43:22 GMT",
+            "expires": "Tue, 31 Mar 1981 05:00:00 GMT",
+            "last-modified": "Fri, 04 Oct 2019 02:43:22 GMT",
+            "pragma": "no-cache",
+            "server": "tsa_a",
+            "set-cookie": [
+                "personalization_id=\"v1_wlV9zN2WynMdnTuEwnBz3w==\"; Max-Age=63072000; Expires=Sun, 3 Oct 2021 02:43:22 GMT; Path=/; Domain=.twitter.com",
+                "lang=en; Path=/",
+                "guest_id=v1%3A157015700288210149; Max-Age=63072000; Expires=Sun, 3 Oct 2021 02:43:22 GMT; Path=/; Domain=.twitter.com"
+            ],
+            "status": "200 OK",
+            "strict-transport-security": "max-age=631138519",
+            "x-access-level": "read-write",
+            "x-connection-hash": "59e225fd9f65b8716dc772d407b53248",
+            "x-content-type-options": "nosniff",
+            "x-frame-options": "SAMEORIGIN",
+            "x-rate-limit-limit": "900",
+            "x-rate-limit-remaining": "875",
+            "x-rate-limit-reset": "1570157664",
+            "x-response-time": "27",
+            "x-transaction": "008525a000f0b94d",
+            "x-twitter-response-tags": "BouncerCompliant",
+            "x-xss-protection": "0"
+        },
+        "request": {
+            "uri": {
+                "protocol": "https:",
+                "slashes": true,
+                "auth": null,
+                "host": "api.twitter.com",
+                "port": 443,
+                "hostname": "api.twitter.com",
+                "hash": null,
+                "search": "?screen_name=carolinaNobre&count=5",
+                "query": "screen_name=carolinaNobre&count=5",
+                "pathname": "/1.1/statuses/user_timeline.json",
+                "path": "/1.1/statuses/user_timeline.json?screen_name=carolinaNobre&count=5",
+                "href": "https://api.twitter.com/1.1/statuses/user_timeline.json?screen_name=carolinaNobre&count=5"
+            },
+            "method": "GET",
+            "headers": {
+                "Accept": "*/*",
+                "User-Agent": "twit-client",
+                "Content-type": "application/json",
+                "accept-encoding": "gzip, deflate",
+                "Authorization": "OAuth oauth_consumer_key=\"BH4FzEHkxbKTlbRLeB8zw91Me\",oauth_nonce=\"b0f04150ed0b4f61bee92b5d21ec1b09\",oauth_signature_method=\"HMAC-SHA1\",oauth_timestamp=\"1570157002\",oauth_token=\"739637463900114944-JdoEZqLQuh4CcqECRqpZ5D7xOdkgRTt\",oauth_version=\"1.0\",oauth_signature=\"EGhcM10tYBioWgVfG0MfSbTr0jU%3D\""
+            }
+        }
+    }
+}

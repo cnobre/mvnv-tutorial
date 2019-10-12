@@ -1,0 +1,728 @@
+{
+    "nodes": [
+        {
+            "name": "NElmqvist",
+            "id": "411681876",
+            "tweets": 1320,
+            "profileColor": "000000",
+            "group": 1,
+            "friends": 460,
+            "followers": 1526,
+            "location": "College Park, MD, USA",
+            "degree": 49,
+            "keep": true
+        },
+        {
+            "name": "sharoz",
+            "id": "14249829",
+            "group": 1,
+            "friends": 0,
+            "followers": 0,
+            "location": "NA",
+            "degree": 37,
+            "keep": true
+        },
+        {
+            "name": "ndiakopoulos",
+            "id": "12014302",
+            "group": 1,
+            "friends": 0,
+            "followers": 0,
+            "location": "NA",
+            "degree": 32,
+            "keep": true
+        },
+        {
+            "name": "aquigley",
+            "id": "15219932",
+            "group": 1,
+            "friends": 0,
+            "followers": 0,
+            "location": "NA",
+            "degree": 21,
+            "keep": true
+        },
+        {
+            "name": "AndreaWiggins",
+            "id": "134072288",
+            "group": 1,
+            "friends": 0,
+            "followers": 0,
+            "location": "NA",
+            "degree": 26,
+            "keep": true
+        },
+        {
+            "name": "iSchoolUMD",
+            "id": "226237599",
+            "group": 1,
+            "friends": 0,
+            "followers": 0,
+            "location": "NA",
+            "degree": 19,
+            "keep": true
+        },
+        {
+            "name": "dr_tj",
+            "id": "18704160",
+            "group": 1,
+            "friends": 0,
+            "followers": 0,
+            "location": "NA",
+            "degree": 28,
+            "keep": true
+        },
+        {
+            "name": "raphkoster",
+            "id": "20119483",
+            "group": 4,
+            "friends": 0,
+            "followers": 0,
+            "location": "NA",
+            "degree": 40,
+            "keep": true
+        },
+        {
+            "name": "orderwithchaos",
+            "id": "219178084",
+            "group": 1,
+            "friends": 0,
+            "followers": 0,
+            "location": "NA",
+            "degree": 28,
+            "keep": true
+        },
+        {
+            "name": "joe_hellerstein",
+            "id": "78729443",
+            "group": 1,
+            "friends": 0,
+            "followers": 0,
+            "location": "NA",
+            "degree": 28,
+            "keep": true
+        },
+        {
+            "name": "tamaramunzner",
+            "id": "1652270612",
+            "group": 1,
+            "friends": 0,
+            "followers": 0,
+            "location": "NA",
+            "degree": 30,
+            "keep": true
+        },
+        {
+            "name": "rpgove",
+            "id": "208312922",
+            "group": 1,
+            "friends": 0,
+            "followers": 0,
+            "location": "NA",
+            "degree": 27,
+            "keep": true
+        },
+        {
+            "name": "SpeakerPelosi",
+            "id": "15764644",
+            "tweets": 9395,
+            "profileColor": "385BA3",
+            "group": 1,
+            "friends": 361,
+            "followers": 2984370,
+            "location": "San Francisco",
+            "degree": 14,
+            "keep": true
+        },
+        {
+            "name": "JoelChan86",
+            "id": "384086602",
+            "group": 1,
+            "friends": 0,
+            "followers": 0,
+            "location": "NA",
+            "degree": 35,
+            "keep": true
+        },
+        {
+            "name": "dr_pi",
+            "id": "82713840",
+            "group": 4,
+            "friends": 0,
+            "followers": 0,
+            "location": "NA",
+            "degree": 37,
+            "keep": true
+        },
+        {
+            "name": "aesdeluca",
+            "id": "167860720",
+            "group": 4,
+            "friends": 0,
+            "followers": 0,
+            "location": "NA",
+            "degree": 27,
+            "keep": true
+        },
+        {
+            "name": "kurtluther",
+            "id": "14915653",
+            "group": 4,
+            "friends": 0,
+            "followers": 0,
+            "location": "NA",
+            "degree": 33,
+            "keep": true
+        },
+        {
+            "name": "duto_guerra",
+            "id": "91169926",
+            "group": 4,
+            "friends": 0,
+            "followers": 0,
+            "location": "NA",
+            "degree": 33,
+            "keep": true
+        },
+        {
+            "name": "benbendc",
+            "id": "17268874",
+            "group": 4,
+            "friends": 0,
+            "followers": 0,
+            "location": "NA",
+            "degree": 33,
+            "keep": true
+        },
+        {
+            "name": "hcil_umd",
+            "id": "151180133",
+            "group": 4,
+            "friends": 0,
+            "followers": 0,
+            "location": "NA",
+            "degree": 22,
+            "keep": true
+        },
+        {
+            "name": "jdfaviz",
+            "id": "370227242",
+            "group": 4,
+            "friends": 0,
+            "followers": 0,
+            "location": "NA",
+            "degree": 32,
+            "keep": true
+        },
+        {
+            "name": "FILWD",
+            "id": "190564700",
+            "group": 4,
+            "friends": 0,
+            "followers": 0,
+            "location": "NA",
+            "degree": 39,
+            "keep": true
+        },
+        {
+            "name": "khornbaek",
+            "id": "1650030144",
+            "group": 1,
+            "friends": 0,
+            "followers": 0,
+            "location": "NA",
+            "degree": 24,
+            "keep": true
+        },
+        {
+            "name": "johntstasko",
+            "id": "885107802",
+            "group": 4,
+            "friends": 0,
+            "followers": 0,
+            "location": "NA",
+            "degree": 33,
+            "keep": true
+        },
+        {
+            "name": "alark",
+            "id": "14113734",
+            "group": 1,
+            "friends": 0,
+            "followers": 0,
+            "location": "NA",
+            "degree": 30,
+            "keep": true
+        }
+    ],
+    "links": [
+        {
+            "source": 0,
+            "target": 1,
+            "weight": 3,
+            "type": "mention"
+        },
+        {
+            "source": 0,
+            "target": 2,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 0,
+            "target": 3,
+            "weight": 2,
+            "type": "mention"
+        },
+        {
+            "source": 0,
+            "target": 4,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 0,
+            "target": 5,
+            "weight": 5,
+            "type": "mention"
+        },
+        {
+            "source": 0,
+            "target": 6,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 0,
+            "target": 7,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 0,
+            "target": 8,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 0,
+            "target": 9,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 0,
+            "target": 10,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 0,
+            "target": 11,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 0,
+            "target": 12,
+            "weight": 1,
+            "type": "retweet"
+        },
+        {
+            "source": 0,
+            "target": 13,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 0,
+            "target": 14,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 0,
+            "target": 15,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 0,
+            "target": 16,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 0,
+            "target": 17,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 0,
+            "target": 18,
+            "weight": 2,
+            "type": "mention"
+        },
+        {
+            "source": 0,
+            "target": 19,
+            "weight": 2,
+            "type": "mention"
+        },
+        {
+            "source": 0,
+            "target": 20,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 0,
+            "target": 21,
+            "weight": 2,
+            "type": "mention"
+        },
+        {
+            "source": 0,
+            "target": 22,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 0,
+            "target": 23,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 0,
+            "target": 24,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 8,
+            "target": 0,
+            "weight": 2,
+            "type": "mention"
+        },
+        {
+            "source": 8,
+            "target": 9,
+            "weight": 3,
+            "type": "mention"
+        },
+        {
+            "source": 8,
+            "target": 10,
+            "weight": 2,
+            "type": "mention"
+        },
+        {
+            "source": 15,
+            "target": 0,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 21,
+            "target": 14,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 21,
+            "target": 9,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 13,
+            "target": 16,
+            "weight": 2,
+            "type": "mention"
+        },
+        {
+            "source": 13,
+            "target": 0,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 5,
+            "target": 0,
+            "weight": 1,
+            "type": "retweet"
+        },
+        {
+            "source": 5,
+            "target": 19,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 14,
+            "target": 0,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 14,
+            "target": 15,
+            "weight": 2,
+            "type": "mention"
+        },
+        {
+            "source": 14,
+            "target": 21,
+            "weight": 3,
+            "type": "mention"
+        },
+        {
+            "source": 14,
+            "target": 20,
+            "weight": 3,
+            "type": "mention"
+        },
+        {
+            "source": 14,
+            "target": 1,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 19,
+            "target": 0,
+            "weight": 3,
+            "type": "retweet"
+        },
+        {
+            "source": 19,
+            "target": 18,
+            "weight": 1,
+            "type": "quote"
+        },
+        {
+            "source": 19,
+            "target": 18,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 19,
+            "target": 5,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 20,
+            "target": 1,
+            "weight": 7,
+            "type": "mention"
+        },
+        {
+            "source": 20,
+            "target": 21,
+            "weight": 5,
+            "type": "mention"
+        },
+        {
+            "source": 20,
+            "target": 22,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 20,
+            "target": 23,
+            "weight": 4,
+            "type": "mention"
+        },
+        {
+            "source": 22,
+            "target": 21,
+            "weight": 2,
+            "type": "mention"
+        },
+        {
+            "source": 23,
+            "target": 0,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 23,
+            "target": 21,
+            "weight": 2,
+            "type": "mention"
+        },
+        {
+            "source": 23,
+            "target": 20,
+            "weight": 2,
+            "type": "mention"
+        },
+        {
+            "source": 11,
+            "target": 0,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 11,
+            "target": 2,
+            "weight": 1,
+            "type": "retweet"
+        },
+        {
+            "source": 11,
+            "target": 18,
+            "weight": 1,
+            "type": "retweet"
+        },
+        {
+            "source": 11,
+            "target": 17,
+            "weight": 1,
+            "type": "quote"
+        },
+        {
+            "source": 18,
+            "target": 0,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 18,
+            "target": 23,
+            "weight": 1,
+            "type": "retweet"
+        },
+        {
+            "source": 18,
+            "target": 13,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 18,
+            "target": 18,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 2,
+            "target": 0,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 1,
+            "target": 14,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 1,
+            "target": 20,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 6,
+            "target": 0,
+            "weight": 2,
+            "type": "mention"
+        },
+        {
+            "source": 6,
+            "target": 5,
+            "weight": 2,
+            "type": "mention"
+        },
+        {
+            "source": 6,
+            "target": 17,
+            "weight": 1,
+            "type": "retweet"
+        },
+        {
+            "source": 16,
+            "target": 4,
+            "weight": 2,
+            "type": "retweet"
+        },
+        {
+            "source": 16,
+            "target": 0,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 16,
+            "target": 0,
+            "weight": 1,
+            "type": "quote"
+        },
+        {
+            "source": 4,
+            "target": 4,
+            "weight": 1,
+            "type": "quote"
+        },
+        {
+            "source": 4,
+            "target": 16,
+            "weight": 1,
+            "type": "retweet"
+        },
+        {
+            "source": 17,
+            "target": 0,
+            "weight": 2,
+            "type": "mention"
+        },
+        {
+            "source": 17,
+            "target": 18,
+            "weight": 1,
+            "type": "retweet"
+        },
+        {
+            "source": 17,
+            "target": 18,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 17,
+            "target": 19,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 17,
+            "target": 0,
+            "weight": 1,
+            "type": "retweet"
+        },
+        {
+            "source": 24,
+            "target": 21,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 24,
+            "target": 17,
+            "weight": 1,
+            "type": "retweet"
+        },
+        {
+            "source": 24,
+            "target": 3,
+            "weight": 1,
+            "type": "retweet"
+        }
+    ]
+}

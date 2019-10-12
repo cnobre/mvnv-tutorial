@@ -1,0 +1,190 @@
+{
+    "nodes": [
+        {
+            "name": "tamaramunzner",
+            "id": "1652270612",
+            "tweets": 3072,
+            "profileColor": "000000",
+            "group": 4,
+            "friends": 330,
+            "followers": 5415,
+            "location": "Vancouver, Canada",
+            "degree": 27,
+            "keep": true
+        },
+        {
+            "name": "tophtucker",
+            "id": "5056501",
+            "tweets": 12307,
+            "profileColor": "FFFFFF",
+            "group": 1,
+            "friends": 2521,
+            "followers": 2584,
+            "location": "NYC",
+            "degree": 28,
+            "keep": true
+        },
+        {
+            "name": "nkjemisin",
+            "id": "17974481",
+            "tweets": 72132,
+            "profileColor": "EBEBEB",
+            "group": 4,
+            "friends": 833,
+            "followers": 107587,
+            "location": "NA",
+            "degree": 30,
+            "keep": true
+        },
+        {
+            "name": "hardsci",
+            "id": "102768569",
+            "tweets": 31170,
+            "profileColor": "131516",
+            "group": 1,
+            "friends": 2416,
+            "followers": 17756,
+            "location": "Eugene, OR",
+            "degree": 33,
+            "keep": true
+        },
+        {
+            "name": "Hermida",
+            "id": "5165901",
+            "tweets": 17835,
+            "profileColor": "C6E2EE",
+            "group": 4,
+            "friends": 2253,
+            "followers": 9379,
+            "location": "Vancouver",
+            "degree": 17,
+            "keep": true
+        },
+        {
+            "name": "jamesheathers",
+            "id": "368750485",
+            "tweets": 18138,
+            "profileColor": "C0DEED",
+            "group": 4,
+            "friends": 505,
+            "followers": 9113,
+            "location": "The warm embrace of Uncle Sam",
+            "degree": 35,
+            "keep": true
+        },
+        {
+            "name": "rg9119",
+            "id": "148465548",
+            "tweets": 1319,
+            "profileColor": "C0DEED",
+            "group": 1,
+            "friends": 184,
+            "followers": 904,
+            "location": "NA",
+            "degree": 31,
+            "keep": true
+        },
+        {
+            "name": "carlzimmer",
+            "id": "14085070",
+            "tweets": 47303,
+            "profileColor": "C0DEED",
+            "group": 1,
+            "friends": 1319,
+            "followers": 274518,
+            "location": "Connecticut",
+            "degree": 24,
+            "keep": true
+        },
+        {
+            "name": "computer_phile",
+            "id": "1342321700",
+            "group": 4,
+            "friends": 0,
+            "followers": 0,
+            "location": "NA",
+            "degree": 26,
+            "keep": true
+        },
+        {
+            "name": "Randy_Au",
+            "id": "148398537",
+            "tweets": 6759,
+            "profileColor": "C0DEED",
+            "group": 4,
+            "friends": 897,
+            "followers": 1159,
+            "location": "NA",
+            "degree": 9,
+            "keep": true
+        }
+    ],
+    "links": [
+        {
+            "source": 0,
+            "target": 1,
+            "weight": 1,
+            "type": "retweet"
+        },
+        {
+            "source": 0,
+            "target": 2,
+            "weight": 1,
+            "type": "retweet"
+        },
+        {
+            "source": 0,
+            "target": 3,
+            "weight": 1,
+            "type": "retweet"
+        },
+        {
+            "source": 0,
+            "target": 4,
+            "weight": 1,
+            "type": "retweet"
+        },
+        {
+            "source": 0,
+            "target": 5,
+            "weight": 1,
+            "type": "retweet"
+        },
+        {
+            "source": 0,
+            "target": 6,
+            "weight": 1,
+            "type": "retweet"
+        },
+        {
+            "source": 0,
+            "target": 7,
+            "weight": 1,
+            "type": "quote"
+        },
+        {
+            "source": 0,
+            "target": 8,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 0,
+            "target": 9,
+            "weight": 1,
+            "type": "retweet"
+        },
+        {
+            "source": 5,
+            "target": 3,
+            "weight": 1,
+            "type": "quote"
+        },
+        {
+            "source": 3,
+            "target": 3,
+            "weight": 2,
+            "type": "quote"
+        }
+    ]
+}

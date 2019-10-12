@@ -1,0 +1,284 @@
+{
+    "nodes": [
+        {
+            "name": "Greta Thunberg",
+            "screenName": "GretaThunberg",
+            "id": "1006419421244678144",
+            "tweets": 5869,
+            "profileColor": "F5F8FA",
+            "friends": 1761,
+            "followers": 2748560,
+            "location": "Sverige",
+            "degree": 38,
+            "keep": true
+        },
+        {
+            "name": "Tokata Iron Eyes",
+            "screenName": "tokata_ie",
+            "id": "842384459404066820",
+            "tweets": 26,
+            "friends": 76,
+            "followers": 10,
+            "location": "NA",
+            "random_tweets": true,
+            "random_friends": true,
+            "random_followers": true,
+            "degree": 1,
+            "keep": true
+        },
+        {
+            "name": "Extinction Rebellion ⌛️",
+            "screenName": "ExtinctionR",
+            "id": "1019974187975430144",
+            "tweets": 30461,
+            "profileColor": "000000",
+            "friends": 24466,
+            "followers": 288547,
+            "location": "Gaia",
+            "degree": 29,
+            "keep": true
+        },
+        {
+            "name": "Mark Ruffalo",
+            "screenName": "MarkRuffalo",
+            "id": "47285504",
+            "tweets": 41352,
+            "profileColor": "1A1B1F",
+            "friends": 1839,
+            "followers": 6122853,
+            "location": "NYS",
+            "degree": 23,
+            "keep": true
+        },
+        {
+            "name": "Lillys Plastic Pickup",
+            "screenName": "lillyspickup",
+            "id": "924745232532590592",
+            "tweets": 8645,
+            "profileColor": "F5F8FA",
+            "friends": 3223,
+            "followers": 11094,
+            "location": "Utrecht, The Netherlands",
+            "degree": 43,
+            "keep": true
+        },
+        {
+            "name": "GeorgeMonbiot",
+            "screenName": "GeorgeMonbiot",
+            "id": "198584761",
+            "tweets": 34089,
+            "profileColor": "C0DEED",
+            "friends": 1320,
+            "followers": 304930,
+            "location": "NA",
+            "degree": 24,
+            "keep": true
+        },
+        {
+            "name": "Edgar McGregor 🌴",
+            "screenName": "edgarrmcgregor",
+            "id": "3140662712",
+            "tweets": 7124,
+            "profileColor": "000000",
+            "friends": 695,
+            "followers": 4265,
+            "location": "Altadena, CA",
+            "degree": 36,
+            "keep": true
+        },
+        {
+            "name": "Greenpeace",
+            "screenName": "Greenpeace",
+            "id": "3459051",
+            "tweets": 57587,
+            "profileColor": "131516",
+            "friends": 3958,
+            "followers": 1837825,
+            "location": "Global",
+            "degree": 23,
+            "keep": true
+        },
+        {
+            "name": "Holly Gillibrand",
+            "screenName": "HollyWildChild",
+            "id": "1041404215489323008",
+            "tweets": 2194,
+            "profileColor": "000000",
+            "friends": 605,
+            "followers": 12949,
+            "location": "The Sixth Mass Extinction",
+            "degree": 40,
+            "keep": true
+        },
+        {
+            "name": "Fridays For Future India",
+            "screenName": "Friday4futureIN",
+            "id": "1133651971276062720",
+            "tweets": 94,
+            "profileColor": "F5F8FA",
+            "friends": 115,
+            "followers": 321,
+            "location": "New Delhi, India",
+            "degree": 17,
+            "keep": true
+        }
+    ],
+    "links": [
+        {
+            "source": 0,
+            "target": 1,
+            "weight": 2,
+            "type": "mention"
+        },
+        {
+            "source": 0,
+            "target": 2,
+            "weight": 3,
+            "type": "retweet"
+        },
+        {
+            "source": 0,
+            "target": 3,
+            "weight": 1,
+            "type": "retweet"
+        },
+        {
+            "source": 0,
+            "target": 4,
+            "weight": 1,
+            "type": "retweet"
+        },
+        {
+            "source": 0,
+            "target": 5,
+            "weight": 1,
+            "type": "retweet"
+        },
+        {
+            "source": 0,
+            "target": 6,
+            "weight": 1,
+            "type": "retweet"
+        },
+        {
+            "source": 0,
+            "target": 7,
+            "weight": 1,
+            "type": "retweet"
+        },
+        {
+            "source": 0,
+            "target": 8,
+            "weight": 1,
+            "type": "retweet"
+        },
+        {
+            "source": 0,
+            "target": 9,
+            "weight": 2,
+            "type": "retweet"
+        },
+        {
+            "source": 6,
+            "target": 2,
+            "weight": 2,
+            "type": "mention"
+        },
+        {
+            "source": 6,
+            "target": 0,
+            "weight": 3,
+            "type": "mention"
+        },
+        {
+            "source": 4,
+            "target": 4,
+            "weight": 1,
+            "type": "quote"
+        },
+        {
+            "source": 4,
+            "target": 0,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 7,
+            "target": 4,
+            "weight": 1,
+            "type": "quote"
+        },
+        {
+            "source": 7,
+            "target": 2,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 7,
+            "target": 0,
+            "weight": 1,
+            "type": "retweet"
+        },
+        {
+            "source": 7,
+            "target": 2,
+            "weight": 1,
+            "type": "retweet"
+        },
+        {
+            "source": 8,
+            "target": 2,
+            "weight": 1,
+            "type": "retweet"
+        },
+        {
+            "source": 8,
+            "target": 5,
+            "weight": 1,
+            "type": "retweet"
+        },
+        {
+            "source": 8,
+            "target": 0,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 8,
+            "target": 7,
+            "weight": 1,
+            "type": "retweet"
+        },
+        {
+            "source": 8,
+            "target": 8,
+            "weight": 1,
+            "type": "retweet"
+        },
+        {
+            "source": 9,
+            "target": 2,
+            "weight": 1,
+            "type": "retweet"
+        },
+        {
+            "source": 9,
+            "target": 0,
+            "weight": 2,
+            "type": "retweet"
+        },
+        {
+            "source": 9,
+            "target": 9,
+            "weight": 4,
+            "type": "mention"
+        },
+        {
+            "source": 9,
+            "target": 7,
+            "weight": 1,
+            "type": "retweet"
+        }
+    ]
+}

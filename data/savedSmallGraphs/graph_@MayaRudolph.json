@@ -1,0 +1,246 @@
+{
+    "nodes": [
+        {
+            "name": "MayaRudolph",
+            "id": "1391259187",
+            "tweets": 26,
+            "profileColor": "9EEBAD",
+            "group": 4,
+            "friends": 30,
+            "followers": 168478,
+            "location": "NA",
+            "degree": 27,
+            "keep": true
+        },
+        {
+            "name": "KamalaHarris",
+            "id": "30354991",
+            "tweets": 12201,
+            "profileColor": "FFFFFF",
+            "group": 1,
+            "friends": 725,
+            "followers": 3162086,
+            "location": "California",
+            "degree": 15,
+            "keep": true
+        },
+        {
+            "name": "nbcsnl",
+            "id": "28221296",
+            "group": 4,
+            "friends": 0,
+            "followers": 0,
+            "location": "NA",
+            "degree": 26,
+            "keep": true
+        },
+        {
+            "name": "SeventhGen",
+            "id": "15247902",
+            "tweets": 12186,
+            "profileColor": "FFFFFF",
+            "group": 1,
+            "friends": 18006,
+            "followers": 83274,
+            "location": "Burlington, VT",
+            "degree": 24,
+            "keep": true
+        },
+        {
+            "name": "nbc",
+            "id": "26585095",
+            "group": 1,
+            "friends": 0,
+            "followers": 0,
+            "location": "NA",
+            "degree": 28,
+            "keep": true
+        },
+        {
+            "name": "TiffanyHaddish",
+            "id": "78366205",
+            "group": 1,
+            "friends": 0,
+            "followers": 0,
+            "location": "NA",
+            "degree": 26,
+            "keep": true
+        },
+        {
+            "name": "chelseaperetti",
+            "id": "78194111",
+            "group": 4,
+            "friends": 0,
+            "followers": 0,
+            "location": "NA",
+            "degree": 27,
+            "keep": true
+        },
+        {
+            "name": "NYTmag",
+            "id": "16929600",
+            "tweets": 28323,
+            "profileColor": "000000",
+            "group": 4,
+            "friends": 206,
+            "followers": 247245,
+            "location": "New York, NY",
+            "degree": 6,
+            "keep": true
+        },
+        {
+            "name": "AlexPrager",
+            "id": "32820178",
+            "group": 4,
+            "friends": 0,
+            "followers": 0,
+            "location": "NA",
+            "degree": 16,
+            "keep": true
+        },
+        {
+            "name": "vanessaprager",
+            "id": "41314076",
+            "group": 4,
+            "friends": 0,
+            "followers": 0,
+            "location": "NA",
+            "degree": 32,
+            "keep": true
+        }
+    ],
+    "links": [
+        {
+            "source": 0,
+            "target": 1,
+            "weight": 1,
+            "type": "quote"
+        },
+        {
+            "source": 0,
+            "target": 1,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 0,
+            "target": 2,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 0,
+            "target": 3,
+            "weight": 1,
+            "type": "quote"
+        },
+        {
+            "source": 0,
+            "target": 4,
+            "weight": 2,
+            "type": "mention"
+        },
+        {
+            "source": 0,
+            "target": 5,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 0,
+            "target": 6,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 0,
+            "target": 7,
+            "weight": 1,
+            "type": "quote"
+        },
+        {
+            "source": 0,
+            "target": 8,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 0,
+            "target": 9,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 0,
+            "target": 7,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 4,
+            "target": 2,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 4,
+            "target": 2,
+            "weight": 2,
+            "type": "retweet"
+        },
+        {
+            "source": 8,
+            "target": 9,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 1,
+            "target": 0,
+            "weight": 2,
+            "type": "mention"
+        },
+        {
+            "source": 5,
+            "target": 5,
+            "weight": 1,
+            "type": "retweet"
+        },
+        {
+            "source": 9,
+            "target": 0,
+            "weight": 1,
+            "type": "retweet"
+        },
+        {
+            "source": 9,
+            "target": 0,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 9,
+            "target": 8,
+            "weight": 2,
+            "type": "mention"
+        },
+        {
+            "source": 9,
+            "target": 7,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 9,
+            "target": 8,
+            "weight": 1,
+            "type": "retweet"
+        },
+        {
+            "source": 2,
+            "target": 4,
+            "weight": 1,
+            "type": "mention"
+        }
+    ]
+}

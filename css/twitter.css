@@ -27,10 +27,25 @@ div.tooltip {
         fill:black;
         text-anchor:middle;
         font-size:10px;
+        pointer-events:none;
     }
+
+    .nodes  circle.fixed {
+        stroke: black;
+        stroke-width:3px;
+      }
 
     .link.mention{
         stroke:#f47101;
+    }
+
+    span.tag.is-link{
+        cursor: pointer;;
+    }
+
+    .random{
+        font-style:italic;
+        color:grey;
     }
 
 

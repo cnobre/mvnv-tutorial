@@ -12,11 +12,11 @@
 
 <script src="https://d3js.org/d3.v5.min.js"></script>
 
+
+
 <!-- <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script> -->
 
-
 <body>
-
 
     <div id='landingPage' class="card">
 
@@ -30,13 +30,24 @@
                                         A companion website for the Multivariate Network Visualization Tutorial at IEEE VIS 2019.
                                     </h2>
                                     <br />
-                                    <br />
-                    
-                                    <br />
+                
                     
                     
                                     <h2 class="subtitle">Enter your twitter handle below to generate your graph!</h2>
+                                    <p>The graph contains a selection of the people you have most recently retweeted, quoted, or mentioned, as well as a subset of their most recent connections.</p>
+
+                                    <br/>
                                     <input class="input" type="text" placeholder="@screen_name">
+
+
+                                    <br/>
+                                    <br/>
+                                    <h2> Or browse through some of these sample twitter graphs</h2>
+
+                                    <span class="tag is-link" id="@nytimes">NY Times</span>
+                                    <span class="tag is-link" id="@jeffrey_heer">Jeffrey Heer</span>
+                                    <span class="tag is-link" id="@BarackObama">Barack Obama</span>
+                                    <span class="tag is-link" id="@GretaThunberg">Greta Thunberg</span>
                                
                             </div>
                             <div class="graphCol column">
@@ -62,7 +73,9 @@
                         <table class="nodeTable table">
                             <thead>
                                 <tr>
-                                    <th><abbr title="Screen Name">Name</abbr></th>
+                                    <th><abbr title="Name">Name</abbr></th>
+                                    <th><abbr title="Screen Name">screen name</abbr></th>
+                                    <th><abbr title="# of Tweets">#Tweets</abbr></th>
                                     <th><abbr title="# of Followers">Followers</abbr></th>
                                     <th><abbr title="# of Friends">Friends</abbr></th>
                                     <th>Location</th>
@@ -70,7 +83,9 @@
                             </thead>
                             <tfoot>
                                 <tr>
-                                    <th><abbr title="Screen Name">Name</abbr></th>
+                                        <th><abbr title="Name">Name</abbr></th>
+                                        <th><abbr title="Screen Name">screen name</abbr></th>
+                                        <th><abbr title="# of Tweets">#Tweets</abbr></th>
                                     <th><abbr title="# of Followers">Followers</abbr></th>
                                     <th><abbr title="# of Friends">Friends</abbr></th>
                                     <th>Location</th>
@@ -114,15 +129,6 @@
             </div>
 
 
-
-
-
-
-
-
-
-
-
         </div>
 
         <div class='tooltip'></div>
@@ -131,283 +137,6 @@
 </body>
 
 
-<script>
-    function showTooltip(data, delay = 200) {
+<script src="twitter.js"></script>
 
-        let tooltip = d3.select('.tooltip');
 
-        tooltip.html(data)
-            .style("left", (window.event.clientX + 10) + "px")
-            .style("top", (window.event.clientY - 20) + "px");
-
-        tooltip.transition().duration(delay).style("opacity", .9);
-
-    }
-
-    function hideTooltip() {
-        d3.select('.tooltip').transition().duration(100).style("opacity", 0);
-    }
-
-
-    d3.select('.input').on('change', function (value) {
-
-
-        response = d3.json('http://0.0.0.0:5000/?handle=' + this.value).then((data) => {
-            console.log(data)
-
-
-
-            d3.select('.table').style('visibility', 'visible')
-
-            let rows = d3.select('.nodeTable').select('tbody').selectAll('tr').data(data.nodes);
-
-            let rowsEnter = rows.enter().append('tr');
-
-            rowsEnter.append('th').attr('class', 'name')
-            rowsEnter.append('td').attr('class', 'friends')
-            rowsEnter.append('td').attr('class', 'followers')
-            rowsEnter.append('td').attr('class', 'location')
-
-            rows.exit().remove();
-
-            rows = rowsEnter.merge(rows);
-
-            rows.select('.name').html(d => d.name);
-            rows.select('.friends').html(d => d.friends);
-            rows.select('.followers').html(d => d.followers);
-            rows.select('.location').html(d => d.location);
-
-
-            rows = d3.select('.edgeTable').select('tbody').selectAll('tr').data(data.links);
-
-            rowsEnter = rows.enter().append('tr');
-
-            rowsEnter.append('td').attr('class', 'source')
-            rowsEnter.append('td').attr('class', 'target')
-            rowsEnter.append('td').attr('class', 'type')
-            rowsEnter.append('td').attr('class', 'count')
-
-            rows.exit().remove();
-
-            rows = rowsEnter.merge(rows);
-
-            rows.select('.source').html(d => data.nodes[d.source].name);
-            rows.select('.target').html(d => data.nodes[d.target].name);
-            rows.select('.type').html(d => d.type);
-            rows.select('.count').html(d => d.weight);
-
-            var width = 560,
-                height = 400
-
-
-
-            const links = data.links; //.map(d => Object.create(d));
-            const nodes = data.nodes; //.map(d => Object.create(d));
-
-            const simulation = d3.forceSimulation(nodes)
-                .force("link", d3.forceLink(links)) //.id(d => d.id))
-                .force("charge", d3.forceManyBody().strength(function(node) {
-                return -600;
-                }))
-                .force("center", d3.forceCenter(width / 2, height / 2));
-
-        
-
-            let drag = simulation => {
-
-                function dragstarted(d) {
-                    if (!d3.event.active) simulation.alphaTarget(0.3).restart();
-                    d.fx = d.x;
-                    d.fy = d.y;
-                }
-
-                function dragged(d) {
-                    d.fx = d3.event.x;
-                    d.fy = d3.event.y;
-                }
-
-                function dragended(d) {
-                    if (!d3.event.active) simulation.alphaTarget(0);
-                    d.fx = null;
-                    d.fy = null;
-                }
-
-                return d3.drag()
-                    .on("start", dragstarted)
-                    .on("drag", dragged)
-                    .on("end", dragended);
-            }
-            let scale = d3.scaleOrdinal(d3.schemeCategory10);
-
-            let sizeScale = d3.scaleLinear()
-                .domain(d3.extent(data.nodes.map(n => n.followers)))
-                .range([7,25])
-            
-                let edgeWidthScale = d3.scaleLinear()
-                .domain(d3.extent(data.links.map(n => n.weight)))
-                .range([3,12])
-
-            color = (d) => {
-
-                // console.log(d.group,scale(d.group))
-
-                return scale(d.group);
-            }
-
-
-            d3.select('.graphCol').select('svg').remove();
-
-            const svg = d3.select('.graphCol').append('svg').attr('width', width).attr('height', height)
-            // create("svg")
-            //     .attr("viewBox", [0, 0, width, height]);
-
-            const link = svg.append("g")
-                // .attr("stroke", "#999")
-                .attr("stroke-opacity", 0.6)
-                .selectAll(".link")
-                .data(links)
-                .join("path")
-                .attr('class','link')
-                .attr("stroke-width", d => edgeWidthScale(d.weight))
-                .on("mouseover", function (d) {
-                    let tooltipData = d.type;
-                    showTooltip(tooltipData)
-                })
-                .on("mouseout", function () {
-                    hideTooltip()
-                })
-
-            let node = svg.append("g")
-                .attr('class','nodes')
-                .attr("stroke", "#fff")
-                .attr("stroke-width", 1.5)
-                .selectAll("g")
-                .data(nodes);
-
-                let nodeEnter = node.enter()
-                .append('g');
-
-                nodeEnter.append('circle')
-                nodeEnter.append('text');
-
-                node.exit().remove();
-
-                node = nodeEnter.merge(node);
-
-                node.select('text')
-                .text(d=>d.name)
-                
-                node.select('circle')
-                // .attr("r", d => sizeScale(d.followers))
-                .attr('r',10)
-                // .attr("fill", color)
-                .on("mouseover", function (d) {
-                    let tooltipData = d.name;
-                    showTooltip(tooltipData)
-                })
-                .on("mouseout", function () {
-                    hideTooltip()
-                })
-                .call(drag(simulation));
-
-                link.attr('class', d=>d.type + ' link')
-
-    
-
-            simulation.on("tick", () => {
-
-                link.attr('d',d=>{
-                    return arcPath(d,d.type == "mention")});
-                    // .attr("x1", d => d.source.x)
-                    // .attr("y1", d => d.source.y)
-                    // .attr("x2", d => d.target.x)
-                    // .attr("y2", d => d.target.y);
-
-                node.attr('transform',d=> 'translate('+d.x+','+d.y+')')
-                    // .attr("x", d => d.x)
-                    // .attr("y", d => d.y);
-            });
-
-            function arcPath(d,leftHand) {
-        let source = d.source;
-        let target = d.target;
-
-        // console.log(d.source,source)
-
-        var x1 = leftHand ? source.x : target.x,
-            y1 = leftHand ? source.y : target.y,
-            x2 = leftHand ? target.x : source.x,
-            y2 = leftHand ? target.y : source.y;
-        (dx = x2 - x1),
-        (dy = y2 - y1),
-        (dr = Math.sqrt(dx * dx + dy * dy)),
-        (drx = dr),
-        (dry = dr),
-        (sweep = leftHand ? 0 : 1);
-        // siblingCount = countSiblingLinks(graph, d.source, d.target);
-        (xRotation = 10), (largeArc = 0);
-
-        // if (siblingCount > 1) {
-        //   var siblings = getSiblingLinks(graph, d.source, d.target);
-        //   var arcScale = d3
-        //     .scaleOrdinal()
-        //     .domain(siblings)
-        //     .range([1, siblingCount]);
-
-        //   drx = drx / (1 + (1 / siblingCount) * (arcScale(d.type) - 1));
-        //   dry = dry / (1 + (1 / siblingCount) * (arcScale(d.type) - 1));
-        // }
-
-
-
-        if (d.type !== "quote") {
-            return (
-                "M" +
-                x1 +
-                "," +
-                y1 +
-                "A" +
-                drx +
-                ", " +
-                dry +
-                " " +
-                xRotation +
-                ", " +
-                largeArc +
-                ", " +
-                sweep +
-                " " +
-                x2 +
-                "," +
-                y2
-            );
-
-
-        } else {
-            return (
-                'M ' + source.x + ' ' + source.y + ' L ' + target.x + ' ' + target.y);
-        }
-
-
-
-        // return ("M" + x1 + "," + y1
-        //    + "S" + x2 + "," + y2
-        //    + " " + x2 + "," + y2)
-    }
-
-
-
-
-            // invalidation.then(() => simulation.stop());
-
-
-        });
-
-
-
-        // console.log(response)
-    })
-
- 
-
-</script>

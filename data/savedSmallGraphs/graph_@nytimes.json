@@ -1,0 +1,240 @@
+{
+    "nodes": [
+        {
+            "name": "nytimes",
+            "id": "807095",
+            "tweets": 373359,
+            "profileColor": "131516",
+            "group": 1,
+            "friends": 900,
+            "followers": 44218742,
+            "location": "New York City",
+            "degree": 8,
+            "keep": true
+        },
+        {
+            "name": "melbournecoal",
+            "id": "29986482",
+            "tweets": 8009,
+            "profileColor": "C6E2EE",
+            "group": 4,
+            "friends": 1716,
+            "followers": 16739,
+            "location": "New York, NY",
+            "degree": 16,
+            "keep": true
+        },
+        {
+            "name": "brianmrosenthal",
+            "id": "22089567",
+            "tweets": 3001,
+            "profileColor": "C0DEED",
+            "group": 1,
+            "friends": 1989,
+            "followers": 17743,
+            "location": "New York, NY",
+            "degree": 26,
+            "keep": true
+        },
+        {
+            "name": "nicoleperlroth",
+            "id": "13404292",
+            "tweets": 3041,
+            "profileColor": "9AE4E8",
+            "group": 1,
+            "friends": 4153,
+            "followers": 35886,
+            "location": "San Francisco born and raised",
+            "degree": 26,
+            "keep": true
+        },
+        {
+            "name": "TheWeekly",
+            "id": "1098649631129591808",
+            "tweets": 1104,
+            "profileColor": "F5F8FA",
+            "group": 1,
+            "friends": 100,
+            "followers": 11673,
+            "location": "NA",
+            "degree": 23,
+            "keep": true
+        },
+        {
+            "name": "fmanjoo",
+            "id": "2195241",
+            "tweets": 2578,
+            "profileColor": "9AE4E8",
+            "group": 1,
+            "friends": 4678,
+            "followers": 179316,
+            "location": "California, USA",
+            "degree": 22,
+            "keep": true
+        },
+        {
+            "name": "jmartNYT",
+            "id": "18678924",
+            "tweets": 134548,
+            "profileColor": "C0DEED",
+            "group": 4,
+            "friends": 7279,
+            "followers": 254128,
+            "location": "The 703, 202, 504 or on the road",
+            "degree": 1,
+            "keep": true
+        },
+        {
+            "name": "nytpolitics",
+            "id": "14434063",
+            "tweets": 122487,
+            "profileColor": "FFFFFF",
+            "group": 4,
+            "friends": 286,
+            "followers": 460865,
+            "location": "Washington Bureau",
+            "degree": 2,
+            "keep": true
+        },
+        {
+            "name": "adamnagourney",
+            "id": "339332911",
+            "tweets": 7708,
+            "profileColor": "C0DEED",
+            "group": 1,
+            "friends": 982,
+            "followers": 25625,
+            "location": "Los Angeles, CA",
+            "degree": 1,
+            "keep": true
+        },
+        {
+            "name": "grynbaum",
+            "id": "19570075",
+            "tweets": 17653,
+            "profileColor": "000000",
+            "group": 4,
+            "friends": 1158,
+            "followers": 37356,
+            "location": "New York, NY",
+            "degree": 1,
+            "keep": true
+        }
+    ],
+    "links": [
+        {
+            "source": 0,
+            "target": 1,
+            "weight": 2,
+            "type": "retweet"
+        },
+        {
+            "source": 0,
+            "target": 2,
+            "weight": 1,
+            "type": "retweet"
+        },
+        {
+            "source": 0,
+            "target": 3,
+            "weight": 1,
+            "type": "retweet"
+        },
+        {
+            "source": 0,
+            "target": 4,
+            "weight": 1,
+            "type": "retweet"
+        },
+        {
+            "source": 0,
+            "target": 5,
+            "weight": 1,
+            "type": "retweet"
+        },
+        {
+            "source": 1,
+            "target": 6,
+            "weight": 3,
+            "type": "retweet"
+        },
+        {
+            "source": 1,
+            "target": 7,
+            "weight": 1,
+            "type": "quote"
+        },
+        {
+            "source": 1,
+            "target": 7,
+            "weight": 1,
+            "type": "retweet"
+        },
+        {
+            "source": 1,
+            "target": 8,
+            "weight": 1,
+            "type": "retweet"
+        },
+        {
+            "source": 1,
+            "target": 9,
+            "weight": 2,
+            "type": "retweet"
+        },
+        {
+            "source": 2,
+            "target": 2,
+            "weight": 1,
+            "type": "quote"
+        },
+        {
+            "source": 4,
+            "target": 2,
+            "weight": 2,
+            "type": "quote"
+        },
+        {
+            "source": 4,
+            "target": 4,
+            "weight": 1,
+            "type": "retweet"
+        },
+        {
+            "source": 4,
+            "target": 2,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 4,
+            "target": 0,
+            "weight": 1,
+            "type": "quote"
+        },
+        {
+            "source": 5,
+            "target": 3,
+            "weight": 1,
+            "type": "retweet"
+        },
+        {
+            "source": 3,
+            "target": 0,
+            "weight": 2,
+            "type": "retweet"
+        },
+        {
+            "source": 3,
+            "target": 3,
+            "weight": 3,
+            "type": "quote"
+        },
+        {
+            "source": 3,
+            "target": 0,
+            "weight": 1,
+            "type": "quote"
+        }
+    ]
+}

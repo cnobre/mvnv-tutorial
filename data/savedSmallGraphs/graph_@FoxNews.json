@@ -1,0 +1,202 @@
+{
+    "nodes": [
+        {
+            "name": "FoxNews",
+            "id": "1367531",
+            "tweets": 418052,
+            "profileColor": "0E2331",
+            "group": 1,
+            "friends": 398,
+            "followers": 18415098,
+            "location": "U.S.A.",
+            "degree": 2,
+            "keep": true
+        },
+        {
+            "name": "CarleyShimkus",
+            "id": "486907980",
+            "group": 4,
+            "friends": 0,
+            "followers": 0,
+            "location": "NA",
+            "degree": 28,
+            "keep": true
+        },
+        {
+            "name": "FoxFriendsFirst",
+            "id": "488679352",
+            "group": 1,
+            "friends": 0,
+            "followers": 0,
+            "location": "NA",
+            "degree": 12,
+            "keep": true
+        },
+        {
+            "name": "HvonSpakovsky",
+            "id": "366176456",
+            "group": 4,
+            "friends": 0,
+            "followers": 0,
+            "location": "NA",
+            "degree": 1,
+            "keep": true
+        },
+        {
+            "name": "DrDarrinPorcher",
+            "id": "299275283",
+            "group": 4,
+            "friends": 0,
+            "followers": 0,
+            "location": "NA",
+            "degree": 2,
+            "keep": true
+        },
+        {
+            "name": "HeatherChilders",
+            "id": "220081296",
+            "group": 4,
+            "friends": 0,
+            "followers": 0,
+            "location": "NA",
+            "degree": 1,
+            "keep": true
+        },
+        {
+            "name": "detroitpolice",
+            "id": "126082864",
+            "group": 1,
+            "friends": 0,
+            "followers": 0,
+            "location": "NA",
+            "degree": 1,
+            "keep": true
+        },
+        {
+            "name": "VicSurvivor11",
+            "id": "912052750963412992",
+            "group": 4,
+            "friends": 0,
+            "followers": 0,
+            "location": "NA",
+            "degree": 2,
+            "keep": true
+        },
+        {
+            "name": "ToddPiro",
+            "id": "33125742",
+            "tweets": 24450,
+            "profileColor": "022330",
+            "group": 4,
+            "friends": 608,
+            "followers": 18440,
+            "location": "New York, USA",
+            "degree": 2,
+            "keep": true
+        },
+        {
+            "name": "realDonaldTrump",
+            "id": "25073877",
+            "tweets": 44826,
+            "profileColor": "6D5C18",
+            "group": 4,
+            "friends": 47,
+            "followers": 65225252,
+            "location": "Washington, DC",
+            "degree": 1,
+            "keep": true
+        }
+    ],
+    "links": [
+        {
+            "source": 0,
+            "target": 1,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 0,
+            "target": 2,
+            "weight": 2,
+            "type": "mention"
+        },
+        {
+            "source": 2,
+            "target": 1,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 2,
+            "target": 3,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 2,
+            "target": 4,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 2,
+            "target": 5,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 2,
+            "target": 6,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 2,
+            "target": 7,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 2,
+            "target": 7,
+            "weight": 1,
+            "type": "retweet"
+        },
+        {
+            "source": 2,
+            "target": 4,
+            "weight": 1,
+            "type": "retweet"
+        },
+        {
+            "source": 2,
+            "target": 8,
+            "weight": 1,
+            "type": "retweet"
+        },
+        {
+            "source": 1,
+            "target": 2,
+            "weight": 1,
+            "type": "retweet"
+        },
+        {
+            "source": 1,
+            "target": 9,
+            "weight": 1,
+            "type": "quote"
+        },
+        {
+            "source": 1,
+            "target": 8,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 1,
+            "target": 2,
+            "weight": 1,
+            "type": "mention"
+        }
+    ]
+}

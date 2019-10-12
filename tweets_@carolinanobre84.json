@@ -256,7 +256,7 @@
                             }
                         },
                         "protected": false,
-                        "followers_count": 274523,
+                        "followers_count": 274524,
                         "friends_count": 1319,
                         "listed_count": 5914,
                         "created_at": "Wed Mar 05 21:10:54 +0000 2008",
@@ -265,7 +265,7 @@
                         "time_zone": null,
                         "geo_enabled": false,
                         "verified": true,
-                        "statuses_count": 47284,
+                        "statuses_count": 47285,
                         "lang": null,
                         "contributors_enabled": false,
                         "is_translator": false,
@@ -829,7 +829,7 @@
                     "friends_count": 741,
                     "listed_count": 16,
                     "created_at": "Wed Feb 11 19:19:45 +0000 2009",
-                    "favourites_count": 4731,
+                    "favourites_count": 4733,
                     "utc_offset": null,
                     "time_zone": null,
                     "geo_enabled": true,
@@ -1063,29 +1063,29 @@
             "connection": "close",
             "content-disposition": "attachment; filename=json.json",
             "content-encoding": "gzip",
-            "content-length": "3662",
+            "content-length": "3663",
             "content-type": "application/json;charset=utf-8",
-            "date": "Fri, 04 Oct 2019 02:02:23 GMT",
+            "date": "Fri, 04 Oct 2019 02:43:29 GMT",
             "expires": "Tue, 31 Mar 1981 05:00:00 GMT",
-            "last-modified": "Fri, 04 Oct 2019 02:02:23 GMT",
+            "last-modified": "Fri, 04 Oct 2019 02:43:29 GMT",
             "pragma": "no-cache",
             "server": "tsa_a",
             "set-cookie": [
-                "personalization_id=\"v1_LyBVlKeucXeayQnRfstG/Q==\"; Max-Age=63072000; Expires=Sun, 3 Oct 2021 02:02:23 GMT; Path=/; Domain=.twitter.com",
+                "personalization_id=\"v1_1GcYcuUwqpUS+kleYP7Jrg==\"; Max-Age=63072000; Expires=Sun, 3 Oct 2021 02:43:29 GMT; Path=/; Domain=.twitter.com",
                 "lang=en; Path=/",
-                "guest_id=v1%3A157015454357226064; Max-Age=63072000; Expires=Sun, 3 Oct 2021 02:02:23 GMT; Path=/; Domain=.twitter.com"
+                "guest_id=v1%3A157015700958511941; Max-Age=63072000; Expires=Sun, 3 Oct 2021 02:43:29 GMT; Path=/; Domain=.twitter.com"
             ],
             "status": "200 OK",
             "strict-transport-security": "max-age=631138519",
             "x-access-level": "read-write",
-            "x-connection-hash": "c1971a6fda6b160105feba94d2bb142b",
+            "x-connection-hash": "455d6fb89ddf1137f2c06ee36d8a8994",
             "x-content-type-options": "nosniff",
             "x-frame-options": "SAMEORIGIN",
             "x-rate-limit-limit": "900",
-            "x-rate-limit-remaining": "887",
-            "x-rate-limit-reset": "1570155432",
-            "x-response-time": "67",
-            "x-transaction": "0079890600d2507e",
+            "x-rate-limit-remaining": "874",
+            "x-rate-limit-reset": "1570157664",
+            "x-response-time": "55",
+            "x-transaction": "001dd669005c4b02",
             "x-twitter-response-tags": "BouncerCompliant",
             "x-xss-protection": "0"
         },
@@ -1110,7 +1110,7 @@
                 "User-Agent": "twit-client",
                 "Content-type": "application/json",
                 "accept-encoding": "gzip, deflate",
-                "Authorization": "OAuth oauth_consumer_key=\"BH4FzEHkxbKTlbRLeB8zw91Me\",oauth_nonce=\"0370c9b072374bada5d122e58528aa9b\",oauth_signature_method=\"HMAC-SHA1\",oauth_timestamp=\"1570154543\",oauth_token=\"739637463900114944-JdoEZqLQuh4CcqECRqpZ5D7xOdkgRTt\",oauth_version=\"1.0\",oauth_signature=\"EReEVBhpjYEQzTpF5wPi5ILl250%3D\""
+                "Authorization": "OAuth oauth_consumer_key=\"BH4FzEHkxbKTlbRLeB8zw91Me\",oauth_nonce=\"84fd9c5ff8a84d579c59a48b671cb4ec\",oauth_signature_method=\"HMAC-SHA1\",oauth_timestamp=\"1570157008\",oauth_token=\"739637463900114944-JdoEZqLQuh4CcqECRqpZ5D7xOdkgRTt\",oauth_version=\"1.0\",oauth_signature=\"n9vyiqoQXuu3kQfhM7GR%2Bbya4%2BE%3D\""
             }
         }
     }
