@@ -1,0 +1,159 @@
+{
+    "nodes": [
+        {
+            "name": "太郎",
+            "screenName": "fast_fourier",
+            "id": "fast_fourier",
+            "tweets": 307,
+            "profileColor": "C0DEED",
+            "friends": 28,
+            "followers": 1,
+            "location": "NA",
+            "degree": 6,
+            "keep": true
+        },
+        {
+            "name": "DC POP UP STORE",
+            "screenName": "DC_popupstore",
+            "id": "DC_popupstore",
+            "tweets": 40,
+            "profileColor": "F5F8FA",
+            "friends": 3,
+            "followers": 9010,
+            "location": "日本",
+            "degree": 3,
+            "keep": true
+        },
+        {
+            "name": "DC公式",
+            "screenName": "dc_jp",
+            "id": "dc_jp",
+            "tweets": 2803,
+            "profileColor": "F5F8FA",
+            "friends": 119,
+            "followers": 75033,
+            "location": "NA",
+            "degree": 3,
+            "keep": true
+        },
+        {
+            "name": "ローチケ（ローソンチケット）",
+            "screenName": "lawson_ticket",
+            "id": "lawson_ticket",
+            "tweets": 44285,
+            "profileColor": "C0DEED",
+            "friends": 23701,
+            "followers": 189927,
+            "location": "NA",
+            "degree": 2,
+            "keep": true
+        },
+        {
+            "name": "映画.com",
+            "screenName": "eigacom",
+            "id": "eigacom",
+            "tweets": 133766,
+            "profileColor": "131516",
+            "friends": 457,
+            "followers": 675937,
+            "location": "東京 千代田区",
+            "degree": 2,
+            "keep": true
+        }
+    ],
+    "links": [
+        {
+            "source": 0,
+            "target": 2,
+            "sourceNode": {
+                "name": "太郎",
+                "screenName": "fast_fourier",
+                "id": "fast_fourier",
+                "tweets": 307,
+                "profileColor": "C0DEED",
+                "friends": 28,
+                "followers": 1,
+                "location": "NA",
+                "degree": 6,
+                "keep": true
+            },
+            "targetNode": {
+                "name": "DC公式",
+                "screenName": "dc_jp",
+                "id": "dc_jp",
+                "tweets": 2803,
+                "profileColor": "F5F8FA",
+                "friends": 119,
+                "followers": 75033,
+                "location": "NA",
+                "degree": 3,
+                "keep": true
+            },
+            "weight": 2,
+            "type": "retweet",
+            "id": "e0"
+        },
+        {
+            "source": 0,
+            "target": 1,
+            "sourceNode": {
+                "name": "太郎",
+                "screenName": "fast_fourier",
+                "id": "fast_fourier",
+                "tweets": 307,
+                "profileColor": "C0DEED",
+                "friends": 28,
+                "followers": 1,
+                "location": "NA",
+                "degree": 6,
+                "keep": true
+            },
+            "targetNode": {
+                "name": "DC POP UP STORE",
+                "screenName": "DC_popupstore",
+                "id": "DC_popupstore",
+                "tweets": 40,
+                "profileColor": "F5F8FA",
+                "friends": 3,
+                "followers": 9010,
+                "location": "日本",
+                "degree": 3,
+                "keep": true
+            },
+            "weight": 1,
+            "type": "retweet",
+            "id": "e1"
+        },
+        {
+            "source": 1,
+            "target": 2,
+            "sourceNode": {
+                "name": "DC POP UP STORE",
+                "screenName": "DC_popupstore",
+                "id": "DC_popupstore",
+                "tweets": 40,
+                "profileColor": "F5F8FA",
+                "friends": 3,
+                "followers": 9010,
+                "location": "日本",
+                "degree": 3,
+                "keep": true
+            },
+            "targetNode": {
+                "name": "DC公式",
+                "screenName": "dc_jp",
+                "id": "dc_jp",
+                "tweets": 2803,
+                "profileColor": "F5F8FA",
+                "friends": 119,
+                "followers": 75033,
+                "location": "NA",
+                "degree": 3,
+                "keep": true
+            },
+            "weight": 1,
+            "type": "retweet",
+            "id": "e2"
+        }
+    ]
+}

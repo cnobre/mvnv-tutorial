@@ -1,0 +1,221 @@
+{
+    "nodes": [
+        {
+            "name": "Kiran Gadhave",
+            "screenName": "fast_n_fourier",
+            "id": "fast_n_fourier",
+            "tweets": 133,
+            "profileColor": "000000",
+            "friends": 197,
+            "followers": 38,
+            "location": "Salt Lake City, UT",
+            "degree": 9,
+            "keep": true
+        },
+        {
+            "name": "Carlos Scheidegger",
+            "screenName": "scheidegger",
+            "id": "scheidegger",
+            "tweets": 12345,
+            "profileColor": "1A1B1F",
+            "friends": 478,
+            "followers": 2170,
+            "location": "Tucson, AZ",
+            "degree": 2,
+            "keep": true
+        },
+        {
+            "name": "Alberto Cairo",
+            "screenName": "AlbertoCairo",
+            "id": "AlbertoCairo",
+            "tweets": 92594,
+            "profileColor": "FFFFFF",
+            "friends": 3974,
+            "followers": 48662,
+            "location": "USA, Brazil, Spain",
+            "degree": 2,
+            "keep": true
+        },
+        {
+            "name": "Faye DSouza",
+            "screenName": "fayedsouza",
+            "id": "fayedsouza",
+            "tweets": 8890,
+            "profileColor": "C6E2EE",
+            "friends": 688,
+            "followers": 806642,
+            "location": "ÜT: 12.975347,77.607725",
+            "degree": 1,
+            "keep": true
+        },
+        {
+            "name": "Jared Palmer",
+            "screenName": "jaredpalmer",
+            "id": "jaredpalmer",
+            "tweets": 5888,
+            "profileColor": "000000",
+            "friends": 880,
+            "followers": 16422,
+            "location": "New York, NY",
+            "degree": 1,
+            "keep": true
+        }
+    ],
+    "links": [
+        {
+            "source": 0,
+            "target": 1,
+            "sourceNode": {
+                "name": "Kiran Gadhave",
+                "screenName": "fast_n_fourier",
+                "id": "fast_n_fourier",
+                "tweets": 133,
+                "profileColor": "000000",
+                "friends": 197,
+                "followers": 38,
+                "location": "Salt Lake City, UT",
+                "degree": 9,
+                "keep": true
+            },
+            "targetNode": {
+                "name": "Carlos Scheidegger",
+                "screenName": "scheidegger",
+                "id": "scheidegger",
+                "tweets": 12345,
+                "profileColor": "1A1B1F",
+                "friends": 478,
+                "followers": 2170,
+                "location": "Tucson, AZ",
+                "degree": 2,
+                "keep": true
+            },
+            "weight": 1,
+            "type": "retweet",
+            "id": "e0"
+        },
+        {
+            "source": 0,
+            "target": 2,
+            "sourceNode": {
+                "name": "Kiran Gadhave",
+                "screenName": "fast_n_fourier",
+                "id": "fast_n_fourier",
+                "tweets": 133,
+                "profileColor": "000000",
+                "friends": 197,
+                "followers": 38,
+                "location": "Salt Lake City, UT",
+                "degree": 9,
+                "keep": true
+            },
+            "targetNode": {
+                "name": "Alberto Cairo",
+                "screenName": "AlbertoCairo",
+                "id": "AlbertoCairo",
+                "tweets": 92594,
+                "profileColor": "FFFFFF",
+                "friends": 3974,
+                "followers": 48662,
+                "location": "USA, Brazil, Spain",
+                "degree": 2,
+                "keep": true
+            },
+            "weight": 1,
+            "type": "retweet",
+            "id": "e1"
+        },
+        {
+            "source": 0,
+            "target": 4,
+            "sourceNode": {
+                "name": "Kiran Gadhave",
+                "screenName": "fast_n_fourier",
+                "id": "fast_n_fourier",
+                "tweets": 133,
+                "profileColor": "000000",
+                "friends": 197,
+                "followers": 38,
+                "location": "Salt Lake City, UT",
+                "degree": 9,
+                "keep": true
+            },
+            "targetNode": {
+                "name": "Jared Palmer",
+                "screenName": "jaredpalmer",
+                "id": "jaredpalmer",
+                "tweets": 5888,
+                "profileColor": "000000",
+                "friends": 880,
+                "followers": 16422,
+                "location": "New York, NY",
+                "degree": 1,
+                "keep": true
+            },
+            "weight": 1,
+            "type": "retweet",
+            "id": "e2"
+        },
+        {
+            "source": 0,
+            "target": 3,
+            "sourceNode": {
+                "name": "Kiran Gadhave",
+                "screenName": "fast_n_fourier",
+                "id": "fast_n_fourier",
+                "tweets": 133,
+                "profileColor": "000000",
+                "friends": 197,
+                "followers": 38,
+                "location": "Salt Lake City, UT",
+                "degree": 9,
+                "keep": true
+            },
+            "targetNode": {
+                "name": "Faye DSouza",
+                "screenName": "fayedsouza",
+                "id": "fayedsouza",
+                "tweets": 8890,
+                "profileColor": "C6E2EE",
+                "friends": 688,
+                "followers": 806642,
+                "location": "ÜT: 12.975347,77.607725",
+                "degree": 1,
+                "keep": true
+            },
+            "weight": 1,
+            "type": "retweet",
+            "id": "e3"
+        },
+        {
+            "source": 1,
+            "target": 2,
+            "sourceNode": {
+                "name": "Carlos Scheidegger",
+                "screenName": "scheidegger",
+                "id": "scheidegger",
+                "tweets": 12345,
+                "profileColor": "1A1B1F",
+                "friends": 478,
+                "followers": 2170,
+                "location": "Tucson, AZ",
+                "degree": 2,
+                "keep": true
+            },
+            "targetNode": {
+                "name": "Alberto Cairo",
+                "screenName": "AlbertoCairo",
+                "id": "AlbertoCairo",
+                "tweets": 92594,
+                "profileColor": "FFFFFF",
+                "friends": 3974,
+                "followers": 48662,
+                "location": "USA, Brazil, Spain",
+                "degree": 2,
+                "keep": true
+            },
+            "weight": 1,
+            "type": "mention",
+            "id": "e4"
+        }
+    ]
+}

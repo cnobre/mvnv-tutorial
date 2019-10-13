@@ -1,112 +1,130 @@
 {
     "nodes": [
         {
-            "name": "BarackObama",
+            "name": "Barack Obama",
+            "screenName": "BarackObama",
             "id": "813286",
-            "tweets": 15682,
+            "tweets": 15686,
             "profileColor": "77B0DC",
-            "group": 1,
-            "friends": 611679,
-            "followers": 109027772,
+            "friends": 611521,
+            "followers": 109304851,
             "location": "Washington, DC",
-            "degree": 11,
+            "degree": 10,
             "keep": true
         },
         {
-            "name": "GretaThunberg",
-            "id": "1006419421244678144",
-            "group": 4,
-            "friends": 0,
-            "followers": 0,
-            "location": "NA",
-            "degree": 25,
-            "keep": true
-        },
-        {
-            "name": "DemRedistrict",
-            "id": "794651044450041856",
-            "tweets": 1936,
-            "profileColor": "F5F8FA",
-            "group": 1,
-            "friends": 96,
-            "followers": 35183,
-            "location": "NA",
-            "degree": 16,
-            "keep": true
-        },
-        {
-            "name": "FisherHouseFdtn",
-            "id": "80579719",
-            "tweets": 8817,
-            "profileColor": "4D6E95",
-            "group": 4,
-            "friends": 8320,
-            "followers": 30994,
-            "location": "NA",
-            "degree": 34,
-            "keep": true
-        },
-        {
-            "name": "ObamaFoundation",
-            "id": "2293315159",
-            "tweets": 1517,
-            "profileColor": "EEEEEE",
-            "group": 4,
-            "friends": 89,
-            "followers": 851745,
-            "location": "NA",
-            "degree": 9,
-            "keep": true
-        },
-        {
-            "name": "MichelleObama",
-            "id": "409486555",
-            "tweets": 1169,
+            "name": "The Daily Show",
+            "screenName": "TheDailyShow",
+            "id": "158414847",
+            "tweets": 20040,
             "profileColor": "C0DEED",
-            "group": 1,
-            "friends": 18,
-            "followers": 13519274,
-            "location": "Washington, DC",
-            "degree": 25,
-            "keep": true
-        },
-        {
-            "name": "UrbanAlliance",
-            "id": "49499121",
-            "group": 1,
-            "friends": 0,
-            "followers": 0,
-            "location": "NA",
-            "degree": 18,
-            "keep": true
-        },
-        {
-            "name": "USWNT",
-            "id": "133448051",
-            "group": 1,
-            "friends": 0,
-            "followers": 0,
-            "location": "NA",
-            "degree": 20,
-            "keep": true
-        },
-        {
-            "name": "BudParade",
-            "id": "2476030171",
-            "group": 4,
-            "friends": 0,
-            "followers": 0,
+            "friends": 569,
+            "followers": 8147107,
             "location": "NA",
             "degree": 1,
             "keep": true
         },
         {
-            "name": "sabaeayman",
-            "id": "19796132",
-            "group": 4,
-            "friends": 0,
-            "followers": 0,
+            "name": "Washington Mystics",
+            "screenName": "WashMystics",
+            "id": "19924520",
+            "tweets": 72,
+            "friends": 48,
+            "followers": 81,
             "location": "NA",
+            "random_tweets": true,
+            "random_friends": true,
+            "random_followers": true,
+            "degree": 20,
+            "keep": true
+        },
+        {
+            "name": "Susan Rice",
+            "screenName": "AmbassadorRice",
+            "id": "820378690920058880",
+            "tweets": 76,
+            "friends": 65,
+            "followers": 45,
+            "location": "NA",
+            "random_tweets": true,
+            "random_friends": true,
+            "random_followers": true,
+            "degree": 38,
+            "keep": true
+        },
+        {
+            "name": "Greta Thunberg",
+            "screenName": "GretaThunberg",
+            "id": "1006419421244678144",
+            "tweets": 73,
+            "friends": 34,
+            "followers": 95,
+            "location": "NA",
+            "random_tweets": true,
+            "random_friends": true,
+            "random_followers": true,
+            "degree": 26,
+            "keep": true
+        },
+        {
+            "name": "NDRC",
+            "screenName": "DemRedistrict",
+            "id": "794651044450041856",
+            "tweets": 1948,
+            "profileColor": "F5F8FA",
+            "friends": 100,
+            "followers": 35211,
+            "location": "NA",
+            "degree": 20,
+            "keep": true
+        },
+        {
+            "name": "Fisher House",
+            "screenName": "FisherHouseFdtn",
+            "id": "80579719",
+            "tweets": 8832,
+            "profileColor": "4D6E95",
+            "friends": 8314,
+            "followers": 30997,
+            "location": "NA",
+            "degree": 32,
+            "keep": true
+        },
+        {
+            "name": "The Obama Foundation",
+            "screenName": "ObamaFoundation",
+            "id": "2293315159",
+            "tweets": 1525,
+            "profileColor": "EEEEEE",
+            "friends": 89,
+            "followers": 853203,
+            "location": "NA",
+            "degree": 10,
+            "keep": true
+        },
+        {
+            "name": "The American Legion",
+            "screenName": "AmericanLegion",
+            "id": "27048645",
+            "tweets": 3,
+            "friends": 81,
+            "followers": 67,
+            "location": "NA",
+            "random_tweets": true,
+            "random_friends": true,
+            "random_followers": true,
+            "degree": 1,
+            "keep": true
+        },
+        {
+            "name": "Invictus Games Foundation",
+            "screenName": "WeAreInvictus",
+            "id": "2362916395",
+            "tweets": 3810,
+            "profileColor": "FFD700",
+            "friends": 1757,
+            "followers": 84001,
+            "location": "London",
             "degree": 1,
             "keep": true
         }
@@ -115,122 +133,104 @@
         {
             "source": 0,
             "target": 1,
-            "weight": 1,
-            "type": "mention"
+            "weight": 2,
+            "type": "retweet"
         },
         {
             "source": 0,
             "target": 2,
             "weight": 1,
-            "type": "quote"
+            "type": "mention"
         },
         {
             "source": 0,
             "target": 3,
             "weight": 1,
-            "type": "quote"
+            "type": "mention"
         },
         {
             "source": 0,
             "target": 4,
             "weight": 1,
-            "type": "retweet"
+            "type": "mention"
         },
         {
             "source": 0,
             "target": 5,
             "weight": 1,
-            "type": "retweet"
+            "type": "quote"
         },
         {
             "source": 0,
             "target": 6,
             "weight": 1,
-            "type": "mention"
-        },
-        {
-            "source": 0,
-            "target": 4,
-            "weight": 1,
-            "type": "mention"
+            "type": "quote"
         },
         {
             "source": 0,
             "target": 7,
             "weight": 1,
-            "type": "mention"
-        },
-        {
-            "source": 4,
-            "target": 0,
-            "weight": 12,
-            "type": "mention"
-        },
-        {
-            "source": 4,
-            "target": 5,
-            "weight": 2,
-            "type": "mention"
-        },
-        {
-            "source": 4,
-            "target": 8,
-            "weight": 2,
-            "type": "mention"
-        },
-        {
-            "source": 4,
-            "target": 9,
-            "weight": 2,
-            "type": "mention"
-        },
-        {
-            "source": 4,
-            "target": 1,
-            "weight": 2,
-            "type": "mention"
-        },
-        {
-            "source": 4,
-            "target": 5,
-            "weight": 2,
             "type": "retweet"
         },
         {
-            "source": 3,
-            "target": 3,
-            "weight": 2,
+            "source": 6,
+            "target": 8,
+            "weight": 1,
             "type": "mention"
         },
         {
             "source": 6,
-            "target": 6,
-            "weight": 1,
-            "type": "quote"
-        },
-        {
-            "source": 2,
-            "target": 2,
+            "target": 9,
             "weight": 1,
             "type": "retweet"
         },
         {
-            "source": 1,
+            "source": 7,
             "target": 1,
             "weight": 1,
             "type": "retweet"
         },
         {
-            "source": 5,
+            "source": 7,
             "target": 0,
-            "weight": 4,
-            "type": "retweet"
+            "weight": 6,
+            "type": "mention"
+        },
+        {
+            "source": 7,
+            "target": 1,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 7,
+            "target": 4,
+            "weight": 1,
+            "type": "mention"
         },
         {
             "source": 5,
+            "target": 5,
+            "weight": 2,
+            "type": "retweet"
+        },
+        {
+            "source": 1,
+            "target": 0,
+            "weight": 2,
+            "type": "retweet"
+        },
+        {
+            "source": 1,
             "target": 0,
             "weight": 1,
             "type": "quote"
+        },
+        {
+            "source": 3,
+            "target": 3,
+            "weight": 1,
+            "type": "retweet"
         }
     ]
 }

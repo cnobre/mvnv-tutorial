@@ -1,0 +1,136 @@
+{
+    "nodes": [
+        {
+            "name": "Greta Thunberg",
+            "screenName": "GretaThunberg",
+            "id": "GretaThunberg",
+            "tweets": 5886,
+            "profileColor": "F5F8FA",
+            "friends": 1766,
+            "followers": 2788057,
+            "location": "Sverige",
+            "degree": 46,
+            "keep": true
+        },
+        {
+            "name": "Holly Gillibrand",
+            "screenName": "HollyWildChild",
+            "id": "HollyWildChild",
+            "tweets": 2217,
+            "profileColor": "000000",
+            "friends": 611,
+            "followers": 13147,
+            "location": "The Sixth Mass Extinction",
+            "degree": 32,
+            "keep": true
+        },
+        {
+            "name": "Fridays For Future Seattle",
+            "screenName": "Fri4FutureSea",
+            "id": "Fri4FutureSea",
+            "tweets": 989,
+            "profileColor": "F5F8FA",
+            "friends": 902,
+            "followers": 1642,
+            "location": "Seattle, WA",
+            "degree": 31,
+            "keep": true
+        },
+        {
+            "name": "C40 Cities",
+            "screenName": "c40cities",
+            "id": "c40cities",
+            "tweets": 28796,
+            "profileColor": "C0DEED",
+            "friends": 2552,
+            "followers": 92957,
+            "location": "Global",
+            "degree": 31,
+            "keep": true
+        },
+        {
+            "name": "Isabelle Axelsson🌍",
+            "screenName": "isabelle_ax",
+            "id": "isabelle_ax",
+            "tweets": 942,
+            "profileColor": "C0DEED",
+            "friends": 358,
+            "followers": 1898,
+            "location": "Stockholm, Sweden",
+            "degree": 29,
+            "keep": true
+        }
+    ],
+    "links": [
+        {
+            "source": 0,
+            "target": 1,
+            "weight": 1,
+            "type": "retweet",
+            "id": "e0"
+        },
+        {
+            "source": 0,
+            "target": 2,
+            "weight": 1,
+            "type": "retweet",
+            "id": "e1"
+        },
+        {
+            "source": 0,
+            "target": 3,
+            "weight": 1,
+            "type": "quote",
+            "id": "e2"
+        },
+        {
+            "source": 0,
+            "target": 4,
+            "weight": 1,
+            "type": "mention",
+            "id": "e3"
+        },
+        {
+            "source": 1,
+            "target": 0,
+            "weight": 2,
+            "type": "retweet",
+            "id": "e76"
+        },
+        {
+            "source": 4,
+            "target": 3,
+            "weight": 2,
+            "type": "retweet",
+            "id": "e84"
+        },
+        {
+            "source": 4,
+            "target": 0,
+            "weight": 2,
+            "type": "retweet",
+            "id": "e87"
+        },
+        {
+            "source": 4,
+            "target": 3,
+            "weight": 2,
+            "type": "mention",
+            "id": "e89"
+        },
+        {
+            "source": 4,
+            "target": 3,
+            "weight": 1,
+            "type": "quote",
+            "id": "e94"
+        },
+        {
+            "source": 3,
+            "target": 0,
+            "weight": 1,
+            "type": "retweet",
+            "id": "e446"
+        }
+    ]
+}

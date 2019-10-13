@@ -1,0 +1,273 @@
+{
+    "nodes": [
+        {
+            "name": "Greta Thunberg",
+            "screenName": "GretaThunberg",
+            "id": "GretaThunberg",
+            "tweets": 5886,
+            "profileColor": "F5F8FA",
+            "friends": 1766,
+            "followers": 2788007,
+            "location": "Sverige",
+            "degree": 46,
+            "keep": true
+        },
+        {
+            "name": "Holly Gillibrand",
+            "screenName": "HollyWildChild",
+            "id": "HollyWildChild",
+            "tweets": 2217,
+            "profileColor": "000000",
+            "friends": 611,
+            "followers": 13147,
+            "location": "The Sixth Mass Extinction",
+            "degree": 32,
+            "keep": true
+        },
+        {
+            "name": "Fridays For Future Seattle",
+            "screenName": "Fri4FutureSea",
+            "id": "Fri4FutureSea",
+            "tweets": 989,
+            "profileColor": "F5F8FA",
+            "friends": 902,
+            "followers": 1642,
+            "location": "Seattle, WA",
+            "degree": 31,
+            "keep": true
+        },
+        {
+            "name": "C40 Cities",
+            "screenName": "c40cities",
+            "id": "c40cities",
+            "tweets": 28796,
+            "profileColor": "C0DEED",
+            "friends": 2552,
+            "followers": 92955,
+            "location": "Global",
+            "degree": 31,
+            "keep": true
+        },
+        {
+            "name": "Isabelle Axelsson🌍",
+            "screenName": "isabelle_ax",
+            "id": "isabelle_ax",
+            "tweets": 942,
+            "profileColor": "C0DEED",
+            "friends": 358,
+            "followers": 1898,
+            "location": "Stockholm, Sweden",
+            "degree": 29,
+            "keep": true
+        },
+        {
+            "name": "Endel Stamberg",
+            "screenName": "endelstamberg",
+            "id": "endelstamberg",
+            "tweets": 350,
+            "profileColor": "000000",
+            "friends": 284,
+            "followers": 76,
+            "location": "NA",
+            "degree": 27,
+            "keep": true
+        },
+        {
+            "name": "Peter Stefanovic",
+            "screenName": "PeterStefanovi2",
+            "id": "PeterStefanovi2",
+            "tweets": 27228,
+            "profileColor": "C0DEED",
+            "friends": 6159,
+            "followers": 90658,
+            "location": "London",
+            "degree": 27,
+            "keep": true
+        },
+        {
+            "name": "Assaad Razzouk",
+            "screenName": "AssaadRazzouk",
+            "id": "AssaadRazzouk",
+            "tweets": 12692,
+            "profileColor": "C0DEED",
+            "friends": 18730,
+            "followers": 136806,
+            "location": "Singapore",
+            "degree": 27,
+            "keep": true
+        },
+        {
+            "name": "350 dot org",
+            "screenName": "350",
+            "id": "350",
+            "tweets": 47780,
+            "profileColor": "FFFFFF",
+            "friends": 19985,
+            "followers": 379400,
+            "location": "Everywhere",
+            "degree": 25,
+            "keep": true
+        },
+        {
+            "name": "Leah Namugerwa",
+            "screenName": "NamugerwaLeah",
+            "id": "NamugerwaLeah",
+            "tweets": 1236,
+            "profileColor": "F5F8FA",
+            "friends": 582,
+            "followers": 7980,
+            "location": "Kampala, Uganda",
+            "degree": 25,
+            "keep": true
+        }
+    ],
+    "links": [
+        {
+            "source": 0,
+            "target": 1,
+            "weight": 1,
+            "type": "retweet",
+            "id": "e0"
+        },
+        {
+            "source": 0,
+            "target": 2,
+            "weight": 1,
+            "type": "retweet",
+            "id": "e1"
+        },
+        {
+            "source": 0,
+            "target": 3,
+            "weight": 1,
+            "type": "quote",
+            "id": "e2"
+        },
+        {
+            "source": 0,
+            "target": 4,
+            "weight": 1,
+            "type": "mention",
+            "id": "e3"
+        },
+        {
+            "source": 0,
+            "target": 5,
+            "weight": 1,
+            "type": "retweet",
+            "id": "e4"
+        },
+        {
+            "source": 0,
+            "target": 6,
+            "weight": 1,
+            "type": "retweet",
+            "id": "e5"
+        },
+        {
+            "source": 0,
+            "target": 7,
+            "weight": 1,
+            "type": "retweet",
+            "id": "e6"
+        },
+        {
+            "source": 0,
+            "target": 8,
+            "weight": 1,
+            "type": "retweet",
+            "id": "e7"
+        },
+        {
+            "source": 0,
+            "target": 9,
+            "weight": 1,
+            "type": "retweet",
+            "id": "e8"
+        },
+        {
+            "source": 7,
+            "target": 0,
+            "weight": 1,
+            "type": "mention",
+            "id": "e65"
+        },
+        {
+            "source": 4,
+            "target": 3,
+            "weight": 2,
+            "type": "retweet",
+            "id": "e83"
+        },
+        {
+            "source": 4,
+            "target": 0,
+            "weight": 2,
+            "type": "retweet",
+            "id": "e86"
+        },
+        {
+            "source": 4,
+            "target": 3,
+            "weight": 2,
+            "type": "mention",
+            "id": "e88"
+        },
+        {
+            "source": 4,
+            "target": 3,
+            "weight": 1,
+            "type": "quote",
+            "id": "e93"
+        },
+        {
+            "source": 1,
+            "target": 0,
+            "weight": 2,
+            "type": "retweet",
+            "id": "e110"
+        },
+        {
+            "source": 9,
+            "target": 4,
+            "weight": 1,
+            "type": "retweet",
+            "id": "e129"
+        },
+        {
+            "source": 6,
+            "target": 0,
+            "weight": 2,
+            "type": "quote",
+            "id": "e390"
+        },
+        {
+            "source": 6,
+            "target": 0,
+            "weight": 1,
+            "type": "mention",
+            "id": "e397"
+        },
+        {
+            "source": 6,
+            "target": 0,
+            "weight": 1,
+            "type": "retweet",
+            "id": "e417"
+        },
+        {
+            "source": 6,
+            "target": 1,
+            "weight": 1,
+            "type": "retweet",
+            "id": "e418"
+        },
+        {
+            "source": 3,
+            "target": 0,
+            "weight": 1,
+            "type": "retweet",
+            "id": "e497"
+        }
+    ]
+}

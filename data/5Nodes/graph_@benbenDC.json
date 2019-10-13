@@ -1,0 +1,116 @@
+{
+    "nodes": [
+        {
+            "name": "Ben Shneiderman",
+            "screenName": "benbendc",
+            "id": "17268874",
+            "tweets": 1977,
+            "profileColor": "BADFCD",
+            "friends": 809,
+            "followers": 8216,
+            "location": "College Park, Maryland",
+            "degree": 35,
+            "keep": true
+        },
+        {
+            "name": "Jonathan Gala",
+            "screenName": "jongala",
+            "id": "7810932",
+            "tweets": 36,
+            "friends": 58,
+            "followers": 95,
+            "location": "NA",
+            "random_tweets": true,
+            "random_friends": true,
+            "random_followers": true,
+            "degree": 1,
+            "keep": true
+        },
+        {
+            "name": "Nicolai Marquardt",
+            "screenName": "nicmarquardt",
+            "id": "46719214",
+            "tweets": 65,
+            "profileColor": "000000",
+            "friends": 536,
+            "followers": 749,
+            "location": "London, England",
+            "degree": 36,
+            "keep": true
+        },
+        {
+            "name": "David Leonhardt",
+            "screenName": "DLeonhardt",
+            "id": "168295477",
+            "tweets": 22039,
+            "profileColor": "C0DEED",
+            "friends": 1862,
+            "followers": 132770,
+            "location": "Washington, DC",
+            "degree": 28,
+            "keep": true
+        },
+        {
+            "name": "Michael Friendly",
+            "screenName": "datavisFriendly",
+            "id": "3433899562",
+            "tweets": 1130,
+            "profileColor": "C0DEED",
+            "friends": 89,
+            "followers": 725,
+            "location": "Toronto, Ontario",
+            "degree": 29,
+            "keep": true
+        }
+    ],
+    "links": [
+        {
+            "source": 0,
+            "target": 1,
+            "weight": 2,
+            "type": "retweet"
+        },
+        {
+            "source": 0,
+            "target": 2,
+            "weight": 2,
+            "type": "retweet"
+        },
+        {
+            "source": 0,
+            "target": 3,
+            "weight": 2,
+            "type": "retweet"
+        },
+        {
+            "source": 0,
+            "target": 4,
+            "weight": 2,
+            "type": "quote"
+        },
+        {
+            "source": 0,
+            "target": 0,
+            "weight": 2,
+            "type": "mention"
+        },
+        {
+            "source": 2,
+            "target": 2,
+            "weight": 1,
+            "type": "quote"
+        },
+        {
+            "source": 2,
+            "target": 0,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 4,
+            "target": 4,
+            "weight": 2,
+            "type": "quote"
+        }
+    ]
+}

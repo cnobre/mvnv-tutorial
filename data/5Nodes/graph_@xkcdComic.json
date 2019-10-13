@@ -1,0 +1,17 @@
+{
+    "nodes": [
+        {
+            "name": "XKCD Comic",
+            "screenName": "xkcdComic",
+            "id": "2251623492",
+            "tweets": 987,
+            "profileColor": "C0DEED",
+            "friends": 1,
+            "followers": 244077,
+            "location": "NA",
+            "degree": 0,
+            "keep": true
+        }
+    ],
+    "links": []
+}

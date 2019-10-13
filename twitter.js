@@ -111,9 +111,11 @@ function drawGraph(data) {
       .force("link", d3.forceLink(links)) //.id(d => d.id))
       .force(
         "charge",
-        d3.forceManyBody().strength(function(node) {
-          return node.degree*-30;
-        })
+        d3.forceManyBody()
+        .strength(-1200)
+        // .strength(function(node) {
+        //   return node.degree*-30;
+        // })
       )
       .force("center", d3.forceCenter(width / 2, height / 2));
 

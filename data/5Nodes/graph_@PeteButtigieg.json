@@ -1,0 +1,136 @@
+{
+    "nodes": [
+        {
+            "name": "Pete Buttigieg",
+            "screenName": "PeteButtigieg",
+            "id": "226222147",
+            "tweets": 9797,
+            "profileColor": "C0DEED",
+            "friends": 2603,
+            "followers": 1470359,
+            "location": "South Bend, Indiana",
+            "degree": 19,
+            "keep": true
+        },
+        {
+            "name": "Playing for Pride",
+            "screenName": "playingforpride",
+            "id": "846357902625402880",
+            "tweets": 50,
+            "friends": 52,
+            "followers": 0,
+            "location": "NA",
+            "random_tweets": true,
+            "random_friends": true,
+            "random_followers": true,
+            "degree": 1,
+            "keep": true
+        },
+        {
+            "name": "The Nobel Prize",
+            "screenName": "NobelPrize",
+            "id": "16465385",
+            "tweets": 8719,
+            "profileColor": "FFFFFF",
+            "friends": 572,
+            "followers": 525175,
+            "location": "Stockholm, Sweden",
+            "degree": 3,
+            "keep": true
+        },
+        {
+            "name": "Abiy Ahmed Ali",
+            "screenName": "AbiyAhmedAli",
+            "id": "1168167671151628290",
+            "tweets": 59,
+            "friends": 84,
+            "followers": 40,
+            "location": "NA",
+            "random_tweets": true,
+            "random_friends": true,
+            "random_followers": true,
+            "degree": 5,
+            "keep": true
+        },
+        {
+            "name": "Team Pete HQ",
+            "screenName": "PeteForAmerica",
+            "id": "1143571304404148224",
+            "tweets": 1194,
+            "profileColor": "F5F8FA",
+            "friends": 504,
+            "followers": 42109,
+            "location": "South Bend, IN",
+            "degree": 23,
+            "keep": true
+        }
+    ],
+    "links": [
+        {
+            "source": 0,
+            "target": 1,
+            "weight": 1,
+            "type": "quote"
+        },
+        {
+            "source": 0,
+            "target": 2,
+            "weight": 1,
+            "type": "quote"
+        },
+        {
+            "source": 0,
+            "target": 3,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 0,
+            "target": 4,
+            "weight": 5,
+            "type": "retweet"
+        },
+        {
+            "source": 0,
+            "target": 4,
+            "weight": 1,
+            "type": "quote"
+        },
+        {
+            "source": 0,
+            "target": 1,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 2,
+            "target": 3,
+            "weight": 5,
+            "type": "mention"
+        },
+        {
+            "source": 4,
+            "target": 0,
+            "weight": 8,
+            "type": "mention"
+        },
+        {
+            "source": 4,
+            "target": 0,
+            "weight": 2,
+            "type": "retweet"
+        },
+        {
+            "source": 4,
+            "target": 1,
+            "weight": 2,
+            "type": "retweet"
+        },
+        {
+            "source": 1,
+            "target": 0,
+            "weight": 2,
+            "type": "mention"
+        }
+    ]
+}

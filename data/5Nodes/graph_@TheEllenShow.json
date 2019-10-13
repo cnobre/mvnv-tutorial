@@ -1,0 +1,156 @@
+{
+    "nodes": [
+        {
+            "name": "Ellen DeGeneres",
+            "screenName": "TheEllenShow",
+            "id": "15846407",
+            "tweets": 20311,
+            "profileColor": "3ABEE3",
+            "friends": 27790,
+            "followers": 78760405,
+            "location": "California",
+            "degree": 38,
+            "keep": true
+        },
+        {
+            "name": "Tiffany Smallwood",
+            "screenName": "TiffSmallwood",
+            "id": "62850867",
+            "tweets": 44556,
+            "profileColor": "000000",
+            "friends": 1554,
+            "followers": 485,
+            "location": "Buffalo, NY",
+            "degree": 1,
+            "keep": true
+        },
+        {
+            "name": "Kalen Allen",
+            "screenName": "TheKalenAllen",
+            "id": "171685697",
+            "tweets": 75,
+            "friends": 23,
+            "followers": 92,
+            "location": "NA",
+            "random_tweets": true,
+            "random_friends": true,
+            "random_followers": true,
+            "degree": 25,
+            "keep": true
+        },
+        {
+            "name": "Smosh",
+            "screenName": "smosh",
+            "id": "19604744",
+            "tweets": 18,
+            "friends": 57,
+            "followers": 77,
+            "location": "NA",
+            "random_tweets": true,
+            "random_friends": true,
+            "random_followers": true,
+            "degree": 18,
+            "keep": true
+        },
+        {
+            "name": "Allison holker",
+            "screenName": "Allisonholker",
+            "id": "108861466",
+            "tweets": 94,
+            "friends": 45,
+            "followers": 17,
+            "location": "NA",
+            "random_tweets": true,
+            "random_friends": true,
+            "random_followers": true,
+            "degree": 21,
+            "keep": true
+        }
+    ],
+    "links": [
+        {
+            "source": 0,
+            "target": 1,
+            "weight": 3,
+            "type": "mention"
+        },
+        {
+            "source": 0,
+            "target": 2,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 0,
+            "target": 3,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 0,
+            "target": 4,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 1,
+            "target": 2,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 2,
+            "target": 0,
+            "weight": 1,
+            "type": "retweet"
+        },
+        {
+            "source": 2,
+            "target": 1,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 2,
+            "target": 0,
+            "weight": 2,
+            "type": "mention"
+        },
+        {
+            "source": 3,
+            "target": 3,
+            "weight": 2,
+            "type": "quote"
+        },
+        {
+            "source": 4,
+            "target": 0,
+            "weight": 3,
+            "type": "retweet"
+        },
+        {
+            "source": 4,
+            "target": 0,
+            "weight": 2,
+            "type": "quote"
+        },
+        {
+            "source": 4,
+            "target": 1,
+            "weight": 2,
+            "type": "mention"
+        },
+        {
+            "source": 4,
+            "target": 0,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 4,
+            "target": 2,
+            "weight": 1,
+            "type": "quote"
+        }
+    ]
+}

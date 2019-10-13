@@ -1,0 +1,251 @@
+{
+    "nodes": [
+        {
+            "name": "Miriah Meyer",
+            "screenName": "miriah_meyer",
+            "id": "miriah_meyer",
+            "tweets": 117,
+            "profileColor": "000000",
+            "friends": 201,
+            "followers": 1044,
+            "location": "Salt Lake City, UT",
+            "degree": 31,
+            "keep": true
+        },
+        {
+            "name": "Alexander Lex",
+            "screenName": "alexander_lex",
+            "id": "alexander_lex",
+            "tweets": 1454,
+            "profileColor": "000000",
+            "friends": 773,
+            "followers": 1104,
+            "location": "Salt Lake City, UT",
+            "degree": 46,
+            "keep": true
+        },
+        {
+            "name": "Jessica Hullman",
+            "screenName": "JessicaHullman",
+            "id": "JessicaHullman",
+            "tweets": 935,
+            "profileColor": "C0DEED",
+            "friends": 413,
+            "followers": 2743,
+            "location": "Chicago, IL",
+            "degree": 40,
+            "keep": true
+        },
+        {
+            "name": "Moritz Stefaner",
+            "screenName": "moritz_stefaner",
+            "id": "moritz_stefaner",
+            "tweets": 16645,
+            "profileColor": "3C474D",
+            "friends": 1419,
+            "followers": 17369,
+            "location": "Lilienthal",
+            "degree": 34,
+            "keep": true
+        },
+        {
+            "name": "Sarah Goodwin",
+            "screenName": "sgeoviz",
+            "id": "sgeoviz",
+            "tweets": 752,
+            "profileColor": "C0DEED",
+            "friends": 1311,
+            "followers": 720,
+            "location": "Melbourne, Victoria",
+            "degree": 33,
+            "keep": true
+        },
+        {
+            "name": "Vis Design Lab",
+            "screenName": "visdesignlab",
+            "id": "visdesignlab",
+            "tweets": 41,
+            "profileColor": "000000",
+            "friends": 152,
+            "followers": 609,
+            "location": "Salt Lake City, UT",
+            "degree": 33,
+            "keep": true
+        },
+        {
+            "name": "Robert Kosara 👁📺",
+            "screenName": "eagereyes",
+            "id": "eagereyes",
+            "tweets": 23217,
+            "profileColor": "C5D0D4",
+            "friends": 881,
+            "followers": 21867,
+            "location": "Seattle, WA",
+            "degree": 31,
+            "keep": true
+        }
+    ],
+    "links": [
+        {
+            "source": 0,
+            "target": 1,
+            "weight": 4,
+            "type": "retweet",
+            "id": "e0"
+        },
+        {
+            "source": 0,
+            "target": 2,
+            "weight": 5,
+            "type": "retweet",
+            "id": "e1"
+        },
+        {
+            "source": 0,
+            "target": 3,
+            "weight": 1,
+            "type": "mention",
+            "id": "e2"
+        },
+        {
+            "source": 0,
+            "target": 4,
+            "weight": 1,
+            "type": "mention",
+            "id": "e3"
+        },
+        {
+            "source": 0,
+            "target": 1,
+            "weight": 1,
+            "type": "mention",
+            "id": "e4"
+        },
+        {
+            "source": 0,
+            "target": 2,
+            "weight": 2,
+            "type": "quote",
+            "id": "e5"
+        },
+        {
+            "source": 0,
+            "target": 5,
+            "weight": 1,
+            "type": "mention",
+            "id": "e6"
+        },
+        {
+            "source": 0,
+            "target": 6,
+            "weight": 2,
+            "type": "retweet",
+            "id": "e7"
+        },
+        {
+            "source": 0,
+            "target": 2,
+            "weight": 1,
+            "type": "mention",
+            "id": "e8"
+        },
+        {
+            "source": 0,
+            "target": 6,
+            "weight": 1,
+            "type": "quote",
+            "id": "e9"
+        },
+        {
+            "source": 1,
+            "target": 2,
+            "weight": 2,
+            "type": "mention",
+            "id": "e10"
+        },
+        {
+            "source": 2,
+            "target": 0,
+            "weight": 15,
+            "type": "mention",
+            "id": "e11"
+        },
+        {
+            "source": 2,
+            "target": 0,
+            "weight": 3,
+            "type": "quote",
+            "id": "e12"
+        },
+        {
+            "source": 2,
+            "target": 5,
+            "weight": 3,
+            "type": "mention",
+            "id": "e13"
+        },
+        {
+            "source": 2,
+            "target": 6,
+            "weight": 3,
+            "type": "retweet",
+            "id": "e14"
+        },
+        {
+            "source": 2,
+            "target": 0,
+            "weight": 6,
+            "type": "retweet",
+            "id": "e15"
+        },
+        {
+            "source": 2,
+            "target": 1,
+            "weight": 3,
+            "type": "mention",
+            "id": "e16"
+        },
+        {
+            "source": 2,
+            "target": 1,
+            "weight": 3,
+            "type": "retweet",
+            "id": "e17"
+        },
+        {
+            "source": 3,
+            "target": 6,
+            "weight": 1,
+            "type": "retweet",
+            "id": "e18"
+        },
+        {
+            "source": 3,
+            "target": 0,
+            "weight": 1,
+            "type": "mention",
+            "id": "e19"
+        },
+        {
+            "source": 3,
+            "target": 4,
+            "weight": 1,
+            "type": "mention",
+            "id": "e20"
+        },
+        {
+            "source": 5,
+            "target": 1,
+            "weight": 1,
+            "type": "retweet",
+            "id": "e21"
+        },
+        {
+            "source": 5,
+            "target": 2,
+            "weight": 5,
+            "type": "retweet",
+            "id": "e22"
+        }
+    ]
+}

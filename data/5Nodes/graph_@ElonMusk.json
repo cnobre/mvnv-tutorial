@@ -1,0 +1,150 @@
+{
+    "nodes": [
+        {
+            "name": "Elon Musk",
+            "screenName": "elonmusk",
+            "id": "44196397",
+            "tweets": 9040,
+            "profileColor": "C0DEED",
+            "friends": 80,
+            "followers": 28619729,
+            "location": "NA",
+            "degree": 65,
+            "keep": true
+        },
+        {
+            "name": "nextmove",
+            "screenName": "nextmove_de",
+            "id": "821675328661782528",
+            "tweets": 4189,
+            "profileColor": "000000",
+            "friends": 185,
+            "followers": 3041,
+            "location": "Leipzig, Deutschland",
+            "degree": 1,
+            "keep": true
+        },
+        {
+            "name": "Bruce Mittleman",
+            "screenName": "bruce_mittleman",
+            "id": "214993532",
+            "tweets": 54,
+            "friends": 72,
+            "followers": 40,
+            "location": "NA",
+            "random_tweets": true,
+            "random_friends": true,
+            "random_followers": true,
+            "degree": 25,
+            "keep": true
+        },
+        {
+            "name": "Luis Ramirez",
+            "screenName": "cutza7",
+            "id": "94845308",
+            "tweets": 20,
+            "friends": 52,
+            "followers": 37,
+            "location": "NA",
+            "random_tweets": true,
+            "random_friends": true,
+            "random_followers": true,
+            "degree": 35,
+            "keep": true
+        },
+        {
+            "name": "Gabriel R.",
+            "screenName": "tesla_addicted",
+            "id": "863210001082576898",
+            "tweets": 17,
+            "friends": 94,
+            "followers": 38,
+            "location": "NA",
+            "random_tweets": true,
+            "random_friends": true,
+            "random_followers": true,
+            "degree": 29,
+            "keep": true
+        }
+    ],
+    "links": [
+        {
+            "source": 0,
+            "target": 1,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 0,
+            "target": 2,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 0,
+            "target": 3,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 0,
+            "target": 4,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 2,
+            "target": 0,
+            "weight": 14,
+            "type": "mention"
+        },
+        {
+            "source": 2,
+            "target": 0,
+            "weight": 1,
+            "type": "retweet"
+        },
+        {
+            "source": 3,
+            "target": 0,
+            "weight": 1,
+            "type": "quote"
+        },
+        {
+            "source": 3,
+            "target": 0,
+            "weight": 5,
+            "type": "mention"
+        },
+        {
+            "source": 3,
+            "target": 0,
+            "weight": 1,
+            "type": "retweet"
+        },
+        {
+            "source": 4,
+            "target": 0,
+            "weight": 21,
+            "type": "mention"
+        },
+        {
+            "source": 4,
+            "target": 2,
+            "weight": 3,
+            "type": "mention"
+        },
+        {
+            "source": 4,
+            "target": 0,
+            "weight": 2,
+            "type": "quote"
+        },
+        {
+            "source": 1,
+            "target": 0,
+            "weight": 1,
+            "type": "mention"
+        }
+    ]
+}

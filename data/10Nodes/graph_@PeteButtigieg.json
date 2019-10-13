@@ -1,0 +1,282 @@
+{
+    "nodes": [
+        {
+            "name": "Steven L Reed",
+            "screenName": "stevenlouisreed",
+            "id": "632384737",
+            "tweets": 4355,
+            "profileColor": "C0DEED",
+            "friends": 134,
+            "followers": 4831,
+            "location": "montgomery, al",
+            "degree": 34,
+            "keep": true
+        },
+        {
+            "name": "Team Pete HQ",
+            "screenName": "PeteForAmerica",
+            "id": "1143571304404148224",
+            "tweets": 1223,
+            "profileColor": "F5F8FA",
+            "friends": 504,
+            "followers": 42129,
+            "location": "South Bend, IN",
+            "degree": 28,
+            "keep": true
+        },
+        {
+            "name": "Chasten 👻tigieg",
+            "screenName": "Chas10Buttigieg",
+            "id": "3671138595",
+            "tweets": 3512,
+            "profileColor": "000000",
+            "friends": 1336,
+            "followers": 386346,
+            "location": "South Bend, IN",
+            "degree": 27,
+            "keep": true
+        },
+        {
+            "name": "Collin Martin",
+            "screenName": "martcw12",
+            "id": "1365343110",
+            "tweets": 1436,
+            "profileColor": "C0DEED",
+            "friends": 168,
+            "followers": 17078,
+            "location": "Minneapolis, MN",
+            "degree": 22,
+            "keep": true
+        },
+        {
+            "name": "Pete Buttigieg",
+            "screenName": "PeteButtigieg",
+            "id": "226222147",
+            "tweets": 9798,
+            "profileColor": "C0DEED",
+            "friends": 2603,
+            "followers": 1470772,
+            "location": "South Bend, Indiana",
+            "degree": 18,
+            "keep": true
+        },
+        {
+            "name": "The Boston Globe",
+            "screenName": "BostonGlobe",
+            "id": "95431448",
+            "tweets": 382352,
+            "profileColor": "EDECE9",
+            "friends": 1237,
+            "followers": 753269,
+            "location": "Boston, MA",
+            "degree": 11,
+            "keep": true
+        },
+        {
+            "name": "Andrew Gillum",
+            "screenName": "AndrewGillum",
+            "id": "465046121",
+            "tweets": 8187,
+            "profileColor": "222A82",
+            "friends": 989,
+            "followers": 613295,
+            "location": "Tallahassee, Florida",
+            "degree": 3,
+            "keep": true
+        },
+        {
+            "name": "The Nobel Prize",
+            "screenName": "NobelPrize",
+            "id": "16465385",
+            "tweets": 8719,
+            "profileColor": "FFFFFF",
+            "friends": 572,
+            "followers": 525643,
+            "location": "Stockholm, Sweden",
+            "degree": 3,
+            "keep": true
+        },
+        {
+            "name": "Randall Woodfin",
+            "screenName": "randallwoodfin",
+            "id": "766627771514773508",
+            "tweets": 2723,
+            "profileColor": "000000",
+            "friends": 1151,
+            "followers": 26482,
+            "location": "Birmingham, AL",
+            "degree": 2,
+            "keep": true
+        },
+        {
+            "name": "The Leadership Conference",
+            "screenName": "civilrightsorg",
+            "id": "58503762",
+            "tweets": 36052,
+            "profileColor": "0079C1",
+            "friends": 825,
+            "followers": 90860,
+            "location": "Washington, DC",
+            "degree": 2,
+            "keep": true
+        }
+    ],
+    "links": [
+        {
+            "source": 0,
+            "target": 1,
+            "weight": 5,
+            "type": "retweet"
+        },
+        {
+            "source": 0,
+            "target": 2,
+            "weight": 1,
+            "type": "quote"
+        },
+        {
+            "source": 0,
+            "target": 3,
+            "weight": 1,
+            "type": "quote"
+        },
+        {
+            "source": 0,
+            "target": 4,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 0,
+            "target": 1,
+            "weight": 1,
+            "type": "quote"
+        },
+        {
+            "source": 0,
+            "target": 5,
+            "weight": 3,
+            "type": "retweet"
+        },
+        {
+            "source": 0,
+            "target": 6,
+            "weight": 2,
+            "type": "mention"
+        },
+        {
+            "source": 0,
+            "target": 7,
+            "weight": 2,
+            "type": "mention"
+        },
+        {
+            "source": 0,
+            "target": 8,
+            "weight": 1,
+            "type": "quote"
+        },
+        {
+            "source": 0,
+            "target": 9,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 0,
+            "target": 2,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 3,
+            "target": 4,
+            "weight": 5,
+            "type": "mention"
+        },
+        {
+            "source": 5,
+            "target": 1,
+            "weight": 2,
+            "type": "mention"
+        },
+        {
+            "source": 5,
+            "target": 1,
+            "weight": 3,
+            "type": "retweet"
+        },
+        {
+            "source": 5,
+            "target": 0,
+            "weight": 6,
+            "type": "mention"
+        },
+        {
+            "source": 5,
+            "target": 1,
+            "weight": 3,
+            "type": "quote"
+        },
+        {
+            "source": 5,
+            "target": 6,
+            "weight": 1,
+            "type": "retweet"
+        },
+        {
+            "source": 5,
+            "target": 7,
+            "weight": 2,
+            "type": "mention"
+        },
+        {
+            "source": 5,
+            "target": 6,
+            "weight": 2,
+            "type": "mention"
+        },
+        {
+            "source": 5,
+            "target": 0,
+            "weight": 1,
+            "type": "quote"
+        },
+        {
+            "source": 2,
+            "target": 0,
+            "weight": 2,
+            "type": "mention"
+        },
+        {
+            "source": 2,
+            "target": 7,
+            "weight": 2,
+            "type": "mention"
+        },
+        {
+            "source": 2,
+            "target": 7,
+            "weight": 2,
+            "type": "retweet"
+        },
+        {
+            "source": 6,
+            "target": 7,
+            "weight": 1,
+            "type": "quote"
+        },
+        {
+            "source": 1,
+            "target": 5,
+            "weight": 2,
+            "type": "retweet"
+        },
+        {
+            "source": 1,
+            "target": 0,
+            "weight": 2,
+            "type": "mention"
+        }
+    ]
+}

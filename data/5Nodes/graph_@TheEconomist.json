@@ -1,0 +1,100 @@
+{
+    "nodes": [
+        {
+            "name": "The Economist",
+            "screenName": "TheEconomist",
+            "id": "5988062",
+            "tweets": 189972,
+            "profileColor": "DFDFDF",
+            "friends": 121,
+            "followers": 24086298,
+            "location": "London",
+            "degree": 2,
+            "keep": true
+        },
+        {
+            "name": "Holly Donahue",
+            "screenName": "HollyEconomist",
+            "id": "2471216828",
+            "tweets": 2373,
+            "profileColor": "FFFFFF",
+            "friends": 1284,
+            "followers": 1433,
+            "location": "London",
+            "degree": 1,
+            "keep": true
+        },
+        {
+            "name": "Alberto Cairo",
+            "screenName": "AlbertoCairo",
+            "id": "34255829",
+            "tweets": 32,
+            "friends": 2,
+            "followers": 80,
+            "location": "NA",
+            "random_tweets": true,
+            "random_friends": true,
+            "random_followers": true,
+            "degree": 1,
+            "keep": true
+        },
+        {
+            "name": "John Burn-Murdoch",
+            "screenName": "jburnmurdoch",
+            "id": "43878033",
+            "tweets": 5,
+            "friends": 86,
+            "followers": 50,
+            "location": "NA",
+            "random_tweets": true,
+            "random_friends": true,
+            "random_followers": true,
+            "degree": 1,
+            "keep": true
+        },
+        {
+            "name": "Steven (with a ph)",
+            "screenName": "SJKSalisbury",
+            "id": "396621076",
+            "tweets": 6830,
+            "profileColor": "EBEBEB",
+            "friends": 926,
+            "followers": 3004,
+            "location": "NA",
+            "degree": 1,
+            "keep": true
+        }
+    ],
+    "links": [
+        {
+            "source": 0,
+            "target": 1,
+            "weight": 1,
+            "type": "retweet"
+        },
+        {
+            "source": 1,
+            "target": 0,
+            "weight": 2,
+            "type": "mention"
+        },
+        {
+            "source": 1,
+            "target": 2,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 1,
+            "target": 3,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 1,
+            "target": 4,
+            "weight": 1,
+            "type": "retweet"
+        }
+    ]
+}

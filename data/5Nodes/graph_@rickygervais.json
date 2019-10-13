@@ -1,0 +1,126 @@
+{
+    "nodes": [
+        {
+            "name": "Ricky Gervais",
+            "screenName": "rickygervais",
+            "id": "20015311",
+            "tweets": 58203,
+            "profileColor": "FFFFFF",
+            "friends": 1349,
+            "followers": 13437417,
+            "location": "Earth",
+            "degree": 51,
+            "keep": true
+        },
+        {
+            "name": "Draculan 🧛‍♂️ Cashin",
+            "screenName": "Tweet_Dec",
+            "id": "17519978",
+            "tweets": 111527,
+            "profileColor": "709397",
+            "friends": 20883,
+            "followers": 30673,
+            "location": "London, England",
+            "degree": 1,
+            "keep": true
+        },
+        {
+            "name": "Cathy Garside",
+            "screenName": "CathyGarside",
+            "id": "2496519307",
+            "tweets": 78,
+            "friends": 49,
+            "followers": 23,
+            "location": "NA",
+            "random_tweets": true,
+            "random_friends": true,
+            "random_followers": true,
+            "degree": 28,
+            "keep": true
+        },
+        {
+            "name": "Nicholas Hawkins",
+            "screenName": "nehawkins",
+            "id": "55325910",
+            "tweets": 13,
+            "friends": 58,
+            "followers": 23,
+            "location": "NA",
+            "random_tweets": true,
+            "random_friends": true,
+            "random_followers": true,
+            "degree": 29,
+            "keep": true
+        },
+        {
+            "name": "Ashley Copestake",
+            "screenName": "Ashc7",
+            "id": "55816846",
+            "tweets": 32,
+            "friends": 73,
+            "followers": 34,
+            "location": "NA",
+            "random_tweets": true,
+            "random_friends": true,
+            "random_followers": true,
+            "degree": 41,
+            "keep": true
+        }
+    ],
+    "links": [
+        {
+            "source": 0,
+            "target": 1,
+            "weight": 2,
+            "type": "mention"
+        },
+        {
+            "source": 0,
+            "target": 2,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 0,
+            "target": 3,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 0,
+            "target": 4,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 3,
+            "target": 0,
+            "weight": 4,
+            "type": "mention"
+        },
+        {
+            "source": 1,
+            "target": 0,
+            "weight": 4,
+            "type": "mention"
+        },
+        {
+            "source": 4,
+            "target": 0,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 2,
+            "target": 0,
+            "weight": 4,
+            "type": "retweet"
+        },
+        {
+            "source": 2,
+            "target": 0,
+            "weight": 2,
+            "type": "mention"
+        }
+    ]
+}

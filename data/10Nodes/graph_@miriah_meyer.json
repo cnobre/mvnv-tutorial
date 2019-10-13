@@ -1,0 +1,315 @@
+{
+    "nodes": [
+        {
+            "name": "Miriah Meyer",
+            "screenName": "miriah_meyer",
+            "id": "miriah_meyer",
+            "tweets": 117,
+            "profileColor": "000000",
+            "friends": 201,
+            "followers": 1044,
+            "location": "Salt Lake City, UT",
+            "degree": 31,
+            "keep": true
+        },
+        {
+            "name": "Alexander Lex",
+            "screenName": "alexander_lex",
+            "id": "alexander_lex",
+            "tweets": 1454,
+            "profileColor": "000000",
+            "friends": 773,
+            "followers": 1105,
+            "location": "Salt Lake City, UT",
+            "degree": 46,
+            "keep": true
+        },
+        {
+            "name": "Jessica Hullman",
+            "screenName": "JessicaHullman",
+            "id": "JessicaHullman",
+            "tweets": 935,
+            "profileColor": "C0DEED",
+            "friends": 413,
+            "followers": 2743,
+            "location": "Chicago, IL",
+            "degree": 40,
+            "keep": true
+        },
+        {
+            "name": "Moritz Stefaner",
+            "screenName": "moritz_stefaner",
+            "id": "moritz_stefaner",
+            "tweets": 16645,
+            "profileColor": "3C474D",
+            "friends": 1419,
+            "followers": 17369,
+            "location": "Lilienthal",
+            "degree": 34,
+            "keep": true
+        },
+        {
+            "name": "Sarah Goodwin",
+            "screenName": "sgeoviz",
+            "id": "sgeoviz",
+            "tweets": 752,
+            "profileColor": "C0DEED",
+            "friends": 1311,
+            "followers": 720,
+            "location": "Melbourne, Victoria",
+            "degree": 33,
+            "keep": true
+        },
+        {
+            "name": "Vis Design Lab",
+            "screenName": "visdesignlab",
+            "id": "visdesignlab",
+            "tweets": 41,
+            "profileColor": "000000",
+            "friends": 152,
+            "followers": 609,
+            "location": "Salt Lake City, UT",
+            "degree": 33,
+            "keep": true
+        },
+        {
+            "name": "Robert Kosara 👁📺",
+            "screenName": "eagereyes",
+            "id": "eagereyes",
+            "tweets": 23217,
+            "profileColor": "C5D0D4",
+            "friends": 881,
+            "followers": 21865,
+            "location": "Seattle, WA",
+            "degree": 31,
+            "keep": true
+        },
+        {
+            "name": "Marian Dörk",
+            "screenName": "nrchtct",
+            "id": "nrchtct",
+            "tweets": 4438,
+            "profileColor": "6C7A6F",
+            "friends": 528,
+            "followers": 3332,
+            "location": "Berlin, Germany",
+            "degree": 27,
+            "keep": true
+        },
+        {
+            "name": "ACDH",
+            "screenName": "ACDH_OeAW",
+            "id": "ACDH_OeAW",
+            "tweets": 4567,
+            "profileColor": "F5F8FA",
+            "friends": 1788,
+            "followers": 2095,
+            "location": "Wien, Österreich",
+            "degree": 26,
+            "keep": true
+        },
+        {
+            "name": "Menna El-Assady",
+            "screenName": "manunna_91",
+            "id": "manunna_91",
+            "tweets": 143,
+            "profileColor": "000000",
+            "friends": 1199,
+            "followers": 294,
+            "location": "NA",
+            "degree": 22,
+            "keep": true
+        }
+    ],
+    "links": [
+        {
+            "source": 0,
+            "target": 1,
+            "weight": 4,
+            "type": "retweet",
+            "id": "e0"
+        },
+        {
+            "source": 0,
+            "target": 2,
+            "weight": 5,
+            "type": "retweet",
+            "id": "e1"
+        },
+        {
+            "source": 0,
+            "target": 3,
+            "weight": 1,
+            "type": "mention",
+            "id": "e2"
+        },
+        {
+            "source": 0,
+            "target": 4,
+            "weight": 1,
+            "type": "mention",
+            "id": "e3"
+        },
+        {
+            "source": 0,
+            "target": 1,
+            "weight": 1,
+            "type": "mention",
+            "id": "e4"
+        },
+        {
+            "source": 0,
+            "target": 2,
+            "weight": 2,
+            "type": "quote",
+            "id": "e5"
+        },
+        {
+            "source": 0,
+            "target": 5,
+            "weight": 1,
+            "type": "mention",
+            "id": "e6"
+        },
+        {
+            "source": 0,
+            "target": 6,
+            "weight": 2,
+            "type": "retweet",
+            "id": "e7"
+        },
+        {
+            "source": 0,
+            "target": 7,
+            "weight": 1,
+            "type": "retweet",
+            "id": "e8"
+        },
+        {
+            "source": 0,
+            "target": 8,
+            "weight": 1,
+            "type": "mention",
+            "id": "e9"
+        },
+        {
+            "source": 0,
+            "target": 9,
+            "weight": 1,
+            "type": "quote",
+            "id": "e10"
+        },
+        {
+            "source": 0,
+            "target": 2,
+            "weight": 1,
+            "type": "mention",
+            "id": "e11"
+        },
+        {
+            "source": 0,
+            "target": 6,
+            "weight": 1,
+            "type": "quote",
+            "id": "e13"
+        },
+        {
+            "source": 1,
+            "target": 2,
+            "weight": 2,
+            "type": "mention",
+            "id": "e35"
+        },
+        {
+            "source": 2,
+            "target": 0,
+            "weight": 15,
+            "type": "mention",
+            "id": "e114"
+        },
+        {
+            "source": 2,
+            "target": 0,
+            "weight": 3,
+            "type": "quote",
+            "id": "e115"
+        },
+        {
+            "source": 2,
+            "target": 5,
+            "weight": 3,
+            "type": "mention",
+            "id": "e118"
+        },
+        {
+            "source": 2,
+            "target": 6,
+            "weight": 3,
+            "type": "retweet",
+            "id": "e120"
+        },
+        {
+            "source": 2,
+            "target": 0,
+            "weight": 6,
+            "type": "retweet",
+            "id": "e124"
+        },
+        {
+            "source": 2,
+            "target": 9,
+            "weight": 3,
+            "type": "retweet",
+            "id": "e125"
+        },
+        {
+            "source": 2,
+            "target": 1,
+            "weight": 3,
+            "type": "mention",
+            "id": "e129"
+        },
+        {
+            "source": 2,
+            "target": 1,
+            "weight": 3,
+            "type": "retweet",
+            "id": "e131"
+        },
+        {
+            "source": 5,
+            "target": 1,
+            "weight": 1,
+            "type": "retweet",
+            "id": "e149"
+        },
+        {
+            "source": 5,
+            "target": 2,
+            "weight": 5,
+            "type": "retweet",
+            "id": "e150"
+        },
+        {
+            "source": 3,
+            "target": 6,
+            "weight": 1,
+            "type": "retweet",
+            "id": "e197"
+        },
+        {
+            "source": 3,
+            "target": 0,
+            "weight": 1,
+            "type": "mention",
+            "id": "e198"
+        },
+        {
+            "source": 3,
+            "target": 4,
+            "weight": 1,
+            "type": "mention",
+            "id": "e199"
+        }
+    ]
+}

@@ -1,0 +1,150 @@
+{
+    "nodes": [
+        {
+            "name": "Michelle Obama",
+            "screenName": "MichelleObama",
+            "id": "MichelleObama",
+            "tweets": 1178,
+            "profileColor": "C0DEED",
+            "friends": 18,
+            "followers": 13616164,
+            "location": "Washington, DC",
+            "degree": 42,
+            "keep": true
+        },
+        {
+            "name": "Tina Tchen",
+            "screenName": "TinaTchen",
+            "id": "TinaTchen",
+            "tweets": 424,
+            "profileColor": "C0DEED",
+            "friends": 173,
+            "followers": 14337,
+            "location": "Washington, DC",
+            "degree": 39,
+            "keep": true
+        },
+        {
+            "name": "kerry washington",
+            "screenName": "kerrywashington",
+            "id": "kerrywashington",
+            "tweets": 30101,
+            "profileColor": "DBE9ED",
+            "friends": 676,
+            "followers": 5304316,
+            "location": "NA",
+            "degree": 34,
+            "keep": true
+        },
+        {
+            "name": "UnitedStateofWomen",
+            "screenName": "USOWomen",
+            "id": "USOWomen",
+            "tweets": 11641,
+            "profileColor": "F5F8FA",
+            "friends": 1590,
+            "followers": 36615,
+            "location": "Washington, DC",
+            "degree": 31,
+            "keep": true
+        },
+        {
+            "name": "Tracee Ellis Ross",
+            "screenName": "TraceeEllisRoss",
+            "id": "TraceeEllisRoss",
+            "tweets": 11828,
+            "profileColor": "131516",
+            "friends": 276,
+            "followers": 1164868,
+            "location": "NA",
+            "degree": 28,
+            "keep": true
+        }
+    ],
+    "links": [
+        {
+            "source": 0,
+            "target": 1,
+            "weight": 1,
+            "type": "retweet",
+            "id": "e0"
+        },
+        {
+            "source": 0,
+            "target": 2,
+            "weight": 1,
+            "type": "retweet",
+            "id": "e1"
+        },
+        {
+            "source": 0,
+            "target": 3,
+            "weight": 1,
+            "type": "retweet",
+            "id": "e2"
+        },
+        {
+            "source": 0,
+            "target": 4,
+            "weight": 1,
+            "type": "mention",
+            "id": "e3"
+        },
+        {
+            "source": 1,
+            "target": 3,
+            "weight": 1,
+            "type": "retweet",
+            "id": "e55"
+        },
+        {
+            "source": 1,
+            "target": 0,
+            "weight": 1,
+            "type": "quote",
+            "id": "e56"
+        },
+        {
+            "source": 1,
+            "target": 0,
+            "weight": 1,
+            "type": "mention",
+            "id": "e57"
+        },
+        {
+            "source": 4,
+            "target": 1,
+            "weight": 2,
+            "type": "retweet",
+            "id": "e189"
+        },
+        {
+            "source": 4,
+            "target": 3,
+            "weight": 3,
+            "type": "retweet",
+            "id": "e191"
+        },
+        {
+            "source": 4,
+            "target": 0,
+            "weight": 4,
+            "type": "retweet",
+            "id": "e192"
+        },
+        {
+            "source": 4,
+            "target": 3,
+            "weight": 1,
+            "type": "mention",
+            "id": "e193"
+        },
+        {
+            "source": 4,
+            "target": 2,
+            "weight": 1,
+            "type": "retweet",
+            "id": "e194"
+        }
+    ]
+}

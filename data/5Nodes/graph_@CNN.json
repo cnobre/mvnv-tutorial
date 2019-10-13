@@ -1,0 +1,17 @@
+{
+    "nodes": [
+        {
+            "name": "CNN",
+            "screenName": "CNN",
+            "id": "759251",
+            "tweets": 266796,
+            "profileColor": "323232",
+            "friends": 1106,
+            "followers": 43103961,
+            "location": "NA",
+            "degree": 0,
+            "keep": true
+        }
+    ],
+    "links": []
+}

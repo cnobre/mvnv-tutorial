@@ -1,0 +1,231 @@
+{
+    "nodes": [
+        {
+            "name": "Barack Obama",
+            "screenName": "BarackObama",
+            "id": "BarackObama",
+            "tweets": 15686,
+            "profileColor": "77B0DC",
+            "friends": 611516,
+            "followers": 109348434,
+            "location": "Washington, DC",
+            "degree": 10,
+            "keep": true
+        },
+        {
+            "name": "Fisher House",
+            "screenName": "FisherHouseFdtn",
+            "id": "FisherHouseFdtn",
+            "tweets": 8835,
+            "profileColor": "4D6E95",
+            "friends": 8315,
+            "followers": 30998,
+            "location": "NA",
+            "degree": 31,
+            "keep": true
+        },
+        {
+            "name": "Michelle Obama",
+            "screenName": "MichelleObama",
+            "id": "MichelleObama",
+            "tweets": 1178,
+            "profileColor": "C0DEED",
+            "friends": 18,
+            "followers": 13616041,
+            "location": "Washington, DC",
+            "degree": 31,
+            "keep": true
+        },
+        {
+            "name": "NDRC",
+            "screenName": "DemRedistrict",
+            "id": "DemRedistrict",
+            "tweets": 1950,
+            "profileColor": "F5F8FA",
+            "friends": 100,
+            "followers": 35216,
+            "location": "NA",
+            "degree": 17,
+            "keep": true
+        },
+        {
+            "name": "The Obama Foundation",
+            "screenName": "ObamaFoundation",
+            "id": "ObamaFoundation",
+            "tweets": 1525,
+            "profileColor": "EEEEEE",
+            "friends": 89,
+            "followers": 853381,
+            "location": "NA",
+            "degree": 10,
+            "keep": true
+        },
+        {
+            "name": "Mike Thibault",
+            "screenName": "coachthibault",
+            "id": "coachthibault",
+            "tweets": 59,
+            "profileColor": "C0DEED",
+            "friends": 18,
+            "followers": 943,
+            "location": "NA",
+            "degree": 2,
+            "keep": true
+        },
+        {
+            "name": "Department of Defense 🇺🇸",
+            "screenName": "DeptofDefense",
+            "id": "DeptofDefense",
+            "tweets": 26781,
+            "profileColor": "003875",
+            "friends": 460,
+            "followers": 5907462,
+            "location": "The Pentagon, Washington, D.C.",
+            "degree": 2,
+            "keep": true
+        },
+        {
+            "name": "Ike NHS",
+            "screenName": "IKE_NHS",
+            "id": "IKE_NHS",
+            "tweets": 148,
+            "profileColor": "C0DEED",
+            "friends": 39,
+            "followers": 133,
+            "location": "New Berlin, WI",
+            "degree": 2,
+            "keep": true
+        },
+        {
+            "name": "Girls Opportunity Alliance",
+            "screenName": "girlsalliance",
+            "id": "girlsalliance",
+            "tweets": 186,
+            "profileColor": "F5F8FA",
+            "friends": 48,
+            "followers": 39809,
+            "location": "NA",
+            "degree": 2,
+            "keep": true
+        },
+        {
+            "name": "Tina Tchen",
+            "screenName": "TinaTchen",
+            "id": "TinaTchen",
+            "tweets": 424,
+            "profileColor": "C0DEED",
+            "friends": 173,
+            "followers": 14337,
+            "location": "Washington, DC",
+            "degree": 2,
+            "keep": true
+        }
+    ],
+    "links": [
+        {
+            "source": 0,
+            "target": 1,
+            "weight": 2,
+            "type": "retweet",
+            "id": "e0"
+        },
+        {
+            "source": 0,
+            "target": 2,
+            "weight": 1,
+            "type": "mention",
+            "id": "e1"
+        },
+        {
+            "source": 0,
+            "target": 3,
+            "weight": 1,
+            "type": "mention",
+            "id": "e2"
+        },
+        {
+            "source": 0,
+            "target": 4,
+            "weight": 1,
+            "type": "mention",
+            "id": "e3"
+        },
+        {
+            "source": 0,
+            "target": 5,
+            "weight": 1,
+            "type": "quote",
+            "id": "e4"
+        },
+        {
+            "source": 0,
+            "target": 6,
+            "weight": 1,
+            "type": "quote",
+            "id": "e5"
+        },
+        {
+            "source": 0,
+            "target": 7,
+            "weight": 1,
+            "type": "retweet",
+            "id": "e6"
+        },
+        {
+            "source": 6,
+            "target": 8,
+            "weight": 1,
+            "type": "mention",
+            "id": "e7"
+        },
+        {
+            "source": 6,
+            "target": 9,
+            "weight": 1,
+            "type": "retweet",
+            "id": "e8"
+        },
+        {
+            "source": 7,
+            "target": 1,
+            "weight": 1,
+            "type": "retweet",
+            "id": "e54"
+        },
+        {
+            "source": 7,
+            "target": 0,
+            "weight": 6,
+            "type": "mention",
+            "id": "e56"
+        },
+        {
+            "source": 7,
+            "target": 1,
+            "weight": 1,
+            "type": "mention",
+            "id": "e57"
+        },
+        {
+            "source": 7,
+            "target": 4,
+            "weight": 1,
+            "type": "mention",
+            "id": "e60"
+        },
+        {
+            "source": 1,
+            "target": 0,
+            "weight": 2,
+            "type": "retweet",
+            "id": "e80"
+        },
+        {
+            "source": 1,
+            "target": 0,
+            "weight": 1,
+            "type": "quote",
+            "id": "e86"
+        }
+    ]
+}

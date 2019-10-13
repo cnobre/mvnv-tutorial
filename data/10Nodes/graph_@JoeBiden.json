@@ -1,0 +1,264 @@
+{
+    "nodes": [
+        {
+            "name": "TEAM J🎃E (Text JOE to 30330)",
+            "screenName": "TeamJoe",
+            "id": "1129095209772552192",
+            "tweets": 707,
+            "profileColor": "000000",
+            "friends": 183,
+            "followers": 14442,
+            "location": "Philadelphia, PA",
+            "degree": 24,
+            "keep": true
+        },
+        {
+            "name": "Joe Biden",
+            "screenName": "JoeBiden",
+            "id": "939091",
+            "tweets": 2822,
+            "profileColor": "565959",
+            "friends": 22,
+            "followers": 3852602,
+            "location": "Wilmington, DE",
+            "degree": 7,
+            "keep": true
+        },
+        {
+            "name": "National Center for Transgende",
+            "screenName": "TransEquality",
+            "id": "37005435",
+            "tweets": 20451,
+            "profileColor": "8B542B",
+            "friends": 8042,
+            "followers": 107458,
+            "location": "Washington, DC",
+            "degree": 6,
+            "keep": true
+        },
+        {
+            "name": "Anderson Cooper 360°",
+            "screenName": "AC360",
+            "id": "227837742",
+            "tweets": 66605,
+            "profileColor": "C0DEED",
+            "friends": 158,
+            "followers": 1329588,
+            "location": "New York, NY",
+            "degree": 4,
+            "keep": true
+        },
+        {
+            "name": "60 Minutes",
+            "screenName": "60Minutes",
+            "id": "18812572",
+            "tweets": 22252,
+            "profileColor": "700202",
+            "friends": 401,
+            "followers": 1045918,
+            "location": "New York, NY",
+            "degree": 3,
+            "keep": true
+        },
+        {
+            "name": "Rodrigo Heng-Lehtinen",
+            "screenName": "TransRigo",
+            "id": "3230011478",
+            "tweets": 1188,
+            "profileColor": "000000",
+            "friends": 1028,
+            "followers": 1022,
+            "location": "Washington, DC",
+            "degree": 2,
+            "keep": true
+        },
+        {
+            "name": "Joe for Nevada",
+            "screenName": "JoeForNV",
+            "id": "1141928541656952832",
+            "tweets": 253,
+            "profileColor": "F5F8FA",
+            "friends": 512,
+            "followers": 306,
+            "location": "Las Vegas, Nevada",
+            "degree": 2,
+            "keep": true
+        },
+        {
+            "name": "Dr. Jill Biden",
+            "screenName": "DrBiden",
+            "id": "821784477076750338",
+            "tweets": 308,
+            "profileColor": "F5F8FA",
+            "friends": 4,
+            "followers": 61653,
+            "location": "NA",
+            "degree": 2,
+            "keep": true
+        },
+        {
+            "name": "Robert Lyons",
+            "screenName": "RobertLyonsIA",
+            "id": "2339763739",
+            "tweets": 801,
+            "profileColor": "000000",
+            "friends": 3109,
+            "followers": 1226,
+            "location": "Denison, IA",
+            "degree": 1,
+            "keep": true
+        },
+        {
+            "name": "Sarah McBride",
+            "screenName": "SarahEMcBride",
+            "id": "272191896",
+            "tweets": 15248,
+            "profileColor": "000000",
+            "friends": 3364,
+            "followers": 49310,
+            "location": "Wilmington, Delaware",
+            "degree": 1,
+            "keep": true
+        }
+    ],
+    "links": [
+        {
+            "source": 0,
+            "target": 1,
+            "weight": 1,
+            "type": "retweet"
+        },
+        {
+            "source": 0,
+            "target": 2,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 0,
+            "target": 3,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 0,
+            "target": 4,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 3,
+            "target": 5,
+            "weight": 4,
+            "type": "retweet"
+        },
+        {
+            "source": 3,
+            "target": 6,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 3,
+            "target": 5,
+            "weight": 3,
+            "type": "mention"
+        },
+        {
+            "source": 3,
+            "target": 7,
+            "weight": 1,
+            "type": "retweet"
+        },
+        {
+            "source": 3,
+            "target": 8,
+            "weight": 1,
+            "type": "retweet"
+        },
+        {
+            "source": 3,
+            "target": 4,
+            "weight": 1,
+            "type": "quote"
+        },
+        {
+            "source": 3,
+            "target": 4,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 3,
+            "target": 4,
+            "weight": 1,
+            "type": "retweet"
+        },
+        {
+            "source": 3,
+            "target": 5,
+            "weight": 1,
+            "type": "quote"
+        },
+        {
+            "source": 3,
+            "target": 9,
+            "weight": 1,
+            "type": "retweet"
+        },
+        {
+            "source": 1,
+            "target": 0,
+            "weight": 4,
+            "type": "mention"
+        },
+        {
+            "source": 1,
+            "target": 0,
+            "weight": 3,
+            "type": "retweet"
+        },
+        {
+            "source": 1,
+            "target": 2,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 4,
+            "target": 5,
+            "weight": 2,
+            "type": "quote"
+        },
+        {
+            "source": 4,
+            "target": 5,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 4,
+            "target": 0,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 4,
+            "target": 5,
+            "weight": 5,
+            "type": "retweet"
+        },
+        {
+            "source": 4,
+            "target": 3,
+            "weight": 2,
+            "type": "retweet"
+        },
+        {
+            "source": 4,
+            "target": 3,
+            "weight": 2,
+            "type": "mention"
+        }
+    ]
+}

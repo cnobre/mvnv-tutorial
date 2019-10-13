@@ -1,0 +1,114 @@
+{
+    "nodes": [
+        {
+            "name": "The New York Times",
+            "screenName": "nytimes",
+            "id": "807095",
+            "tweets": 374059,
+            "profileColor": "131516",
+            "friends": 896,
+            "followers": 44261664,
+            "location": "New York City",
+            "degree": 7,
+            "keep": true
+        },
+        {
+            "name": "Richard Fausset",
+            "screenName": "RichardFausset",
+            "id": "306527400",
+            "tweets": 6227,
+            "profileColor": "C0DEED",
+            "friends": 552,
+            "followers": 5640,
+            "location": "NA",
+            "degree": 1,
+            "keep": true
+        },
+        {
+            "name": "Rick Rojas",
+            "screenName": "RaR",
+            "id": "18916926",
+            "tweets": 2541,
+            "profileColor": "07090B",
+            "friends": 853,
+            "followers": 6918,
+            "location": "Atlanta",
+            "degree": 23,
+            "keep": true
+        },
+        {
+            "name": "Gilbert Cruz",
+            "screenName": "gilbertcruz",
+            "id": "30893145",
+            "tweets": 434,
+            "profileColor": "C0DEED",
+            "friends": 555,
+            "followers": 11077,
+            "location": "New York City",
+            "degree": 19,
+            "keep": true
+        },
+        {
+            "name": "New York Times World",
+            "screenName": "nytimesworld",
+            "id": "1877831",
+            "tweets": 247377,
+            "profileColor": "FFFFFF",
+            "friends": 917,
+            "followers": 1960047,
+            "location": "New York, London, Hong Kong",
+            "degree": 1,
+            "keep": true
+        }
+    ],
+    "links": [
+        {
+            "source": 0,
+            "target": 1,
+            "weight": 1,
+            "type": "retweet"
+        },
+        {
+            "source": 0,
+            "target": 2,
+            "weight": 1,
+            "type": "retweet"
+        },
+        {
+            "source": 0,
+            "target": 3,
+            "weight": 1,
+            "type": "retweet"
+        },
+        {
+            "source": 0,
+            "target": 4,
+            "weight": 1,
+            "type": "retweet"
+        },
+        {
+            "source": 1,
+            "target": 0,
+            "weight": 1,
+            "type": "quote"
+        },
+        {
+            "source": 1,
+            "target": 0,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 2,
+            "target": 2,
+            "weight": 1,
+            "type": "quote"
+        },
+        {
+            "source": 2,
+            "target": 0,
+            "weight": 1,
+            "type": "mention"
+        }
+    ]
+}

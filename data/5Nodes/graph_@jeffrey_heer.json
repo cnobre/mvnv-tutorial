@@ -1,0 +1,114 @@
+{
+    "nodes": [
+        {
+            "name": "Jeffrey Heer",
+            "screenName": "jeffrey_heer",
+            "id": "247943631",
+            "tweets": 1021,
+            "profileColor": "1A1B1F",
+            "friends": 679,
+            "followers": 11100,
+            "location": "Berlin",
+            "degree": 51,
+            "keep": true
+        },
+        {
+            "name": "Fi Gordon",
+            "screenName": "VizChic",
+            "id": "62378318",
+            "tweets": 98,
+            "friends": 83,
+            "followers": 53,
+            "location": "NA",
+            "random_tweets": true,
+            "random_friends": true,
+            "random_followers": true,
+            "degree": 1,
+            "keep": true
+        },
+        {
+            "name": "Vega & Vega-Lite",
+            "screenName": "vega_vis",
+            "id": "919294347857690625",
+            "tweets": 286,
+            "profileColor": "000000",
+            "friends": 97,
+            "followers": 1942,
+            "location": "Seattle, WA",
+            "degree": 25,
+            "keep": true
+        },
+        {
+            "name": "Joe Hellerstein",
+            "screenName": "joe_hellerstein",
+            "id": "78729443",
+            "tweets": 93,
+            "friends": 66,
+            "followers": 44,
+            "location": "NA",
+            "random_tweets": true,
+            "random_friends": true,
+            "random_followers": true,
+            "degree": 23,
+            "keep": true
+        },
+        {
+            "name": "Andy Kirk",
+            "screenName": "visualisingdata",
+            "id": "137712607",
+            "tweets": 21,
+            "friends": 52,
+            "followers": 30,
+            "location": "NA",
+            "random_tweets": true,
+            "random_friends": true,
+            "random_followers": true,
+            "degree": 33,
+            "keep": true
+        }
+    ],
+    "links": [
+        {
+            "source": 0,
+            "target": 1,
+            "weight": 2,
+            "type": "mention"
+        },
+        {
+            "source": 0,
+            "target": 2,
+            "weight": 1,
+            "type": "retweet"
+        },
+        {
+            "source": 0,
+            "target": 3,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 0,
+            "target": 4,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 0,
+            "target": 2,
+            "weight": 3,
+            "type": "mention"
+        },
+        {
+            "source": 1,
+            "target": 0,
+            "weight": 1,
+            "type": "mention"
+        },
+        {
+            "source": 2,
+            "target": 0,
+            "weight": 2,
+            "type": "retweet"
+        }
+    ]
+}

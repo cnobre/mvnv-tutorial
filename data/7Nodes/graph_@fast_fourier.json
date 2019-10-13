@@ -1,0 +1,17 @@
+{
+    "nodes": [
+        {
+            "name": "太郎",
+            "screenName": "fast_fourier",
+            "id": "fast_fourier",
+            "tweets": 307,
+            "profileColor": "C0DEED",
+            "friends": 28,
+            "followers": 1,
+            "location": "NA",
+            "degree": 7,
+            "keep": true
+        }
+    ],
+    "links": []
+}

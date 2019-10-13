@@ -1,14 +1,16 @@
 //Callback functions
-var error = function(err, response, body) {
+var error = function (err, response, body) {
   console.log("ERROR [%s]", err);
 };
-var success = function(data) {
+var success = function (data) {
   console.log("Data [%s]", data);
 };
 
 // var Twitter = require("twitter-node-client").Twitter;
 
 var Twit = require("twit");
+
+var cytoscape = require('cytoscape');
 
 var T = new Twit({
   consumer_key: "BH4FzEHkxbKTlbRLeB8zw91Me",
@@ -45,32 +47,32 @@ const server = http.createServer(async (req, res) => {
     //check if source node exists
     let node = graph.nodes.find(n => n.screenName == user.screen_name);
     if (!node) {
-        let newNode = 
+      let newNode =
       {
-        name:user.name.slice(0,30),
+        name: user.name.slice(0, 30),
         screenName: user.screen_name,
         id: user.id_str,
-        tweets:user.statuses_count || Math.round(Math.random()*100),
-        profileColor:user.profile_background_color,
-        friends: user.friends_count  || Math.round(Math.random()*100),
-        followers: user.followers_count || Math.round(Math.random()*100),
-        location:user.location || 'NA'
+        tweets: user.statuses_count || Math.round(Math.random() * 100),
+        profileColor: user.profile_background_color,
+        friends: user.friends_count || Math.round(Math.random() * 100),
+        followers: user.followers_count || Math.round(Math.random() * 100),
+        location: user.location || 'NA'
       };
 
       //add flags for randomly generated values: 
-      if (!user.statuses_count){
+      if (!user.statuses_count) {
         newNode.random_tweets = true;
       }
-      if (!user.friends_count){
-        newNode.random_friends=true;
+      if (!user.friends_count) {
+        newNode.random_friends = true;
       }
-      if (!user.followers_count){
+      if (!user.followers_count) {
         newNode.random_followers = true;
       }
 
 
       graph.nodes.push(newNode);
-    //   console.log(user.screen_name,user.friends_count,user.followers.count)
+      //   console.log(user.screen_name,user.friends_count,user.followers.count)
     }
     return;
   }
@@ -93,6 +95,8 @@ const server = http.createServer(async (req, res) => {
       graph.links.push({
         source: sourceIndex,
         target: targetIndex,
+        sourceNode,
+        targetNode,
         weight: 1,
         type
       });
@@ -106,9 +110,9 @@ const server = http.createServer(async (req, res) => {
 
     let sourceIndex = graph.nodes.indexOf(sourceNode);
     let targetIndex = graph.nodes.indexOf(targetNode);
-  
+
     // console.log(sourceIndex,targetIndex)
-    if (sourceIndex>-1 && targetIndex>-1) {
+    if (sourceIndex > -1 && targetIndex > -1) {
       graph.links.push({
         source: sourceIndex,
         target: targetIndex,
@@ -166,9 +170,9 @@ const server = http.createServer(async (req, res) => {
     console.log('caught error', err.stack)
   })
 
-  
 
-//   console.log('folowers are ', followers)
+
+  //   console.log('folowers are ', followers)
 
   console.log("getting tweets for ", handle);
 
@@ -185,7 +189,7 @@ const server = http.createServer(async (req, res) => {
       screen_name: graph.nodes[edge.target].screenName,
       count: numTweets
     })
-    .catch(function (err) {
+      .catch(function (err) {
         console.log('caught error', err)
       })
       .then(function (tweets) {
@@ -194,80 +198,208 @@ const server = http.createServer(async (req, res) => {
         // to the callback.
         // See https://github.com/ttezel/twit#tgetpath-params-callback
         // for details.
-    
-        if (tweets){
-            // console.log("getting tweets for ", graph.nodes[edge.target].name);
-            parse_tweets(tweets.data);
+
+        if (tweets) {
+          // console.log("getting tweets for ", graph.nodes[edge.target].name);
+          parse_tweets(tweets.data);
         }
-       
+
 
       })
 
-   
+
   });
 
   //create any following edges between existing nodes
 
-//   graph.nodes.map(async n=>{
+  //   graph.nodes.map(async n=>{
 
-//     //   let followers = await T.get('followers/ids', { screen_name: handle });
-//   let followers = await T.get('friends/ids', { screen_name: n.name });
+  //     //   let followers = await T.get('followers/ids', { screen_name: handle });
+  //   let followers = await T.get('friends/ids', { screen_name: n.name });
 
 
-// //   fs.writeFileSync(
-// //   "friends_" + handle + ".json",
-// //   JSON.stringify(followers, null, 4)
-// // );
+  // //   fs.writeFileSync(
+  // //   "friends_" + handle + ".json",
+  // //   JSON.stringify(followers, null, 4)
+  // // );
 
-// followers.data.ids.map(followerId=>{
-//   let seedNode = graph.nodes.find(n=>n.name == n.name);
-//   addEdgeById(seedNode.id,followerId,'follower')
-// })
+  // followers.data.ids.map(followerId=>{
+  //   let seedNode = graph.nodes.find(n=>n.name == n.name);
+  //   addEdgeById(seedNode.id,followerId,'follower')
+  // })
 
-//   })
+  //   })
 
   Promise.all(edgeMap).then(d => {
     console.log("done with promises");
 
-    //sort nodes by degree;
-graph.nodes.map((n,i)=>{
-    let nodeEdges = graph.links.filter(l=> l.source == i || l.target == i);
-     n.degree = nodeEdges.length;
-    // n.keep =  nodeEdges.length>3;
-})
+    var cy = cytoscape({
+      elements: {
+        nodes: [],
+        edges: []
+      }
+    });
 
-graph.nodes.sort((a,b)=>{
-    a.screenName == handle.slice() ? 1 : 
-    a.degree>b.degree ? 1: -1
-
-})
-
-//only keep top X nodes;
-let nodeCap = 10;
-graph.nodes.map((n,i)=>i<nodeCap ? n.keep = true : n.keep = false)
+    //add nodes and edges to cytoscape graph;
 
 
-let filteredNodes = graph.nodes.slice(0,nodeCap);
+    // let eles = cy.add(
+    //   graph.nodes.map(n=>{n.id = n.screenName; return {group:'nodes',data:n}}).concat(
+    //     graph.links.map((l,i)=>{l.id = 'e'+i; return {group:'edges',data:{id:l.id,source:graph.nodes[l.source].id,target:graph.nodes[l.target].id}}})   
 
-graph.links = graph.links.filter(l=>graph.nodes[l.source].keep && graph.nodes[l.target].keep);
-// let filteredNodes = graph.nodes.filter(n=>n.keep)
+    //   )   
+    // );
 
-console.log('original nodes',graph.nodes.length, 'filtered nodes', filteredNodes.length)
-
-graph.links.map(l=>{
-    l.source = filteredNodes.indexOf(graph.nodes[l.source])
-    l.target = filteredNodes.indexOf(graph.nodes[l.target])
-})
-graph.nodes = filteredNodes;
-
-// console.log(graph.nodes)
-    //   console.log(graph)
+    // console.log(cy.nodes().length)
+    // console.log(cy.edges().length)
 
 
-        fs.writeFileSync(
-        "data/savedSmallGraphs/graph_" + handle + ".json",
-        JSON.stringify(graph, null, 4)
-        );
+    // const comp = cy.elements().components(); 
+    // // console.log(comp[0].nodes()); 
+    // console.log(comp[0].length)
+
+    // let tree = cy.elements().kruskal();
+    // console.log(tree.nodes().length);
+    // console.log(tree.edges().length)
+
+    // var ks = cy.elements().kargerStein();
+
+    //   // console.log(ks.cut.select());
+    //   console.log(ks.partition1.nodes().length)
+    //   console.log(ks.partition2.nodes().length)
+
+    //   var dcn = cy.$().dcn();
+
+
+    // console.log(cy.nodes())
+
+    // var pr = eles.pageRank();
+
+    // console.log('nobre rank: ' + pr.rank('#carolinanobre84'));
+
+    // console.log(eles.componentsOf(cy.getElementById('#carolinanobre84')))
+
+    // console.log(cy.getElementById('#carolinanobre84').component())
+    // console.log(eles.components())
+
+    // markovCluster({
+    //   attributes: [
+    //     function( edge ){ return edge.data('closeness'); }
+    //   ]
+    // });
+
+    // console.log(cy.edges('[source = "carolinanobre84"]'))
+
+    let sortNsnip = (num) => {
+
+      //only keep top X nodes;
+      nodeCap = num || 10;
+
+      //sort nodes by degree;
+      graph.nodes.map((n, i) => {
+        let nodeEdges = graph.links.filter(l => l.source == i || l.target == i);
+        n.degree = nodeEdges.length;
+        //  n.dcn = dcn.degree('#' + n.screenName);
+        //  n.dc = cy.$().dc({ root: '#'+n.screenName }).degree
+        // n.keep =  nodeEdges.length>3;
+      })
+
+      // console.log(handle.slice(1))
+      graph.nodes.sort((a, b) => {
+        if (a.screenName == handle.slice(1)) {
+          return -2
+        }
+        if (a.screenName == 'Oprah') {
+          return -1.5
+        }
+        if (a.random_followers) {
+          return 2;
+        }
+        // return a.dc > b.dc ? -1 : 1
+        return a.degree > b.degree ? -1 : 1
+
+      })
+
+
+
+      graph.nodes.map((n, i) => i < nodeCap ? n.keep = true : n.keep = false)
+
+      //remove self edges; 
+      graph.links = graph.links.filter(l => l.source !== l.target);
+
+
+      let filteredNodes = graph.nodes.slice(0, nodeCap);
+
+
+      graph.links = graph.links.filter(l => l.sourceNode.keep && l.targetNode.keep);
+
+      graph.links.map(l => {
+        l.source = filteredNodes.indexOf(l.sourceNode)
+        l.target = filteredNodes.indexOf(l.targetNode)
+      })
+      graph.nodes = filteredNodes;
+
+    }
+
+    sortNsnip(10);
+    // sortNsnip(7);
+
+    
+
+    sortNsnip(5);
+
+    // console.log(graph.nodes)
+
+    // sortNsnip(5);
+
+
+    
+    // console.log('original nodes', graph.nodes.length, 'filtered nodes', filteredNodes.length)
+
+
+
+    let eles = cy.add(
+      graph.nodes.map(n => { n.id = n.screenName; return { group: 'nodes', data: n } }).concat(
+        graph.links.map((l, i) => { l.id = 'e' + i; return { group: 'edges', data: { id: l.id, source: graph.nodes[l.source].id, target: graph.nodes[l.target].id } } })
+
+      )
+    );
+
+    // console.log(cy.nodes().length)
+    // console.log(cy.edges().length)
+
+
+    const comp = cy.elements().components();
+    // console.log(comp[0].nodes()); 
+    // console.log(comp[0].length)
+
+    // let tree = cy.elements().kruskal();
+    // console.log(tree.nodes().length);
+    // console.log(tree.edges().length)
+
+
+    // let collection = cy.elements()
+    // graph.nodes.map((n,i)=>{
+    //   var ks = collection.kargerStein();
+
+    //   // console.log(ks.cut.select());
+    //   console.log(ks.partition1.nodes().length)
+    //   console.log(ks.partition2.nodes().length)
+    //   console.log(ks.cut.select()[0])
+    //   collection = ks.cut.select();
+    // })
+
+
+    // var dcn = cy.$().dcn();
+
+
+
+
+
+    fs.writeFileSync(
+      "data/" + nodeCap + "Nodes/graph_" + handle + ".json",
+      JSON.stringify(graph, null, 4)
+    );
     res.end(JSON.stringify(graph));
   });
 
