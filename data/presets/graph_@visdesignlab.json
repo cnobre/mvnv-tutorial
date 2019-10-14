@@ -9,7 +9,21 @@
             "friends": 152,
             "followers": 609,
             "location": "Salt Lake City, UT",
-            "degree": 36,
+            "degree": 22,
+            "keep": true
+        },
+        {
+            "name": "Miriah Meyer",
+            "screenName": "miriah_meyer",
+            "id": "miriah_meyer",
+            "tweets": 28,
+            "friends": 42,
+            "followers": 15,
+            "location": "NA",
+            "random_tweets": true,
+            "random_friends": true,
+            "random_followers": true,
+            "degree": 11,
             "keep": true
         },
         {
@@ -21,54 +35,40 @@
             "friends": 773,
             "followers": 1104,
             "location": "Salt Lake City, UT",
-            "degree": 46,
-            "keep": true
-        },
-        {
-            "name": "Rachel Hess",
-            "screenName": "rhessmd",
-            "id": "rhessmd",
-            "tweets": 13,
-            "friends": 9,
-            "followers": 80,
-            "location": "NA",
-            "random_tweets": true,
-            "random_friends": true,
-            "random_followers": true,
-            "degree": 42,
+            "degree": 8,
             "keep": true
         },
         {
             "name": "Jessica Hullman",
             "screenName": "JessicaHullman",
             "id": "JessicaHullman",
-            "tweets": 935,
+            "tweets": 936,
             "profileColor": "C0DEED",
-            "friends": 413,
-            "followers": 2743,
+            "friends": 414,
+            "followers": 2744,
             "location": "Chicago, IL",
-            "degree": 41,
+            "degree": 3,
             "keep": true
         },
         {
-            "name": "Miriah Meyer",
-            "screenName": "miriah_meyer",
-            "id": "miriah_meyer",
-            "tweets": 45,
-            "friends": 77,
-            "followers": 88,
+            "name": "Ethan Kerzner",
+            "screenName": "EthanKerzner",
+            "id": "EthanKerzner",
+            "tweets": 79,
+            "friends": 91,
+            "followers": 47,
             "location": "NA",
             "random_tweets": true,
             "random_friends": true,
             "random_followers": true,
-            "degree": 30,
+            "degree": 3,
             "keep": true
         }
     ],
     "links": [
         {
             "source": 0,
-            "target": 4,
+            "target": 1,
             "sourceNode": {
                 "name": "Vis Design Lab",
                 "screenName": "visdesignlab",
@@ -78,59 +78,26 @@
                 "friends": 152,
                 "followers": 609,
                 "location": "Salt Lake City, UT",
-                "degree": 36,
+                "degree": 22,
                 "keep": true
             },
             "targetNode": {
                 "name": "Miriah Meyer",
                 "screenName": "miriah_meyer",
                 "id": "miriah_meyer",
-                "tweets": 45,
-                "friends": 77,
-                "followers": 88,
+                "tweets": 28,
+                "friends": 42,
+                "followers": 15,
                 "location": "NA",
                 "random_tweets": true,
                 "random_friends": true,
                 "random_followers": true,
-                "degree": 30,
+                "degree": 11,
                 "keep": true
             },
             "weight": 5,
             "type": "mention",
             "id": "e0"
-        },
-        {
-            "source": 0,
-            "target": 4,
-            "sourceNode": {
-                "name": "Vis Design Lab",
-                "screenName": "visdesignlab",
-                "id": "visdesignlab",
-                "tweets": 41,
-                "profileColor": "000000",
-                "friends": 152,
-                "followers": 609,
-                "location": "Salt Lake City, UT",
-                "degree": 36,
-                "keep": true
-            },
-            "targetNode": {
-                "name": "Miriah Meyer",
-                "screenName": "miriah_meyer",
-                "id": "miriah_meyer",
-                "tweets": 45,
-                "friends": 77,
-                "followers": 88,
-                "location": "NA",
-                "random_tweets": true,
-                "random_friends": true,
-                "random_followers": true,
-                "degree": 30,
-                "keep": true
-            },
-            "weight": 1,
-            "type": "quote",
-            "id": "e1"
         },
         {
             "source": 0,
@@ -144,7 +111,40 @@
                 "friends": 152,
                 "followers": 609,
                 "location": "Salt Lake City, UT",
-                "degree": 36,
+                "degree": 22,
+                "keep": true
+            },
+            "targetNode": {
+                "name": "Miriah Meyer",
+                "screenName": "miriah_meyer",
+                "id": "miriah_meyer",
+                "tweets": 28,
+                "friends": 42,
+                "followers": 15,
+                "location": "NA",
+                "random_tweets": true,
+                "random_friends": true,
+                "random_followers": true,
+                "degree": 11,
+                "keep": true
+            },
+            "weight": 1,
+            "type": "quote",
+            "id": "e1"
+        },
+        {
+            "source": 0,
+            "target": 2,
+            "sourceNode": {
+                "name": "Vis Design Lab",
+                "screenName": "visdesignlab",
+                "id": "visdesignlab",
+                "tweets": 41,
+                "profileColor": "000000",
+                "friends": 152,
+                "followers": 609,
+                "location": "Salt Lake City, UT",
+                "degree": 22,
                 "keep": true
             },
             "targetNode": {
@@ -156,7 +156,7 @@
                 "friends": 773,
                 "followers": 1104,
                 "location": "Salt Lake City, UT",
-                "degree": 46,
+                "degree": 8,
                 "keep": true
             },
             "weight": 1,
@@ -175,24 +175,22 @@
                 "friends": 152,
                 "followers": 609,
                 "location": "Salt Lake City, UT",
-                "degree": 36,
+                "degree": 22,
                 "keep": true
             },
             "targetNode": {
-                "name": "Rachel Hess",
-                "screenName": "rhessmd",
-                "id": "rhessmd",
-                "tweets": 13,
-                "friends": 9,
-                "followers": 80,
-                "location": "NA",
-                "random_tweets": true,
-                "random_friends": true,
-                "random_followers": true,
-                "degree": 42,
+                "name": "Alexander Lex",
+                "screenName": "alexander_lex",
+                "id": "alexander_lex",
+                "tweets": 1454,
+                "profileColor": "000000",
+                "friends": 773,
+                "followers": 1104,
+                "location": "Salt Lake City, UT",
+                "degree": 8,
                 "keep": true
             },
-            "weight": 1,
+            "weight": 2,
             "type": "mention",
             "id": "e3"
         },
@@ -208,57 +206,26 @@
                 "friends": 152,
                 "followers": 609,
                 "location": "Salt Lake City, UT",
-                "degree": 36,
-                "keep": true
-            },
-            "targetNode": {
-                "name": "Alexander Lex",
-                "screenName": "alexander_lex",
-                "id": "alexander_lex",
-                "tweets": 1454,
-                "profileColor": "000000",
-                "friends": 773,
-                "followers": 1104,
-                "location": "Salt Lake City, UT",
-                "degree": 46,
-                "keep": true
-            },
-            "weight": 2,
-            "type": "mention",
-            "id": "e4"
-        },
-        {
-            "source": 0,
-            "target": 4,
-            "sourceNode": {
-                "name": "Vis Design Lab",
-                "screenName": "visdesignlab",
-                "id": "visdesignlab",
-                "tweets": 41,
-                "profileColor": "000000",
-                "friends": 152,
-                "followers": 609,
-                "location": "Salt Lake City, UT",
-                "degree": 36,
+                "degree": 22,
                 "keep": true
             },
             "targetNode": {
                 "name": "Miriah Meyer",
                 "screenName": "miriah_meyer",
                 "id": "miriah_meyer",
-                "tweets": 45,
-                "friends": 77,
-                "followers": 88,
+                "tweets": 28,
+                "friends": 42,
+                "followers": 15,
                 "location": "NA",
                 "random_tweets": true,
                 "random_friends": true,
                 "random_followers": true,
-                "degree": 30,
+                "degree": 11,
                 "keep": true
             },
             "weight": 2,
             "type": "retweet",
-            "id": "e5"
+            "id": "e4"
         },
         {
             "source": 0,
@@ -272,28 +239,28 @@
                 "friends": 152,
                 "followers": 609,
                 "location": "Salt Lake City, UT",
-                "degree": 36,
+                "degree": 22,
                 "keep": true
             },
             "targetNode": {
                 "name": "Jessica Hullman",
                 "screenName": "JessicaHullman",
                 "id": "JessicaHullman",
-                "tweets": 935,
+                "tweets": 936,
                 "profileColor": "C0DEED",
-                "friends": 413,
-                "followers": 2743,
+                "friends": 414,
+                "followers": 2744,
                 "location": "Chicago, IL",
-                "degree": 41,
+                "degree": 3,
                 "keep": true
             },
             "weight": 1,
             "type": "retweet",
-            "id": "e6"
+            "id": "e5"
         },
         {
             "source": 0,
-            "target": 1,
+            "target": 4,
             "sourceNode": {
                 "name": "Vis Design Lab",
                 "screenName": "visdesignlab",
@@ -303,7 +270,40 @@
                 "friends": 152,
                 "followers": 609,
                 "location": "Salt Lake City, UT",
-                "degree": 36,
+                "degree": 22,
+                "keep": true
+            },
+            "targetNode": {
+                "name": "Ethan Kerzner",
+                "screenName": "EthanKerzner",
+                "id": "EthanKerzner",
+                "tweets": 79,
+                "friends": 91,
+                "followers": 47,
+                "location": "NA",
+                "random_tweets": true,
+                "random_friends": true,
+                "random_followers": true,
+                "degree": 3,
+                "keep": true
+            },
+            "weight": 1,
+            "type": "mention",
+            "id": "e6"
+        },
+        {
+            "source": 0,
+            "target": 2,
+            "sourceNode": {
+                "name": "Vis Design Lab",
+                "screenName": "visdesignlab",
+                "id": "visdesignlab",
+                "tweets": 41,
+                "profileColor": "000000",
+                "friends": 152,
+                "followers": 609,
+                "location": "Salt Lake City, UT",
+                "degree": 22,
                 "keep": true
             },
             "targetNode": {
@@ -315,7 +315,7 @@
                 "friends": 773,
                 "followers": 1104,
                 "location": "Salt Lake City, UT",
-                "degree": 46,
+                "degree": 8,
                 "keep": true
             },
             "weight": 1,
@@ -323,7 +323,7 @@
             "id": "e7"
         },
         {
-            "source": 1,
+            "source": 2,
             "target": 0,
             "sourceNode": {
                 "name": "Alexander Lex",
@@ -334,7 +334,7 @@
                 "friends": 773,
                 "followers": 1104,
                 "location": "Salt Lake City, UT",
-                "degree": 46,
+                "degree": 8,
                 "keep": true
             },
             "targetNode": {
@@ -346,7 +346,7 @@
                 "friends": 152,
                 "followers": 609,
                 "location": "Salt Lake City, UT",
-                "degree": 36,
+                "degree": 22,
                 "keep": true
             },
             "weight": 3,
@@ -354,7 +354,7 @@
             "id": "e8"
         },
         {
-            "source": 1,
+            "source": 2,
             "target": 0,
             "sourceNode": {
                 "name": "Alexander Lex",
@@ -365,7 +365,7 @@
                 "friends": 773,
                 "followers": 1104,
                 "location": "Salt Lake City, UT",
-                "degree": 46,
+                "degree": 8,
                 "keep": true
             },
             "targetNode": {
@@ -377,7 +377,7 @@
                 "friends": 152,
                 "followers": 609,
                 "location": "Salt Lake City, UT",
-                "degree": 36,
+                "degree": 22,
                 "keep": true
             },
             "weight": 6,
@@ -385,8 +385,8 @@
             "id": "e9"
         },
         {
-            "source": 1,
-            "target": 4,
+            "source": 2,
+            "target": 1,
             "sourceNode": {
                 "name": "Alexander Lex",
                 "screenName": "alexander_lex",
@@ -396,21 +396,21 @@
                 "friends": 773,
                 "followers": 1104,
                 "location": "Salt Lake City, UT",
-                "degree": 46,
+                "degree": 8,
                 "keep": true
             },
             "targetNode": {
                 "name": "Miriah Meyer",
                 "screenName": "miriah_meyer",
                 "id": "miriah_meyer",
-                "tweets": 45,
-                "friends": 77,
-                "followers": 88,
+                "tweets": 28,
+                "friends": 42,
+                "followers": 15,
                 "location": "NA",
                 "random_tweets": true,
                 "random_friends": true,
                 "random_followers": true,
-                "degree": 30,
+                "degree": 11,
                 "keep": true
             },
             "weight": 3,
@@ -418,20 +418,20 @@
             "id": "e10"
         },
         {
-            "source": 4,
+            "source": 1,
             "target": 0,
             "sourceNode": {
                 "name": "Miriah Meyer",
                 "screenName": "miriah_meyer",
                 "id": "miriah_meyer",
-                "tweets": 45,
-                "friends": 77,
-                "followers": 88,
+                "tweets": 28,
+                "friends": 42,
+                "followers": 15,
                 "location": "NA",
                 "random_tweets": true,
                 "random_friends": true,
                 "random_followers": true,
-                "degree": 30,
+                "degree": 11,
                 "keep": true
             },
             "targetNode": {
@@ -443,7 +443,7 @@
                 "friends": 152,
                 "followers": 609,
                 "location": "Salt Lake City, UT",
-                "degree": 36,
+                "degree": 22,
                 "keep": true
             },
             "weight": 15,
@@ -451,20 +451,20 @@
             "id": "e11"
         },
         {
-            "source": 4,
+            "source": 1,
             "target": 0,
             "sourceNode": {
                 "name": "Miriah Meyer",
                 "screenName": "miriah_meyer",
                 "id": "miriah_meyer",
-                "tweets": 45,
-                "friends": 77,
-                "followers": 88,
+                "tweets": 28,
+                "friends": 42,
+                "followers": 15,
                 "location": "NA",
                 "random_tweets": true,
                 "random_friends": true,
                 "random_followers": true,
-                "degree": 30,
+                "degree": 11,
                 "keep": true
             },
             "targetNode": {
@@ -476,7 +476,7 @@
                 "friends": 152,
                 "followers": 609,
                 "location": "Salt Lake City, UT",
-                "degree": 36,
+                "degree": 22,
                 "keep": true
             },
             "weight": 6,
@@ -484,32 +484,32 @@
             "id": "e12"
         },
         {
-            "source": 4,
+            "source": 1,
             "target": 3,
             "sourceNode": {
                 "name": "Miriah Meyer",
                 "screenName": "miriah_meyer",
                 "id": "miriah_meyer",
-                "tweets": 45,
-                "friends": 77,
-                "followers": 88,
+                "tweets": 28,
+                "friends": 42,
+                "followers": 15,
                 "location": "NA",
                 "random_tweets": true,
                 "random_friends": true,
                 "random_followers": true,
-                "degree": 30,
+                "degree": 11,
                 "keep": true
             },
             "targetNode": {
                 "name": "Jessica Hullman",
                 "screenName": "JessicaHullman",
                 "id": "JessicaHullman",
-                "tweets": 935,
+                "tweets": 936,
                 "profileColor": "C0DEED",
-                "friends": 413,
-                "followers": 2743,
+                "friends": 414,
+                "followers": 2744,
                 "location": "Chicago, IL",
-                "degree": 41,
+                "degree": 3,
                 "keep": true
             },
             "weight": 3,
@@ -517,20 +517,20 @@
             "id": "e13"
         },
         {
-            "source": 4,
+            "source": 1,
             "target": 0,
             "sourceNode": {
                 "name": "Miriah Meyer",
                 "screenName": "miriah_meyer",
                 "id": "miriah_meyer",
-                "tweets": 45,
-                "friends": 77,
-                "followers": 88,
+                "tweets": 28,
+                "friends": 42,
+                "followers": 15,
                 "location": "NA",
                 "random_tweets": true,
                 "random_friends": true,
                 "random_followers": true,
-                "degree": 30,
+                "degree": 11,
                 "keep": true
             },
             "targetNode": {
@@ -542,7 +542,7 @@
                 "friends": 152,
                 "followers": 609,
                 "location": "Salt Lake City, UT",
-                "degree": 36,
+                "degree": 22,
                 "keep": true
             },
             "weight": 3,
@@ -550,20 +550,20 @@
             "id": "e14"
         },
         {
-            "source": 4,
-            "target": 1,
+            "source": 1,
+            "target": 2,
             "sourceNode": {
                 "name": "Miriah Meyer",
                 "screenName": "miriah_meyer",
                 "id": "miriah_meyer",
-                "tweets": 45,
-                "friends": 77,
-                "followers": 88,
+                "tweets": 28,
+                "friends": 42,
+                "followers": 15,
                 "location": "NA",
                 "random_tweets": true,
                 "random_friends": true,
                 "random_followers": true,
-                "degree": 30,
+                "degree": 11,
                 "keep": true
             },
             "targetNode": {
@@ -575,12 +575,78 @@
                 "friends": 773,
                 "followers": 1104,
                 "location": "Salt Lake City, UT",
-                "degree": 46,
+                "degree": 8,
                 "keep": true
             },
             "weight": 3,
             "type": "retweet",
             "id": "e15"
+        },
+        {
+            "source": 4,
+            "target": 0,
+            "sourceNode": {
+                "name": "Ethan Kerzner",
+                "screenName": "EthanKerzner",
+                "id": "EthanKerzner",
+                "tweets": 79,
+                "friends": 91,
+                "followers": 47,
+                "location": "NA",
+                "random_tweets": true,
+                "random_friends": true,
+                "random_followers": true,
+                "degree": 3,
+                "keep": true
+            },
+            "targetNode": {
+                "name": "Vis Design Lab",
+                "screenName": "visdesignlab",
+                "id": "visdesignlab",
+                "tweets": 41,
+                "profileColor": "000000",
+                "friends": 152,
+                "followers": 609,
+                "location": "Salt Lake City, UT",
+                "degree": 22,
+                "keep": true
+            },
+            "weight": 5,
+            "type": "retweet",
+            "id": "e16"
+        },
+        {
+            "source": 4,
+            "target": 3,
+            "sourceNode": {
+                "name": "Ethan Kerzner",
+                "screenName": "EthanKerzner",
+                "id": "EthanKerzner",
+                "tweets": 79,
+                "friends": 91,
+                "followers": 47,
+                "location": "NA",
+                "random_tweets": true,
+                "random_friends": true,
+                "random_followers": true,
+                "degree": 3,
+                "keep": true
+            },
+            "targetNode": {
+                "name": "Jessica Hullman",
+                "screenName": "JessicaHullman",
+                "id": "JessicaHullman",
+                "tweets": 936,
+                "profileColor": "C0DEED",
+                "friends": 414,
+                "followers": 2744,
+                "location": "Chicago, IL",
+                "degree": 3,
+                "keep": true
+            },
+            "weight": 2,
+            "type": "retweet",
+            "id": "e17"
         }
     ]
 }
