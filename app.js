@@ -312,6 +312,7 @@ const server = http.createServer(async (req, res) => {
       // console.log(handle.slice(1))
       graph.nodes.sort((a, b) => {
         if (a.screenName == handle.slice(1)) {
+          console.log(' keeping ' , a.screenName)
           return -2
         }
         // if (a.screenName == 'Oprah') {
@@ -329,6 +330,7 @@ const server = http.createServer(async (req, res) => {
 
    
       let filteredNodes = graph.nodes.slice(0, nodeCap);
+      console.log(filteredNodes[0])
 
 
       graph.links = graph.links.filter(l => l.sourceNode.keep && l.targetNode.keep);
