@@ -311,6 +311,7 @@ const server = http.createServer(async (req, res) => {
 
       // console.log(handle.slice(1))
       graph.nodes.sort((a, b) => {
+        console.log(a.screenName,handle.slice(1))
         if (a.screenName == handle.slice(1)) {
           console.log(' keeping ' , a.screenName)
           return -2
