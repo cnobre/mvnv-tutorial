@@ -131,7 +131,7 @@ const server = http.createServer(async (req, res) => {
     //only adds user node if it doesn't already exist
     addNode(tweets[0].user);
 
-    console.log('added', tweets[0].user.screenName, graph.nodes[0].screenName)
+    // console.log('added', tweets[0].user, graph.nodes[0].screenName)
     tweets.map(tweet => {
       //check if it's  a retweet:
       if (tweet.retweeted_status) {
@@ -312,6 +312,9 @@ const server = http.createServer(async (req, res) => {
 
       // console.log(handle.slice(1))
       graph.nodes.sort((a, b) => {
+        if (a.screenName == 'carolinanobre84'){
+          console.log(handle.slice(1))
+        }
         // console.log(a.screenName,handle.slice(1))
         if (a.screenName == handle.slice(1)) {
           console.log(' keeping ' , a.screenName)
