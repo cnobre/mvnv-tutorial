@@ -316,9 +316,14 @@ const server = http.createServer(async (req, res) => {
           console.log(handle.slice(1))
         }
         // console.log(a.screenName,handle.slice(1))
-        if (a.screenName == handle.slice(1) || b.screenName == handle.slice(1)) {
+        if (a.screenName == handle.slice(1)) {
           console.log(' keeping ' , a.screenName)
           return -2
+        }
+
+        if ( b.screenName == handle.slice(1)){
+          console.log('moving b to a for' ,b.screenName)
+          return 2;
         }
         // if (a.screenName == 'Oprah') {
         //   return -1.5
