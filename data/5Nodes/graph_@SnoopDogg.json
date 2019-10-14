@@ -1,0 +1,198 @@
+{
+    "nodes": [
+        {
+            "name": "Snoop Dogg",
+            "screenName": "SnoopDogg",
+            "id": "SnoopDogg",
+            "tweets": 41280,
+            "profileColor": "000000",
+            "friends": 2683,
+            "followers": 18131208,
+            "location": "LBC",
+            "degree": 31,
+            "keep": true
+        },
+        {
+            "name": "The Addams Family",
+            "screenName": "meettheaddams",
+            "id": "meettheaddams",
+            "tweets": 99,
+            "friends": 87,
+            "followers": 84,
+            "location": "NA",
+            "random_tweets": true,
+            "random_friends": true,
+            "random_followers": true,
+            "degree": 42,
+            "keep": true
+        },
+        {
+            "name": "WHOOARMY.COM",
+            "screenName": "DJWhooKid",
+            "id": "DJWhooKid",
+            "tweets": 64647,
+            "profileColor": "3B94D9",
+            "friends": 1075,
+            "followers": 324161,
+            "location": "New York, NY",
+            "degree": 38,
+            "keep": true
+        },
+        {
+            "name": "Respect The West🏁",
+            "screenName": "respectthewest",
+            "id": "respectthewest",
+            "tweets": 3235,
+            "profileColor": "000000",
+            "friends": 714,
+            "followers": 4119,
+            "location": "West Coast!!",
+            "degree": 35,
+            "keep": true
+        },
+        {
+            "name": "Ghost Recon",
+            "screenName": "GhostRecon",
+            "id": "GhostRecon",
+            "tweets": 59,
+            "friends": 15,
+            "followers": 57,
+            "location": "NA",
+            "random_tweets": true,
+            "random_friends": true,
+            "random_followers": true,
+            "degree": 31,
+            "keep": true
+        }
+    ],
+    "links": [
+        {
+            "source": 0,
+            "target": 1,
+            "sourceNode": {
+                "name": "Snoop Dogg",
+                "screenName": "SnoopDogg",
+                "id": "SnoopDogg",
+                "tweets": 41280,
+                "profileColor": "000000",
+                "friends": 2683,
+                "followers": 18131208,
+                "location": "LBC",
+                "degree": 31,
+                "keep": true
+            },
+            "targetNode": {
+                "name": "The Addams Family",
+                "screenName": "meettheaddams",
+                "id": "meettheaddams",
+                "tweets": 99,
+                "friends": 87,
+                "followers": 84,
+                "location": "NA",
+                "random_tweets": true,
+                "random_friends": true,
+                "random_followers": true,
+                "degree": 42,
+                "keep": true
+            },
+            "weight": 4,
+            "type": "mention",
+            "id": "e0"
+        },
+        {
+            "source": 0,
+            "target": 3,
+            "sourceNode": {
+                "name": "Snoop Dogg",
+                "screenName": "SnoopDogg",
+                "id": "SnoopDogg",
+                "tweets": 41280,
+                "profileColor": "000000",
+                "friends": 2683,
+                "followers": 18131208,
+                "location": "LBC",
+                "degree": 31,
+                "keep": true
+            },
+            "targetNode": {
+                "name": "Respect The West🏁",
+                "screenName": "respectthewest",
+                "id": "respectthewest",
+                "tweets": 3235,
+                "profileColor": "000000",
+                "friends": 714,
+                "followers": 4119,
+                "location": "West Coast!!",
+                "degree": 35,
+                "keep": true
+            },
+            "weight": 3,
+            "type": "retweet",
+            "id": "e1"
+        },
+        {
+            "source": 0,
+            "target": 4,
+            "sourceNode": {
+                "name": "Snoop Dogg",
+                "screenName": "SnoopDogg",
+                "id": "SnoopDogg",
+                "tweets": 41280,
+                "profileColor": "000000",
+                "friends": 2683,
+                "followers": 18131208,
+                "location": "LBC",
+                "degree": 31,
+                "keep": true
+            },
+            "targetNode": {
+                "name": "Ghost Recon",
+                "screenName": "GhostRecon",
+                "id": "GhostRecon",
+                "tweets": 59,
+                "friends": 15,
+                "followers": 57,
+                "location": "NA",
+                "random_tweets": true,
+                "random_friends": true,
+                "random_followers": true,
+                "degree": 31,
+                "keep": true
+            },
+            "weight": 1,
+            "type": "mention",
+            "id": "e2"
+        },
+        {
+            "source": 0,
+            "target": 2,
+            "sourceNode": {
+                "name": "Snoop Dogg",
+                "screenName": "SnoopDogg",
+                "id": "SnoopDogg",
+                "tweets": 41280,
+                "profileColor": "000000",
+                "friends": 2683,
+                "followers": 18131208,
+                "location": "LBC",
+                "degree": 31,
+                "keep": true
+            },
+            "targetNode": {
+                "name": "WHOOARMY.COM",
+                "screenName": "DJWhooKid",
+                "id": "DJWhooKid",
+                "tweets": 64647,
+                "profileColor": "3B94D9",
+                "friends": 1075,
+                "followers": 324161,
+                "location": "New York, NY",
+                "degree": 38,
+                "keep": true
+            },
+            "weight": 1,
+            "type": "retweet",
+            "id": "e3"
+        }
+    ]
+}

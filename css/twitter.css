@@ -21,6 +21,7 @@ div.tooltip {
 
     .nodes circle{
         fill:#d6d5d5;
+        r:6;
     }
     .nodes text{
         stroke:none;
@@ -30,8 +31,13 @@ div.tooltip {
         pointer-events:none;
     }
 
+    #end{
+        fill:rgb(162, 162, 162);
+        stroke:none;
+    }
+
     .nodes  circle.fixed {
-        stroke: black;
+        /* stroke: black; */
         stroke-width:3px;
       }
 

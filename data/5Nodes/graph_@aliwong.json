@@ -1,0 +1,221 @@
+{
+    "nodes": [
+        {
+            "name": "Ali Wong",
+            "screenName": "aliwong",
+            "id": "aliwong",
+            "tweets": 2180,
+            "profileColor": "C0DEED",
+            "friends": 683,
+            "followers": 173118,
+            "location": "Instagram.com/aliwong",
+            "degree": 31,
+            "keep": true
+        },
+        {
+            "name": "nick kroll",
+            "screenName": "nickkroll",
+            "id": "nickkroll",
+            "tweets": 9886,
+            "profileColor": "C0DEED",
+            "friends": 1132,
+            "followers": 1322311,
+            "location": "NA",
+            "degree": 43,
+            "keep": true
+        },
+        {
+            "name": "The Wiltern",
+            "screenName": "wiltern",
+            "id": "wiltern",
+            "tweets": 15650,
+            "profileColor": "BF1238",
+            "friends": 2401,
+            "followers": 36280,
+            "location": "Los Angeles, CA",
+            "degree": 37,
+            "keep": true
+        },
+        {
+            "name": "Celeste",
+            "screenName": "celestewb",
+            "id": "celestewb",
+            "tweets": 3481,
+            "profileColor": "C0DEED",
+            "friends": 1532,
+            "followers": 1293,
+            "location": "London",
+            "degree": 36,
+            "keep": true
+        },
+        {
+            "name": "Ava DuVernay",
+            "screenName": "ava",
+            "id": "ava",
+            "tweets": 42671,
+            "profileColor": "FFFFFF",
+            "friends": 12960,
+            "followers": 2280930,
+            "location": "Fourth World",
+            "degree": 34,
+            "keep": true
+        }
+    ],
+    "links": [
+        {
+            "source": 0,
+            "target": 2,
+            "sourceNode": {
+                "name": "Ali Wong",
+                "screenName": "aliwong",
+                "id": "aliwong",
+                "tweets": 2180,
+                "profileColor": "C0DEED",
+                "friends": 683,
+                "followers": 173118,
+                "location": "Instagram.com/aliwong",
+                "degree": 31,
+                "keep": true
+            },
+            "targetNode": {
+                "name": "The Wiltern",
+                "screenName": "wiltern",
+                "id": "wiltern",
+                "tweets": 15650,
+                "profileColor": "BF1238",
+                "friends": 2401,
+                "followers": 36280,
+                "location": "Los Angeles, CA",
+                "degree": 37,
+                "keep": true
+            },
+            "weight": 2,
+            "type": "retweet",
+            "id": "e0"
+        },
+        {
+            "source": 0,
+            "target": 3,
+            "sourceNode": {
+                "name": "Ali Wong",
+                "screenName": "aliwong",
+                "id": "aliwong",
+                "tweets": 2180,
+                "profileColor": "C0DEED",
+                "friends": 683,
+                "followers": 173118,
+                "location": "Instagram.com/aliwong",
+                "degree": 31,
+                "keep": true
+            },
+            "targetNode": {
+                "name": "Celeste",
+                "screenName": "celestewb",
+                "id": "celestewb",
+                "tweets": 3481,
+                "profileColor": "C0DEED",
+                "friends": 1532,
+                "followers": 1293,
+                "location": "London",
+                "degree": 36,
+                "keep": true
+            },
+            "weight": 1,
+            "type": "retweet",
+            "id": "e1"
+        },
+        {
+            "source": 0,
+            "target": 1,
+            "sourceNode": {
+                "name": "Ali Wong",
+                "screenName": "aliwong",
+                "id": "aliwong",
+                "tweets": 2180,
+                "profileColor": "C0DEED",
+                "friends": 683,
+                "followers": 173118,
+                "location": "Instagram.com/aliwong",
+                "degree": 31,
+                "keep": true
+            },
+            "targetNode": {
+                "name": "nick kroll",
+                "screenName": "nickkroll",
+                "id": "nickkroll",
+                "tweets": 9886,
+                "profileColor": "C0DEED",
+                "friends": 1132,
+                "followers": 1322311,
+                "location": "NA",
+                "degree": 43,
+                "keep": true
+            },
+            "weight": 1,
+            "type": "retweet",
+            "id": "e2"
+        },
+        {
+            "source": 0,
+            "target": 4,
+            "sourceNode": {
+                "name": "Ali Wong",
+                "screenName": "aliwong",
+                "id": "aliwong",
+                "tweets": 2180,
+                "profileColor": "C0DEED",
+                "friends": 683,
+                "followers": 173118,
+                "location": "Instagram.com/aliwong",
+                "degree": 31,
+                "keep": true
+            },
+            "targetNode": {
+                "name": "Ava DuVernay",
+                "screenName": "ava",
+                "id": "ava",
+                "tweets": 42671,
+                "profileColor": "FFFFFF",
+                "friends": 12960,
+                "followers": 2280930,
+                "location": "Fourth World",
+                "degree": 34,
+                "keep": true
+            },
+            "weight": 1,
+            "type": "retweet",
+            "id": "e3"
+        },
+        {
+            "source": 3,
+            "target": 0,
+            "sourceNode": {
+                "name": "Celeste",
+                "screenName": "celestewb",
+                "id": "celestewb",
+                "tweets": 3481,
+                "profileColor": "C0DEED",
+                "friends": 1532,
+                "followers": 1293,
+                "location": "London",
+                "degree": 36,
+                "keep": true
+            },
+            "targetNode": {
+                "name": "Ali Wong",
+                "screenName": "aliwong",
+                "id": "aliwong",
+                "tweets": 2180,
+                "profileColor": "C0DEED",
+                "friends": 683,
+                "followers": 173118,
+                "location": "Instagram.com/aliwong",
+                "degree": 31,
+                "keep": true
+            },
+            "weight": 1,
+            "type": "mention",
+            "id": "e4"
+        }
+    ]
+}

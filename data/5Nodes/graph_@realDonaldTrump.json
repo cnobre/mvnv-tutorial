@@ -1,0 +1,446 @@
+{
+    "nodes": [
+        {
+            "name": "Donald J. Trump",
+            "screenName": "realDonaldTrump",
+            "id": "realDonaldTrump",
+            "tweets": 45165,
+            "profileColor": "6D5C18",
+            "friends": 47,
+            "followers": 65687369,
+            "location": "Washington, DC",
+            "degree": 15,
+            "keep": true
+        },
+        {
+            "name": "Devin Nunes",
+            "screenName": "DevinNunes",
+            "id": "DevinNunes",
+            "tweets": 2337,
+            "profileColor": "C0DEED",
+            "friends": 651,
+            "followers": 613477,
+            "location": "NA",
+            "degree": 24,
+            "keep": true
+        },
+        {
+            "name": "Eric Trump",
+            "screenName": "EricTrump",
+            "id": "EricTrump",
+            "tweets": 5870,
+            "profileColor": "000000",
+            "friends": 853,
+            "followers": 2768398,
+            "location": "NA",
+            "degree": 20,
+            "keep": true
+        },
+        {
+            "name": "U.S. Navy",
+            "screenName": "USNavy",
+            "id": "USNavy",
+            "tweets": 75,
+            "friends": 83,
+            "followers": 12,
+            "location": "NA",
+            "random_tweets": true,
+            "random_friends": true,
+            "random_followers": true,
+            "degree": 13,
+            "keep": true
+        },
+        {
+            "name": "Dan Scavino",
+            "screenName": "DanScavino",
+            "id": "DanScavino",
+            "tweets": 10590,
+            "profileColor": "131516",
+            "friends": 732,
+            "followers": 569602,
+            "location": "Washington, DC✈️New York",
+            "degree": 13,
+            "keep": true
+        }
+    ],
+    "links": [
+        {
+            "source": 0,
+            "target": 3,
+            "sourceNode": {
+                "name": "Donald J. Trump",
+                "screenName": "realDonaldTrump",
+                "id": "realDonaldTrump",
+                "tweets": 45165,
+                "profileColor": "6D5C18",
+                "friends": 47,
+                "followers": 65687369,
+                "location": "Washington, DC",
+                "degree": 15,
+                "keep": true
+            },
+            "targetNode": {
+                "name": "U.S. Navy",
+                "screenName": "USNavy",
+                "id": "USNavy",
+                "tweets": 75,
+                "friends": 83,
+                "followers": 12,
+                "location": "NA",
+                "random_tweets": true,
+                "random_friends": true,
+                "random_followers": true,
+                "degree": 13,
+                "keep": true
+            },
+            "weight": 3,
+            "type": "mention",
+            "id": "e0"
+        },
+        {
+            "source": 0,
+            "target": 4,
+            "sourceNode": {
+                "name": "Donald J. Trump",
+                "screenName": "realDonaldTrump",
+                "id": "realDonaldTrump",
+                "tweets": 45165,
+                "profileColor": "6D5C18",
+                "friends": 47,
+                "followers": 65687369,
+                "location": "Washington, DC",
+                "degree": 15,
+                "keep": true
+            },
+            "targetNode": {
+                "name": "Dan Scavino",
+                "screenName": "DanScavino",
+                "id": "DanScavino",
+                "tweets": 10590,
+                "profileColor": "131516",
+                "friends": 732,
+                "followers": 569602,
+                "location": "Washington, DC✈️New York",
+                "degree": 13,
+                "keep": true
+            },
+            "weight": 3,
+            "type": "quote",
+            "id": "e1"
+        },
+        {
+            "source": 0,
+            "target": 1,
+            "sourceNode": {
+                "name": "Donald J. Trump",
+                "screenName": "realDonaldTrump",
+                "id": "realDonaldTrump",
+                "tweets": 45165,
+                "profileColor": "6D5C18",
+                "friends": 47,
+                "followers": 65687369,
+                "location": "Washington, DC",
+                "degree": 15,
+                "keep": true
+            },
+            "targetNode": {
+                "name": "Devin Nunes",
+                "screenName": "DevinNunes",
+                "id": "DevinNunes",
+                "tweets": 2337,
+                "profileColor": "C0DEED",
+                "friends": 651,
+                "followers": 613477,
+                "location": "NA",
+                "degree": 24,
+                "keep": true
+            },
+            "weight": 6,
+            "type": "retweet",
+            "id": "e2"
+        },
+        {
+            "source": 0,
+            "target": 2,
+            "sourceNode": {
+                "name": "Donald J. Trump",
+                "screenName": "realDonaldTrump",
+                "id": "realDonaldTrump",
+                "tweets": 45165,
+                "profileColor": "6D5C18",
+                "friends": 47,
+                "followers": 65687369,
+                "location": "Washington, DC",
+                "degree": 15,
+                "keep": true
+            },
+            "targetNode": {
+                "name": "Eric Trump",
+                "screenName": "EricTrump",
+                "id": "EricTrump",
+                "tweets": 5870,
+                "profileColor": "000000",
+                "friends": 853,
+                "followers": 2768398,
+                "location": "NA",
+                "degree": 20,
+                "keep": true
+            },
+            "weight": 3,
+            "type": "retweet",
+            "id": "e3"
+        },
+        {
+            "source": 0,
+            "target": 4,
+            "sourceNode": {
+                "name": "Donald J. Trump",
+                "screenName": "realDonaldTrump",
+                "id": "realDonaldTrump",
+                "tweets": 45165,
+                "profileColor": "6D5C18",
+                "friends": 47,
+                "followers": 65687369,
+                "location": "Washington, DC",
+                "degree": 15,
+                "keep": true
+            },
+            "targetNode": {
+                "name": "Dan Scavino",
+                "screenName": "DanScavino",
+                "id": "DanScavino",
+                "tweets": 10590,
+                "profileColor": "131516",
+                "friends": 732,
+                "followers": 569602,
+                "location": "Washington, DC✈️New York",
+                "degree": 13,
+                "keep": true
+            },
+            "weight": 3,
+            "type": "retweet",
+            "id": "e4"
+        },
+        {
+            "source": 4,
+            "target": 0,
+            "sourceNode": {
+                "name": "Dan Scavino",
+                "screenName": "DanScavino",
+                "id": "DanScavino",
+                "tweets": 10590,
+                "profileColor": "131516",
+                "friends": 732,
+                "followers": 569602,
+                "location": "Washington, DC✈️New York",
+                "degree": 13,
+                "keep": true
+            },
+            "targetNode": {
+                "name": "Donald J. Trump",
+                "screenName": "realDonaldTrump",
+                "id": "realDonaldTrump",
+                "tweets": 45165,
+                "profileColor": "6D5C18",
+                "friends": 47,
+                "followers": 65687369,
+                "location": "Washington, DC",
+                "degree": 15,
+                "keep": true
+            },
+            "weight": 2,
+            "type": "quote",
+            "id": "e5"
+        },
+        {
+            "source": 4,
+            "target": 0,
+            "sourceNode": {
+                "name": "Dan Scavino",
+                "screenName": "DanScavino",
+                "id": "DanScavino",
+                "tweets": 10590,
+                "profileColor": "131516",
+                "friends": 732,
+                "followers": 569602,
+                "location": "Washington, DC✈️New York",
+                "degree": 13,
+                "keep": true
+            },
+            "targetNode": {
+                "name": "Donald J. Trump",
+                "screenName": "realDonaldTrump",
+                "id": "realDonaldTrump",
+                "tweets": 45165,
+                "profileColor": "6D5C18",
+                "friends": 47,
+                "followers": 65687369,
+                "location": "Washington, DC",
+                "degree": 15,
+                "keep": true
+            },
+            "weight": 10,
+            "type": "mention",
+            "id": "e6"
+        },
+        {
+            "source": 4,
+            "target": 0,
+            "sourceNode": {
+                "name": "Dan Scavino",
+                "screenName": "DanScavino",
+                "id": "DanScavino",
+                "tweets": 10590,
+                "profileColor": "131516",
+                "friends": 732,
+                "followers": 569602,
+                "location": "Washington, DC✈️New York",
+                "degree": 13,
+                "keep": true
+            },
+            "targetNode": {
+                "name": "Donald J. Trump",
+                "screenName": "realDonaldTrump",
+                "id": "realDonaldTrump",
+                "tweets": 45165,
+                "profileColor": "6D5C18",
+                "friends": 47,
+                "followers": 65687369,
+                "location": "Washington, DC",
+                "degree": 15,
+                "keep": true
+            },
+            "weight": 6,
+            "type": "retweet",
+            "id": "e7"
+        },
+        {
+            "source": 2,
+            "target": 0,
+            "sourceNode": {
+                "name": "Eric Trump",
+                "screenName": "EricTrump",
+                "id": "EricTrump",
+                "tweets": 5870,
+                "profileColor": "000000",
+                "friends": 853,
+                "followers": 2768398,
+                "location": "NA",
+                "degree": 20,
+                "keep": true
+            },
+            "targetNode": {
+                "name": "Donald J. Trump",
+                "screenName": "realDonaldTrump",
+                "id": "realDonaldTrump",
+                "tweets": 45165,
+                "profileColor": "6D5C18",
+                "friends": 47,
+                "followers": 65687369,
+                "location": "Washington, DC",
+                "degree": 15,
+                "keep": true
+            },
+            "weight": 2,
+            "type": "retweet",
+            "id": "e8"
+        },
+        {
+            "source": 2,
+            "target": 4,
+            "sourceNode": {
+                "name": "Eric Trump",
+                "screenName": "EricTrump",
+                "id": "EricTrump",
+                "tweets": 5870,
+                "profileColor": "000000",
+                "friends": 853,
+                "followers": 2768398,
+                "location": "NA",
+                "degree": 20,
+                "keep": true
+            },
+            "targetNode": {
+                "name": "Dan Scavino",
+                "screenName": "DanScavino",
+                "id": "DanScavino",
+                "tweets": 10590,
+                "profileColor": "131516",
+                "friends": 732,
+                "followers": 569602,
+                "location": "Washington, DC✈️New York",
+                "degree": 13,
+                "keep": true
+            },
+            "weight": 1,
+            "type": "retweet",
+            "id": "e9"
+        },
+        {
+            "source": 1,
+            "target": 3,
+            "sourceNode": {
+                "name": "Devin Nunes",
+                "screenName": "DevinNunes",
+                "id": "DevinNunes",
+                "tweets": 2337,
+                "profileColor": "C0DEED",
+                "friends": 651,
+                "followers": 613477,
+                "location": "NA",
+                "degree": 24,
+                "keep": true
+            },
+            "targetNode": {
+                "name": "U.S. Navy",
+                "screenName": "USNavy",
+                "id": "USNavy",
+                "tweets": 75,
+                "friends": 83,
+                "followers": 12,
+                "location": "NA",
+                "random_tweets": true,
+                "random_friends": true,
+                "random_followers": true,
+                "degree": 13,
+                "keep": true
+            },
+            "weight": 1,
+            "type": "quote",
+            "id": "e10"
+        },
+        {
+            "source": 1,
+            "target": 3,
+            "sourceNode": {
+                "name": "Devin Nunes",
+                "screenName": "DevinNunes",
+                "id": "DevinNunes",
+                "tweets": 2337,
+                "profileColor": "C0DEED",
+                "friends": 651,
+                "followers": 613477,
+                "location": "NA",
+                "degree": 24,
+                "keep": true
+            },
+            "targetNode": {
+                "name": "U.S. Navy",
+                "screenName": "USNavy",
+                "id": "USNavy",
+                "tweets": 75,
+                "friends": 83,
+                "followers": 12,
+                "location": "NA",
+                "random_tweets": true,
+                "random_friends": true,
+                "random_followers": true,
+                "degree": 13,
+                "keep": true
+            },
+            "weight": 1,
+            "type": "mention",
+            "id": "e11"
+        }
+    ]
+}

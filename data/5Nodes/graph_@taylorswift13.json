@@ -1,0 +1,263 @@
+{
+    "nodes": [
+        {
+            "name": "Taylor Swift",
+            "screenName": "taylorswift13",
+            "id": "taylorswift13",
+            "tweets": 330,
+            "profileColor": "C0DEED",
+            "friends": 51,
+            "followers": 84869839,
+            "location": "NA",
+            "random_friends": true,
+            "degree": 12,
+            "keep": true
+        },
+        {
+            "name": "Apple Music",
+            "screenName": "AppleMusic",
+            "id": "AppleMusic",
+            "tweets": 27,
+            "friends": 43,
+            "followers": 7,
+            "location": "NA",
+            "random_tweets": true,
+            "random_friends": true,
+            "random_followers": true,
+            "degree": 37,
+            "keep": true
+        },
+        {
+            "name": "#STREAMTRUTHHURTS",
+            "screenName": "lizzo",
+            "id": "lizzo",
+            "tweets": 19712,
+            "profileColor": "050504",
+            "friends": 272,
+            "followers": 1102119,
+            "location": "#CUZILOVEYOU ALBUM OUT NOW",
+            "degree": 28,
+            "keep": true
+        },
+        {
+            "name": "Ryan Schocket",
+            "screenName": "RyanSchocket",
+            "id": "RyanSchocket",
+            "tweets": 7748,
+            "profileColor": "000000",
+            "friends": 968,
+            "followers": 5647,
+            "location": "New York, USA",
+            "degree": 24,
+            "keep": true
+        },
+        {
+            "name": "Taylor Nation",
+            "screenName": "taylornation13",
+            "id": "taylornation13",
+            "tweets": 14932,
+            "profileColor": "000000",
+            "friends": 951,
+            "followers": 1027452,
+            "location": "Taylor Nation",
+            "degree": 24,
+            "keep": true
+        }
+    ],
+    "links": [
+        {
+            "source": 0,
+            "target": 2,
+            "sourceNode": {
+                "name": "Taylor Swift",
+                "screenName": "taylorswift13",
+                "id": "taylorswift13",
+                "tweets": 330,
+                "profileColor": "C0DEED",
+                "friends": 51,
+                "followers": 84869839,
+                "location": "NA",
+                "random_friends": true,
+                "degree": 12,
+                "keep": true
+            },
+            "targetNode": {
+                "name": "#STREAMTRUTHHURTS",
+                "screenName": "lizzo",
+                "id": "lizzo",
+                "tweets": 19712,
+                "profileColor": "050504",
+                "friends": 272,
+                "followers": 1102119,
+                "location": "#CUZILOVEYOU ALBUM OUT NOW",
+                "degree": 28,
+                "keep": true
+            },
+            "weight": 1,
+            "type": "quote",
+            "id": "e0"
+        },
+        {
+            "source": 0,
+            "target": 4,
+            "sourceNode": {
+                "name": "Taylor Swift",
+                "screenName": "taylorswift13",
+                "id": "taylorswift13",
+                "tweets": 330,
+                "profileColor": "C0DEED",
+                "friends": 51,
+                "followers": 84869839,
+                "location": "NA",
+                "random_friends": true,
+                "degree": 12,
+                "keep": true
+            },
+            "targetNode": {
+                "name": "Taylor Nation",
+                "screenName": "taylornation13",
+                "id": "taylornation13",
+                "tweets": 14932,
+                "profileColor": "000000",
+                "friends": 951,
+                "followers": 1027452,
+                "location": "Taylor Nation",
+                "degree": 24,
+                "keep": true
+            },
+            "weight": 2,
+            "type": "retweet",
+            "id": "e1"
+        },
+        {
+            "source": 0,
+            "target": 3,
+            "sourceNode": {
+                "name": "Taylor Swift",
+                "screenName": "taylorswift13",
+                "id": "taylorswift13",
+                "tweets": 330,
+                "profileColor": "C0DEED",
+                "friends": 51,
+                "followers": 84869839,
+                "location": "NA",
+                "random_friends": true,
+                "degree": 12,
+                "keep": true
+            },
+            "targetNode": {
+                "name": "Ryan Schocket",
+                "screenName": "RyanSchocket",
+                "id": "RyanSchocket",
+                "tweets": 7748,
+                "profileColor": "000000",
+                "friends": 968,
+                "followers": 5647,
+                "location": "New York, USA",
+                "degree": 24,
+                "keep": true
+            },
+            "weight": 1,
+            "type": "quote",
+            "id": "e2"
+        },
+        {
+            "source": 0,
+            "target": 1,
+            "sourceNode": {
+                "name": "Taylor Swift",
+                "screenName": "taylorswift13",
+                "id": "taylorswift13",
+                "tweets": 330,
+                "profileColor": "C0DEED",
+                "friends": 51,
+                "followers": 84869839,
+                "location": "NA",
+                "random_friends": true,
+                "degree": 12,
+                "keep": true
+            },
+            "targetNode": {
+                "name": "Apple Music",
+                "screenName": "AppleMusic",
+                "id": "AppleMusic",
+                "tweets": 27,
+                "friends": 43,
+                "followers": 7,
+                "location": "NA",
+                "random_tweets": true,
+                "random_friends": true,
+                "random_followers": true,
+                "degree": 37,
+                "keep": true
+            },
+            "weight": 1,
+            "type": "mention",
+            "id": "e3"
+        },
+        {
+            "source": 4,
+            "target": 0,
+            "sourceNode": {
+                "name": "Taylor Nation",
+                "screenName": "taylornation13",
+                "id": "taylornation13",
+                "tweets": 14932,
+                "profileColor": "000000",
+                "friends": 951,
+                "followers": 1027452,
+                "location": "Taylor Nation",
+                "degree": 24,
+                "keep": true
+            },
+            "targetNode": {
+                "name": "Taylor Swift",
+                "screenName": "taylorswift13",
+                "id": "taylorswift13",
+                "tweets": 330,
+                "profileColor": "C0DEED",
+                "friends": 51,
+                "followers": 84869839,
+                "location": "NA",
+                "random_friends": true,
+                "degree": 12,
+                "keep": true
+            },
+            "weight": 6,
+            "type": "mention",
+            "id": "e4"
+        },
+        {
+            "source": 3,
+            "target": 0,
+            "sourceNode": {
+                "name": "Ryan Schocket",
+                "screenName": "RyanSchocket",
+                "id": "RyanSchocket",
+                "tweets": 7748,
+                "profileColor": "000000",
+                "friends": 968,
+                "followers": 5647,
+                "location": "New York, USA",
+                "degree": 24,
+                "keep": true
+            },
+            "targetNode": {
+                "name": "Taylor Swift",
+                "screenName": "taylorswift13",
+                "id": "taylorswift13",
+                "tweets": 330,
+                "profileColor": "C0DEED",
+                "friends": 51,
+                "followers": 84869839,
+                "location": "NA",
+                "random_friends": true,
+                "degree": 12,
+                "keep": true
+            },
+            "weight": 1,
+            "type": "mention",
+            "id": "e5"
+        }
+    ]
+}

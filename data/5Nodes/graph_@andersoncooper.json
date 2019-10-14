@@ -1,0 +1,198 @@
+{
+    "nodes": [
+        {
+            "name": "Anderson Cooper",
+            "screenName": "andersoncooper",
+            "id": "andersoncooper",
+            "tweets": 18289,
+            "profileColor": "323232",
+            "friends": 276,
+            "followers": 10015464,
+            "location": "New York",
+            "degree": 24,
+            "keep": true
+        },
+        {
+            "name": "National Arts Centre",
+            "screenName": "CanadasNAC",
+            "id": "CanadasNAC",
+            "tweets": 73,
+            "friends": 59,
+            "followers": 25,
+            "location": "NA",
+            "random_tweets": true,
+            "random_friends": true,
+            "random_followers": true,
+            "degree": 35,
+            "keep": true
+        },
+        {
+            "name": "Peter Hamby",
+            "screenName": "PeterHamby",
+            "id": "PeterHamby",
+            "tweets": 23616,
+            "profileColor": "022330",
+            "friends": 8014,
+            "followers": 87516,
+            "location": "Los Angeles, CA",
+            "degree": 34,
+            "keep": true
+        },
+        {
+            "name": "Arlene Schnitzer Concert Hall",
+            "screenName": "ArleneSchnitzer",
+            "id": "ArleneSchnitzer",
+            "tweets": 54,
+            "friends": 36,
+            "followers": 34,
+            "location": "NA",
+            "random_tweets": true,
+            "random_friends": true,
+            "random_followers": true,
+            "degree": 33,
+            "keep": true
+        },
+        {
+            "name": "Garrett M. Graff",
+            "screenName": "vermontgmg",
+            "id": "vermontgmg",
+            "tweets": 22538,
+            "profileColor": "FFFFFF",
+            "friends": 5302,
+            "followers": 63955,
+            "location": "The Green Mountains",
+            "degree": 32,
+            "keep": true
+        }
+    ],
+    "links": [
+        {
+            "source": 0,
+            "target": 3,
+            "sourceNode": {
+                "name": "Anderson Cooper",
+                "screenName": "andersoncooper",
+                "id": "andersoncooper",
+                "tweets": 18289,
+                "profileColor": "323232",
+                "friends": 276,
+                "followers": 10015464,
+                "location": "New York",
+                "degree": 24,
+                "keep": true
+            },
+            "targetNode": {
+                "name": "Arlene Schnitzer Concert Hall",
+                "screenName": "ArleneSchnitzer",
+                "id": "ArleneSchnitzer",
+                "tweets": 54,
+                "friends": 36,
+                "followers": 34,
+                "location": "NA",
+                "random_tweets": true,
+                "random_friends": true,
+                "random_followers": true,
+                "degree": 33,
+                "keep": true
+            },
+            "weight": 1,
+            "type": "mention",
+            "id": "e0"
+        },
+        {
+            "source": 0,
+            "target": 4,
+            "sourceNode": {
+                "name": "Anderson Cooper",
+                "screenName": "andersoncooper",
+                "id": "andersoncooper",
+                "tweets": 18289,
+                "profileColor": "323232",
+                "friends": 276,
+                "followers": 10015464,
+                "location": "New York",
+                "degree": 24,
+                "keep": true
+            },
+            "targetNode": {
+                "name": "Garrett M. Graff",
+                "screenName": "vermontgmg",
+                "id": "vermontgmg",
+                "tweets": 22538,
+                "profileColor": "FFFFFF",
+                "friends": 5302,
+                "followers": 63955,
+                "location": "The Green Mountains",
+                "degree": 32,
+                "keep": true
+            },
+            "weight": 1,
+            "type": "quote",
+            "id": "e1"
+        },
+        {
+            "source": 0,
+            "target": 1,
+            "sourceNode": {
+                "name": "Anderson Cooper",
+                "screenName": "andersoncooper",
+                "id": "andersoncooper",
+                "tweets": 18289,
+                "profileColor": "323232",
+                "friends": 276,
+                "followers": 10015464,
+                "location": "New York",
+                "degree": 24,
+                "keep": true
+            },
+            "targetNode": {
+                "name": "National Arts Centre",
+                "screenName": "CanadasNAC",
+                "id": "CanadasNAC",
+                "tweets": 73,
+                "friends": 59,
+                "followers": 25,
+                "location": "NA",
+                "random_tweets": true,
+                "random_friends": true,
+                "random_followers": true,
+                "degree": 35,
+                "keep": true
+            },
+            "weight": 1,
+            "type": "mention",
+            "id": "e2"
+        },
+        {
+            "source": 0,
+            "target": 2,
+            "sourceNode": {
+                "name": "Anderson Cooper",
+                "screenName": "andersoncooper",
+                "id": "andersoncooper",
+                "tweets": 18289,
+                "profileColor": "323232",
+                "friends": 276,
+                "followers": 10015464,
+                "location": "New York",
+                "degree": 24,
+                "keep": true
+            },
+            "targetNode": {
+                "name": "Peter Hamby",
+                "screenName": "PeterHamby",
+                "id": "PeterHamby",
+                "tweets": 23616,
+                "profileColor": "022330",
+                "friends": 8014,
+                "followers": 87516,
+                "location": "Los Angeles, CA",
+                "degree": 34,
+                "keep": true
+            },
+            "weight": 1,
+            "type": "retweet",
+            "id": "e3"
+        }
+    ]
+}

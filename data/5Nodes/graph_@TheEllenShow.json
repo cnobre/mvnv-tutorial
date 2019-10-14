@@ -3,62 +3,60 @@
         {
             "name": "Ellen DeGeneres",
             "screenName": "TheEllenShow",
-            "id": "15846407",
-            "tweets": 20311,
+            "id": "TheEllenShow",
+            "tweets": 20317,
             "profileColor": "3ABEE3",
-            "friends": 27790,
-            "followers": 78760405,
+            "friends": 27787,
+            "followers": 78773037,
             "location": "California",
-            "degree": 38,
+            "degree": 35,
             "keep": true
         },
         {
-            "name": "Tiffany Smallwood",
-            "screenName": "TiffSmallwood",
-            "id": "62850867",
-            "tweets": 44556,
-            "profileColor": "000000",
-            "friends": 1554,
-            "followers": 485,
-            "location": "Buffalo, NY",
-            "degree": 1,
-            "keep": true
-        },
-        {
-            "name": "Kalen Allen",
-            "screenName": "TheKalenAllen",
-            "id": "171685697",
-            "tweets": 75,
-            "friends": 23,
-            "followers": 92,
+            "name": "iamcardib",
+            "screenName": "iamcardib",
+            "id": "iamcardib",
+            "tweets": 0,
+            "friends": 2,
+            "followers": 29,
             "location": "NA",
             "random_tweets": true,
             "random_friends": true,
             "random_followers": true,
-            "degree": 25,
+            "degree": 27,
             "keep": true
         },
         {
-            "name": "Smosh",
-            "screenName": "smosh",
-            "id": "19604744",
-            "tweets": 18,
-            "friends": 57,
-            "followers": 77,
-            "location": "NA",
-            "random_tweets": true,
-            "random_friends": true,
-            "random_followers": true,
-            "degree": 18,
+            "name": "MJ Lee",
+            "screenName": "mj_lee",
+            "id": "mj_lee",
+            "tweets": 16109,
+            "profileColor": "352726",
+            "friends": 1249,
+            "followers": 68347,
+            "location": "New York, NY",
+            "degree": 22,
             "keep": true
         },
         {
-            "name": "Allison holker",
-            "screenName": "Allisonholker",
-            "id": "108861466",
-            "tweets": 94,
+            "name": "Human Rights Campaign",
+            "screenName": "HRC",
+            "id": "HRC",
+            "tweets": 49678,
+            "profileColor": "C7CCD2",
+            "friends": 156247,
+            "followers": 824632,
+            "location": "Washington, DC",
+            "degree": 22,
+            "keep": true
+        },
+        {
+            "name": "Anderson Cooper",
+            "screenName": "andersoncooper",
+            "id": "andersoncooper",
+            "tweets": 15,
             "friends": 45,
-            "followers": 17,
+            "followers": 62,
             "location": "NA",
             "random_tweets": true,
             "random_friends": true,
@@ -71,86 +69,130 @@
         {
             "source": 0,
             "target": 1,
-            "weight": 3,
-            "type": "mention"
+            "sourceNode": {
+                "name": "Ellen DeGeneres",
+                "screenName": "TheEllenShow",
+                "id": "TheEllenShow",
+                "tweets": 20317,
+                "profileColor": "3ABEE3",
+                "friends": 27787,
+                "followers": 78773037,
+                "location": "California",
+                "degree": 35,
+                "keep": true
+            },
+            "targetNode": {
+                "name": "iamcardib",
+                "screenName": "iamcardib",
+                "id": "iamcardib",
+                "tweets": 0,
+                "friends": 2,
+                "followers": 29,
+                "location": "NA",
+                "random_tweets": true,
+                "random_friends": true,
+                "random_followers": true,
+                "degree": 27,
+                "keep": true
+            },
+            "weight": 2,
+            "type": "mention",
+            "id": "e0"
         },
         {
             "source": 0,
             "target": 2,
+            "sourceNode": {
+                "name": "Ellen DeGeneres",
+                "screenName": "TheEllenShow",
+                "id": "TheEllenShow",
+                "tweets": 20317,
+                "profileColor": "3ABEE3",
+                "friends": 27787,
+                "followers": 78773037,
+                "location": "California",
+                "degree": 35,
+                "keep": true
+            },
+            "targetNode": {
+                "name": "MJ Lee",
+                "screenName": "mj_lee",
+                "id": "mj_lee",
+                "tweets": 16109,
+                "profileColor": "352726",
+                "friends": 1249,
+                "followers": 68347,
+                "location": "New York, NY",
+                "degree": 22,
+                "keep": true
+            },
             "weight": 1,
-            "type": "mention"
+            "type": "retweet",
+            "id": "e1"
         },
         {
             "source": 0,
             "target": 3,
+            "sourceNode": {
+                "name": "Ellen DeGeneres",
+                "screenName": "TheEllenShow",
+                "id": "TheEllenShow",
+                "tweets": 20317,
+                "profileColor": "3ABEE3",
+                "friends": 27787,
+                "followers": 78773037,
+                "location": "California",
+                "degree": 35,
+                "keep": true
+            },
+            "targetNode": {
+                "name": "Human Rights Campaign",
+                "screenName": "HRC",
+                "id": "HRC",
+                "tweets": 49678,
+                "profileColor": "C7CCD2",
+                "friends": 156247,
+                "followers": 824632,
+                "location": "Washington, DC",
+                "degree": 22,
+                "keep": true
+            },
             "weight": 1,
-            "type": "mention"
+            "type": "quote",
+            "id": "e2"
         },
         {
             "source": 0,
             "target": 4,
+            "sourceNode": {
+                "name": "Ellen DeGeneres",
+                "screenName": "TheEllenShow",
+                "id": "TheEllenShow",
+                "tweets": 20317,
+                "profileColor": "3ABEE3",
+                "friends": 27787,
+                "followers": 78773037,
+                "location": "California",
+                "degree": 35,
+                "keep": true
+            },
+            "targetNode": {
+                "name": "Anderson Cooper",
+                "screenName": "andersoncooper",
+                "id": "andersoncooper",
+                "tweets": 15,
+                "friends": 45,
+                "followers": 62,
+                "location": "NA",
+                "random_tweets": true,
+                "random_friends": true,
+                "random_followers": true,
+                "degree": 21,
+                "keep": true
+            },
             "weight": 1,
-            "type": "mention"
-        },
-        {
-            "source": 1,
-            "target": 2,
-            "weight": 1,
-            "type": "mention"
-        },
-        {
-            "source": 2,
-            "target": 0,
-            "weight": 1,
-            "type": "retweet"
-        },
-        {
-            "source": 2,
-            "target": 1,
-            "weight": 1,
-            "type": "mention"
-        },
-        {
-            "source": 2,
-            "target": 0,
-            "weight": 2,
-            "type": "mention"
-        },
-        {
-            "source": 3,
-            "target": 3,
-            "weight": 2,
-            "type": "quote"
-        },
-        {
-            "source": 4,
-            "target": 0,
-            "weight": 3,
-            "type": "retweet"
-        },
-        {
-            "source": 4,
-            "target": 0,
-            "weight": 2,
-            "type": "quote"
-        },
-        {
-            "source": 4,
-            "target": 1,
-            "weight": 2,
-            "type": "mention"
-        },
-        {
-            "source": 4,
-            "target": 0,
-            "weight": 1,
-            "type": "mention"
-        },
-        {
-            "source": 4,
-            "target": 2,
-            "weight": 1,
-            "type": "quote"
+            "type": "mention",
+            "id": "e3"
         }
     ]
 }

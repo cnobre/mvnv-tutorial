@@ -19,20 +19,20 @@ function hideTooltip() {
     .style("opacity", 0);
 }
 
-d3.selectAll(".tag").on("click", function(){
-   let twitterHandle =  d3.select(this).attr('id');
+d3.selectAll(".tag").on("click", function () {
+  let twitterHandle = d3.select(this).attr('id');
 
-   d3.json('data/savedSmallGraphs/graph_'+twitterHandle+'.json').then((graph)=>{
+  d3.json('data/presets/graph_' + twitterHandle + '.json').then((graph) => {
     drawGraph(graph);
-   })
+  })
 });
 
-d3.select(".input").on("change", function() {
+d3.select(".input").on("change", function () {
   response = d3
-    .json('http://13.58.168.88:5000/?handle=' + this.value)
-    // .json("http://0.0.0.0:5000/?handle=" + this.value)
+    // .json('http://13.58.168.88:5000/?handle=' + this.value)
+    .json("http://0.0.0.0:5000/?handle=" + this.value)
     .then(graph => {
-        console.log(graph)
+      console.log(graph)
       drawGraph(graph);
     });
 });
@@ -65,12 +65,12 @@ function drawGraph(data) {
     rows.select(".name").html(d => d.name);
     rows.select(".screen_name").html(d => d.screenName);
     rows.select(".tweets")
-    .html(d => d.tweets)
-    .classed('random',d=>d.random_tweets)
- 
+      .html(d => d.tweets)
+      .classed('random', d => d.random_tweets)
 
-    rows.select(".friends").html(d => d.friends).classed('random',d=>d.random_friends)
-    rows.select(".followers").html(d => d.followers).classed('random',d=>d.random_followers)
+
+    rows.select(".friends").html(d => d.friends).classed('random', d => d.random_friends)
+    rows.select(".followers").html(d => d.followers).classed('random', d => d.random_followers)
     rows.select(".location").html(d => d.location);
   }
 
@@ -113,7 +113,7 @@ function drawGraph(data) {
       .force(
         "charge",
         d3.forceManyBody()
-        .strength(-1200)
+          .strength(-800)
         // .strength(function(node) {
         //   return node.degree*-30;
         // })
@@ -147,7 +147,7 @@ function drawGraph(data) {
         .drag()
         .on("start", dragstarted)
         .on("drag", dragged)
-        // .on("dblclick", dblclick);
+      // .on("dblclick", dblclick);
       // .on("end", dragended);
     };
     let scale = d3.scaleOrdinal(d3.schemeCategory10);
@@ -162,7 +162,7 @@ function drawGraph(data) {
       .domain(d3.extent(data.links.map(n => n.weight)))
       .range([3, 12]);
 
-    color = d =>scale(d.group);
+    color = d => scale(d.group);
 
     d3.select(".graphCol")
       .select("svg")
@@ -174,6 +174,21 @@ function drawGraph(data) {
       .attr("width", width)
       .attr("height", height);
 
+    svg.append("svg:defs").selectAll("marker")
+      .data(["end"])      // Different link/path types can be defined here
+      .enter().append("svg:marker")    // This section adds in the arrows
+      .attr("id", String)
+      .attr("viewBox", "0 -5 10 10")
+      .attr("refX", 15)
+      .attr("refY", -1.5)
+      .attr("markerWidth", 12)
+      .attr("markerHeight", 12)
+      .attr("markerUnits","userSpaceOnUse")
+      .attr("orient", "auto")
+      .attr("color","hsl(203, 100%, 50%)")
+      .append("svg:path")
+      .attr("d", "M0,-5L10,0L0,5");
+
     const link = svg
       .append("g")
       // .attr("stroke", "#999")
@@ -183,11 +198,11 @@ function drawGraph(data) {
       .join("path")
       .attr("class", "link")
       .attr("stroke-width", d => edgeWidthScale(d.weight))
-      .on("mouseover", function(d) {
+      .on("mouseover", function (d) {
         let tooltipData = d.type;
         showTooltip(tooltipData);
       })
-      .on("mouseout", function() {
+      .on("mouseout", function () {
         hideTooltip();
       });
 
@@ -214,18 +229,19 @@ function drawGraph(data) {
     node
       .select("circle")
       // .attr("r", d => sizeScale(d.followers))
-      .attr("r", radius)
+      // .attr("r", radius)
       // .attr("fill", color)
-      .on("mouseover", function(d) {
+      .on("mouseover", function (d) {
         let tooltipData = d.name;
         showTooltip(tooltipData);
       })
-      .on("mouseout", function() {
+      .on("mouseout", function () {
         hideTooltip();
       })
       .call(drag(simulation));
 
-    link.attr("class", d => d.type + " link");
+    link.attr("class", d => d.type + " link")
+      .attr("marker-end", "url(#end)");
 
     simulation.on("tick", () => {
       link.attr("d", d => {
@@ -247,17 +263,17 @@ function drawGraph(data) {
 
     // console.log(d.source,source)
 
-    var x1 = leftHand ? source.x : target.x,
-      y1 = leftHand ? source.y : target.y,
-      x2 = leftHand ? target.x : source.x,
-      y2 = leftHand ? target.y : source.y;
+    var x1 = source.x, //leftHand ? source.x : target.x,
+      y1 = source.y ,//leftHand ? source.y : target.y,
+      x2 = target.x ,//leftHand ? target.x : source.x,
+      y2 = target.y ;//leftHand ? target.y : source.y;
     (dx = x2 - x1),
       (dy = y2 - y1),
       (dr = Math.sqrt(dx * dx + dy * dy)),
       (drx = dr),
       (dry = dr),
-      (sweep = leftHand ? 0 : 1);
-    (xRotation = 10), (largeArc = 0);
+      (sweep = 0 ); //leftHand ? 0 : 1);
+    (xRotation = 50), (largeArc = 0);
 
     if (d.type !== "quote") {
       return (
@@ -266,9 +282,9 @@ function drawGraph(data) {
         "," +
         y1 +
         "A" +
-        drx +
+        -drx +
         ", " +
-        dry +
+        -dry +
         " " +
         xRotation +
         ", " +

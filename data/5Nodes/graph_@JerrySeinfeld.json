@@ -1,0 +1,235 @@
+{
+    "nodes": [
+        {
+            "name": "Jerry Seinfeld",
+            "screenName": "JerrySeinfeld",
+            "id": "JerrySeinfeld",
+            "tweets": 1624,
+            "profileColor": "C0DEED",
+            "friends": 109,
+            "followers": 4285992,
+            "location": "New York, NY",
+            "degree": 42,
+            "keep": true
+        },
+        {
+            "name": "Seth Rogen",
+            "screenName": "Sethrogen",
+            "id": "Sethrogen",
+            "tweets": 73,
+            "friends": 18,
+            "followers": 88,
+            "location": "NA",
+            "random_tweets": true,
+            "random_friends": true,
+            "random_followers": true,
+            "degree": 39,
+            "keep": true
+        },
+        {
+            "name": "Pete Alonso",
+            "screenName": "Pete_Alonso20",
+            "id": "Pete_Alonso20",
+            "tweets": 23,
+            "friends": 32,
+            "followers": 7,
+            "location": "NA",
+            "random_tweets": true,
+            "random_friends": true,
+            "random_followers": true,
+            "degree": 37,
+            "keep": true
+        },
+        {
+            "name": "rich pesce",
+            "screenName": "rpesce",
+            "id": "rpesce",
+            "tweets": 21013,
+            "profileColor": "C0DEED",
+            "friends": 665,
+            "followers": 3203,
+            "location": "Here, There and Everywhere",
+            "degree": 36,
+            "keep": true
+        },
+        {
+            "name": "Joy Reid",
+            "screenName": "JoyAnnReid",
+            "id": "JoyAnnReid",
+            "tweets": 96,
+            "friends": 48,
+            "followers": 15,
+            "location": "NA",
+            "random_tweets": true,
+            "random_friends": true,
+            "random_followers": true,
+            "degree": 32,
+            "keep": true
+        }
+    ],
+    "links": [
+        {
+            "source": 0,
+            "target": 2,
+            "sourceNode": {
+                "name": "Jerry Seinfeld",
+                "screenName": "JerrySeinfeld",
+                "id": "JerrySeinfeld",
+                "tweets": 1624,
+                "profileColor": "C0DEED",
+                "friends": 109,
+                "followers": 4285992,
+                "location": "New York, NY",
+                "degree": 42,
+                "keep": true
+            },
+            "targetNode": {
+                "name": "Pete Alonso",
+                "screenName": "Pete_Alonso20",
+                "id": "Pete_Alonso20",
+                "tweets": 23,
+                "friends": 32,
+                "followers": 7,
+                "location": "NA",
+                "random_tweets": true,
+                "random_friends": true,
+                "random_followers": true,
+                "degree": 37,
+                "keep": true
+            },
+            "weight": 1,
+            "type": "mention",
+            "id": "e0"
+        },
+        {
+            "source": 0,
+            "target": 4,
+            "sourceNode": {
+                "name": "Jerry Seinfeld",
+                "screenName": "JerrySeinfeld",
+                "id": "JerrySeinfeld",
+                "tweets": 1624,
+                "profileColor": "C0DEED",
+                "friends": 109,
+                "followers": 4285992,
+                "location": "New York, NY",
+                "degree": 42,
+                "keep": true
+            },
+            "targetNode": {
+                "name": "Joy Reid",
+                "screenName": "JoyAnnReid",
+                "id": "JoyAnnReid",
+                "tweets": 96,
+                "friends": 48,
+                "followers": 15,
+                "location": "NA",
+                "random_tweets": true,
+                "random_friends": true,
+                "random_followers": true,
+                "degree": 32,
+                "keep": true
+            },
+            "weight": 1,
+            "type": "mention",
+            "id": "e1"
+        },
+        {
+            "source": 0,
+            "target": 3,
+            "sourceNode": {
+                "name": "Jerry Seinfeld",
+                "screenName": "JerrySeinfeld",
+                "id": "JerrySeinfeld",
+                "tweets": 1624,
+                "profileColor": "C0DEED",
+                "friends": 109,
+                "followers": 4285992,
+                "location": "New York, NY",
+                "degree": 42,
+                "keep": true
+            },
+            "targetNode": {
+                "name": "rich pesce",
+                "screenName": "rpesce",
+                "id": "rpesce",
+                "tweets": 21013,
+                "profileColor": "C0DEED",
+                "friends": 665,
+                "followers": 3203,
+                "location": "Here, There and Everywhere",
+                "degree": 36,
+                "keep": true
+            },
+            "weight": 1,
+            "type": "retweet",
+            "id": "e2"
+        },
+        {
+            "source": 0,
+            "target": 1,
+            "sourceNode": {
+                "name": "Jerry Seinfeld",
+                "screenName": "JerrySeinfeld",
+                "id": "JerrySeinfeld",
+                "tweets": 1624,
+                "profileColor": "C0DEED",
+                "friends": 109,
+                "followers": 4285992,
+                "location": "New York, NY",
+                "degree": 42,
+                "keep": true
+            },
+            "targetNode": {
+                "name": "Seth Rogen",
+                "screenName": "Sethrogen",
+                "id": "Sethrogen",
+                "tweets": 73,
+                "friends": 18,
+                "followers": 88,
+                "location": "NA",
+                "random_tweets": true,
+                "random_friends": true,
+                "random_followers": true,
+                "degree": 39,
+                "keep": true
+            },
+            "weight": 1,
+            "type": "mention",
+            "id": "e3"
+        },
+        {
+            "source": 2,
+            "target": 0,
+            "sourceNode": {
+                "name": "Pete Alonso",
+                "screenName": "Pete_Alonso20",
+                "id": "Pete_Alonso20",
+                "tweets": 23,
+                "friends": 32,
+                "followers": 7,
+                "location": "NA",
+                "random_tweets": true,
+                "random_friends": true,
+                "random_followers": true,
+                "degree": 37,
+                "keep": true
+            },
+            "targetNode": {
+                "name": "Jerry Seinfeld",
+                "screenName": "JerrySeinfeld",
+                "id": "JerrySeinfeld",
+                "tweets": 1624,
+                "profileColor": "C0DEED",
+                "friends": 109,
+                "followers": 4285992,
+                "location": "New York, NY",
+                "degree": 42,
+                "keep": true
+            },
+            "weight": 1,
+            "type": "mention",
+            "id": "e4"
+        }
+    ]
+}

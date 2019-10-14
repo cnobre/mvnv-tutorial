@@ -290,10 +290,15 @@ const server = http.createServer(async (req, res) => {
 
     // console.log(cy.edges('[source = "carolinanobre84"]'))
 
+    let nodeCap;
+       //remove self edges; 
+       graph.links = graph.links.filter(l => l.source !== l.target);
+
+
     let sortNsnip = (num) => {
 
       //only keep top X nodes;
-      nodeCap = num || 10;
+      nodeCap = num 
 
       //sort nodes by degree;
       graph.nodes.map((n, i) => {
@@ -309,25 +314,20 @@ const server = http.createServer(async (req, res) => {
         if (a.screenName == handle.slice(1)) {
           return -2
         }
-        if (a.screenName == 'Oprah') {
-          return -1.5
-        }
-        if (a.random_followers) {
-          return 2;
-        }
+        // if (a.screenName == 'Oprah') {
+        //   return -1.5
+        // }
+        // if (a.random_followers) {
+        //   return 2;
+        // }
         // return a.dc > b.dc ? -1 : 1
         return a.degree > b.degree ? -1 : 1
 
       })
 
-
-
       graph.nodes.map((n, i) => i < nodeCap ? n.keep = true : n.keep = false)
 
-      //remove self edges; 
-      graph.links = graph.links.filter(l => l.source !== l.target);
-
-
+   
       let filteredNodes = graph.nodes.slice(0, nodeCap);
 
 
@@ -341,17 +341,9 @@ const server = http.createServer(async (req, res) => {
 
     }
 
-    sortNsnip(10);
-    // sortNsnip(7);
-
-    
-
     sortNsnip(5);
-
-    // console.log(graph.nodes)
-
+    // sortNsnip(10);
     // sortNsnip(5);
-
 
     
     // console.log('original nodes', graph.nodes.length, 'filtered nodes', filteredNodes.length)
@@ -370,6 +362,8 @@ const server = http.createServer(async (req, res) => {
 
 
     const comp = cy.elements().components();
+
+    console.log(' nodeCap is ', nodeCap)
     // console.log(comp[0].nodes()); 
     // console.log(comp[0].length)
 

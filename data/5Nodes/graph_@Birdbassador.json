@@ -1,0 +1,231 @@
+{
+    "nodes": [
+        {
+            "name": "The Birdbassador",
+            "screenName": "Birdbassador",
+            "id": "Birdbassador",
+            "tweets": 7604,
+            "profileColor": "FFFFFF",
+            "friends": 298,
+            "followers": 439,
+            "location": "NA",
+            "degree": 28,
+            "keep": true
+        },
+        {
+            "name": "Anna Lauren Hoffmann",
+            "screenName": "annaeveryday",
+            "id": "annaeveryday",
+            "tweets": 95,
+            "friends": 66,
+            "followers": 77,
+            "location": "NA",
+            "random_tweets": true,
+            "random_friends": true,
+            "random_followers": true,
+            "degree": 34,
+            "keep": true
+        },
+        {
+            "name": "TD Canada Customer",
+            "screenName": "neonwario",
+            "id": "neonwario",
+            "tweets": 49041,
+            "profileColor": "7F92D4",
+            "friends": 236,
+            "followers": 22288,
+            "location": "Dunston, NT",
+            "degree": 27,
+            "keep": true
+        },
+        {
+            "name": "Tim Hwang",
+            "screenName": "timhwang",
+            "id": "timhwang",
+            "tweets": 76,
+            "friends": 91,
+            "followers": 8,
+            "location": "NA",
+            "random_tweets": true,
+            "random_friends": true,
+            "random_followers": true,
+            "degree": 26,
+            "keep": true
+        },
+        {
+            "name": "Os Keyes",
+            "screenName": "farbandish",
+            "id": "farbandish",
+            "tweets": 19201,
+            "profileColor": "F5F8FA",
+            "friends": 1680,
+            "followers": 9328,
+            "location": "Seattle",
+            "degree": 25,
+            "keep": true
+        }
+    ],
+    "links": [
+        {
+            "source": 0,
+            "target": 3,
+            "sourceNode": {
+                "name": "The Birdbassador",
+                "screenName": "Birdbassador",
+                "id": "Birdbassador",
+                "tweets": 7604,
+                "profileColor": "FFFFFF",
+                "friends": 298,
+                "followers": 439,
+                "location": "NA",
+                "degree": 28,
+                "keep": true
+            },
+            "targetNode": {
+                "name": "Tim Hwang",
+                "screenName": "timhwang",
+                "id": "timhwang",
+                "tweets": 76,
+                "friends": 91,
+                "followers": 8,
+                "location": "NA",
+                "random_tweets": true,
+                "random_friends": true,
+                "random_followers": true,
+                "degree": 26,
+                "keep": true
+            },
+            "weight": 1,
+            "type": "mention",
+            "id": "e0"
+        },
+        {
+            "source": 0,
+            "target": 4,
+            "sourceNode": {
+                "name": "The Birdbassador",
+                "screenName": "Birdbassador",
+                "id": "Birdbassador",
+                "tweets": 7604,
+                "profileColor": "FFFFFF",
+                "friends": 298,
+                "followers": 439,
+                "location": "NA",
+                "degree": 28,
+                "keep": true
+            },
+            "targetNode": {
+                "name": "Os Keyes",
+                "screenName": "farbandish",
+                "id": "farbandish",
+                "tweets": 19201,
+                "profileColor": "F5F8FA",
+                "friends": 1680,
+                "followers": 9328,
+                "location": "Seattle",
+                "degree": 25,
+                "keep": true
+            },
+            "weight": 1,
+            "type": "retweet",
+            "id": "e1"
+        },
+        {
+            "source": 0,
+            "target": 2,
+            "sourceNode": {
+                "name": "The Birdbassador",
+                "screenName": "Birdbassador",
+                "id": "Birdbassador",
+                "tweets": 7604,
+                "profileColor": "FFFFFF",
+                "friends": 298,
+                "followers": 439,
+                "location": "NA",
+                "degree": 28,
+                "keep": true
+            },
+            "targetNode": {
+                "name": "TD Canada Customer",
+                "screenName": "neonwario",
+                "id": "neonwario",
+                "tweets": 49041,
+                "profileColor": "7F92D4",
+                "friends": 236,
+                "followers": 22288,
+                "location": "Dunston, NT",
+                "degree": 27,
+                "keep": true
+            },
+            "weight": 1,
+            "type": "retweet",
+            "id": "e2"
+        },
+        {
+            "source": 0,
+            "target": 1,
+            "sourceNode": {
+                "name": "The Birdbassador",
+                "screenName": "Birdbassador",
+                "id": "Birdbassador",
+                "tweets": 7604,
+                "profileColor": "FFFFFF",
+                "friends": 298,
+                "followers": 439,
+                "location": "NA",
+                "degree": 28,
+                "keep": true
+            },
+            "targetNode": {
+                "name": "Anna Lauren Hoffmann",
+                "screenName": "annaeveryday",
+                "id": "annaeveryday",
+                "tweets": 95,
+                "friends": 66,
+                "followers": 77,
+                "location": "NA",
+                "random_tweets": true,
+                "random_friends": true,
+                "random_followers": true,
+                "degree": 34,
+                "keep": true
+            },
+            "weight": 1,
+            "type": "mention",
+            "id": "e3"
+        },
+        {
+            "source": 3,
+            "target": 0,
+            "sourceNode": {
+                "name": "Tim Hwang",
+                "screenName": "timhwang",
+                "id": "timhwang",
+                "tweets": 76,
+                "friends": 91,
+                "followers": 8,
+                "location": "NA",
+                "random_tweets": true,
+                "random_friends": true,
+                "random_followers": true,
+                "degree": 26,
+                "keep": true
+            },
+            "targetNode": {
+                "name": "The Birdbassador",
+                "screenName": "Birdbassador",
+                "id": "Birdbassador",
+                "tweets": 7604,
+                "profileColor": "FFFFFF",
+                "friends": 298,
+                "followers": 439,
+                "location": "NA",
+                "degree": 28,
+                "keep": true
+            },
+            "weight": 1,
+            "type": "mention",
+            "id": "e4"
+        }
+    ]
+}

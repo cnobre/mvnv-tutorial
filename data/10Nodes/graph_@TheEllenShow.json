@@ -1,0 +1,345 @@
+{
+    "nodes": [
+        {
+            "name": "Ellen DeGeneres",
+            "screenName": "TheEllenShow",
+            "id": "TheEllenShow",
+            "tweets": 20316,
+            "profileColor": "3ABEE3",
+            "friends": 27787,
+            "followers": 78771478,
+            "location": "California",
+            "degree": 37,
+            "keep": true
+        },
+        {
+            "name": "Human Rights Campaign",
+            "screenName": "HRC",
+            "id": "HRC",
+            "tweets": 49677,
+            "profileColor": "C7CCD2",
+            "friends": 156250,
+            "followers": 824632,
+            "location": "Washington, DC",
+            "degree": 24,
+            "keep": true
+        },
+        {
+            "name": "MJ Lee",
+            "screenName": "mj_lee",
+            "id": "mj_lee",
+            "tweets": 16109,
+            "profileColor": "352726",
+            "friends": 1249,
+            "followers": 68345,
+            "location": "New York, NY",
+            "degree": 22,
+            "keep": true
+        },
+        {
+            "name": "Scott Icenogle",
+            "screenName": "ScottIcenogle",
+            "id": "ScottIcenogle",
+            "tweets": 965,
+            "profileColor": "022330",
+            "friends": 642,
+            "followers": 4702,
+            "location": "Los Angeles, CA",
+            "degree": 15,
+            "keep": true
+        },
+        {
+            "name": "60 Minutes",
+            "screenName": "60Minutes",
+            "id": "60Minutes",
+            "tweets": 22258,
+            "profileColor": "700202",
+            "friends": 401,
+            "followers": 1045987,
+            "location": "New York, NY",
+            "degree": 3,
+            "keep": true
+        },
+        {
+            "name": "Anderson Cooper 360°",
+            "screenName": "AC360",
+            "id": "AC360",
+            "tweets": 66605,
+            "profileColor": "C0DEED",
+            "friends": 158,
+            "followers": 1329959,
+            "location": "New York, NY",
+            "degree": 3,
+            "keep": true
+        },
+        {
+            "name": "Oprah Winfrey",
+            "screenName": "Oprah",
+            "id": "Oprah",
+            "tweets": 21,
+            "friends": 91,
+            "followers": 21,
+            "location": "NA",
+            "random_tweets": true,
+            "random_friends": true,
+            "random_followers": true,
+            "degree": 1,
+            "keep": true
+        },
+        {
+            "name": "Mary Lambert",
+            "screenName": "marylambertsing",
+            "id": "marylambertsing",
+            "tweets": 6779,
+            "profileColor": "DBE9ED",
+            "friends": 1749,
+            "followers": 94312,
+            "location": "seattle",
+            "degree": 2,
+            "keep": true
+        },
+        {
+            "name": "Lecrae",
+            "screenName": "lecrae",
+            "id": "lecrae",
+            "tweets": 13075,
+            "profileColor": "131516",
+            "friends": 438,
+            "followers": 1678359,
+            "location": "Atlanta, GA",
+            "degree": 2,
+            "keep": true
+        },
+        {
+            "name": "Gabrielle Union",
+            "screenName": "itsgabrielleu",
+            "id": "itsgabrielleu",
+            "tweets": 27190,
+            "profileColor": "C0DEED",
+            "friends": 887,
+            "followers": 4147735,
+            "location": "NA",
+            "degree": 2,
+            "keep": true
+        }
+    ],
+    "links": [
+        {
+            "source": 0,
+            "target": 3,
+            "sourceNode": {
+                "name": "Ellen DeGeneres",
+                "screenName": "TheEllenShow",
+                "id": "TheEllenShow",
+                "tweets": 20316,
+                "profileColor": "3ABEE3",
+                "friends": 27787,
+                "followers": 78771478,
+                "location": "California",
+                "degree": 37,
+                "keep": true
+            },
+            "targetNode": {
+                "name": "Scott Icenogle",
+                "screenName": "ScottIcenogle",
+                "id": "ScottIcenogle",
+                "tweets": 965,
+                "profileColor": "022330",
+                "friends": 642,
+                "followers": 4702,
+                "location": "Los Angeles, CA",
+                "degree": 15,
+                "keep": true
+            },
+            "weight": 1,
+            "type": "retweet",
+            "id": "e0"
+        },
+        {
+            "source": 0,
+            "target": 2,
+            "sourceNode": {
+                "name": "Ellen DeGeneres",
+                "screenName": "TheEllenShow",
+                "id": "TheEllenShow",
+                "tweets": 20316,
+                "profileColor": "3ABEE3",
+                "friends": 27787,
+                "followers": 78771478,
+                "location": "California",
+                "degree": 37,
+                "keep": true
+            },
+            "targetNode": {
+                "name": "MJ Lee",
+                "screenName": "mj_lee",
+                "id": "mj_lee",
+                "tweets": 16109,
+                "profileColor": "352726",
+                "friends": 1249,
+                "followers": 68345,
+                "location": "New York, NY",
+                "degree": 22,
+                "keep": true
+            },
+            "weight": 1,
+            "type": "retweet",
+            "id": "e1"
+        },
+        {
+            "source": 0,
+            "target": 1,
+            "sourceNode": {
+                "name": "Ellen DeGeneres",
+                "screenName": "TheEllenShow",
+                "id": "TheEllenShow",
+                "tweets": 20316,
+                "profileColor": "3ABEE3",
+                "friends": 27787,
+                "followers": 78771478,
+                "location": "California",
+                "degree": 37,
+                "keep": true
+            },
+            "targetNode": {
+                "name": "Human Rights Campaign",
+                "screenName": "HRC",
+                "id": "HRC",
+                "tweets": 49677,
+                "profileColor": "C7CCD2",
+                "friends": 156250,
+                "followers": 824632,
+                "location": "Washington, DC",
+                "degree": 24,
+                "keep": true
+            },
+            "weight": 1,
+            "type": "quote",
+            "id": "e2"
+        },
+        {
+            "source": 3,
+            "target": 0,
+            "sourceNode": {
+                "name": "Scott Icenogle",
+                "screenName": "ScottIcenogle",
+                "id": "ScottIcenogle",
+                "tweets": 965,
+                "profileColor": "022330",
+                "friends": 642,
+                "followers": 4702,
+                "location": "Los Angeles, CA",
+                "degree": 15,
+                "keep": true
+            },
+            "targetNode": {
+                "name": "Ellen DeGeneres",
+                "screenName": "TheEllenShow",
+                "id": "TheEllenShow",
+                "tweets": 20316,
+                "profileColor": "3ABEE3",
+                "friends": 27787,
+                "followers": 78771478,
+                "location": "California",
+                "degree": 37,
+                "keep": true
+            },
+            "weight": 1,
+            "type": "quote",
+            "id": "e3"
+        },
+        {
+            "source": 3,
+            "target": 0,
+            "sourceNode": {
+                "name": "Scott Icenogle",
+                "screenName": "ScottIcenogle",
+                "id": "ScottIcenogle",
+                "tweets": 965,
+                "profileColor": "022330",
+                "friends": 642,
+                "followers": 4702,
+                "location": "Los Angeles, CA",
+                "degree": 15,
+                "keep": true
+            },
+            "targetNode": {
+                "name": "Ellen DeGeneres",
+                "screenName": "TheEllenShow",
+                "id": "TheEllenShow",
+                "tweets": 20316,
+                "profileColor": "3ABEE3",
+                "friends": 27787,
+                "followers": 78771478,
+                "location": "California",
+                "degree": 37,
+                "keep": true
+            },
+            "weight": 1,
+            "type": "mention",
+            "id": "e4"
+        },
+        {
+            "source": 1,
+            "target": 7,
+            "sourceNode": {
+                "name": "Human Rights Campaign",
+                "screenName": "HRC",
+                "id": "HRC",
+                "tweets": 49677,
+                "profileColor": "C7CCD2",
+                "friends": 156250,
+                "followers": 824632,
+                "location": "Washington, DC",
+                "degree": 24,
+                "keep": true
+            },
+            "targetNode": {
+                "name": "Mary Lambert",
+                "screenName": "marylambertsing",
+                "id": "marylambertsing",
+                "tweets": 6779,
+                "profileColor": "DBE9ED",
+                "friends": 1749,
+                "followers": 94312,
+                "location": "seattle",
+                "degree": 2,
+                "keep": true
+            },
+            "weight": 1,
+            "type": "quote",
+            "id": "e5"
+        },
+        {
+            "source": 1,
+            "target": 7,
+            "sourceNode": {
+                "name": "Human Rights Campaign",
+                "screenName": "HRC",
+                "id": "HRC",
+                "tweets": 49677,
+                "profileColor": "C7CCD2",
+                "friends": 156250,
+                "followers": 824632,
+                "location": "Washington, DC",
+                "degree": 24,
+                "keep": true
+            },
+            "targetNode": {
+                "name": "Mary Lambert",
+                "screenName": "marylambertsing",
+                "id": "marylambertsing",
+                "tweets": 6779,
+                "profileColor": "DBE9ED",
+                "friends": 1749,
+                "followers": 94312,
+                "location": "seattle",
+                "degree": 2,
+                "keep": true
+            },
+            "weight": 1,
+            "type": "mention",
+            "id": "e6"
+        }
+    ]
+}
