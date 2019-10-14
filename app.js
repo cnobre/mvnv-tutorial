@@ -312,7 +312,7 @@ const server = http.createServer(async (req, res) => {
 
       // console.log(handle.slice(1))
       graph.nodes.sort((a, b) => {
-        if (a.screenName == 'carolinanobre84'){
+        if (a.screenName == 'carolinanobre84' || b.screenName == 'carolinanobre84'){
           console.log(handle.slice(1))
         }
         // console.log(a.screenName,handle.slice(1))
