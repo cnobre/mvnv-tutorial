@@ -1,0 +1,382 @@
+{
+    "nodes": [
+        {
+            "name": "Barack Obama",
+            "screenName": "BarackObama",
+            "id": "BarackObama",
+            "tweets": 15687,
+            "profileColor": "77B0DC",
+            "friends": 611507,
+            "followers": 109383907,
+            "location": "Washington, DC",
+            "degree": 10,
+            "keep": true
+        },
+        {
+            "name": "Michelle Obama",
+            "screenName": "MichelleObama",
+            "id": "MichelleObama",
+            "tweets": 1178,
+            "profileColor": "C0DEED",
+            "friends": 18,
+            "followers": 13626512,
+            "location": "Washington, DC",
+            "degree": 6,
+            "keep": true
+        },
+        {
+            "name": "The Obama Foundation",
+            "screenName": "ObamaFoundation",
+            "id": "ObamaFoundation",
+            "tweets": 1526,
+            "profileColor": "EEEEEE",
+            "friends": 89,
+            "followers": 853534,
+            "location": "NA",
+            "degree": 6,
+            "keep": true
+        },
+        {
+            "name": "NDRC",
+            "screenName": "DemRedistrict",
+            "id": "DemRedistrict",
+            "tweets": 1951,
+            "profileColor": "F5F8FA",
+            "friends": 100,
+            "followers": 35215,
+            "location": "NA",
+            "degree": 3,
+            "keep": true
+        },
+        {
+            "name": "Greta Thunberg",
+            "screenName": "GretaThunberg",
+            "id": "GretaThunberg",
+            "tweets": 17,
+            "friends": 77,
+            "followers": 81,
+            "location": "NA",
+            "random_tweets": true,
+            "random_friends": true,
+            "random_followers": true,
+            "degree": 2,
+            "keep": true
+        }
+    ],
+    "links": [
+        {
+            "source": 0,
+            "target": 1,
+            "sourceNode": {
+                "name": "Barack Obama",
+                "screenName": "BarackObama",
+                "id": "BarackObama",
+                "tweets": 15687,
+                "profileColor": "77B0DC",
+                "friends": 611507,
+                "followers": 109383907,
+                "location": "Washington, DC",
+                "degree": 10,
+                "keep": true
+            },
+            "targetNode": {
+                "name": "Michelle Obama",
+                "screenName": "MichelleObama",
+                "id": "MichelleObama",
+                "tweets": 1178,
+                "profileColor": "C0DEED",
+                "friends": 18,
+                "followers": 13626512,
+                "location": "Washington, DC",
+                "degree": 6,
+                "keep": true
+            },
+            "weight": 1,
+            "type": "retweet",
+            "id": "e0"
+        },
+        {
+            "source": 0,
+            "target": 4,
+            "sourceNode": {
+                "name": "Barack Obama",
+                "screenName": "BarackObama",
+                "id": "BarackObama",
+                "tweets": 15687,
+                "profileColor": "77B0DC",
+                "friends": 611507,
+                "followers": 109383907,
+                "location": "Washington, DC",
+                "degree": 10,
+                "keep": true
+            },
+            "targetNode": {
+                "name": "Greta Thunberg",
+                "screenName": "GretaThunberg",
+                "id": "GretaThunberg",
+                "tweets": 17,
+                "friends": 77,
+                "followers": 81,
+                "location": "NA",
+                "random_tweets": true,
+                "random_friends": true,
+                "random_followers": true,
+                "degree": 2,
+                "keep": true
+            },
+            "weight": 1,
+            "type": "mention",
+            "id": "e1"
+        },
+        {
+            "source": 0,
+            "target": 3,
+            "sourceNode": {
+                "name": "Barack Obama",
+                "screenName": "BarackObama",
+                "id": "BarackObama",
+                "tweets": 15687,
+                "profileColor": "77B0DC",
+                "friends": 611507,
+                "followers": 109383907,
+                "location": "Washington, DC",
+                "degree": 10,
+                "keep": true
+            },
+            "targetNode": {
+                "name": "NDRC",
+                "screenName": "DemRedistrict",
+                "id": "DemRedistrict",
+                "tweets": 1951,
+                "profileColor": "F5F8FA",
+                "friends": 100,
+                "followers": 35215,
+                "location": "NA",
+                "degree": 3,
+                "keep": true
+            },
+            "weight": 1,
+            "type": "quote",
+            "id": "e2"
+        },
+        {
+            "source": 0,
+            "target": 2,
+            "sourceNode": {
+                "name": "Barack Obama",
+                "screenName": "BarackObama",
+                "id": "BarackObama",
+                "tweets": 15687,
+                "profileColor": "77B0DC",
+                "friends": 611507,
+                "followers": 109383907,
+                "location": "Washington, DC",
+                "degree": 10,
+                "keep": true
+            },
+            "targetNode": {
+                "name": "The Obama Foundation",
+                "screenName": "ObamaFoundation",
+                "id": "ObamaFoundation",
+                "tweets": 1526,
+                "profileColor": "EEEEEE",
+                "friends": 89,
+                "followers": 853534,
+                "location": "NA",
+                "degree": 6,
+                "keep": true
+            },
+            "weight": 1,
+            "type": "retweet",
+            "id": "e3"
+        },
+        {
+            "source": 2,
+            "target": 1,
+            "sourceNode": {
+                "name": "The Obama Foundation",
+                "screenName": "ObamaFoundation",
+                "id": "ObamaFoundation",
+                "tweets": 1526,
+                "profileColor": "EEEEEE",
+                "friends": 89,
+                "followers": 853534,
+                "location": "NA",
+                "degree": 6,
+                "keep": true
+            },
+            "targetNode": {
+                "name": "Michelle Obama",
+                "screenName": "MichelleObama",
+                "id": "MichelleObama",
+                "tweets": 1178,
+                "profileColor": "C0DEED",
+                "friends": 18,
+                "followers": 13626512,
+                "location": "Washington, DC",
+                "degree": 6,
+                "keep": true
+            },
+            "weight": 1,
+            "type": "retweet",
+            "id": "e4"
+        },
+        {
+            "source": 2,
+            "target": 0,
+            "sourceNode": {
+                "name": "The Obama Foundation",
+                "screenName": "ObamaFoundation",
+                "id": "ObamaFoundation",
+                "tweets": 1526,
+                "profileColor": "EEEEEE",
+                "friends": 89,
+                "followers": 853534,
+                "location": "NA",
+                "degree": 6,
+                "keep": true
+            },
+            "targetNode": {
+                "name": "Barack Obama",
+                "screenName": "BarackObama",
+                "id": "BarackObama",
+                "tweets": 15687,
+                "profileColor": "77B0DC",
+                "friends": 611507,
+                "followers": 109383907,
+                "location": "Washington, DC",
+                "degree": 10,
+                "keep": true
+            },
+            "weight": 6,
+            "type": "mention",
+            "id": "e5"
+        },
+        {
+            "source": 2,
+            "target": 1,
+            "sourceNode": {
+                "name": "The Obama Foundation",
+                "screenName": "ObamaFoundation",
+                "id": "ObamaFoundation",
+                "tweets": 1526,
+                "profileColor": "EEEEEE",
+                "friends": 89,
+                "followers": 853534,
+                "location": "NA",
+                "degree": 6,
+                "keep": true
+            },
+            "targetNode": {
+                "name": "Michelle Obama",
+                "screenName": "MichelleObama",
+                "id": "MichelleObama",
+                "tweets": 1178,
+                "profileColor": "C0DEED",
+                "friends": 18,
+                "followers": 13626512,
+                "location": "Washington, DC",
+                "degree": 6,
+                "keep": true
+            },
+            "weight": 1,
+            "type": "mention",
+            "id": "e6"
+        },
+        {
+            "source": 2,
+            "target": 4,
+            "sourceNode": {
+                "name": "The Obama Foundation",
+                "screenName": "ObamaFoundation",
+                "id": "ObamaFoundation",
+                "tweets": 1526,
+                "profileColor": "EEEEEE",
+                "friends": 89,
+                "followers": 853534,
+                "location": "NA",
+                "degree": 6,
+                "keep": true
+            },
+            "targetNode": {
+                "name": "Greta Thunberg",
+                "screenName": "GretaThunberg",
+                "id": "GretaThunberg",
+                "tweets": 17,
+                "friends": 77,
+                "followers": 81,
+                "location": "NA",
+                "random_tweets": true,
+                "random_friends": true,
+                "random_followers": true,
+                "degree": 2,
+                "keep": true
+            },
+            "weight": 1,
+            "type": "mention",
+            "id": "e7"
+        },
+        {
+            "source": 1,
+            "target": 0,
+            "sourceNode": {
+                "name": "Michelle Obama",
+                "screenName": "MichelleObama",
+                "id": "MichelleObama",
+                "tweets": 1178,
+                "profileColor": "C0DEED",
+                "friends": 18,
+                "followers": 13626512,
+                "location": "Washington, DC",
+                "degree": 6,
+                "keep": true
+            },
+            "targetNode": {
+                "name": "Barack Obama",
+                "screenName": "BarackObama",
+                "id": "BarackObama",
+                "tweets": 15687,
+                "profileColor": "77B0DC",
+                "friends": 611507,
+                "followers": 109383907,
+                "location": "Washington, DC",
+                "degree": 10,
+                "keep": true
+            },
+            "weight": 2,
+            "type": "retweet",
+            "id": "e8"
+        },
+        {
+            "source": 1,
+            "target": 0,
+            "sourceNode": {
+                "name": "Michelle Obama",
+                "screenName": "MichelleObama",
+                "id": "MichelleObama",
+                "tweets": 1178,
+                "profileColor": "C0DEED",
+                "friends": 18,
+                "followers": 13626512,
+                "location": "Washington, DC",
+                "degree": 6,
+                "keep": true
+            },
+            "targetNode": {
+                "name": "Barack Obama",
+                "screenName": "BarackObama",
+                "id": "BarackObama",
+                "tweets": 15687,
+                "profileColor": "77B0DC",
+                "friends": 611507,
+                "followers": 109383907,
+                "location": "Washington, DC",
+                "degree": 10,
+                "keep": true
+            },
+            "weight": 1,
+            "type": "quote",
+            "id": "e9"
+        }
+    ]
+}
