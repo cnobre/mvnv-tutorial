@@ -341,13 +341,9 @@ const server = http.createServer(async (req, res) => {
 
     }
 
-    sortNsnip(5);
-    // sortNsnip(10);
     // sortNsnip(5);
-
-    
-    // console.log('original nodes', graph.nodes.length, 'filtered nodes', filteredNodes.length)
-
+    sortNsnip(10);
+    sortNsnip(5);
 
 
     let eles = cy.add(

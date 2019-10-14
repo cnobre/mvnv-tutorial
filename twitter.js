@@ -27,6 +27,7 @@ d3.selectAll(".tag").on("click", function () {
   })
 });
 
+
 d3.select(".input").on("change", function () {
   response = d3
     .json('http://13.58.168.88:5000/?handle=' + this.value)

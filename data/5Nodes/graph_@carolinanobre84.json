@@ -9,43 +9,7 @@
             "friends": 150,
             "followers": 72,
             "location": "NA",
-            "degree": 20,
-            "keep": true
-        },
-        {
-            "name": "Alexander Lex",
-            "screenName": "alexander_lex",
-            "id": "alexander_lex",
-            "tweets": 1454,
-            "profileColor": "000000",
-            "friends": 773,
-            "followers": 1104,
-            "location": "Salt Lake City, UT",
-            "degree": 45,
-            "keep": true
-        },
-        {
-            "name": "Lane Harrison",
-            "screenName": "laneharrison",
-            "id": "laneharrison",
-            "tweets": 4352,
-            "profileColor": "1A1B1F",
-            "friends": 774,
-            "followers": 1543,
-            "location": "Worcester, MA",
-            "degree": 38,
-            "keep": true
-        },
-        {
-            "name": "Mike Bostock",
-            "screenName": "mbostock",
-            "id": "mbostock",
-            "tweets": 9955,
-            "profileColor": "F5F8FA",
-            "friends": 2,
-            "followers": 59849,
-            "location": "San Francisco, CA",
-            "degree": 35,
+            "degree": 11,
             "keep": true
         },
         {
@@ -57,42 +21,49 @@
             "friends": 152,
             "followers": 609,
             "location": "Salt Lake City, UT",
-            "degree": 32,
+            "degree": 14,
+            "keep": true
+        },
+        {
+            "name": "Miriah Meyer",
+            "screenName": "miriah_meyer",
+            "id": "miriah_meyer",
+            "tweets": 117,
+            "profileColor": "000000",
+            "friends": 201,
+            "followers": 1045,
+            "location": "Salt Lake City, UT",
+            "degree": 9,
+            "keep": true
+        },
+        {
+            "name": "Alexander Lex",
+            "screenName": "alexander_lex",
+            "id": "alexander_lex",
+            "tweets": 1454,
+            "profileColor": "000000",
+            "friends": 773,
+            "followers": 1104,
+            "location": "Salt Lake City, UT",
+            "degree": 9,
+            "keep": true
+        },
+        {
+            "name": "Ana Crisan",
+            "screenName": "amcrisan",
+            "id": "amcrisan",
+            "tweets": 92,
+            "friends": 96,
+            "followers": 78,
+            "location": "NA",
+            "random_tweets": true,
+            "random_friends": true,
+            "random_followers": true,
+            "degree": 3,
             "keep": true
         }
     ],
     "links": [
-        {
-            "source": 0,
-            "target": 4,
-            "sourceNode": {
-                "name": "Carolina Nobre",
-                "screenName": "carolinanobre84",
-                "id": "carolinanobre84",
-                "tweets": 34,
-                "profileColor": "F5F8FA",
-                "friends": 150,
-                "followers": 72,
-                "location": "NA",
-                "degree": 20,
-                "keep": true
-            },
-            "targetNode": {
-                "name": "Vis Design Lab",
-                "screenName": "visdesignlab",
-                "id": "visdesignlab",
-                "tweets": 41,
-                "profileColor": "000000",
-                "friends": 152,
-                "followers": 609,
-                "location": "Salt Lake City, UT",
-                "degree": 32,
-                "keep": true
-            },
-            "weight": 8,
-            "type": "retweet",
-            "id": "e0"
-        },
         {
             "source": 0,
             "target": 2,
@@ -105,24 +76,24 @@
                 "friends": 150,
                 "followers": 72,
                 "location": "NA",
-                "degree": 20,
+                "degree": 11,
                 "keep": true
             },
             "targetNode": {
-                "name": "Lane Harrison",
-                "screenName": "laneharrison",
-                "id": "laneharrison",
-                "tweets": 4352,
-                "profileColor": "1A1B1F",
-                "friends": 774,
-                "followers": 1543,
-                "location": "Worcester, MA",
-                "degree": 38,
+                "name": "Miriah Meyer",
+                "screenName": "miriah_meyer",
+                "id": "miriah_meyer",
+                "tweets": 117,
+                "profileColor": "000000",
+                "friends": 201,
+                "followers": 1045,
+                "location": "Salt Lake City, UT",
+                "degree": 9,
                 "keep": true
             },
             "weight": 1,
             "type": "retweet",
-            "id": "e1"
+            "id": "e0"
         },
         {
             "source": 0,
@@ -136,24 +107,24 @@
                 "friends": 150,
                 "followers": 72,
                 "location": "NA",
-                "degree": 20,
+                "degree": 11,
                 "keep": true
             },
             "targetNode": {
-                "name": "Alexander Lex",
-                "screenName": "alexander_lex",
-                "id": "alexander_lex",
-                "tweets": 1454,
+                "name": "Vis Design Lab",
+                "screenName": "visdesignlab",
+                "id": "visdesignlab",
+                "tweets": 41,
                 "profileColor": "000000",
-                "friends": 773,
-                "followers": 1104,
+                "friends": 152,
+                "followers": 609,
                 "location": "Salt Lake City, UT",
-                "degree": 45,
+                "degree": 14,
                 "keep": true
             },
-            "weight": 3,
+            "weight": 8,
             "type": "retweet",
-            "id": "e2"
+            "id": "e1"
         },
         {
             "source": 0,
@@ -167,103 +138,29 @@
                 "friends": 150,
                 "followers": 72,
                 "location": "NA",
-                "degree": 20,
+                "degree": 11,
                 "keep": true
             },
             "targetNode": {
-                "name": "Mike Bostock",
-                "screenName": "mbostock",
-                "id": "mbostock",
-                "tweets": 9955,
-                "profileColor": "F5F8FA",
-                "friends": 2,
-                "followers": 59849,
-                "location": "San Francisco, CA",
-                "degree": 35,
+                "name": "Alexander Lex",
+                "screenName": "alexander_lex",
+                "id": "alexander_lex",
+                "tweets": 1454,
+                "profileColor": "000000",
+                "friends": 773,
+                "followers": 1104,
+                "location": "Salt Lake City, UT",
+                "degree": 9,
                 "keep": true
             },
-            "weight": 1,
+            "weight": 3,
             "type": "retweet",
-            "id": "e3"
+            "id": "e2"
         },
         {
-            "source": 4,
-            "target": 1,
+            "source": 0,
+            "target": 4,
             "sourceNode": {
-                "name": "Vis Design Lab",
-                "screenName": "visdesignlab",
-                "id": "visdesignlab",
-                "tweets": 41,
-                "profileColor": "000000",
-                "friends": 152,
-                "followers": 609,
-                "location": "Salt Lake City, UT",
-                "degree": 32,
-                "keep": true
-            },
-            "targetNode": {
-                "name": "Alexander Lex",
-                "screenName": "alexander_lex",
-                "id": "alexander_lex",
-                "tweets": 1454,
-                "profileColor": "000000",
-                "friends": 773,
-                "followers": 1104,
-                "location": "Salt Lake City, UT",
-                "degree": 45,
-                "keep": true
-            },
-            "weight": 1,
-            "type": "quote",
-            "id": "e4"
-        },
-        {
-            "source": 4,
-            "target": 1,
-            "sourceNode": {
-                "name": "Vis Design Lab",
-                "screenName": "visdesignlab",
-                "id": "visdesignlab",
-                "tweets": 41,
-                "profileColor": "000000",
-                "friends": 152,
-                "followers": 609,
-                "location": "Salt Lake City, UT",
-                "degree": 32,
-                "keep": true
-            },
-            "targetNode": {
-                "name": "Alexander Lex",
-                "screenName": "alexander_lex",
-                "id": "alexander_lex",
-                "tweets": 1454,
-                "profileColor": "000000",
-                "friends": 773,
-                "followers": 1104,
-                "location": "Salt Lake City, UT",
-                "degree": 45,
-                "keep": true
-            },
-            "weight": 2,
-            "type": "mention",
-            "id": "e5"
-        },
-        {
-            "source": 4,
-            "target": 0,
-            "sourceNode": {
-                "name": "Vis Design Lab",
-                "screenName": "visdesignlab",
-                "id": "visdesignlab",
-                "tweets": 41,
-                "profileColor": "000000",
-                "friends": 152,
-                "followers": 609,
-                "location": "Salt Lake City, UT",
-                "degree": 32,
-                "keep": true
-            },
-            "targetNode": {
                 "name": "Carolina Nobre",
                 "screenName": "carolinanobre84",
                 "id": "carolinanobre84",
@@ -272,16 +169,30 @@
                 "friends": 150,
                 "followers": 72,
                 "location": "NA",
-                "degree": 20,
+                "degree": 11,
                 "keep": true
             },
-            "weight": 4,
+            "targetNode": {
+                "name": "Ana Crisan",
+                "screenName": "amcrisan",
+                "id": "amcrisan",
+                "tweets": 92,
+                "friends": 96,
+                "followers": 78,
+                "location": "NA",
+                "random_tweets": true,
+                "random_friends": true,
+                "random_followers": true,
+                "degree": 3,
+                "keep": true
+            },
+            "weight": 1,
             "type": "mention",
-            "id": "e6"
+            "id": "e3"
         },
         {
-            "source": 4,
-            "target": 1,
+            "source": 1,
+            "target": 2,
             "sourceNode": {
                 "name": "Vis Design Lab",
                 "screenName": "visdesignlab",
@@ -291,7 +202,69 @@
                 "friends": 152,
                 "followers": 609,
                 "location": "Salt Lake City, UT",
-                "degree": 32,
+                "degree": 14,
+                "keep": true
+            },
+            "targetNode": {
+                "name": "Miriah Meyer",
+                "screenName": "miriah_meyer",
+                "id": "miriah_meyer",
+                "tweets": 117,
+                "profileColor": "000000",
+                "friends": 201,
+                "followers": 1045,
+                "location": "Salt Lake City, UT",
+                "degree": 9,
+                "keep": true
+            },
+            "weight": 5,
+            "type": "mention",
+            "id": "e4"
+        },
+        {
+            "source": 1,
+            "target": 2,
+            "sourceNode": {
+                "name": "Vis Design Lab",
+                "screenName": "visdesignlab",
+                "id": "visdesignlab",
+                "tweets": 41,
+                "profileColor": "000000",
+                "friends": 152,
+                "followers": 609,
+                "location": "Salt Lake City, UT",
+                "degree": 14,
+                "keep": true
+            },
+            "targetNode": {
+                "name": "Miriah Meyer",
+                "screenName": "miriah_meyer",
+                "id": "miriah_meyer",
+                "tweets": 117,
+                "profileColor": "000000",
+                "friends": 201,
+                "followers": 1045,
+                "location": "Salt Lake City, UT",
+                "degree": 9,
+                "keep": true
+            },
+            "weight": 1,
+            "type": "quote",
+            "id": "e5"
+        },
+        {
+            "source": 1,
+            "target": 3,
+            "sourceNode": {
+                "name": "Vis Design Lab",
+                "screenName": "visdesignlab",
+                "id": "visdesignlab",
+                "tweets": 41,
+                "profileColor": "000000",
+                "friends": 152,
+                "followers": 609,
+                "location": "Salt Lake City, UT",
+                "degree": 14,
                 "keep": true
             },
             "targetNode": {
@@ -303,29 +276,48 @@
                 "friends": 773,
                 "followers": 1104,
                 "location": "Salt Lake City, UT",
-                "degree": 45,
+                "degree": 9,
                 "keep": true
             },
             "weight": 1,
-            "type": "retweet",
+            "type": "quote",
+            "id": "e6"
+        },
+        {
+            "source": 1,
+            "target": 3,
+            "sourceNode": {
+                "name": "Vis Design Lab",
+                "screenName": "visdesignlab",
+                "id": "visdesignlab",
+                "tweets": 41,
+                "profileColor": "000000",
+                "friends": 152,
+                "followers": 609,
+                "location": "Salt Lake City, UT",
+                "degree": 14,
+                "keep": true
+            },
+            "targetNode": {
+                "name": "Alexander Lex",
+                "screenName": "alexander_lex",
+                "id": "alexander_lex",
+                "tweets": 1454,
+                "profileColor": "000000",
+                "friends": 773,
+                "followers": 1104,
+                "location": "Salt Lake City, UT",
+                "degree": 9,
+                "keep": true
+            },
+            "weight": 2,
+            "type": "mention",
             "id": "e7"
         },
         {
             "source": 1,
-            "target": 4,
+            "target": 2,
             "sourceNode": {
-                "name": "Alexander Lex",
-                "screenName": "alexander_lex",
-                "id": "alexander_lex",
-                "tweets": 1454,
-                "profileColor": "000000",
-                "friends": 773,
-                "followers": 1104,
-                "location": "Salt Lake City, UT",
-                "degree": 45,
-                "keep": true
-            },
-            "targetNode": {
                 "name": "Vis Design Lab",
                 "screenName": "visdesignlab",
                 "id": "visdesignlab",
@@ -334,57 +326,38 @@
                 "friends": 152,
                 "followers": 609,
                 "location": "Salt Lake City, UT",
-                "degree": 32,
-                "keep": true
-            },
-            "weight": 1,
-            "type": "quote",
-            "id": "e8"
-        },
-        {
-            "source": 1,
-            "target": 4,
-            "sourceNode": {
-                "name": "Alexander Lex",
-                "screenName": "alexander_lex",
-                "id": "alexander_lex",
-                "tweets": 1454,
-                "profileColor": "000000",
-                "friends": 773,
-                "followers": 1104,
-                "location": "Salt Lake City, UT",
-                "degree": 45,
+                "degree": 14,
                 "keep": true
             },
             "targetNode": {
-                "name": "Vis Design Lab",
-                "screenName": "visdesignlab",
-                "id": "visdesignlab",
-                "tweets": 41,
+                "name": "Miriah Meyer",
+                "screenName": "miriah_meyer",
+                "id": "miriah_meyer",
+                "tweets": 117,
                 "profileColor": "000000",
-                "friends": 152,
-                "followers": 609,
+                "friends": 201,
+                "followers": 1045,
                 "location": "Salt Lake City, UT",
-                "degree": 32,
+                "degree": 9,
                 "keep": true
             },
             "weight": 2,
             "type": "retweet",
-            "id": "e9"
+            "id": "e8"
         },
         {
-            "source": 2,
+            "source": 1,
             "target": 0,
             "sourceNode": {
-                "name": "Lane Harrison",
-                "screenName": "laneharrison",
-                "id": "laneharrison",
-                "tweets": 4352,
-                "profileColor": "1A1B1F",
-                "friends": 774,
-                "followers": 1543,
-                "location": "Worcester, MA",
-                "degree": 38,
+                "name": "Vis Design Lab",
+                "screenName": "visdesignlab",
+                "id": "visdesignlab",
+                "tweets": 41,
+                "profileColor": "000000",
+                "friends": 152,
+                "followers": 609,
+                "location": "Salt Lake City, UT",
+                "degree": 14,
                 "keep": true
             },
             "targetNode": {
@@ -396,12 +369,326 @@
                 "friends": 150,
                 "followers": 72,
                 "location": "NA",
-                "degree": 20,
+                "degree": 11,
+                "keep": true
+            },
+            "weight": 4,
+            "type": "mention",
+            "id": "e9"
+        },
+        {
+            "source": 1,
+            "target": 3,
+            "sourceNode": {
+                "name": "Vis Design Lab",
+                "screenName": "visdesignlab",
+                "id": "visdesignlab",
+                "tweets": 41,
+                "profileColor": "000000",
+                "friends": 152,
+                "followers": 609,
+                "location": "Salt Lake City, UT",
+                "degree": 14,
+                "keep": true
+            },
+            "targetNode": {
+                "name": "Alexander Lex",
+                "screenName": "alexander_lex",
+                "id": "alexander_lex",
+                "tweets": 1454,
+                "profileColor": "000000",
+                "friends": 773,
+                "followers": 1104,
+                "location": "Salt Lake City, UT",
+                "degree": 9,
+                "keep": true
+            },
+            "weight": 1,
+            "type": "retweet",
+            "id": "e10"
+        },
+        {
+            "source": 3,
+            "target": 1,
+            "sourceNode": {
+                "name": "Alexander Lex",
+                "screenName": "alexander_lex",
+                "id": "alexander_lex",
+                "tweets": 1454,
+                "profileColor": "000000",
+                "friends": 773,
+                "followers": 1104,
+                "location": "Salt Lake City, UT",
+                "degree": 9,
+                "keep": true
+            },
+            "targetNode": {
+                "name": "Vis Design Lab",
+                "screenName": "visdesignlab",
+                "id": "visdesignlab",
+                "tweets": 41,
+                "profileColor": "000000",
+                "friends": 152,
+                "followers": 609,
+                "location": "Salt Lake City, UT",
+                "degree": 14,
+                "keep": true
+            },
+            "weight": 1,
+            "type": "quote",
+            "id": "e11"
+        },
+        {
+            "source": 3,
+            "target": 1,
+            "sourceNode": {
+                "name": "Alexander Lex",
+                "screenName": "alexander_lex",
+                "id": "alexander_lex",
+                "tweets": 1454,
+                "profileColor": "000000",
+                "friends": 773,
+                "followers": 1104,
+                "location": "Salt Lake City, UT",
+                "degree": 9,
+                "keep": true
+            },
+            "targetNode": {
+                "name": "Vis Design Lab",
+                "screenName": "visdesignlab",
+                "id": "visdesignlab",
+                "tweets": 41,
+                "profileColor": "000000",
+                "friends": 152,
+                "followers": 609,
+                "location": "Salt Lake City, UT",
+                "degree": 14,
+                "keep": true
+            },
+            "weight": 2,
+            "type": "retweet",
+            "id": "e12"
+        },
+        {
+            "source": 3,
+            "target": 4,
+            "sourceNode": {
+                "name": "Alexander Lex",
+                "screenName": "alexander_lex",
+                "id": "alexander_lex",
+                "tweets": 1454,
+                "profileColor": "000000",
+                "friends": 773,
+                "followers": 1104,
+                "location": "Salt Lake City, UT",
+                "degree": 9,
+                "keep": true
+            },
+            "targetNode": {
+                "name": "Ana Crisan",
+                "screenName": "amcrisan",
+                "id": "amcrisan",
+                "tweets": 92,
+                "friends": 96,
+                "followers": 78,
+                "location": "NA",
+                "random_tweets": true,
+                "random_friends": true,
+                "random_followers": true,
+                "degree": 3,
                 "keep": true
             },
             "weight": 1,
             "type": "mention",
-            "id": "e10"
+            "id": "e13"
+        },
+        {
+            "source": 3,
+            "target": 2,
+            "sourceNode": {
+                "name": "Alexander Lex",
+                "screenName": "alexander_lex",
+                "id": "alexander_lex",
+                "tweets": 1454,
+                "profileColor": "000000",
+                "friends": 773,
+                "followers": 1104,
+                "location": "Salt Lake City, UT",
+                "degree": 9,
+                "keep": true
+            },
+            "targetNode": {
+                "name": "Miriah Meyer",
+                "screenName": "miriah_meyer",
+                "id": "miriah_meyer",
+                "tweets": 117,
+                "profileColor": "000000",
+                "friends": 201,
+                "followers": 1045,
+                "location": "Salt Lake City, UT",
+                "degree": 9,
+                "keep": true
+            },
+            "weight": 1,
+            "type": "retweet",
+            "id": "e14"
+        },
+        {
+            "source": 2,
+            "target": 1,
+            "sourceNode": {
+                "name": "Miriah Meyer",
+                "screenName": "miriah_meyer",
+                "id": "miriah_meyer",
+                "tweets": 117,
+                "profileColor": "000000",
+                "friends": 201,
+                "followers": 1045,
+                "location": "Salt Lake City, UT",
+                "degree": 9,
+                "keep": true
+            },
+            "targetNode": {
+                "name": "Vis Design Lab",
+                "screenName": "visdesignlab",
+                "id": "visdesignlab",
+                "tweets": 41,
+                "profileColor": "000000",
+                "friends": 152,
+                "followers": 609,
+                "location": "Salt Lake City, UT",
+                "degree": 14,
+                "keep": true
+            },
+            "weight": 5,
+            "type": "retweet",
+            "id": "e15"
+        },
+        {
+            "source": 2,
+            "target": 1,
+            "sourceNode": {
+                "name": "Miriah Meyer",
+                "screenName": "miriah_meyer",
+                "id": "miriah_meyer",
+                "tweets": 117,
+                "profileColor": "000000",
+                "friends": 201,
+                "followers": 1045,
+                "location": "Salt Lake City, UT",
+                "degree": 9,
+                "keep": true
+            },
+            "targetNode": {
+                "name": "Vis Design Lab",
+                "screenName": "visdesignlab",
+                "id": "visdesignlab",
+                "tweets": 41,
+                "profileColor": "000000",
+                "friends": 152,
+                "followers": 609,
+                "location": "Salt Lake City, UT",
+                "degree": 14,
+                "keep": true
+            },
+            "weight": 2,
+            "type": "quote",
+            "id": "e16"
+        },
+        {
+            "source": 2,
+            "target": 1,
+            "sourceNode": {
+                "name": "Miriah Meyer",
+                "screenName": "miriah_meyer",
+                "id": "miriah_meyer",
+                "tweets": 117,
+                "profileColor": "000000",
+                "friends": 201,
+                "followers": 1045,
+                "location": "Salt Lake City, UT",
+                "degree": 9,
+                "keep": true
+            },
+            "targetNode": {
+                "name": "Vis Design Lab",
+                "screenName": "visdesignlab",
+                "id": "visdesignlab",
+                "tweets": 41,
+                "profileColor": "000000",
+                "friends": 152,
+                "followers": 609,
+                "location": "Salt Lake City, UT",
+                "degree": 14,
+                "keep": true
+            },
+            "weight": 1,
+            "type": "mention",
+            "id": "e17"
+        },
+        {
+            "source": 2,
+            "target": 3,
+            "sourceNode": {
+                "name": "Miriah Meyer",
+                "screenName": "miriah_meyer",
+                "id": "miriah_meyer",
+                "tweets": 117,
+                "profileColor": "000000",
+                "friends": 201,
+                "followers": 1045,
+                "location": "Salt Lake City, UT",
+                "degree": 9,
+                "keep": true
+            },
+            "targetNode": {
+                "name": "Alexander Lex",
+                "screenName": "alexander_lex",
+                "id": "alexander_lex",
+                "tweets": 1454,
+                "profileColor": "000000",
+                "friends": 773,
+                "followers": 1104,
+                "location": "Salt Lake City, UT",
+                "degree": 9,
+                "keep": true
+            },
+            "weight": 1,
+            "type": "retweet",
+            "id": "e18"
+        },
+        {
+            "source": 4,
+            "target": 1,
+            "sourceNode": {
+                "name": "Ana Crisan",
+                "screenName": "amcrisan",
+                "id": "amcrisan",
+                "tweets": 92,
+                "friends": 96,
+                "followers": 78,
+                "location": "NA",
+                "random_tweets": true,
+                "random_friends": true,
+                "random_followers": true,
+                "degree": 3,
+                "keep": true
+            },
+            "targetNode": {
+                "name": "Vis Design Lab",
+                "screenName": "visdesignlab",
+                "id": "visdesignlab",
+                "tweets": 41,
+                "profileColor": "000000",
+                "friends": 152,
+                "followers": 609,
+                "location": "Salt Lake City, UT",
+                "degree": 14,
+                "keep": true
+            },
+            "weight": 1,
+            "type": "quote",
+            "id": "e19"
         }
     ]
 }
