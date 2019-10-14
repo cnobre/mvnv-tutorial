@@ -316,7 +316,7 @@ const server = http.createServer(async (req, res) => {
           console.log(handle.slice(1))
         }
         // console.log(a.screenName,handle.slice(1))
-        if (a.screenName == handle.slice(1)) {
+        if (a.screenName == handle.slice(1) || b.screenName == handle.slice(1)) {
           console.log(' keeping ' , a.screenName)
           return -2
         }
