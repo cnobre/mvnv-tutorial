@@ -1,0 +1,390 @@
+{
+    "nodes": [
+        {
+            "name": "Alberto Cairo",
+            "screenName": "AlbertoCairo",
+            "id": "AlbertoCairo",
+            "tweets": 92593,
+            "profileColor": "FFFFFF",
+            "friends": 3974,
+            "followers": 48667,
+            "location": "USA, Brazil, Spain",
+            "degree": 49,
+            "keep": true
+        },
+        {
+            "name": "Alex Howard",
+            "screenName": "digiphile",
+            "id": "digiphile",
+            "tweets": 11,
+            "friends": 8,
+            "followers": 25,
+            "location": "NA",
+            "random_tweets": true,
+            "random_friends": true,
+            "random_followers": true,
+            "degree": 44,
+            "keep": true
+        },
+        {
+            "name": "Deb P Davis / 방 연 호",
+            "screenName": "yuncod",
+            "id": "yuncod",
+            "tweets": 1733,
+            "profileColor": "000000",
+            "friends": 1474,
+            "followers": 597,
+            "location": "Miami, FL + Syracuse, NY",
+            "degree": 37,
+            "keep": true
+        },
+        {
+            "name": "Walter Sosa Escudero",
+            "screenName": "wsosaescudero",
+            "id": "wsosaescudero",
+            "tweets": 33994,
+            "profileColor": "C0DEED",
+            "friends": 832,
+            "followers": 19877,
+            "location": "NA",
+            "degree": 36,
+            "keep": true
+        },
+        {
+            "name": "Ashwin Malshé अश्विन",
+            "screenName": "ashwinmalshe",
+            "id": "ashwinmalshe",
+            "tweets": 93,
+            "friends": 75,
+            "followers": 35,
+            "location": "NA",
+            "random_tweets": true,
+            "random_friends": true,
+            "random_followers": true,
+            "degree": 34,
+            "keep": true
+        }
+    ],
+    "links": [
+        {
+            "source": 0,
+            "target": 2,
+            "sourceNode": {
+                "name": "Alberto Cairo",
+                "screenName": "AlbertoCairo",
+                "id": "AlbertoCairo",
+                "tweets": 92593,
+                "profileColor": "FFFFFF",
+                "friends": 3974,
+                "followers": 48667,
+                "location": "USA, Brazil, Spain",
+                "degree": 49,
+                "keep": true
+            },
+            "targetNode": {
+                "name": "Deb P Davis / 방 연 호",
+                "screenName": "yuncod",
+                "id": "yuncod",
+                "tweets": 1733,
+                "profileColor": "000000",
+                "friends": 1474,
+                "followers": 597,
+                "location": "Miami, FL + Syracuse, NY",
+                "degree": 37,
+                "keep": true
+            },
+            "weight": 2,
+            "type": "retweet",
+            "id": "e0"
+        },
+        {
+            "source": 0,
+            "target": 2,
+            "sourceNode": {
+                "name": "Alberto Cairo",
+                "screenName": "AlbertoCairo",
+                "id": "AlbertoCairo",
+                "tweets": 92593,
+                "profileColor": "FFFFFF",
+                "friends": 3974,
+                "followers": 48667,
+                "location": "USA, Brazil, Spain",
+                "degree": 49,
+                "keep": true
+            },
+            "targetNode": {
+                "name": "Deb P Davis / 방 연 호",
+                "screenName": "yuncod",
+                "id": "yuncod",
+                "tweets": 1733,
+                "profileColor": "000000",
+                "friends": 1474,
+                "followers": 597,
+                "location": "Miami, FL + Syracuse, NY",
+                "degree": 37,
+                "keep": true
+            },
+            "weight": 2,
+            "type": "quote",
+            "id": "e1"
+        },
+        {
+            "source": 0,
+            "target": 1,
+            "sourceNode": {
+                "name": "Alberto Cairo",
+                "screenName": "AlbertoCairo",
+                "id": "AlbertoCairo",
+                "tweets": 92593,
+                "profileColor": "FFFFFF",
+                "friends": 3974,
+                "followers": 48667,
+                "location": "USA, Brazil, Spain",
+                "degree": 49,
+                "keep": true
+            },
+            "targetNode": {
+                "name": "Alex Howard",
+                "screenName": "digiphile",
+                "id": "digiphile",
+                "tweets": 11,
+                "friends": 8,
+                "followers": 25,
+                "location": "NA",
+                "random_tweets": true,
+                "random_friends": true,
+                "random_followers": true,
+                "degree": 44,
+                "keep": true
+            },
+            "weight": 2,
+            "type": "mention",
+            "id": "e2"
+        },
+        {
+            "source": 0,
+            "target": 1,
+            "sourceNode": {
+                "name": "Alberto Cairo",
+                "screenName": "AlbertoCairo",
+                "id": "AlbertoCairo",
+                "tweets": 92593,
+                "profileColor": "FFFFFF",
+                "friends": 3974,
+                "followers": 48667,
+                "location": "USA, Brazil, Spain",
+                "degree": 49,
+                "keep": true
+            },
+            "targetNode": {
+                "name": "Alex Howard",
+                "screenName": "digiphile",
+                "id": "digiphile",
+                "tweets": 11,
+                "friends": 8,
+                "followers": 25,
+                "location": "NA",
+                "random_tweets": true,
+                "random_friends": true,
+                "random_followers": true,
+                "degree": 44,
+                "keep": true
+            },
+            "weight": 2,
+            "type": "retweet",
+            "id": "e3"
+        },
+        {
+            "source": 0,
+            "target": 4,
+            "sourceNode": {
+                "name": "Alberto Cairo",
+                "screenName": "AlbertoCairo",
+                "id": "AlbertoCairo",
+                "tweets": 92593,
+                "profileColor": "FFFFFF",
+                "friends": 3974,
+                "followers": 48667,
+                "location": "USA, Brazil, Spain",
+                "degree": 49,
+                "keep": true
+            },
+            "targetNode": {
+                "name": "Ashwin Malshé अश्विन",
+                "screenName": "ashwinmalshe",
+                "id": "ashwinmalshe",
+                "tweets": 93,
+                "friends": 75,
+                "followers": 35,
+                "location": "NA",
+                "random_tweets": true,
+                "random_friends": true,
+                "random_followers": true,
+                "degree": 34,
+                "keep": true
+            },
+            "weight": 2,
+            "type": "mention",
+            "id": "e4"
+        },
+        {
+            "source": 0,
+            "target": 3,
+            "sourceNode": {
+                "name": "Alberto Cairo",
+                "screenName": "AlbertoCairo",
+                "id": "AlbertoCairo",
+                "tweets": 92593,
+                "profileColor": "FFFFFF",
+                "friends": 3974,
+                "followers": 48667,
+                "location": "USA, Brazil, Spain",
+                "degree": 49,
+                "keep": true
+            },
+            "targetNode": {
+                "name": "Walter Sosa Escudero",
+                "screenName": "wsosaescudero",
+                "id": "wsosaescudero",
+                "tweets": 33994,
+                "profileColor": "C0DEED",
+                "friends": 832,
+                "followers": 19877,
+                "location": "NA",
+                "degree": 36,
+                "keep": true
+            },
+            "weight": 2,
+            "type": "retweet",
+            "id": "e5"
+        },
+        {
+            "source": 0,
+            "target": 3,
+            "sourceNode": {
+                "name": "Alberto Cairo",
+                "screenName": "AlbertoCairo",
+                "id": "AlbertoCairo",
+                "tweets": 92593,
+                "profileColor": "FFFFFF",
+                "friends": 3974,
+                "followers": 48667,
+                "location": "USA, Brazil, Spain",
+                "degree": 49,
+                "keep": true
+            },
+            "targetNode": {
+                "name": "Walter Sosa Escudero",
+                "screenName": "wsosaescudero",
+                "id": "wsosaescudero",
+                "tweets": 33994,
+                "profileColor": "C0DEED",
+                "friends": 832,
+                "followers": 19877,
+                "location": "NA",
+                "degree": 36,
+                "keep": true
+            },
+            "weight": 2,
+            "type": "mention",
+            "id": "e6"
+        },
+        {
+            "source": 2,
+            "target": 0,
+            "sourceNode": {
+                "name": "Deb P Davis / 방 연 호",
+                "screenName": "yuncod",
+                "id": "yuncod",
+                "tweets": 1733,
+                "profileColor": "000000",
+                "friends": 1474,
+                "followers": 597,
+                "location": "Miami, FL + Syracuse, NY",
+                "degree": 37,
+                "keep": true
+            },
+            "targetNode": {
+                "name": "Alberto Cairo",
+                "screenName": "AlbertoCairo",
+                "id": "AlbertoCairo",
+                "tweets": 92593,
+                "profileColor": "FFFFFF",
+                "friends": 3974,
+                "followers": 48667,
+                "location": "USA, Brazil, Spain",
+                "degree": 49,
+                "keep": true
+            },
+            "weight": 2,
+            "type": "retweet",
+            "id": "e7"
+        },
+        {
+            "source": 4,
+            "target": 0,
+            "sourceNode": {
+                "name": "Ashwin Malshé अश्विन",
+                "screenName": "ashwinmalshe",
+                "id": "ashwinmalshe",
+                "tweets": 93,
+                "friends": 75,
+                "followers": 35,
+                "location": "NA",
+                "random_tweets": true,
+                "random_friends": true,
+                "random_followers": true,
+                "degree": 34,
+                "keep": true
+            },
+            "targetNode": {
+                "name": "Alberto Cairo",
+                "screenName": "AlbertoCairo",
+                "id": "AlbertoCairo",
+                "tweets": 92593,
+                "profileColor": "FFFFFF",
+                "friends": 3974,
+                "followers": 48667,
+                "location": "USA, Brazil, Spain",
+                "degree": 49,
+                "keep": true
+            },
+            "weight": 1,
+            "type": "mention",
+            "id": "e8"
+        },
+        {
+            "source": 4,
+            "target": 0,
+            "sourceNode": {
+                "name": "Ashwin Malshé अश्विन",
+                "screenName": "ashwinmalshe",
+                "id": "ashwinmalshe",
+                "tweets": 93,
+                "friends": 75,
+                "followers": 35,
+                "location": "NA",
+                "random_tweets": true,
+                "random_friends": true,
+                "random_followers": true,
+                "degree": 34,
+                "keep": true
+            },
+            "targetNode": {
+                "name": "Alberto Cairo",
+                "screenName": "AlbertoCairo",
+                "id": "AlbertoCairo",
+                "tweets": 92593,
+                "profileColor": "FFFFFF",
+                "friends": 3974,
+                "followers": 48667,
+                "location": "USA, Brazil, Spain",
+                "degree": 49,
+                "keep": true
+            },
+            "weight": 5,
+            "type": "retweet",
+            "id": "e9"
+        }
+    ]
+}

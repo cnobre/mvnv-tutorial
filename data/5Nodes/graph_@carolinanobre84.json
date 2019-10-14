@@ -31,7 +31,7 @@
             "tweets": 4352,
             "profileColor": "1A1B1F",
             "friends": 774,
-            "followers": 1542,
+            "followers": 1543,
             "location": "Worcester, MA",
             "degree": 38,
             "keep": true
@@ -43,7 +43,7 @@
             "tweets": 9955,
             "profileColor": "F5F8FA",
             "friends": 2,
-            "followers": 59848,
+            "followers": 59849,
             "location": "San Francisco, CA",
             "degree": 35,
             "keep": true
@@ -57,7 +57,7 @@
             "friends": 152,
             "followers": 609,
             "location": "Salt Lake City, UT",
-            "degree": 33,
+            "degree": 32,
             "keep": true
         }
     ],
@@ -86,7 +86,7 @@
                 "friends": 152,
                 "followers": 609,
                 "location": "Salt Lake City, UT",
-                "degree": 33,
+                "degree": 32,
                 "keep": true
             },
             "weight": 8,
@@ -115,7 +115,7 @@
                 "tweets": 4352,
                 "profileColor": "1A1B1F",
                 "friends": 774,
-                "followers": 1542,
+                "followers": 1543,
                 "location": "Worcester, MA",
                 "degree": 38,
                 "keep": true
@@ -177,7 +177,7 @@
                 "tweets": 9955,
                 "profileColor": "F5F8FA",
                 "friends": 2,
-                "followers": 59848,
+                "followers": 59849,
                 "location": "San Francisco, CA",
                 "degree": 35,
                 "keep": true
@@ -198,7 +198,7 @@
                 "friends": 152,
                 "followers": 609,
                 "location": "Salt Lake City, UT",
-                "degree": 33,
+                "degree": 32,
                 "keep": true
             },
             "targetNode": {
@@ -229,7 +229,7 @@
                 "friends": 152,
                 "followers": 609,
                 "location": "Salt Lake City, UT",
-                "degree": 33,
+                "degree": 32,
                 "keep": true
             },
             "targetNode": {
@@ -260,7 +260,7 @@
                 "friends": 152,
                 "followers": 609,
                 "location": "Salt Lake City, UT",
-                "degree": 33,
+                "degree": 32,
                 "keep": true
             },
             "targetNode": {
@@ -291,7 +291,7 @@
                 "friends": 152,
                 "followers": 609,
                 "location": "Salt Lake City, UT",
-                "degree": 33,
+                "degree": 32,
                 "keep": true
             },
             "targetNode": {
@@ -334,7 +334,7 @@
                 "friends": 152,
                 "followers": 609,
                 "location": "Salt Lake City, UT",
-                "degree": 33,
+                "degree": 32,
                 "keep": true
             },
             "weight": 1,
@@ -365,7 +365,7 @@
                 "friends": 152,
                 "followers": 609,
                 "location": "Salt Lake City, UT",
-                "degree": 33,
+                "degree": 32,
                 "keep": true
             },
             "weight": 2,
@@ -382,7 +382,7 @@
                 "tweets": 4352,
                 "profileColor": "1A1B1F",
                 "friends": 774,
-                "followers": 1542,
+                "followers": 1543,
                 "location": "Worcester, MA",
                 "degree": 38,
                 "keep": true

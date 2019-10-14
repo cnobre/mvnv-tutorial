@@ -1,18 +1,6 @@
 {
     "nodes": [
         {
-            "name": "Carolina Nobre",
-            "screenName": "carolinanobre84",
-            "id": "carolinanobre84",
-            "tweets": 34,
-            "profileColor": "F5F8FA",
-            "friends": 150,
-            "followers": 72,
-            "location": "NA",
-            "degree": 20,
-            "keep": true
-        },
-        {
             "name": "Alexander Lex",
             "screenName": "alexander_lex",
             "id": "alexander_lex",
@@ -90,7 +78,7 @@
             "id": "amcrisan",
             "tweets": 91,
             "friends": 43,
-            "followers": 68,
+            "followers": 37,
             "location": "NA",
             "random_tweets": true,
             "random_friends": true,
@@ -150,14 +138,26 @@
             "name": "Carlos Scheidegger",
             "screenName": "scheidegger",
             "id": "scheidegger",
-            "tweets": 5,
-            "friends": 5,
-            "followers": 76,
+            "tweets": 76,
+            "friends": 65,
+            "followers": 15,
             "location": "NA",
             "random_tweets": true,
             "random_friends": true,
             "random_followers": true,
             "degree": 28,
+            "keep": true
+        },
+        {
+            "name": "Carolina Nobre",
+            "screenName": "carolinanobre84",
+            "id": "carolinanobre84",
+            "tweets": 34,
+            "profileColor": "F5F8FA",
+            "friends": 150,
+            "followers": 72,
+            "location": "NA",
+            "degree": 20,
             "keep": true
         },
         {
@@ -187,8 +187,8 @@
     ],
     "links": [
         {
-            "source": 0,
-            "target": 10,
+            "source": 12,
+            "target": 9,
             "sourceNode": {
                 "name": "Carolina Nobre",
                 "screenName": "carolinanobre84",
@@ -218,8 +218,8 @@
             "id": "e0"
         },
         {
-            "source": 0,
-            "target": 6,
+            "source": 12,
+            "target": 5,
             "sourceNode": {
                 "name": "Carolina Nobre",
                 "screenName": "carolinanobre84",
@@ -249,8 +249,8 @@
             "id": "e1"
         },
         {
-            "source": 0,
-            "target": 12,
+            "source": 12,
+            "target": 11,
             "sourceNode": {
                 "name": "Carolina Nobre",
                 "screenName": "carolinanobre84",
@@ -267,9 +267,9 @@
                 "name": "Carlos Scheidegger",
                 "screenName": "scheidegger",
                 "id": "scheidegger",
-                "tweets": 5,
-                "friends": 5,
-                "followers": 76,
+                "tweets": 76,
+                "friends": 65,
+                "followers": 15,
                 "location": "NA",
                 "random_tweets": true,
                 "random_friends": true,
@@ -282,8 +282,8 @@
             "id": "e2"
         },
         {
-            "source": 0,
-            "target": 8,
+            "source": 12,
+            "target": 7,
             "sourceNode": {
                 "name": "Carolina Nobre",
                 "screenName": "carolinanobre84",
@@ -313,8 +313,8 @@
             "id": "e3"
         },
         {
-            "source": 0,
-            "target": 4,
+            "source": 12,
+            "target": 3,
             "sourceNode": {
                 "name": "Carolina Nobre",
                 "screenName": "carolinanobre84",
@@ -344,8 +344,8 @@
             "id": "e4"
         },
         {
-            "source": 0,
-            "target": 2,
+            "source": 12,
+            "target": 1,
             "sourceNode": {
                 "name": "Carolina Nobre",
                 "screenName": "carolinanobre84",
@@ -375,8 +375,8 @@
             "id": "e5"
         },
         {
-            "source": 0,
-            "target": 1,
+            "source": 12,
+            "target": 0,
             "sourceNode": {
                 "name": "Carolina Nobre",
                 "screenName": "carolinanobre84",
@@ -406,8 +406,8 @@
             "id": "e6"
         },
         {
-            "source": 0,
-            "target": 3,
+            "source": 12,
+            "target": 2,
             "sourceNode": {
                 "name": "Carolina Nobre",
                 "screenName": "carolinanobre84",
@@ -437,8 +437,8 @@
             "id": "e7"
         },
         {
-            "source": 0,
-            "target": 9,
+            "source": 12,
+            "target": 8,
             "sourceNode": {
                 "name": "Carolina Nobre",
                 "screenName": "carolinanobre84",
@@ -468,8 +468,8 @@
             "id": "e8"
         },
         {
-            "source": 0,
-            "target": 7,
+            "source": 12,
+            "target": 6,
             "sourceNode": {
                 "name": "Carolina Nobre",
                 "screenName": "carolinanobre84",
@@ -488,7 +488,7 @@
                 "id": "amcrisan",
                 "tweets": 91,
                 "friends": 43,
-                "followers": 68,
+                "followers": 37,
                 "location": "NA",
                 "random_tweets": true,
                 "random_friends": true,
@@ -501,8 +501,8 @@
             "id": "e9"
         },
         {
-            "source": 0,
-            "target": 10,
+            "source": 12,
+            "target": 9,
             "sourceNode": {
                 "name": "Carolina Nobre",
                 "screenName": "carolinanobre84",
@@ -532,8 +532,8 @@
             "id": "e10"
         },
         {
-            "source": 0,
-            "target": 11,
+            "source": 12,
+            "target": 10,
             "sourceNode": {
                 "name": "Carolina Nobre",
                 "screenName": "carolinanobre84",
@@ -563,7 +563,7 @@
             "id": "e11"
         },
         {
-            "source": 0,
+            "source": 12,
             "target": 13,
             "sourceNode": {
                 "name": "Carolina Nobre",
@@ -594,7 +594,7 @@
             "id": "e12"
         },
         {
-            "source": 0,
+            "source": 12,
             "target": 14,
             "sourceNode": {
                 "name": "Carolina Nobre",
@@ -625,8 +625,8 @@
             "id": "e13"
         },
         {
-            "source": 0,
-            "target": 5,
+            "source": 12,
+            "target": 4,
             "sourceNode": {
                 "name": "Carolina Nobre",
                 "screenName": "carolinanobre84",
@@ -656,15 +656,15 @@
             "id": "e14"
         },
         {
-            "source": 12,
-            "target": 10,
+            "source": 11,
+            "target": 9,
             "sourceNode": {
                 "name": "Carlos Scheidegger",
                 "screenName": "scheidegger",
                 "id": "scheidegger",
-                "tweets": 5,
-                "friends": 5,
-                "followers": 76,
+                "tweets": 76,
+                "friends": 65,
+                "followers": 15,
                 "location": "NA",
                 "random_tweets": true,
                 "random_friends": true,
@@ -689,8 +689,8 @@
             "id": "e15"
         },
         {
-            "source": 1,
-            "target": 4,
+            "source": 0,
+            "target": 3,
             "sourceNode": {
                 "name": "Alexander Lex",
                 "screenName": "alexander_lex",
@@ -720,8 +720,8 @@
             "id": "e16"
         },
         {
-            "source": 1,
-            "target": 4,
+            "source": 0,
+            "target": 3,
             "sourceNode": {
                 "name": "Alexander Lex",
                 "screenName": "alexander_lex",
@@ -751,8 +751,8 @@
             "id": "e17"
         },
         {
-            "source": 1,
-            "target": 7,
+            "source": 0,
+            "target": 6,
             "sourceNode": {
                 "name": "Alexander Lex",
                 "screenName": "alexander_lex",
@@ -771,7 +771,7 @@
                 "id": "amcrisan",
                 "tweets": 91,
                 "friends": 43,
-                "followers": 68,
+                "followers": 37,
                 "location": "NA",
                 "random_tweets": true,
                 "random_friends": true,
@@ -784,8 +784,8 @@
             "id": "e18"
         },
         {
-            "source": 1,
-            "target": 8,
+            "source": 0,
+            "target": 7,
             "sourceNode": {
                 "name": "Alexander Lex",
                 "screenName": "alexander_lex",
@@ -815,8 +815,8 @@
             "id": "e19"
         },
         {
-            "source": 2,
-            "target": 12,
+            "source": 1,
+            "target": 11,
             "sourceNode": {
                 "name": "Lane Harrison",
                 "screenName": "laneharrison",
@@ -833,9 +833,9 @@
                 "name": "Carlos Scheidegger",
                 "screenName": "scheidegger",
                 "id": "scheidegger",
-                "tweets": 5,
-                "friends": 5,
-                "followers": 76,
+                "tweets": 76,
+                "friends": 65,
+                "followers": 15,
                 "location": "NA",
                 "random_tweets": true,
                 "random_friends": true,
@@ -848,8 +848,8 @@
             "id": "e20"
         },
         {
-            "source": 2,
-            "target": 0,
+            "source": 1,
+            "target": 12,
             "sourceNode": {
                 "name": "Lane Harrison",
                 "screenName": "laneharrison",
@@ -879,8 +879,8 @@
             "id": "e21"
         },
         {
-            "source": 2,
-            "target": 12,
+            "source": 1,
+            "target": 11,
             "sourceNode": {
                 "name": "Lane Harrison",
                 "screenName": "laneharrison",
@@ -897,9 +897,9 @@
                 "name": "Carlos Scheidegger",
                 "screenName": "scheidegger",
                 "id": "scheidegger",
-                "tweets": 5,
-                "friends": 5,
-                "followers": 76,
+                "tweets": 76,
+                "friends": 65,
+                "followers": 15,
                 "location": "NA",
                 "random_tweets": true,
                 "random_friends": true,
@@ -912,8 +912,8 @@
             "id": "e22"
         },
         {
-            "source": 4,
-            "target": 8,
+            "source": 3,
+            "target": 7,
             "sourceNode": {
                 "name": "Vis Design Lab",
                 "screenName": "visdesignlab",
@@ -943,8 +943,8 @@
             "id": "e23"
         },
         {
-            "source": 4,
-            "target": 8,
+            "source": 3,
+            "target": 7,
             "sourceNode": {
                 "name": "Vis Design Lab",
                 "screenName": "visdesignlab",
@@ -974,8 +974,8 @@
             "id": "e24"
         },
         {
-            "source": 4,
-            "target": 1,
+            "source": 3,
+            "target": 0,
             "sourceNode": {
                 "name": "Vis Design Lab",
                 "screenName": "visdesignlab",
@@ -1005,8 +1005,8 @@
             "id": "e25"
         },
         {
-            "source": 4,
-            "target": 1,
+            "source": 3,
+            "target": 0,
             "sourceNode": {
                 "name": "Vis Design Lab",
                 "screenName": "visdesignlab",
@@ -1036,8 +1036,8 @@
             "id": "e26"
         },
         {
-            "source": 4,
-            "target": 8,
+            "source": 3,
+            "target": 7,
             "sourceNode": {
                 "name": "Vis Design Lab",
                 "screenName": "visdesignlab",
@@ -1067,8 +1067,8 @@
             "id": "e27"
         },
         {
-            "source": 4,
-            "target": 0,
+            "source": 3,
+            "target": 12,
             "sourceNode": {
                 "name": "Vis Design Lab",
                 "screenName": "visdesignlab",
@@ -1098,8 +1098,8 @@
             "id": "e28"
         },
         {
-            "source": 4,
-            "target": 1,
+            "source": 3,
+            "target": 0,
             "sourceNode": {
                 "name": "Vis Design Lab",
                 "screenName": "visdesignlab",
@@ -1129,8 +1129,8 @@
             "id": "e29"
         },
         {
-            "source": 8,
-            "target": 4,
+            "source": 7,
+            "target": 3,
             "sourceNode": {
                 "name": "Miriah Meyer",
                 "screenName": "miriah_meyer",
@@ -1160,8 +1160,8 @@
             "id": "e30"
         },
         {
-            "source": 8,
-            "target": 4,
+            "source": 7,
+            "target": 3,
             "sourceNode": {
                 "name": "Miriah Meyer",
                 "screenName": "miriah_meyer",
@@ -1191,8 +1191,8 @@
             "id": "e31"
         },
         {
-            "source": 8,
-            "target": 4,
+            "source": 7,
+            "target": 3,
             "sourceNode": {
                 "name": "Miriah Meyer",
                 "screenName": "miriah_meyer",
@@ -1222,8 +1222,8 @@
             "id": "e32"
         },
         {
-            "source": 8,
-            "target": 1,
+            "source": 7,
+            "target": 0,
             "sourceNode": {
                 "name": "Miriah Meyer",
                 "screenName": "miriah_meyer",
@@ -1253,39 +1253,8 @@
             "id": "e33"
         },
         {
-            "source": 13,
-            "target": 1,
-            "sourceNode": {
-                "name": "SCI Institute",
-                "screenName": "uusci",
-                "id": "uusci",
-                "tweets": 724,
-                "profileColor": "131516",
-                "friends": 72,
-                "followers": 286,
-                "location": "Salt Lake City, UT",
-                "degree": 16,
-                "keep": true
-            },
-            "targetNode": {
-                "name": "Alexander Lex",
-                "screenName": "alexander_lex",
-                "id": "alexander_lex",
-                "tweets": 1454,
-                "profileColor": "000000",
-                "friends": 773,
-                "followers": 1104,
-                "location": "Salt Lake City, UT",
-                "degree": 45,
-                "keep": true
-            },
-            "weight": 4,
-            "type": "retweet",
-            "id": "e34"
-        },
-        {
-            "source": 10,
-            "target": 9,
+            "source": 9,
+            "target": 8,
             "sourceNode": {
                 "name": "Tamara Munzner",
                 "screenName": "tamaramunzner",
@@ -1312,18 +1281,49 @@
             },
             "weight": 2,
             "type": "retweet",
+            "id": "e34"
+        },
+        {
+            "source": 13,
+            "target": 0,
+            "sourceNode": {
+                "name": "SCI Institute",
+                "screenName": "uusci",
+                "id": "uusci",
+                "tweets": 724,
+                "profileColor": "131516",
+                "friends": 72,
+                "followers": 286,
+                "location": "Salt Lake City, UT",
+                "degree": 16,
+                "keep": true
+            },
+            "targetNode": {
+                "name": "Alexander Lex",
+                "screenName": "alexander_lex",
+                "id": "alexander_lex",
+                "tweets": 1454,
+                "profileColor": "000000",
+                "friends": 773,
+                "followers": 1104,
+                "location": "Salt Lake City, UT",
+                "degree": 45,
+                "keep": true
+            },
+            "weight": 4,
+            "type": "retweet",
             "id": "e35"
         },
         {
-            "source": 7,
-            "target": 4,
+            "source": 6,
+            "target": 3,
             "sourceNode": {
                 "name": "Ana Crisan",
                 "screenName": "amcrisan",
                 "id": "amcrisan",
                 "tweets": 91,
                 "friends": 43,
-                "followers": 68,
+                "followers": 37,
                 "location": "NA",
                 "random_tweets": true,
                 "random_friends": true,
@@ -1348,15 +1348,15 @@
             "id": "e36"
         },
         {
-            "source": 7,
-            "target": 10,
+            "source": 6,
+            "target": 9,
             "sourceNode": {
                 "name": "Ana Crisan",
                 "screenName": "amcrisan",
                 "id": "amcrisan",
                 "tweets": 91,
                 "friends": 43,
-                "followers": 68,
+                "followers": 37,
                 "location": "NA",
                 "random_tweets": true,
                 "random_friends": true,
