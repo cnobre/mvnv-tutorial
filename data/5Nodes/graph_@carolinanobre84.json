@@ -52,9 +52,9 @@
             "name": "Ana Crisan",
             "screenName": "amcrisan",
             "id": "amcrisan",
-            "tweets": 71,
-            "friends": 89,
-            "followers": 88,
+            "tweets": 65,
+            "friends": 80,
+            "followers": 89,
             "location": "NA",
             "random_tweets": true,
             "random_friends": true,
@@ -176,9 +176,9 @@
                 "name": "Ana Crisan",
                 "screenName": "amcrisan",
                 "id": "amcrisan",
-                "tweets": 71,
-                "friends": 89,
-                "followers": 88,
+                "tweets": 65,
+                "friends": 80,
+                "followers": 89,
                 "location": "NA",
                 "random_tweets": true,
                 "random_friends": true,
@@ -488,9 +488,9 @@
                 "name": "Ana Crisan",
                 "screenName": "amcrisan",
                 "id": "amcrisan",
-                "tweets": 71,
-                "friends": 89,
-                "followers": 88,
+                "tweets": 65,
+                "friends": 80,
+                "followers": 89,
                 "location": "NA",
                 "random_tweets": true,
                 "random_friends": true,
@@ -534,6 +534,39 @@
             "id": "e14"
         },
         {
+            "source": 4,
+            "target": 1,
+            "sourceNode": {
+                "name": "Ana Crisan",
+                "screenName": "amcrisan",
+                "id": "amcrisan",
+                "tweets": 65,
+                "friends": 80,
+                "followers": 89,
+                "location": "NA",
+                "random_tweets": true,
+                "random_friends": true,
+                "random_followers": true,
+                "degree": 3,
+                "keep": true
+            },
+            "targetNode": {
+                "name": "Vis Design Lab",
+                "screenName": "visdesignlab",
+                "id": "visdesignlab",
+                "tweets": 41,
+                "profileColor": "000000",
+                "friends": 152,
+                "followers": 609,
+                "location": "Salt Lake City, UT",
+                "degree": 14,
+                "keep": true
+            },
+            "weight": 1,
+            "type": "quote",
+            "id": "e15"
+        },
+        {
             "source": 2,
             "target": 1,
             "sourceNode": {
@@ -562,7 +595,7 @@
             },
             "weight": 5,
             "type": "retweet",
-            "id": "e15"
+            "id": "e16"
         },
         {
             "source": 2,
@@ -593,7 +626,7 @@
             },
             "weight": 2,
             "type": "quote",
-            "id": "e16"
+            "id": "e17"
         },
         {
             "source": 2,
@@ -624,7 +657,7 @@
             },
             "weight": 1,
             "type": "mention",
-            "id": "e17"
+            "id": "e18"
         },
         {
             "source": 2,
@@ -655,39 +688,6 @@
             },
             "weight": 1,
             "type": "retweet",
-            "id": "e18"
-        },
-        {
-            "source": 4,
-            "target": 1,
-            "sourceNode": {
-                "name": "Ana Crisan",
-                "screenName": "amcrisan",
-                "id": "amcrisan",
-                "tweets": 71,
-                "friends": 89,
-                "followers": 88,
-                "location": "NA",
-                "random_tweets": true,
-                "random_friends": true,
-                "random_followers": true,
-                "degree": 3,
-                "keep": true
-            },
-            "targetNode": {
-                "name": "Vis Design Lab",
-                "screenName": "visdesignlab",
-                "id": "visdesignlab",
-                "tweets": 41,
-                "profileColor": "000000",
-                "friends": 152,
-                "followers": 609,
-                "location": "Salt Lake City, UT",
-                "degree": 14,
-                "keep": true
-            },
-            "weight": 1,
-            "type": "quote",
             "id": "e19"
         }
     ]
